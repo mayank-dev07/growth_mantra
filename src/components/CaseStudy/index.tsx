@@ -141,11 +141,11 @@ const CaseStudy = () => {
         <div className="w-full lg:w-1/2 text-[#E84C3D] bg-white p-8 lg:p-24 rounded-[3%] shadow-2xl">
           <div className="text-6xl">Partner with Proven Growth Catalysts</div>
           <div className="py-8 text-2xl">
-            Looking for more than just advice? Our team of seasoned consultants
+            {`Looking for more than just advice? Our team of seasoned consultants
             doesn't just strategize - we execute. From refining your
             go-to-market strategy to optimizing your product for scalability,
             we're here to drive tangible results and exponential growth for your
-            startup.
+            startup.`}
           </div>
           <div className="py-4 w-full flex justify-start items-center">
             <div className="group rounded-full w-fit px-4 lg:px-6 py-2 flex text-xl hover:bg-white hover:text-[#E74C3C] text-white bg-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer">

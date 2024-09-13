@@ -6,7 +6,6 @@ import VerticalSwiper from "../VerticalSwiper";
 
 const Hero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-  const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {

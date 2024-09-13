@@ -1,16 +1,5 @@
-// components/OurOffering.js
 import React from "react";
-import {
-  DollarSign,
-  RefreshCw,
-  Settings,
-  TrendingUp,
-  Mail,
-  Search,
-  Users,
-  Monitor,
-  ArrowRight,
-} from "lucide-react"; // Import icons from Lucide
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 const services = [
@@ -102,7 +91,7 @@ const Offering = () => {
       </section>
       <div className="py-8 w-full flex justify-center items-center">
         <div className="group rounded-full w-fit px-6 py-4 flex text-xl hover:text-white  hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer">
-          Ready to Outpace Your Competition? Let's Talk Growth
+          {`Ready to Outpace Your Competition? Let's Talk Growth`}
           <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
             <ArrowRight />
           </div>

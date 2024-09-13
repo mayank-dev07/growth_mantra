@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className="flex flex-col justify-center items-center fixed top-0 left-0 right-0 bg-white z-50">
         <div className="w-full h-full bg-[#16213E] flex justify-center items-center text-white text-sm md:text-lg gap-2 md:gap-5 py-1">
-          <div>"LowMarketingBudget?We'veGotYou!"</div>
+          <div>{`"LowMarketingBudget?We'veGotYou!"`}</div>
           <div className="px-4 py-2 rounded-full bg-[#E74C3C] text-sm md:text-lg">
             Schedule a call
           </div>

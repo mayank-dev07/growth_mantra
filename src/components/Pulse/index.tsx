@@ -49,11 +49,11 @@ const Pulse = () => {
             </p>
           </div>
           <p className="text-2xl lg:text-4xl tracking-wide leading-normal">
-            At The Growth Mantra, we've developed a unique, process-oriented
+            {` At The Growth Mantra, we've developed a unique, process-oriented
             approach to solving business and marketing challenges across
             industries. We call it the PULSE Framework - a strategic, powerful,
             and adaptable system that drives sustainable growth for startups and
-            businesses at any stage.
+            businesses at any stage.`}
           </p>
         </div>
         <div className="relative h-auto pb-20">
@@ -161,8 +161,8 @@ const Pulse = () => {
               </p>
               <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
                 <p className="leading-normal text-[#E74C3C] font-medium">
-                  We don't just strategize; we execute with precision and
-                  continuously evolve:
+                  {`We don't just strategize; we execute with precision and
+                  continuously evolve:`}
                 </p>
                 <ul className="space-y-2 text-xl text-gray-700">
                   {executeItems.map((item, index) => (
