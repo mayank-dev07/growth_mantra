@@ -1,16 +1,46 @@
+"use client";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper";
 
 type Props = {};
 
 const Hero = (props: Props) => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="min-h-screen w-full flex lg:flex-row flex-col pt-32">
-        <div className="w-full lg:w-8/12">
-          <Image src="/Frame.png" alt="frame" width={400} height={400} />
+        <div
+          className={`w-full lg:w-8/12 lg:min-h-screen flex flex-col  ${
+            scrollPosition > 40 ? "lg:justify-center" : "lg:justify-start"
+          }`}
+        >
+          <Image
+            src="/Frame.png"
+            alt="frame"
+            width={400}
+            height={400}
+            className={`z-30 transition-all duration-300 ${
+              scrollPosition > 40
+                ? "lg:fixed lg:top-[100px] lg:left-50 transform -translate-x-15"
+                : "relative"
+            }`}
+          />
           <div className="px-0 lg:px-10 xl:px-16 flex flex-col gap-8">
             <div className="w-fit p-4 text-lg font-medium tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl">
               👋 Welcome to The Growth Mantra
