@@ -2,8 +2,6 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
 const probeItems = [
   "Market research, Ideal Customer Profile, and competitor analysis",
   "Comprehensive data analysis",
@@ -37,7 +35,7 @@ const executeItems = [
   "Monitor KPIs and adjust tactics in real-time tems",
 ];
 
-const Pulse = (props: Props) => {
+const Pulse = () => {
   return (
     <>
       <div className="w-full min-h-screen">
