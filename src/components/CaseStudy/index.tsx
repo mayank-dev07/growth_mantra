@@ -2,9 +2,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-const CaseStudy = (props: Props) => {
+const CaseStudy = () => {
   return (
     <>
       <div className="w-full h-full bg-[#16213E] px-4 lg:px-16  py-32">

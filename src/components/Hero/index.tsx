@@ -4,9 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper";
 
-type Props = {};
-
-const Hero = (props: Props) => {
+const Hero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isFixed, setIsFixed] = useState(false);
 

@@ -2,9 +2,7 @@ import React from "react";
 import TrendingSwiper from "./TrendingSwiper";
 import { ArrowRight } from "lucide-react";
 
-type Props = {};
-
-const Trending = (props: Props) => {
+const Trending = () => {
   return (
     <>
       <div className="min-h-screen w-full flex flex-col lg:flex-row justify-center items-start p-4 lg:p-16">

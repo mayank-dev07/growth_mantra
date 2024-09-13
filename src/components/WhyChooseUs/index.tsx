@@ -2,9 +2,7 @@ import { SquareCheck } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-const WhyChooseUs = (props: Props) => {
+const WhyChooseUs = () => {
   return (
     <>
       <div className="w-full min-h-[calc(100vh-100px)] flex flex-col lg:flex-row">
