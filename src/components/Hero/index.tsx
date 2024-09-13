@@ -37,7 +37,7 @@ const Hero = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className=" w-4/12">
+        <div className="w-full lg:w-4/12 py-12">
           <VerticalSwiper />
         </div>
       </div>
@@ -46,7 +46,7 @@ const Hero = (props: Props) => {
         <div className="w-full h-full flex flex-col justify-center items-center text-[#B2B7BE]">
           SOME OF OUR TRUSTED CLIENTS
         </div>
-        <div className="w-full flex justify-center items-center gap-12 flex-wrap">
+        <div className="w-full flex justify-center items-center gap-6 lg:gap-12 flex-wrap">
           <Image
             src="/sponser1.png"
             alt="sponser"

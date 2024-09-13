@@ -1,8 +1,10 @@
 import CaseStudy from "@/components/CaseStudy";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Offering from "@/components/Offering";
 import Pulse from "@/components/Pulse";
+import Trending from "@/components/Trending";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Pulse />
       <WhyChooseUs />
       <CaseStudy />
+      <Trending />
+      <Footer />
     </>
   );
 }

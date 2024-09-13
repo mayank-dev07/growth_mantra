@@ -22,7 +22,7 @@ export default function VerticalSwiper() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
-        className="!h-[80vh] w-full"
+        className=" !h-[80vh] w-full"
       >
         <SwiperSlide>
           <div className="px-12 w-full h-full">
@@ -32,7 +32,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[500px] rounded-lg"
+                className="object-left !h-[300px]  lg:!h-[300px]  lg:!h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-medium">
@@ -62,7 +62,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-medium">
@@ -92,7 +92,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-medium">
@@ -122,7 +122,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-medium">
@@ -152,7 +152,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-medium">
