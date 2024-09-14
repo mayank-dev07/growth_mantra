@@ -8,13 +8,13 @@ const CaseStudy = () => {
       <div className="w-full h-full bg-[#16213E] px-4 lg:px-16  py-32">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
           <div className="w-full flex flex-col justify-start items-center text-2xl lg:text-4xl text-[#E74C3C] py-8 px-6 lg:px-12">
-            <p className=" leading-loose font-medium">
+            <p className=" leading-loose font-bold">
               Effective Growth Strategies can increase revenue by up to
-              <span className="text-4xl lg:text-6xl font-semibold">
+              <span className="text-4xl lg:text-6xl font-bold">
                 &nbsp;33%&nbsp;
               </span>
               in the first{" "}
-              <span className="text-4xl lg:text-6xl font-semibold">
+              <span className="text-4xl lg:text-6xl font-bold">
                 &nbsp;SIX&nbsp;
               </span>{" "}
               months.
@@ -47,22 +47,22 @@ const CaseStudy = () => {
           <div className="w-full flex justify-center items-center">
             <div className="py-20 w-11/12 lg:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-10">
               <div className="w-full flex justify-center items-center">
-                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-medium">
+                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold">
                   All&nbsp;Work[20]
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
-                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-medium">
+                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold">
                   UI/UX&nbsp;Design[10]
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
-                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-medium">
+                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold">
                   Digital&nbsp;Marketing[5]
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
-                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-medium">
+                <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold">
                   Branding&nbsp;[5]
                 </p>
               </div>

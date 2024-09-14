@@ -68,11 +68,11 @@ const Pulse = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[150px] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-5xl lg:text-6xl font-medium">
+              <p className="text-5xl lg:text-6xl font-bold">
                 <span className="text-[#E74C3C]">P</span>&nbsp;-&nbsp;Probe
               </p>
               <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
-                <p className="leading-normal text-[#E74C3C] font-medium">
+                <p className="leading-normal text-[#E74C3C] font-bold">
                   We begin by deeply probing your business ecosystem, market
                   dynamics, and customer behavior. This involves:
                 </p>
@@ -89,11 +89,11 @@ const Pulse = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[50px] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-5xl lg:text-6xl font-medium">
+              <p className="text-5xl lg:text-6xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Uncover
               </p>
               <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
-                <p className="leading-normal text-[#E74C3C] font-medium">
+                <p className="leading-normal text-[#E74C3C] font-bold">
                   With insights from our probe, we uncover hidden opportunities
                   and challenges:
                 </p>
@@ -110,12 +110,12 @@ const Pulse = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[120px] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-5xl lg:text-6xl font-medium">
+              <p className="text-5xl lg:text-6xl font-bold">
                 <span className="text-[#E74C3C]">L</span>
                 &nbsp;-&nbsp;Leverage
               </p>
               <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
-                <p className="leading-normal text-[#E74C3C] font-medium">
+                <p className="leading-normal text-[#E74C3C] font-bold">
                   We leverage our findings to craft tailored strategies: Develop
                   multi-channel growth plans Customer journey mapping
                   Identifying key performance indicators (KPIs)
@@ -133,11 +133,11 @@ const Pulse = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[400px] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-5xl lg:text-6xl font-medium">
+              <p className="text-5xl lg:text-6xl font-bold">
                 <span className="text-[#E74C3C]">S</span>&nbsp;-&nbsp;Synthesize
               </p>
               <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
-                <p className="leading-normal text-[#E74C3C] font-medium">
+                <p className="leading-normal text-[#E74C3C] font-bold">
                   Our approach synthesizes various growth levers for maximum
                   impact
                 </p>
@@ -155,12 +155,12 @@ const Pulse = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[800px] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-5xl lg:text-6xl font-medium">
+              <p className="text-5xl lg:text-6xl font-bold">
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp; Execute &
                 Evolve
               </p>
               <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
-                <p className="leading-normal text-[#E74C3C] font-medium">
+                <p className="leading-normal text-[#E74C3C] font-bold">
                   {`We don't just strategize; we execute with precision and
                   continuously evolve:`}
                 </p>

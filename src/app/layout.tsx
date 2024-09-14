@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Plus_Jakarta_Sans } from "next/font/google";
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  weight: ["500", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`min-h-screen w-full flex flex-col overflow-x-hidden`}>
+      <body
+        className={`min-h-screen w-full flex flex-col overflow-x-hidden ${plusJakartaSans.className}`}
+      >
         {children}
       </body>
     </html>

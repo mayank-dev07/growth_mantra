@@ -80,7 +80,7 @@ const Offering = () => {
                 ></Image>
               </div>
               <div className="pt-8">
-                <h3 className="text-3xl font-medium py-4 text-black">
+                <h3 className="text-3xl py-4 text-black font-bold">
                   {service.title}
                 </h3>
               </div>

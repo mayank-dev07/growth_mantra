@@ -39,14 +39,14 @@ const Hero = () => {
             }`}
           />
           <div className="px-0 lg:px-10 xl:px-16 flex flex-col gap-8">
-            <div className="w-fit p-4 text-lg font-medium tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl">
+            <div className="w-fit p-4 text-lg font-bold tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl">
               👋 Welcome to The Growth Mantra
             </div>
             <div className="w-full flex flex-col gap-10 p-1 lg:px-0 ">
-              <div className="text-4xl sm:text-7xl md:text-7xl xl:text-8xl 2xl:text-9xl font-medium flex flex-col gap-4">
+              <div className="text-4xl sm:text-7xl md:text-7xl xl:text-8xl 2xl:text-9xl font-bold flex flex-col gap-4">
                 Your&nbsp;North&nbsp;Star
                 <div className="flex items-center gap-2">
-                  <div className="border-[#E74C3C] py-0 px-5 t  border-4 w-fit rounded-full text-[#E74C3C] font-medium shadow-2xl">
+                  <div className="border-[#E74C3C] py-0 px-5 t  border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
                     Growth
                   </div>
                   Catalyst

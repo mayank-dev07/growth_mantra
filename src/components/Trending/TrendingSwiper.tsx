@@ -42,7 +42,7 @@ export default function TrendingSwiper() {
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-4">
-                  <div className="text-[#E74C3C] text-base lg:text-2xl font-semibold">
+                  <div className="text-[#E74C3C] text-base lg:text-2xl font-bold">
                     Acquisition Mastery
                   </div>
                   <div className="text-xl">
@@ -71,7 +71,7 @@ export default function TrendingSwiper() {
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-4">
-                  <div className="text-[#E74C3C] text-base lg:text-2xl font-semibold">
+                  <div className="text-[#E74C3C] text-base lg:text-2xl font-bold">
                     Retention Revolution
                   </div>
                   <div className="text-xl">
@@ -99,7 +99,7 @@ export default function TrendingSwiper() {
                   03
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-4">
-                  <div className="text-[#E74C3C] text-base lg:text-2xl font-semibold">
+                  <div className="text-[#E74C3C] text-base lg:text-2xl font-bold">
                     Funnel Optimization
                   </div>
                   <div className="text-xl">
@@ -127,7 +127,7 @@ export default function TrendingSwiper() {
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-4">
-                  <div className="text-[#E74C3C] text-base lg:text-2xl font-semibold">
+                  <div className="text-[#E74C3C] text-base lg:text-2xl font-bold">
                     Conversion Rate Optimization (CRO)
                   </div>
                   <div className="text-xl">
@@ -155,7 +155,7 @@ export default function TrendingSwiper() {
                   05
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-4">
-                  <div className="text-[#E74C3C] text-base lg:text-2xl font-semibold">
+                  <div className="text-[#E74C3C] text-base lg:text-2xl font-bold">
                     Email Marketing Engine
                   </div>
                   <div className="text-xl">
