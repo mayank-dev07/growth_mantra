@@ -7,14 +7,14 @@ const Trending = () => {
     <>
       <div className="min-h-screen w-full flex flex-col lg:flex-row justify-center items-start p-4 lg:p-16">
         <div className="w-full lg:w-5/12  h-full p-5 lg:p-12 flex flex-col gap-8">
-          <p className="text-4xl lg:text-8xl text-[#E74C3C]">
+          <p className="text-4xl lg:text-7xl text-[#E74C3C]">
             Trending Services
           </p>
-          <p className="text-2xl text-[#8A8A8A]">
+          <p className="text-xl text-[#8A8A8A]">
             Explore our latest articles and case studies to stay ahead in your
             industry.
           </p>
-          <div className="group rounded-full w-full lg:w-1/2 px-6 py-4 flex text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+          <div className="group rounded-full w-fit  px-6 py-4 flex text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
             <p>Schedule&nbsp;a&nbsp;call</p>
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
               <ArrowRight />

@@ -5,14 +5,14 @@ const WhyChooseUs = () => {
   return (
     <>
       <div className="w-full min-h-[calc(100vh-100px)] flex flex-col lg:flex-row">
-        <div className="w-full lg:w-1/2 flex justify-center items-center">
-          <p className="text-5xl lg:text-8xl font-bold text-[#E74C3C] leading-snug">
+        <div className="w-full lg:w-1/2 py-8 lg:py-0 flex justify-center items-center">
+          <p className="text-7xl lg:text-8xl font-bold text-[#E74C3C] leading-snug">
             WHY
             <br />
             CHOOSE US?
           </p>
         </div>
-        <div className="w-full lg:w-1/2 bg-[#E74C3C] flex justify-center items-center ">
+        <div className="w-full lg:w-1/2 bg-[#E74C3C] py-8 lg:py-0 flex justify-center items-center ">
           <ul className="space-y-2  text-white px-4 lg:px-32">
             <li className="flex items-center gap-3 text-3xl py-4">
               <div className="w-1/12 flex justify-center items-center">

@@ -67,8 +67,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-4/12 py-12">
-          <VerticalSwiper />
+        <div className="w-full lg:w-4/12 py-12 flex justify-center items-center">
+          <div className="w-full md:w-1/2 lg:w-full flex justify-center items-center">
+            <VerticalSwiper />
+          </div>
         </div>
       </div>
 
