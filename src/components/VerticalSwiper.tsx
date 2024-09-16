@@ -21,17 +21,17 @@ export default function VerticalSwiper() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
-        className="!h-[65vh] lg:!h-[80vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[65vh] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
-          <div className="pe-16 ps-2 w-full h-fit">
+          <div className="pe-20 ps-6 w-full h-fit">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-bold">
@@ -61,7 +61,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-bold">
@@ -88,7 +88,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-bold">
@@ -115,7 +115,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[300px]  lg:!h-[500px] rounded-lg"
+                className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-bold">Marketing ROI Unclear?</p>
@@ -144,7 +144,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[300px]  lg:!h-[500px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-bold">
