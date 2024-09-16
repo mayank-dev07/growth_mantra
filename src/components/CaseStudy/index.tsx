@@ -38,14 +38,14 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="w-full pt-32 flex flex-col gap-4">
-          <p className="text-7xl lg:text-9xl text-white">Featured Case Study</p>
+          <p className="text-6xl lg:text-8xl text-white">Featured Case Study</p>
           <p className="text-3xl text-white my-12">
             Highlighting successful projects with links to full case studies
           </p>
         </div>
         <div className="rounded-3xl w-full bg-[#E74C3C] h-full ">
           <div className="w-full flex justify-center items-center">
-            <div className="py-20 w-11/12 lg:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10">
+            <div className="py-20 w-11/12 lg:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap20 xl:gap-10">
               <div className="w-full flex justify-center items-center">
                 <p className="px-20 lg:px-16 w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold">
                   All&nbsp;Work[20]
@@ -70,12 +70,12 @@ const CaseStudy = () => {
           </div>
           <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 px-12 lg:px-16 gap-8">
             <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className=" h-[500px] rounded-3xl grid grid-cols-1 content-between text-2xl p-4">
-                <div className="w-full flex flex-col justify-start items-center px-2 lg:px-12 text-white">
+              <div className=" h-[500px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
+                <div className="w-full flex flex-col justify-start items-center  lg:px-8 text-white">
                   Explore our latest articles and case studies to stay ahead in
                   your industry.
-                  <div className="py-8 w-full flex justify-center items-center">
-                    <div className="group rounded-full w-full px-6 py-4 flex text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer">
+                  <div className="py-8 w-full flex justify-start items-center">
+                    <div className="group rounded-full w-fit px-6 py-4 flex text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                       <p>Schedule&nbsp;a&nbsp;call</p>
                       <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
                         <ArrowRight />
@@ -119,10 +119,12 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center px-4 py-12 md:px-32">
-        <div className="w-full lg:w-1/2 bg-[#E84C3D] text-white p-8 lg:p-24 rounded-[3%] shadow-2xl">
-          <div className="text-5xl">Diagnose Your Growth Blockers</div>
-          <div className="py-8 text-xl">
+      <div className="min-h-screen flex flex-col md:flex-row justify-center items-center px-4 py-20 xl:px-32">
+        <div className="w-full h-fit md:h-[700px] lg:min-h-[600px] lg:w-1/2 bg-[#E84C3D] text-white p-8  md:p-16 lg:p-20 rounded-[3%] shadow-2xl">
+          <div className="text-4xl lg:text-5xl min-h[100px]">
+            Diagnose Your Growth Blockers
+          </div>
+          <div className="py-8 text-xl min-h-[260px]">
             Uncover the hidden obstacles holding your startup back. Our expert
             consultants will analyze your business, identify critical
             bottlenecks, and provide a custom action plan to skyrocket your
@@ -138,9 +140,11 @@ const CaseStudy = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 text-[#E84C3D] bg-white p-8 lg:p-24 rounded-[3%] shadow-2xl">
-          <div className="text-5xl">Partner with Proven Growth Catalysts</div>
-          <div className="py-8 text-xl">
+        <div className="w-full h-fit md:h-[700px] lg:min-h-[600px] lg:w-1/2 text-[#E84C3D] bg-white p-8  md:p-16 lg:p-20 rounded-[3%] shadow-2xl">
+          <div className="text-4xl lg:text-5xl min-h[100px]">
+            Partner with Proven Growth Catalysts
+          </div>
+          <div className="py-8 text-xl min-h-[260px]">
             {`Looking for more than just advice? Our team of seasoned consultants
             doesn't just strategize - we execute. From refining your
             go-to-market strategy to optimizing your product for scalability,
