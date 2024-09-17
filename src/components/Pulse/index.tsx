@@ -83,7 +83,7 @@ const Pulse = () => {
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg ">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
                         We begin by deeply probing your business ecosystem,
                         market dynamics, and customer behavior
                       </p>
@@ -112,7 +112,7 @@ const Pulse = () => {
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                         With insights from our probe, we uncover hidden
                         opportunities and challenges
                       </p>
@@ -143,7 +143,7 @@ const Pulse = () => {
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline !border-b-0">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                         We leverage our findings to craft tailored strategies:
                         Develop multi-channel growth plans Customer journey
                         mapping Identifying key performance indicators (KPIs)
@@ -174,7 +174,7 @@ const Pulse = () => {
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                         Our approach synthesizes various growth levers for
                         maximum impact
                       </p>
@@ -205,7 +205,7 @@ const Pulse = () => {
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                         {`We don't just strategize; we execute with precision and
                   continuously evolve:`}
                       </p>
