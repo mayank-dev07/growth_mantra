@@ -31,7 +31,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
                 <p className="text-2xl font-bold">

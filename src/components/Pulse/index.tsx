@@ -71,7 +71,7 @@ const Pulse = () => {
               <p className="text-4xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">P</span>&nbsp;-&nbsp;Probe
               </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
+              <div className="text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-12 gap-3 bg-white">
                 <p className="leading-normal text-[#E74C3C] font-bold">
                   We begin by deeply probing your business ecosystem, market
                   dynamics, and customer behavior. This involves:
