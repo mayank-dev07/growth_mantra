@@ -20,8 +20,9 @@ export default function VerticalSwiper() {
           delay: 3500,
           disableOnInteraction: false,
         }}
+        loop={true}
         modules={[Autoplay, Pagination]}
-        className="!h-[65vh] md:!h-[80vh] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[75vh] md:!h-[80vh] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
           <div className="pe-20 ps-6 w-full h-fit">
@@ -33,7 +34,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
+              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-2xl font-bold">
                   Struggling to Acquire New Customers or Quality Lead?
                 </p>
@@ -54,7 +55,7 @@ export default function VerticalSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-16 ps-2 w-full h-fit">
+          <div className="pe-12 lg:pe-28 ps-6 w-full h-fit">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -63,7 +64,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
+              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-2xl font-bold">
                   Losing customers too quickly?
                 </p>
@@ -81,7 +82,7 @@ export default function VerticalSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-16 ps-2 w-full h-fit">
+          <div className="pe-12 lg:pe-28 ps-6 w-full h-fit">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -90,7 +91,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
+              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-2xl font-bold">
                   Conversion Rates Not Meeting Targets?
                 </p>
@@ -108,7 +109,7 @@ export default function VerticalSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-16 ps-2 w-full h-fit ">
+          <div className="pe-12 lg:pe-28 ps-6 w-full h-fit ">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -117,7 +118,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
+              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-2xl font-bold">Marketing ROI Unclear?</p>
                 <p>
                   Gain clarity with our data-driven approach to growth
@@ -137,7 +138,7 @@ export default function VerticalSwiper() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="pe-16 ps-2 w-full h-fit">
+          <div className="pe-12 lg:pe-28 ps-6 w-full h-fit">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -146,7 +147,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide">
+              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-2xl font-bold">
                   Scaling Challenges Holding You Back?
                 </p>
