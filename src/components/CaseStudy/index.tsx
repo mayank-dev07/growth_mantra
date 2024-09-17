@@ -68,9 +68,9 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 px-12  gap-8">
+          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 p-8 md:px-12  gap-8">
             <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className=" h-[450px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
+              <div className="h-full md:h-[450px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
                 <div className="w-full flex flex-col justify-start items-center  lg:px-8 text-white">
                   Explore our latest articles and case studies to stay ahead in
                   your industry.
@@ -84,7 +84,7 @@ const CaseStudy = () => {
                   </div>
                 </div>
                 <div className="w-full flex justify-start lg:ml-8 items-center">
-                  <div className="w-full lg:w-8/12 flex gap-x-20 justify-start items-center">
+                  <div className="w-full lg:w-8/12 flex gap-x-20 justify-center lg:justify-start items-center">
                     <div className="w-20 h-20 flex justify-center items-center rounded-full bg-white">
                       <ChevronLeft size={30} />
                     </div>
@@ -113,7 +113,7 @@ const CaseStudy = () => {
       </div>
       <div className="min-h-screen flex flex-col md:flex-row justify-center items-center px-4 py-10 xl:px-32">
         <div className="w-full h-fit lg:w-1/2 bg-[#E84C3D] text-white p-8  md:p-10 lg:p-20 rounded-[3%] shadow-2xl">
-          <div className="text-lg md:text-3xl lg:text-5xl min-h[100px] font-bold">
+          <div className="text-xl md:text-3xl lg:text-5xl min-h[100px] font-bold">
             Diagnose Your Growth Blockers
           </div>
           <div className="py-8 text-base md:text-lg lg:text-xl min-h-[260px]">
@@ -133,7 +133,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="w-full h-fit lg:w-1/2 text-[#E84C3D] bg-white p-8  md:p-10 lg:p-20 rounded-[3%] shadow-2xl">
-          <div className="text-lg md:text-3xl lg:text-5xl min-h[100px] font-bold">
+          <div className="text-xl md:text-3xl lg:text-5xl min-h[100px] font-bold">
             Partner with Proven Growth Catalysts
           </div>
           <div className="py-8 text-base md:text-lg lg:text-xl min-h-[260px]">
