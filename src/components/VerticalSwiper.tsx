@@ -21,7 +21,7 @@ export default function VerticalSwiper() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
-        className="!h-[80vh] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[65vh] md:!h-[80vh] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
           <div className="pe-20 ps-6 w-full h-fit">

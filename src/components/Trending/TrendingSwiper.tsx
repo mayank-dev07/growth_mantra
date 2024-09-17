@@ -13,20 +13,28 @@ export default function TrendingSwiper() {
   return (
     <>
       <Swiper
-        slidesPerView={2}
+        breakpoints={{
+          1200: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          700: {
+            slidesPerView: 2,
+          },
+        }}
+        spaceBetween={10}
         freeMode={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         modules={[FreeMode, Autoplay]}
-        className="!h-[92vh] w-full"
+        className="lg:!h-[92vh] w-full"
       >
         <SwiperSlide>
-          <div className="p-0 lg:p-12 w-full h-full">
+          <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
                 src="/verticalswiper.png"
@@ -54,7 +62,7 @@ export default function TrendingSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-0 lg:p-12 w-full h-full">
+          <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
                 src="/verticalswiper.png"
@@ -81,7 +89,7 @@ export default function TrendingSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-0 lg:p-12 w-full h-full">
+          <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
                 src="/verticalswiper.png"
@@ -108,7 +116,7 @@ export default function TrendingSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-0 lg:p-12 w-full h-full">
+          <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
                 src="/verticalswiper.png"
@@ -135,7 +143,7 @@ export default function TrendingSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-0 lg:p-12 w-full h-full">
+          <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
                 src="/verticalswiper.png"

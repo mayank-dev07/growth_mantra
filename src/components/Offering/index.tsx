@@ -57,7 +57,7 @@ const Offering = () => {
       <section className="bg-[#E74C3C] p-4 lg:p-12 text-white w-full">
         <div className="text-start mb-10 flex flex-col gap-8">
           <h2 className="text-6xl lg:text-8xl font-bold mb-4">Our Offering</h2>
-          <p className="text-xl lg:text-3xl w-fit tracking-wider flex flex-col gap-4 text-[#DFDFDF]">
+          <p className="text-lg lg:text-2xl w-fit tracking-wider flex flex-col gap-4 text-[#DFDFDF]">
             <span>
               Explore our comprehensive suite of services designed to fuel your
             </span>
@@ -68,7 +68,7 @@ const Offering = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white text-[#E74C3C] p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+              className="bg-white text-[#E74C3C] p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex justify-center items-center">
                 <Image
@@ -90,7 +90,7 @@ const Offering = () => {
         </div>
       </section>
       <div className="py-8 w-full flex justify-center items-center">
-        <div className="group rounded-full w-fit px-6 py-4 flex text-xl hover:text-white  hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+        <div className="group rounded-full w-fit px-6 py-4 flex text-base lg:text-xl hover:text-white  hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
           {`Ready to Outpace Your Competition? Let's Talk Growth`}
           <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
             <ArrowRight />

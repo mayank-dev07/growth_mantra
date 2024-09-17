@@ -26,13 +26,13 @@ const Trending = () => {
         </div>
       </div>
       <hr className="border-t-2 w-full" />
-      <div className="py-8 w-full flex justify-center items-center">
+      <div className="py-8 w-full flex justify-center items-center px-4">
         <div
-          className="group rounded-full w-full lg:w-1/2 px-3 py-6 flex text-xl lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between lg:justify-center items-center gap-4 cursor-pointer relative
+          className="group rounded-full w-full lg:w-1/2 px-6 py-6 flex text-xl lg:text-2xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-start lg:justify-center items-center gap-4 cursor-pointer relative
         transition-all duration-500 ease-in-out font-bold"
         >
           Unlock your Growth now
-          <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C] absolute right-10">
+          <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C] absolute right-4 lg:right-10">
             <ArrowRight />
           </div>
         </div>
