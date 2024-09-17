@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center fixed top-0 left-0 right-0 bg-white z-50">
-        <div className="w-full h-full bg-[#16213E] flex justify-center items-center text-white text-sm md:text-lg gap-2 md:gap-5 py-1">
-          <div>{`"LowMarketingBudget?We'veGotYou!"`}</div>
-          <div className="px-4 py-2 rounded-full bg-[#E74C3C] text-sm md:text-lg">
+        <div className="w-full h-full p-2 bg-[#16213E] flex justify-center items-center text-white gap-2 md:gap-5">
+          <div>Low Marketing Budget? We&apos;ve Got You!</div>
+          <div className="px-4 py-1 rounded-full bg-[#E74C3C] text-sm md:text-lg">
             Schedule a call
           </div>
         </div>
