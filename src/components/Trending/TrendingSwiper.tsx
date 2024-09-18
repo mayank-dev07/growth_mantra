@@ -51,7 +51,7 @@ export default function TrendingSwiper() {
                   <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
                     Acquisition Mastery
                   </div>
-                  <div className="text-lg">
+                  <div className="text-base lg:text-lg">
                     Supercharge your new customer acquisition, lead generation,
                     and traffic with precision-targeted paid ads, social
                     strategies, and affiliate marketing.
@@ -79,7 +79,7 @@ export default function TrendingSwiper() {
                   <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
                     Retention Revolution
                   </div>
-                  <div className="text-lg">
+                  <div className="text-base lg:text-lg">
                     Transform one-time users into loyal advocates with advanced
                     retention analysis and personalized re-engagement campaigns.
                   </div>
@@ -106,7 +106,7 @@ export default function TrendingSwiper() {
                   <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
                     Funnel Optimization
                   </div>
-                  <div className="text-lg">
+                  <div className="text-base lg:text-lg">
                     Craft high-converting funnels that guide prospects
                     seamlessly from awareness to purchase and beyond.
                   </div>
@@ -133,7 +133,7 @@ export default function TrendingSwiper() {
                   <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
                     Conversion Rate Optimization (CRO)
                   </div>
-                  <div className="text-lg">
+                  <div className="text-base lg:text-lg">
                     Leverage customer data to create personalized journeys that
                     nurture relationships and drive long-term value.
                   </div>
@@ -160,7 +160,7 @@ export default function TrendingSwiper() {
                   <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
                     Email Marketing Engine
                   </div>
-                  <div className="text-lg">
+                  <div className="text-base lg:text-lg">
                     Design engaging drip sequences that educate, nurture, and
                     convert your audience at scale.
                   </div>
