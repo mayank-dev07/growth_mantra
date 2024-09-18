@@ -21,7 +21,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-full md:min-h-screen w-full flex lg:flex-row flex-col pt-28">
+      <div className="h-full lg:min-h-screen w-full flex lg:flex-row flex-col pt-28">
         <div
           className={`w-full lg:w-8/12 lg:min-h-screen flex flex-col  ${
             scrollPosition > 50 ? "lg:justify-center" : "lg:justify-start"
