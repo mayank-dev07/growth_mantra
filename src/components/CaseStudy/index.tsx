@@ -111,7 +111,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen flex flex-col md:flex-row justify-center items-center px-4 py-10 xl:px-32">
+      <div className="h-full flex flex-col md:flex-row justify-center items-center px-4 py-12 xl:px-32">
         <div className="w-full h-fit lg:w-1/2 bg-[#E84C3D] text-white p-8  md:p-10 lg:p-20 rounded-[3%] shadow-2xl">
           <div className="text-xl md:text-3xl lg:text-5xl min-h[100px] font-bold">
             Diagnose Your Growth Blockers
