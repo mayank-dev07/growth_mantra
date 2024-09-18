@@ -22,9 +22,9 @@ export default function VerticalSwiper() {
         }}
         loop={true}
         modules={[Autoplay, Pagination]}
-        className="!h-[75vh] md:!h-[80vh] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[670px] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
-        <SwiperSlide>
+        <SwiperSlide> 
           <div className="pe-20 xl:pe-28 ps-6 w-full h-fit">
             <div className="h-fit flex flex-col shadow-md">
               <Image
