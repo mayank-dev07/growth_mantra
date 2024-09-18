@@ -1,3 +1,4 @@
+
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
@@ -74,7 +75,7 @@ const Pulse = () => {
             />
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[150px] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">P</span>&nbsp;-&nbsp;Probe
@@ -103,7 +104,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[50px] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Uncover
@@ -133,7 +134,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[120px] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[8%] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">L</span>
@@ -165,7 +166,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[500px] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[35%] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">S</span>&nbsp;-&nbsp;Synthesize
@@ -195,7 +196,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[700px] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[45%] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp; Execute &
