@@ -39,13 +39,13 @@ const Hero = () => {
             }`}
           />
           <div
-            className={`px-0 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start
+            className={`px-0 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start
           ${scrollPosition > 50 ? "pt-32" : ""}`}
           >
             <div className="w-fit p-4 text-lg font-bold tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl ">
               👋 Welcome to The Growth Mantra
             </div>
-            <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 ">
+            <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
               <div className="text-4xl sm:text-5xl md:text-5xl xl:text-6xl font-bold flex flex-col gap-4">
                 Your&nbsp;North&nbsp;Star
                 <div className="flex items-center gap-2">
