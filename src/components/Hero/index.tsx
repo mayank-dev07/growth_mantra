@@ -46,10 +46,10 @@ const Hero = () => {
               👋 Welcome to The Growth Mantra
             </div>
             <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
-              <div className="text-4xl sm:text-5xl md:text-5xl xl:text-6xl font-bold flex flex-col gap-4">
+              <div className="text-4xl md:text-7xl xl:text-8xl font-bold flex flex-col gap-4">
                 Your&nbsp;North&nbsp;Star
                 <div className="flex items-center gap-2">
-                  <div className="border-[#E74C3C] py-2 px-4 text-3xl sm:text-6xl md:text-7xl   border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
+                  <div className="border-[#E74C3C] py-2 px-8 text-3xl md:text-7xl  border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
                     Growth
                   </div>
                   Catalyst
