@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 const Trending = () => {
   return (
     <>
-      <div className="min-h-screen w-full flex flex-col lg:flex-row justify-center items-start p-4 lg:p-16">
+      <div className="h-full py-10 w-full flex flex-col lg:flex-row justify-center items-start p-4 lg:p-16">
         <div className="w-full lg:w-5/12  h-full p-5 lg:p-12 flex flex-col gap-8">
           <p className="text-4xl lg:text-7xl text-[#E74C3C]">
             Trending Services
