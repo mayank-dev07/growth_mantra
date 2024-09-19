@@ -21,10 +21,10 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-full lg:min-h-screen w-full flex lg:flex-row flex-col pt-28">
+      <div className="h-full  w-full flex lg:flex-row flex-col pt-28 ">
         <div
-          className={`w-full lg:w-8/12 lg:min-h-screen flex flex-col  ${
-            scrollPosition > 50 ? "lg:justify-center" : "lg:justify-start"
+          className={`w-full lg:w-8/12 h-full flex flex-col  ${
+            scrollPosition > 50 ? "lg:pt-36" : "lg:justify-start"
           }`}
         >
           <Image
@@ -40,7 +40,7 @@ const Hero = () => {
           />
           <div
             className={`px-0 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start
-          ${scrollPosition > 50 ? "pt-32" : ""}`}
+          ${scrollPosition > 50 ? "" : ""}`}
           >
             <div className="w-fit p-4 text-lg font-bold tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl ">
               👋 Welcome to The Growth Mantra
@@ -69,8 +69,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-4/12 py-12 flex justify-center items-center">
-          <div className="w-full md:w-1/2 lg:w-full flex justify-center items-center -z-10">
+        <div className="w-full h-full lg:w-4/12 pt-12 flex justify-center items-center">
+          <div className="w-full md:w-1/2 lg:w-full flex justify-center items-center -">
             <VerticalSwiper />
           </div>
         </div>

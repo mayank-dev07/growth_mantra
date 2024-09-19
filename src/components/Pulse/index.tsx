@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
@@ -64,12 +63,12 @@ const Pulse = () => {
             businesses at any stage.`}
           </p>
         </div>
-        <div className="relative h-auto pb-20">
+        <div className="relative h-fit pb-20">
           <div className="absolute inset-52 top-[-90px] left-0 w-full">
             <Image
               src="/treevector.png"
               alt="tree"
-              width={1000}
+              width={800}
               height={500}
               className="object-fill lg:object-left h-full"
             />
@@ -109,7 +108,7 @@ const Pulse = () => {
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Uncover
               </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-12 bg-white">
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
@@ -140,7 +139,7 @@ const Pulse = () => {
                 <span className="text-[#E74C3C]">L</span>
                 &nbsp;-&nbsp;Leverage
               </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-12 bg-white">
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline !border-b-0">
@@ -171,7 +170,7 @@ const Pulse = () => {
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">S</span>&nbsp;-&nbsp;Synthesize
               </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-12 gap-3 bg-white">
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
@@ -196,13 +195,13 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[45%] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-20">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp; Execute &
                 Evolve
               </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-12 bg-white">
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
@@ -227,6 +226,7 @@ const Pulse = () => {
             </div>
           </div>
         </div>
+
         <hr className="border-t-2 w-full" />
         <div className="py-8 w-full flex justify-center items-center">
           <div

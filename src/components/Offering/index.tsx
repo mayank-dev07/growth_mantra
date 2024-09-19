@@ -55,9 +55,9 @@ const Offering = () => {
   return (
     <>
       <section className="bg-[#E74C3C] p-4 lg:p-12 text-white w-full">
-        <div className="text-start mb-10 flex flex-col gap-8">
-          <h2 className="text-6xl lg:text-8xl font-bold mb-4">Our Offering</h2>
-          <p className="text-lg lg:text-2xl w-fit tracking-wider flex flex-col gap-4 text-[#DFDFDF]">
+        <div className="text-start mb-10 flex flex-col gap-3 md:gap-8">
+          <h2 className="text-6xl lg:text-8xl font-bold mb-2">Our Offering</h2>
+          <p className="text-lg lg:text-2xl w-fit tracking-wider flex flex-col gap-1 text-[#DFDFDF]">
             <span>
               Explore our comprehensive suite of services designed to fuel your
             </span>
@@ -73,13 +73,13 @@ const Offering = () => {
               <div className="flex justify-center items-center">
                 <Image
                   src={`${service.icon}`}
-                  className="transform !object-contain w-1/2 h-[200px]"
+                  className="transform !object-contain w-1/2 h-[180px]"
                   alt="service"
                   width={180}
                   height={180}
                 ></Image>
               </div>
-              <div className="pt-8">
+              <div className="">
                 <h3 className="text-2xl py-4 text-black font-bold">
                   {service.title}
                 </h3>

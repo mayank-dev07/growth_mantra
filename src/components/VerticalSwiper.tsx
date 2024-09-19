@@ -22,9 +22,9 @@ export default function VerticalSwiper() {
         }}
         loop={true}
         modules={[Autoplay, Pagination]}
-        className="!h-[670px] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[670px] lg:!h-[80vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
-        <SwiperSlide> 
+        <SwiperSlide>
           <div className="pe-20 xl:pe-28 ps-6 w-full h-fit">
             <div className="h-fit flex flex-col shadow-md">
               <Image
@@ -38,7 +38,7 @@ export default function VerticalSwiper() {
                 <p className="text-2xl font-bold">
                   Struggling to Acquire New Customers or Quality Lead?
                 </p>
-                <p>
+                <p className="min-h-[50px] flex items-center ">
                   Our multi-channel acquisition strategies turn traffic into
                   qualified prospects
                 </p>
@@ -68,7 +68,9 @@ export default function VerticalSwiper() {
                 <p className="text-2xl font-bold">
                   Losing customers too quickly?
                 </p>
-                <p>Our retention strategies will keep them engaged</p>
+                <p className="min-h-[50px] flex items-center ">
+                  Our retention strategies will keep them engaged
+                </p>
                 <div className="flex items-center gap-8">
                   <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Boost your Acquisition
@@ -95,7 +97,9 @@ export default function VerticalSwiper() {
                 <p className="text-2xl font-bold">
                   Conversion Rates Not Meeting Targets?
                 </p>
-                <p>Optimize your funnel with our proven CRO techniques</p>
+                <p className="min-h-[50px] flex items-center ">
+                  Optimize your funnel with our proven CRO techniques
+                </p>
                 <div className="flex items-center gap-8">
                   <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Maximize Your Conversions
@@ -120,7 +124,7 @@ export default function VerticalSwiper() {
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-2xl font-bold">Marketing ROI Unclear?</p>
-                <p>
+                <p className="min-h-[50px] flex items-center ">
                   Gain clarity with our data-driven approach to growth
                   marketing.
                 </p>
@@ -151,7 +155,7 @@ export default function VerticalSwiper() {
                 <p className="text-2xl font-bold">
                   Scaling Challenges Holding You Back?
                 </p>
-                <p>
+                <p className="min-h-[50px] flex items-center ">
                   Navigate growth hurdles with our tailored scaling strategies
                 </p>
                 <div className="flex items-center gap-8">
