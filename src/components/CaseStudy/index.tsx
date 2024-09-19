@@ -7,10 +7,10 @@ const CaseStudy = () => {
     <>
       <div className="w-full h-full bg-[#16213E] px-4 md:px-16 py-20">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
-          <div className="w-full flex flex-col justify-start items-center  text-[#E74C3C] py-6 px-6 ">
+          <div className="w-full flex flex-col justify-start items-center  text-[#E74C3C] pt-6 px-6 ">
             <p
-              className=" tracking-widest  text-2xl lg:text-3xl "
-              style={{ lineHeight: "4rem" }}
+              className=" tracking-widest  text-base md:text-xl lg:text-3xl "
+              style={{ lineHeight: "3.5rem" }}
             >
               Effective Growth Strategies can increase revenue by up to
               <span className="text-lg md:text-3xl lg:text-5xl font-bold">
@@ -23,7 +23,7 @@ const CaseStudy = () => {
               months.
             </p>
             <div className="py-4 w-full flex justify-start items-center">
-              <div className="group rounded-full w-fit px-6 py-4 flex text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+              <div className="group rounded-full w-fit px-5 py-3 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 Schedule a call
                 <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
                   <ArrowRight />

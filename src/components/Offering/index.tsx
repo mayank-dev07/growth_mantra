@@ -64,7 +64,7 @@ const Offering = () => {
             <span>growth at every stage of your business journey.</span>
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6  lg:gap-y-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-6  lg:gap-y-20 sm:px-12 lg:px-0">
           {services.map((service, index) => (
             <div
               key={index}
@@ -73,7 +73,7 @@ const Offering = () => {
               <div className="flex justify-center items-center">
                 <Image
                   src={`${service.icon}`}
-                  className="transform !object-contain w-1/2 h-[180px] p-4"
+                  className="transform !object-contain w-1/2 h-[180px] p-4 "
                   alt="service"
                   width={180}
                   height={180}
