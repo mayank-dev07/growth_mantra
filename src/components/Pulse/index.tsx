@@ -55,7 +55,7 @@ const Pulse = () => {
               Framework
             </p>
           </div>
-          <p className="text-lg lg:text-2xl tracking-wide leading-snug">
+          <p className="text-lg lg:text-xl tracking-wide leading-relaxed">
             {` At The Growth Mantra, we've developed a unique, process-oriented
             approach to solving business and marketing challenges across
             industries. We call it the PULSE Framework - a strategic, powerful,
@@ -68,15 +68,15 @@ const Pulse = () => {
             <Image
               src="/treevector.png"
               alt="tree"
-              width={800}
+              width={900}
               height={500}
-              className="object-fill lg:object-left h-[1100px]"
+              className="object-fill lg:object-left h-[1000px]"
             />
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-24">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-5xl font-bold">
+              <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">P</span>&nbsp;-&nbsp;Probe
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
@@ -103,9 +103,9 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-24">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-5xl font-bold">
+              <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Uncover
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
@@ -133,9 +133,9 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[8%] mt-24">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[8%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-5xl font-bold">
+              <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">L</span>
                 &nbsp;-&nbsp;Leverage
               </p>
@@ -165,9 +165,9 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[35%] mt-24">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[35%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-5xl font-bold">
+              <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">S</span>&nbsp;-&nbsp;Synthesize
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
@@ -195,11 +195,11 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-24">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-5xl font-bold">
-                <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp; Execute &
-                Evolve
+              <p className="text-3xl lg:text-4xl font-bold">
+                <span className="text-[#E74C3C]">E</span>
+                &nbsp;-&nbsp;Execute&nbsp;&&nbsp;Evolve
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <Accordion type="single" collapsible>

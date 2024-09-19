@@ -73,7 +73,7 @@ const Offering = () => {
               <div className="flex justify-center items-center">
                 <Image
                   src={`${service.icon}`}
-                  className="transform !object-contain w-1/2 h-[180px]"
+                  className="transform !object-contain w-1/2 h-[180px] p-4"
                   alt="service"
                   width={180}
                   height={180}
