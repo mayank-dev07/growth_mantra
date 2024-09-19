@@ -70,7 +70,7 @@ const Pulse = () => {
               alt="tree"
               width={800}
               height={500}
-              className="object-fill lg:object-left h-full"
+              className="object-fill lg:object-left h-[1100px]"
             />
           </div>
 
