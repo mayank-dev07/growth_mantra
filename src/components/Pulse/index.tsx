@@ -64,7 +64,7 @@ const Pulse = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-52 top-[-90px] left-0 w-full">
+          <div className="absolute inset-52 top-[-20px] left-0 w-full">
             <Image
               src="/treevector.png"
               alt="tree"
@@ -74,7 +74,7 @@ const Pulse = () => {
             />
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-24">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">P</span>&nbsp;-&nbsp;Probe
@@ -103,7 +103,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-24">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Uncover
@@ -133,7 +133,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[8%] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[8%] mt-24">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">L</span>
@@ -165,7 +165,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[35%] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[35%] mt-24">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">S</span>&nbsp;-&nbsp;Synthesize
@@ -195,7 +195,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-20">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-24">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-5xl font-bold">
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp; Execute &
