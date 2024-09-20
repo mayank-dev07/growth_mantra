@@ -7,7 +7,7 @@ const CaseStudy = () => {
     <>
       <div className="w-full h-full bg-[#16213E] px-4 md:px-16 py-20">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
-          <div className="w-full flex flex-col justify-start items-center  text-[#E74C3C] pt-6 px-6 ">
+          <div className="w-full lg:w-[120%] flex flex-col justify-start items-center  text-[#E74C3C] pt-6 px-6 ">
             <p
               className=" tracking-widest  text-base md:text-xl lg:text-3xl "
               style={{ lineHeight: "3rem" }}
@@ -31,7 +31,7 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center lg:justify-end items-center px-4 lg:px-12">
+          <div className="w-full flex justify-center lg:justify-end items-center px-4 lg:pe-12">
             <Image
               src="/casestudy.png"
               alt="casestudy"

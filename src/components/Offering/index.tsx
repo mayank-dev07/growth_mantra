@@ -64,7 +64,7 @@ const Offering = () => {
             <span>growth at every stage of your business journey.</span>
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-6  lg:gap-y-20 sm:px-12 lg:px-0">
+        <div className="grid grid-cols-2  lg:grid-cols-4 gap-2  lg:gap-y-14 sm:px-12 lg:px-0">
           {services.map((service, index) => (
             <div
               key={index}
@@ -73,18 +73,20 @@ const Offering = () => {
               <div className="flex justify-center items-center">
                 <Image
                   src={`${service.icon}`}
-                  className="transform !object-contain w-1/2 h-[180px] p-4 "
+                  className="transform !object-contain w-1/2 h-fit md::h-[180px] p-4 "
                   alt="service"
                   width={180}
                   height={180}
                 ></Image>
               </div>
               <div className="">
-                <h3 className="text-2xl py-4 text-black font-bold">
+                <h3 className="text-lg md:text-2xl py-4 text-black font-bold">
                   {service.title}
                 </h3>
               </div>
-              <p className="text-lg text-[#8A8A8A]">{service.description}</p>
+              <p className="text-base md:text-lg text-[#8A8A8A]">
+                {service.description}
+              </p>
             </div>
           ))}
         </div>
