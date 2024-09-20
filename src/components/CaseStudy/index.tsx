@@ -5,7 +5,7 @@ import React from "react";
 const CaseStudy = () => {
   return (
     <>
-      <div className="w-full h-full bg-[#16213E] px-4 md:px-16 py-20">
+      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-20">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center  text-[#E74C3C] pt-6 px-6 ">
             <p
@@ -71,7 +71,7 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 p-8 md:px-12  gap-8">
+          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 p-8 px-2 md:px-12  gap-8">
             <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
               <div className="h-full md:h-[450px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
                 <div className="w-full flex flex-col justify-start items-center  lg:px-8 text-white">
@@ -99,16 +99,18 @@ const CaseStudy = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className=" bg-white h-[450px] rounded-3xl grid grid-cols-1 content-between text-xl p-4">
-                <div className="w-full ">Ai Corporation. 2023</div>
-                <div className="w-full">Ai Wave - Ai Chatbot Mobile App</div>
+            <div className="flex w-full lg:w-2/3 gap-2">
+              <div className="w-1/2 h-full m-0 lg:m-4">
+                <div className=" bg-white h-[450px] rounded-3xl grid grid-cols-1 content-between text-xl p-4">
+                  <div className="w-full ">Ai Corporation. 2023</div>
+                  <div className="w-full">Ai Wave - Ai Chatbot Mobile App</div>
+                </div>
               </div>
-            </div>
-            <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className=" bg-white h-[450px] rounded-3xl grid grid-cols-1 content-between text-xl p-4">
-                <div className="w-full">Ai Corporation. 2023</div>
-                <div className="w-full">Ai Wave - Ai Chatbot Mobile App</div>
+              <div className="w-1/2 h-full m-0 lg:m-4">
+                <div className=" bg-white h-[450px] rounded-3xl grid grid-cols-1 content-between text-xl p-4">
+                  <div className="w-full">Ai Corporation. 2023</div>
+                  <div className="w-full">Ai Wave - Ai Chatbot Mobile App</div>
+                </div>
               </div>
             </div>
           </div>
