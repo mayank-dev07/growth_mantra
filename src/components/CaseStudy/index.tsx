@@ -9,21 +9,21 @@ const CaseStudy = () => {
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center  text-[#E74C3C] pt-6 px-6 ">
             <p
-              className=" tracking-widest  text-base md:text-xl lg:text-3xl "
+              className=" tracking-widest  text-base md:text-xl lg:text-2xl xl:text-3xl "
               style={{ lineHeight: "3rem" }}
             >
               Effective Growth Strategies can increase revenue by up to
-              <span className="text-lg md:text-3xl lg:text-5xl font-bold">
+              <span className="text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
                 &nbsp;33%&nbsp;
               </span>
               in the first{" "}
-              <span className="text-lg md:text-3xl lg:text-5xl font-bold">
+              <span className="text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
                 &nbsp;SIX&nbsp;
               </span>{" "}
               months.
             </p>
             <div className="py-4 w-full flex justify-start items-center">
-              <div className="group rounded-full w-fit px-5 py-3 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+              <div className="group rounded-full w-fit px-5 py-3 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 Schedule a call
                 <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
                   <ArrowRight />

@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full lg:w-4/12 pt-12 flex justify-center items-center">
+        <div className="w-full h-full lg:w-4/12 pt-8 xl:pt-12 flex justify-center items-center">
           <div className="w-full md:w-1/2 lg:w-full flex justify-center items-center -z-10 md:-z-0">
             <VerticalSwiper />
           </div>

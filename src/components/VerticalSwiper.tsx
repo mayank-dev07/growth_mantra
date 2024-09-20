@@ -32,18 +32,18 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left rounded-lg"
+                className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-2xl font-bold">
+                <p className="text-xl xl:text-2xl font-bold">
                   Struggling to Acquire New Customers or Quality Lead?
                 </p>
-                <p className="min-h-[50px] flex items-center ">
+                <p className="h-fit flex items-center ">
                   Our multi-channel acquisition strategies turn traffic into
                   qualified prospects
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg lg:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Boost your Acquisition
                   </p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -65,14 +65,14 @@ export default function VerticalSwiper() {
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-2xl font-bold">
+                <p className="text-xl xl:text-2xl font-bold">
                   Losing customers too quickly?
                 </p>
-                <p className="min-h-[50px] flex items-center ">
+                <p className="h-fit flex items-center ">
                   Our retention strategies will keep them engaged
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Boost your Acquisition
                   </p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -94,14 +94,14 @@ export default function VerticalSwiper() {
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-2xl font-bold">
+                <p className="text-xl xl:text-2xl font-bold">
                   Conversion Rates Not Meeting Targets?
                 </p>
-                <p className="min-h-[50px] flex items-center ">
+                <p className="h-fit flex items-center ">
                   Optimize your funnel with our proven CRO techniques
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Maximize Your Conversions
                   </p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -123,13 +123,15 @@ export default function VerticalSwiper() {
                 className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-2xl font-bold">Marketing ROI Unclear?</p>
-                <p className="min-h-[50px] flex items-center ">
+                <p className="text-xl xl:text-2xl font-bold">
+                  Marketing ROI Unclear?
+                </p>
+                <p className="h-fit flex items-center ">
                   Gain clarity with our data-driven approach to growth
                   marketing.
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Boost Your ROI
                   </p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -152,14 +154,14 @@ export default function VerticalSwiper() {
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-2xl font-bold">
+                <p className="text-xl xl:text-2xl font-bold">
                   Scaling Challenges Holding You Back?
                 </p>
-                <p className="min-h-[50px] flex items-center ">
+                <p className="h-fit flex items-center ">
                   Navigate growth hurdles with our tailored scaling strategies
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-2xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
                     Scale Your Business Smartly
                   </p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
