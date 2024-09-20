@@ -74,7 +74,7 @@ const Pulse = () => {
             />
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">P</span>&nbsp;-&nbsp;Probe
@@ -103,7 +103,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[14%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Uncover
@@ -133,7 +133,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[8%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">L</span>
@@ -230,7 +230,7 @@ const Pulse = () => {
         <hr className="border-t-2 w-full" />
         <div className="py-8 w-full flex justify-center items-center">
           <div
-            className="group rounded-full w-fit px-6 py-4 flex text-base lg:text-lg hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
           >
             Scale Smarter, Not Harder - Get Your Custom Roadmap

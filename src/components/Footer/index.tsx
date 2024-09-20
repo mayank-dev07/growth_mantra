@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className="bg-white rounded-lg py-24">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="sm:flex sm:items-center md:justify-between">
-          <div className="flex flex-wrap justify-center items-center mb-6 text-base lg:text-lg  text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 md:gap-16">
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="flex flex-wrap justify-center items-center mb-6 text-base lg:text-lg  text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 md:gap-10 lg:gap-16">
             <Link href="/" className="text-[#E74C3C]">
               About us
             </Link>
@@ -21,7 +21,7 @@ const Footer = () => {
               Contact Us
             </Link>
           </div>
-          <div className="flex justify-center items-center gap-8">
+          <div className="flex justify-center items-center gap-4 lg:gap-8">
             <Image src="/fb.png" alt="frame" width={30} height={30} />
             <Image src="/Twitter.png" alt="frame" width={30} height={30} />
             <Image src="/Vimeo.png" alt="frame" width={30} height={30} />

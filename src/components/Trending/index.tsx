@@ -28,7 +28,7 @@ const Trending = () => {
       <hr className="border-t-2 w-full" />
       <div className="py-8 w-full flex justify-center items-center px-4">
         <div
-          className="group rounded-full w-full lg:w-1/3 px-5 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-start lg:justify-center items-center gap-4 cursor-pointer relative
+          className="group rounded-full w-full lg:w-1/2 px-5 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-start lg:justify-center items-center gap-4 cursor-pointer relative
         transition-all duration-500 ease-in-out font-bold"
         >
           Unlock your Growth now
