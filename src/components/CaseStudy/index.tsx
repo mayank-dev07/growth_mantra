@@ -78,9 +78,9 @@ const CaseStudy = () => {
                   Explore our latest articles and case studies to stay ahead in
                   your industry.
                   <div className="py-8 w-full flex justify-center md:justify-start items-center">
-                    <div className="group rounded-full w-fit px-4 py-1.5 flex text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                    <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                       <p>Schedule&nbsp;a&nbsp;call</p>
-                      <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
                         <ArrowRight />
                       </div>
                     </div>
