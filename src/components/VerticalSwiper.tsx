@@ -32,9 +32,9 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left !h-[300px] lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
+              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
                   Struggling to Acquire New Customers or Quality Lead?
                 </p>
@@ -64,7 +64,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
+              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
                   Losing customers too quickly?
                 </p>
@@ -93,7 +93,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
+              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
                   Conversion Rates Not Meeting Targets?
                 </p>
@@ -122,7 +122,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
+              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
                   Marketing ROI Unclear?
                 </p>
@@ -153,7 +153,7 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col gap-4 w-full tracking-wide h-[330px] md:h-full">
+              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
                   Scaling Challenges Holding You Back?
                 </p>

@@ -7,6 +7,14 @@ const CaseStudy = () => {
     <>
       <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-20">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
+          <div className="w-full flex justify-center lg:justify-start items-center px-4 lg:pe-12">
+            <Image
+              src="/casestudy.png"
+              alt="casestudy"
+              width={350}
+              height={350}
+            ></Image>
+          </div>
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center  text-[#E74C3C] pt-6 px-6 ">
             <p
               className=" tracking-widest  text-base md:text-xl lg:text-2xl xl:text-3xl "
@@ -22,22 +30,14 @@ const CaseStudy = () => {
               </span>{" "}
               months.
             </p>
-            <div className="py-4 w-full flex justify-start items-center">
-              <div className="group rounded-full w-fit px-5 py-3 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+            <div className="py-4 w-full flex justify-center md:justify-start items-center">
+              <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 Schedule a call
-                <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
                   <ArrowRight />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="w-full flex justify-center lg:justify-end items-center px-4 lg:pe-12">
-            <Image
-              src="/casestudy.png"
-              alt="casestudy"
-              width={350}
-              height={350}
-            ></Image>
           </div>
         </div>
         <div className="w-full pt-28 flex flex-col gap-2 pb-4">
@@ -118,20 +118,23 @@ const CaseStudy = () => {
       </div>
       <div className="w-full h-full px-4 lg:px-28 py-16">
         <div className="flex flex-col lg:flex-row w-full h-full">
-          <div className="w-full lg:w-1/2 bg-[#E84C3D] text-white rounded-[15px] shadow-2xl py-16 px-12">
-            <div className="text-xl md:text-3xl lg:text-4xl">
-              Diagnose&nbsp;Your
-              <br />
-              Growth&nbsp;Blockers
+          <div className="w-full lg:w-1/2 bg-[#E84C3D] text-white rounded-[15px] shadow-2xl ">
+            <div className="px-10 pt-12 ">
+              <div className="text-xl md:text-3xl lg:text-4xl">
+                Diagnose&nbsp;Your
+                <br />
+                Growth&nbsp;Blockers
+              </div>
+              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
+                Uncover the hidden obstacles holding your startup back. Our
+                expert consultants will analyze your business, identify critical
+                bottlenecks, and provide a custom action plan to skyrocket your
+                growth. Limited offer: Claim your complimentary strategy session
+                (Valued at $400) now
+              </div>
             </div>
-            <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-              Uncover the hidden obstacles holding your startup back. Our expert
-              consultants will analyze your business, identify critical
-              bottlenecks, and provide a custom action plan to skyrocket your
-              growth. Limited offer: Claim your complimentary strategy session
-              (Valued at $400) now
-            </div>
-            <div className="py-4 w-full flex justify-start items-center">
+
+            <div className="md:px-12 py-12 w-full flex justify-center md:justify-start items-center">
               <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
                 <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -140,21 +143,23 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl py-16 px-12">
-            {" "}
-            <div className="text-xl md:text-3xl lg:text-4xl text-[#E74C3C]">
-              Partner&nbsp;with&nbsp;Proven
-              <br />
-              Growth&nbsp;Catalysts
+          <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
+            <div className="px-10 pt-12 ">
+              <div className="text-xl md:text-3xl lg:text-4xl text-[#E74C3C]">
+                Partner&nbsp;with&nbsp;Proven
+                <br />
+                Growth&nbsp;Catalysts
+              </div>
+              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
+                Looking for more than just advice? Our team of seasoned
+                consultants doesn&apos;t just strategize - we execute. From
+                refining your go-to-market strategy to optimizing your product
+                for scalability, we&apos;re here to drive tangible results and
+                exponential growth for your startup.
+              </div>
             </div>
-            <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-              Looking for more than just advice? Our team of seasoned
-              consultants doesn&apos;t just strategize - we execute. From
-              refining your go-to-market strategy to optimizing your product for
-              scalability, we&apos;re here to drive tangible results and
-              exponential growth for your startup.
-            </div>
-            <div className="py-4 w-full flex justify-start items-center">
+
+            <div className="md:px-12 py-12 w-full flex justify-center md:justify-start items-center">
               <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#E74C3C] text-white bg-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 <p>Amplify&nbsp;Your&nbsp;Growth</p>
                 <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#E74C3C]">

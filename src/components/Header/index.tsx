@@ -11,12 +11,12 @@ const Header = () => {
             Schedule&nbsp;a&nbsp;call
           </div>
         </div>
-        <div className="w-full h-full flex justify-center items-center gap-3 text-sm md:text-lg lg:gap-10 py-4 text-[#6F6F6F]">
+        <div className="w-full h-full flex justify-center items-center gap-2 md:gap-3 text-sm md:text-lg lg:gap-10 py-4 text-[#6F6F6F]">
           <Link href="/">Home</Link>
           <Link href="/">Services</Link>
-          <Link href="/">Case Studies</Link>
-          <Link href="/">Contact us</Link>
-          <Link href="/">About us</Link>
+          <Link href="/">Case&nbsp;Studies</Link>
+          <Link href="/">Contact&nbsp;us</Link>
+          <Link href="/">About&nbsp;us</Link>
         </div>
       </div>
     </>

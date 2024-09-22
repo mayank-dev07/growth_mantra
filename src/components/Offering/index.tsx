@@ -7,47 +7,39 @@ const services = [
     title: "Acquisition Mastery",
     description:
       "Accelerate new customer acquisition with data-driven strategies and campaigns.",
-    icon: "/Earnings.png",
   },
   {
     title: "Retention Revolution",
     description:
       "Transform how you build customer loyalty with personalized engagement campaigns.",
-    icon: "/SVG.png",
   },
   {
     title: "Funnel Optimization",
     description:
       "Maximize conversions by refining every step of your marketing funnel.",
-    icon: "/Conversion_Optimization.png",
   },
   {
     title: "Conversion Rate Optimization (CRO)",
     description:
       "Boost conversion rates with strategic A/B testing and user behavior analysis.",
-    icon: "/Conversion.png",
   },
   {
     title: "Email Marketing Engine",
     description:
       "Design targeted email sequences that nurture and convert leads.",
-    icon: "/email_marketing.png",
   },
   {
     title: "SEO Domination",
     description: "Climb search engine rankings through strategic SEO tactics.",
-    icon: "/Seo.png",
   },
   {
     title: "CRM Growth Engine",
     description:
       "Leverage data to personalize and scale customer interactions.",
-    icon: "/sales.png",
   },
   {
     title: "UX for Exponential Growth",
     description: "Create intuitive experiences that drive repeat business.",
-    icon: "/ux.png",
   },
 ];
 
@@ -64,29 +56,20 @@ const Offering = () => {
             <span>growth at every stage of your business journey.</span>
           </p>
         </div>
-        <div className="grid grid-cols-2  lg:grid-cols-4 gap-2  lg:gap-y-14 sm:px-12 lg:px-0">
+        <div className="grid grid-cols-2  grid-rows-4 lg:grid-cols-4 lg:grid-rows-2  gap-2 lg:gap-y-8 sm:px-12 lg:px-0">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white text-[#E74C3C] p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+              className="bg-white text-[#E74C3C] p-3 sm:p-5 lg:p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col "
             >
-              <div className="flex justify-center items-center">
-                <Image
-                  src={`${service.icon}`}
-                  className="transform !object-contain w-1/2 h-fit md::h-[180px] p-4 "
-                  alt="service"
-                  width={180}
-                  height={180}
-                ></Image>
-              </div>
-              <div className="">
-                <h3 className="text-lg md:text-2xl py-4 text-black font-bold">
+              <div className="flex-grow">
+                <h3 className="text-lg md:text-2xl text-black font-bold">
                   {service.title}
                 </h3>
+                <p className="text-base md:text-lg pt-4 text-[#8A8A8A]">
+                  {service.description}
+                </p>
               </div>
-              <p className="text-base md:text-lg text-[#8A8A8A]">
-                {service.description}
-              </p>
             </div>
           ))}
         </div>
