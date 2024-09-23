@@ -183,7 +183,7 @@ const CaseStudy = () => {
               </div>
             </div>
 
-            <div className="md:px-12 py-12 w-full flex justify-center md:justify-start items-center">
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
               <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
                 <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -208,7 +208,7 @@ const CaseStudy = () => {
               </div>
             </div>
 
-            <div className="md:px-12 py-12 w-full flex justify-center md:justify-start items-center">
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
               <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#E74C3C] text-white bg-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 <p>Amplify&nbsp;Your&nbsp;Growth</p>
                 <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#E74C3C]">
