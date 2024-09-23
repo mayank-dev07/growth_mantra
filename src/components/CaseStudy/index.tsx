@@ -143,7 +143,7 @@ const CaseStudy = () => {
             <div className="flex w-full lg:w-2/3 gap-2 overflow-hidden">
               <Swiper
                 slidesPerView={2}
-                spaceBetween={30}
+                spaceBetween={10}
                 navigation={{
                   nextEl: ".next",
                   prevEl: ".prev",
@@ -154,7 +154,7 @@ const CaseStudy = () => {
               >
                 {slides.map((slide) => (
                   <SwiperSlide key={slide.id}>
-                    <div className="bg-white h-[450px] rounded-3xl p-6 text-xl flex flex-col justify-between">
+                    <div className="bg-white h-[450px] rounded-3xl p-6 text-sm md:text-base lg:text-lg flex flex-col justify-between">
                       <div>{slide.company}</div>
                       <div>{slide.project}</div>
                     </div>
