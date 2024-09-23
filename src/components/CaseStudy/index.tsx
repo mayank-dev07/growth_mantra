@@ -5,7 +5,7 @@ import React from "react";
 const CaseStudy = () => {
   return (
     <>
-      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-20">
+      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-20  ">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between itms-center">
           <div className="w-full flex justify-center lg:justify-start items-center px-4 lg:pe-12">
             <Image
