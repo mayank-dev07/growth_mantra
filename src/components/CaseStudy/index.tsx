@@ -51,22 +51,22 @@ const CaseStudy = () => {
             <div className="py-10 w-11/12 lg:w-10/12 xl:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-6">
               <div className="w-full flex justify-center items-center">
                 <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  All&nbsp;Work[20]
+                  All&nbsp;Work
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
                 <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  UI/UX&nbsp;Design[10]
+                  UI/UX&nbsp;Design
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
                 <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  Digital&nbsp;Marketing[5]
+                  Digital&nbsp;Marketing
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
                 <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  Branding&nbsp;[5]
+                  Branding
                 </p>
               </div>
             </div>
