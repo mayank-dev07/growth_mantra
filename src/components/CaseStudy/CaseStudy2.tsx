@@ -46,41 +46,41 @@ const CaseStudy = () => {
 
   return (
     <>
-      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-20  ">
-      <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
-  <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#576D2C] pt-6 px-6">
-    <p
-      className="tracking-widest text-base md:text-xl lg:text-2xl xl:text-3xl"
-      style={{ lineHeight: "3rem" }}
-    >
-      Effective Growth Strategies can increase revenue by up to
-      <span className="text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-        &nbsp;33%&nbsp;
-      </span>
-      in the first{" "}
-      <span className="text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-        &nbsp;SIX&nbsp;
-      </span>{" "}
-      months.
-    </p>
-    <div className="py-4 w-full flex justify-center md:justify-start items-center">
-      <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-        Schedule a call
-        <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-          <ArrowRight />
+      <div className="w-full h-full bg-[#576D2C] px-2 md:px-16 py-20  ">
+        <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
+          <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#576D2C] pt-6 px-6">
+            <p
+              className="tracking-widest text-base md:text-xl lg:text-2xl xl:text-3xl"
+              style={{ lineHeight: "3rem" }}
+            >
+              Effective Growth Strategies can increase revenue by up to
+              <span className="text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
+                &nbsp;33%&nbsp;
+              </span>
+              in the first{" "}
+              <span className="text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
+                &nbsp;SIX&nbsp;
+              </span>{" "}
+              months.
+            </p>
+            <div className="py-4 w-full flex justify-center md:justify-start items-center">
+              <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                Schedule a call
+                <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+                  <ArrowRight />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex justify-center lg:justify-end items-center px-4 lg:pe-12">
+            <Image
+              src="/casestudy2.png"
+              alt="casestudy"
+              width={350}
+              height={350}
+            />
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div className="w-full flex justify-center lg:justify-end items-center px-4 lg:pe-12">
-    <Image
-      src="/casestudy2.png"
-      alt="casestudy"
-      width={350}
-      height={350}
-    />
-  </div>
-</div>
 
         <div className="w-full pt-28 flex flex-col gap-2 pb-4">
           <p className="text-5xl lg:text-7xl text-white">Featured Case Study</p>
@@ -88,7 +88,7 @@ const CaseStudy = () => {
             Highlighting successful projects with links to full case studies
           </p>
         </div>
-        <div className="rounded-3xl w-full bg-[#576D2C] h-full ">
+        <div className="rounded-3xl w-full bg-[#576D2C] h-full border-[1px]">
           <div className="w-full flex justify-center items-center">
             <div className="py-10 w-11/12 lg:w-10/12 xl:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-6">
               <div className="w-full flex justify-center items-center">
@@ -115,7 +115,7 @@ const CaseStudy = () => {
           </div>
           <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 p-8 px-2 md:px-12 gap-8">
             <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className="h-full md:h-[450px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
+              <div className="h-full md:h-[400px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
                 <div className="w-full flex flex-col justify-start items-center lg:px-8 text-white">
                   Explore our latest articles and case studies to stay ahead in
                   your industry.
@@ -155,7 +155,7 @@ const CaseStudy = () => {
               >
                 {slides.map((slide) => (
                   <SwiperSlide key={slide.id}>
-                    <div className="bg-white h-[450px] rounded-3xl p-6 text-sm md:text-base lg:text-lg flex flex-col justify-between">
+                    <div className="bg-white h-[400px] rounded-3xl p-6 text-sm md:text-base lg:text-lg flex flex-col justify-between">
                       <div>{slide.company}</div>
                       <div>{slide.project}</div>
                     </div>
@@ -176,7 +176,9 @@ const CaseStudy = () => {
                 Growth&nbsp;Stasis
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-              Struggling to break through the growth plateau? Our expert consultants will identify the root causes and provide tailored solutions to propel your business forward.
+                Struggling to break through the growth plateau? Our expert
+                consultants will identify the root causes and provide tailored
+                solutions to propel your business forward.
               </div>
             </div>
 
@@ -197,7 +199,9 @@ const CaseStudy = () => {
                 With&nbsp;Proven&nbsp;Expertise
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-                Don&apos;t just talk about growth – achieve it. Our team of seasoned consultants has a proven track record of delivering tangible results for companies like yours.
+                Don&apos;t just talk about growth – achieve it. Our team of
+                seasoned consultants has a proven track record of delivering
+                tangible results for companies like yours.
               </div>
             </div>
 
