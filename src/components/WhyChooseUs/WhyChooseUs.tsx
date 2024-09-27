@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
     <>
       <div className="w-full h-full flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 py-8 lg:py-0 flex justify-center items-center">
-          <p className="text-5xl lg:text-7xl font-bold text-[#E74C3C] leading-snug">
+          <p className="text-5xl lg:text-7xl font-bold text-[#576D2C] leading-snug">
             WHY
             <br />
             CHOOSE US?
