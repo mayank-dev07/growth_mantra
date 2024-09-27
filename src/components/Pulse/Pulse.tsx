@@ -66,12 +66,20 @@ const Pulse = () => {
         <div className="relative h-fit pb-20">
           <div className="absolute inset-52 top-[-20px] left-0 w-full">
             <Image
-              src="/treevector.png"
+              src="/treeVector2.png"
               alt="tree"
               width={900}
               height={500}
               className="object-fill lg:object-contain h-[1100px] w-fit"
             />
+
+          </div>
+          <div>
+            <Image src="/treedots.png"
+              alt="tree"
+              width={900}
+              height={500}
+              className="object-fill lg:object-contain h-[1100px] w-fit" />
           </div>
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-16">
@@ -84,7 +92,7 @@ const Pulse = () => {
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left ">
-                      Conduct a comprehensive analysis of your current position, market, and competition
+                        Conduct a comprehensive analysis of your current position, market, and competition
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -112,7 +120,7 @@ const Pulse = () => {
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                      Identify and capitalize on your unique strengths and market opportunities
+                        Identify and capitalize on your unique strengths and market opportunities
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -142,7 +150,7 @@ const Pulse = () => {
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                      Develop strategies to deeply connect with your target audience
+                        Develop strategies to deeply connect with your target audience
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -171,7 +179,7 @@ const Pulse = () => {
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                      We develop targeted content and offers for each funnel stage
+                        We develop targeted content and offers for each funnel stage
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>

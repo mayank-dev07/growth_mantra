@@ -1,113 +1,21 @@
-import Image from "next/image";
-import React from "react";
+// components/WhyChooseUs.tsx
 
+import React from "react";
+import AutoCarousel from "./AutoCarousel";
 const WhyChooseUs = () => {
   return (
-    <>
-      <div className="w-full h-full flex flex-col lg:flex-row">
-        <div className="w-full lg:w-1/2 py-8 lg:py-0 flex justify-center items-center">
-          <p className="text-5xl lg:text-7xl font-bold text-[#576D2C] leading-snug">
-            WHY
-            <br />
-            CHOOSE US?
-          </p>
-        </div>
-        <div className="w-full lg:w-1/2 bg-[#E74C3C] py-8 lg:py-24 flex justify-center items-center ">
-          <ul className="space-y-2  text-white px-4 lg:px-32">
-            <li className="flex items-center gap-3 text-lg lg:text-2xl py-4">
-              <div className="w-1/12 flex justify-center items-center">
-                <div className="w-fit h-full bg-white p-2 border-[1px] rounded-md">
-                  <Image
-                    src="/Vector.png"
-                    alt="mioe"
-                    width={50}
-                    height={50}
-                    className="object-contain w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-11/12">
-                Accelerate Growth with Precision-Driven Acquisition Engine
-              </div>
-            </li>
-            <li className="flex items-center gap-3 text-lg lg:text-2xl py-4">
-              <div className="w-1/12 flex justify-center items-center">
-                <div className="w-fit h-full bg-white p-2 border-[1px] rounded-md">
-                  <Image
-                    src="/Vector.png"
-                    alt="mioe"
-                    width={50}
-                    height={50}
-                    className="object-contain w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-11/12">Data-Powered Retention Growth</div>
-            </li>
-            <li className="flex items-center gap-3 text-lg lg:text-2xl py-4">
-              <div className="w-1/12 flex justify-center items-center">
-                <div className="w-fit h-full bg-white p-2 border-[1px] rounded-md">
-                  <Image
-                    src="/Vector.png"
-                    alt="mioe"
-                    width={50}
-                    height={50}
-                    className="object-contain w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-11/12">Amplify Customer Lifetime Value</div>
-            </li>
-            <li className="flex items-center gap-3 text-lg lg:text-2xl py-4">
-              <div className="w-1/12 flex justify-center items-center">
-                <div className="w-fit h-full bg-white p-2 border-[1px] rounded-md">
-                  <Image
-                    src="/Vector.png"
-                    alt="mioe"
-                    width={50}
-                    height={50}
-                    className="object-contain w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-11/12">Conversion-Focused Optimization</div>
-            </li>
-            <li className="flex items-center gap-3 text-lg lg:text-2xl py-4">
-              <div className="w-1/12 flex justify-center items-center">
-                <div className="w-fit h-full bg-white p-2 border-[1px] rounded-md">
-                  <Image
-                    src="/Vector.png"
-                    alt="mioe"
-                    width={50}
-                    height={50}
-                    className="object-contain w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-11/12">
-                Craft a Unique, Brand-Aligned Growth Strategy
-              </div>
-            </li>
-            <li className="flex items-center gap-3 text-lg lg:text-2xl py-4">
-              <div className="w-1/12 flex justify-center items-center">
-                <div className="w-fit h-full bg-white p-2 border-[1px] rounded-md">
-                  <Image
-                    src="/Vector.png"
-                    alt="mioe"
-                    width={50}
-                    height={50}
-                    className="object-contain w-full"
-                  />
-                </div>
-              </div>
-              <div className="w-11/12">
-                Optimize Messaging for Maximum Impact
-              </div>
-            </li>
-          </ul>
-        </div>
+    <div className="w-full h-full flex flex-col lg:flex-row items-center my-12"> {/* Added vertical margin */}
+      <div className="w-full lg:w-1/2 py-8 lg:py-0 flex justify-center items-center">
+        <p className="text-5xl lg:text-7xl font-bold text-[#000000] leading-snug text-center lg:text-left">
+          WHY
+          <br />
+          CHOOSE US?
+        </p>
       </div>
-    </>
+      <div className="w-full lg:w-1/2 py-8 lg:py-0 flex justify-center">
+        <AutoCarousel />
+      </div>
+    </div>
   );
 };
 
