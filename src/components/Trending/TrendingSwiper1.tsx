@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import { Autoplay, FreeMode, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import Image from "next/image";
 
 export default function TrendingSwiper() {
