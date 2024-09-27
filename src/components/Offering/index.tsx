@@ -59,7 +59,7 @@ const Offering = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white text-[#E74C3C] p-3 sm:p-5 lg:p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col "
+              className="bg-white text-[#E74C3C] p-3 sm:p-5 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col "
             >
               <div className="flex-grow">
                 <h3 className="text-lg md:text-2xl text-black font-bold">
