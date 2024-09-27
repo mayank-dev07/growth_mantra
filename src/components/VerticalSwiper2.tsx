@@ -22,7 +22,7 @@ export default function VerticalSwiper() {
         }}
         loop={true}
         modules={[Autoplay, Pagination]}
-        className="!h-[670px] lg:min-!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[670px] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#E74C3C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#E74C3C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
           <div className="pe-20 xl:pe-28 ps-6 w-full h-fit">
@@ -32,7 +32,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3] !h-[300px] lg:!h-[400px] rounded-lg"
+                className="object-left !h-[300px] lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
@@ -43,10 +43,10 @@ export default function VerticalSwiper() {
                   qualified prospects
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-lg lg:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg lg:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
                     Boost your Acquisition
                   </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                     <ArrowRight />
                   </div>
                 </div>
@@ -62,7 +62,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3]  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
@@ -72,10 +72,10 @@ export default function VerticalSwiper() {
                   Our retention strategies will keep them engaged
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
                     Boost your Acquisition
                   </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                     <ArrowRight />
                   </div>
                 </div>
@@ -91,7 +91,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3]  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
@@ -101,10 +101,10 @@ export default function VerticalSwiper() {
                   Optimize your funnel with our proven CRO techniques
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
                     Maximize Your Conversions
                   </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                     <ArrowRight />
                   </div>
                 </div>
@@ -120,7 +120,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3] !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
@@ -131,10 +131,10 @@ export default function VerticalSwiper() {
                   marketing.
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
                     Boost Your ROI
                   </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                     <ArrowRight />
                   </div>
                 </div>
@@ -151,7 +151,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3]  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left  !h-[300px]  lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
                 <p className="text-xl xl:text-2xl font-bold">
@@ -161,10 +161,10 @@ export default function VerticalSwiper() {
                   Navigate growth hurdles with our tailored scaling strategies
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#E84C3D] font-bold">
+                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
                     Scale Your Business Smartly
                   </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                     <ArrowRight />
                   </div>
                 </div>
