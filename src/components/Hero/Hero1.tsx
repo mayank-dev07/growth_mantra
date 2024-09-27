@@ -2,7 +2,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import VerticalSwiper from "../VerticalSwiper2";
+import VerticalSwiper from "../VerticalSwiper1";
 
 const Hero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -23,20 +23,18 @@ const Hero = () => {
     <>
       <div className="h-full  w-full flex lg:flex-row flex-col pt-28 ">
         <div
-          className={`w-full lg:w-8/12 h-full flex flex-col  ${
-            scrollPosition > 50 ? "pt-36" : "lg:justify-start"
-          }`}
+          className={`w-full lg:w-8/12 h-full flex flex-col  ${scrollPosition > 50 ? "pt-36" : "lg:justify-start"
+            }`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={400}
             height={400}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
-              scrollPosition > 50
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
                 ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[11.3%] "
                 : "relative"
-            }`}
+              }`}
           />
           <div
             className={`px-0 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start

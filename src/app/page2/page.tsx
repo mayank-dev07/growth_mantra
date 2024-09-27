@@ -1,4 +1,4 @@
-import CaseStudy from "@/components/CaseStudy/CaseStudy2";
+import CaseStudy from "@/components/CaseStudy/CaseStudy";
 import Hero from "@/components/Hero/Hero";
 import Offering from "@/components/Offering/Offering";
 import Pulse from "@/components/Pulse/Pulse";
