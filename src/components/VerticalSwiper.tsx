@@ -172,7 +172,7 @@ export default function VerticalSwiper() {
             </div>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper>a
     </>
   );
 }
