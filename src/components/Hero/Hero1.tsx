@@ -61,7 +61,7 @@ const Hero = () => {
               </div>
               <div className="w-full flex justify-center md:justify-start">
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-                  Unlock your Growth now
+                  Unlock Your Business Growth
                   <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
