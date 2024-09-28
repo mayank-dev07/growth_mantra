@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
+
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
 
@@ -25,6 +26,7 @@ export default function TrendingSwiper() {
           },
         }}
         spaceBetween={10}
+
         navigation={{
           nextEl: ".next",
           prevEl: ".prev",
@@ -37,7 +39,9 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+
+                src="/TrendingSwiper1.png"
+
                 alt="image"
                 width={900}
                 height={800}
@@ -48,13 +52,12 @@ export default function TrendingSwiper() {
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
-                    Acquisition Mastery
+
+                  <div className="text-[#576D2C] text-base lg:text-xl font-bold">
+                  Strategy & Planning
                   </div>
                   <div className="text-base lg:text-lg">
-                    Supercharge your new customer acquisition, lead generation,
-                    and traffic with precision-targeted paid ads, social
-                    strategies, and affiliate marketing.
+                  Transform your vision into a concrete roadmap for success. Our strategic planning services help you navigate the complex startup landscape, identify opportunities, and mitigate risks.
                   </div>
                 </div>
               </div>
@@ -65,7 +68,9 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+
+                src="/TrendingSwiper2.png"
+
                 alt="image"
                 width={900}
                 height={800}
@@ -76,12 +81,14 @@ export default function TrendingSwiper() {
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
-                    Retention Revolution
+
+                  <div className="text-[#576D2C] text-base lg:text-xl font-bold">
+                  User Persona
+                  Identification
                   </div>
                   <div className="text-base lg:text-lg">
-                    Transform one-time users into loyal advocates with advanced
-                    retention analysis and personalized re-engagement campaigns.
+                  Understand your customers at a deeper level. We use advanced analytics and market research to create detailed user personas, ensuring your products and marketing resonate with your target au.
+
                   </div>
                 </div>
               </div>
@@ -103,7 +110,7 @@ export default function TrendingSwiper() {
                   03
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                  <div className="text-[#576D2C] text-base lg:text-xl font-bold">
                     Funnel Optimization
                   </div>
                   <div className="text-base lg:text-lg">
@@ -130,7 +137,8 @@ export default function TrendingSwiper() {
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+
+                  <div className="text-[#576D2C] text-base lg:text-xl font-bold">
                     Conversion Rate Optimization (CRO)
                   </div>
                   <div className="text-base lg:text-lg">
@@ -157,7 +165,8 @@ export default function TrendingSwiper() {
                   05
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                  <div className="text-[#576D2C] text-base lg:text-xl font-bold">
+
                     Email Marketing Engine
                   </div>
                   <div className="text-base lg:text-lg">

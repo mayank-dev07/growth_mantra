@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
-
 const Trending = () => {
   return (
     <>

@@ -3,19 +3,19 @@ import { ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Strategy & Planning",
+    title: "Market Analysis",
     description:
-      "Transform your vision into a concrete roadmap for success. Our strategic planning services help you navigate the complex startup landscape, identify opportunities, and mitigate risks.",
+      "Gain market insights for informed strategic decisions",
   },
   {
-    title: "User Personal Identification",
+    title: "Goal Setting and Prioritization",
     description:
-      "Understand your customers at a deeper level. We use advanced analytics and market research to create detailed user personas, ensuring your products and marketing resonate with your target audience.",
+      "Set achievable objectives aligned with business strategy.",
   },
   {
-    title: "Go-to-Market Strategy",
+    title: "Risk Assessment and Mitigation",
     description:
-      "Launch your product or enter new markets with confidence. Our go-to-market strategies are designed to maximize impact, minimize risk, and accelerate adoption",
+      "Navigate challenges confidently with prepared strategies.",
   },
 ];
 
