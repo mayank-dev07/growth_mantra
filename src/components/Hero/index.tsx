@@ -31,7 +31,7 @@ const Hero = () => {
             width={400}
             height={400}
             className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[45%] md:w-[35%] lg:w-[20%]"
+              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[12%] "
               : "relative"
             }`}
           />
