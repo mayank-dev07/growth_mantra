@@ -29,18 +29,18 @@ const Trending = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-start lg:ml-8 items-center mt-28">
+          <div className="w-full flex justify-start lg:ml-8 items-center lg:mt-28">
             <div className="w-full lg:w-8/12 flex gap-x-20 justify-center lg:justify-start items-center">
-              <div className="w-28 h-28 flex justify-center items-center prev rounded-full bg-white">
+              <div className="w-20 h-20 flex justify-center items-center prev rounded-full bg-white border-[1px] shadow-md">
                 <ChevronLeft size={30} />
               </div>
-              <div className="w-28 h-28 flex justify-center items-center next rounded-full bg-white">
+              <div className="w-20 h-20 flex justify-center items-center next rounded-full bg-white border-[1px] shadow-md">
                 <ChevronRight size={30} />
               </div>
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-7/12 h-full">
+        <div className="w-full lg:w-7/12 h-full mt-8 lg:mt-0">
           <Swiper
             breakpoints={{
               1200: {
@@ -66,7 +66,7 @@ const Trending = () => {
               <div className="p-0 lg:p-4 w-full h-full">
                 <div className="h-fit flex flex-col ">
                   <Image
-                    src="/verticalswiper.png"
+                    src="/TrendingSwiper1.png"
                     alt="image"
                     width={900}
                     height={800}
@@ -77,13 +77,14 @@ const Trending = () => {
                       01
                     </div>
                     <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                      <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
-                        Acquisition Mastery
+                      <div className="text-[#576D2C] text-base lg:text-xl font-bold">
+                        Strategy & Planning
                       </div>
                       <div className="text-base lg:text-lg">
-                        Supercharge your new customer acquisition, lead
-                        generation, and traffic with precision-targeted paid
-                        ads, social strategies, and affiliate marketing.
+                        Transform your vision into a concrete roadmap for
+                        success. Our strategic planning services help you
+                        navigate the complex startup landscape, identify
+                        opportunities, and mitigate risks.
                       </div>
                     </div>
                   </div>
@@ -94,7 +95,7 @@ const Trending = () => {
               <div className="p-0 lg:p-4 w-full h-full">
                 <div className="h-fit flex flex-col ">
                   <Image
-                    src="/verticalswiper.png"
+                    src="/TrendingSwiper2.png"
                     alt="image"
                     width={900}
                     height={800}
@@ -105,13 +106,14 @@ const Trending = () => {
                       02
                     </div>
                     <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                      <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
-                        Retention Revolution
+                      <div className="text-[#576D2C] text-base lg:text-xl font-bold">
+                        User Persona Identification
                       </div>
                       <div className="text-base lg:text-lg">
-                        Transform one-time users into loyal advocates with
-                        advanced retention analysis and personalized
-                        re-engagement campaigns.
+                        Understand your customers at a deeper level. We use
+                        advanced analytics and market research to create
+                        detailed user personas, ensuring your products and
+                        marketing resonate with your target au.
                       </div>
                     </div>
                   </div>
@@ -133,7 +135,7 @@ const Trending = () => {
                       03
                     </div>
                     <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                      <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                      <div className="text-[#576D2C] text-base lg:text-xl font-bold">
                         Funnel Optimization
                       </div>
                       <div className="text-base lg:text-lg">
@@ -160,7 +162,7 @@ const Trending = () => {
                       04
                     </div>
                     <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                      <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                      <div className="text-[#576D2C] text-base lg:text-xl font-bold">
                         Conversion Rate Optimization (CRO)
                       </div>
                       <div className="text-base lg:text-lg">
@@ -187,7 +189,7 @@ const Trending = () => {
                       05
                     </div>
                     <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                      <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                      <div className="text-[#576D2C] text-base lg:text-xl font-bold">
                         Email Marketing Engine
                       </div>
                       <div className="text-base lg:text-lg">

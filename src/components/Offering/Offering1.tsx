@@ -4,18 +4,15 @@ import { ArrowRight } from "lucide-react";
 const services = [
   {
     title: "Market Analysis",
-    description:
-      "Gain market insights for informed strategic decisions",
+    description: "Gain market insights for informed strategic decisions",
   },
   {
     title: "Goal Setting and Prioritization",
-    description:
-      "Set achievable objectives aligned with business strategy.",
+    description: "Set achievable objectives aligned with business strategy.",
   },
   {
     title: "Risk Assessment and Mitigation",
-    description:
-      "Navigate challenges confidently with prepared strategies.",
+    description: "Navigate challenges confidently with prepared strategies.",
   },
 ];
 
@@ -33,7 +30,7 @@ const Offering = () => {
           </p>
         </div>
         <div>
-          <div className="grid grid-cols-3  grid-rows-1 lg:grid-cols-3 lg:grid-rows-1  gap-6 sm:px-32 lg:px-0">
+          <div className="grid grid-cols-1  grid-rows-3 lg:grid-cols-3 lg:grid-rows-1  gap-6 sm:px-32 lg:px-0">
             {services.map((service, index) => (
               <div
                 key={index}

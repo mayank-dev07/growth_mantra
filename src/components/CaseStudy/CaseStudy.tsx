@@ -169,7 +169,7 @@ const CaseStudy = () => {
       <div className="w-full h-full px-4 lg:px-28 py-16">
         <div className="flex flex-col lg:flex-row w-full h-full">
           <div className="w-full lg:w-1/2 bg-[#576D2C] text-white rounded-[15px] shadow-2xl ">
-            <div className="px-10 pt-12 ">
+            <div className="px-4 md:px-10 pt-12 ">
               <div className="text-xl md:text-3xl lg:text-4xl">
                 Break&nbsp;Free&nbsp;from
                 <br />
@@ -182,8 +182,8 @@ const CaseStudy = () => {
               </div>
             </div>
 
-            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+            <div className=" md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+              <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                 <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
                 <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                   <ArrowRight />
@@ -192,7 +192,7 @@ const CaseStudy = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
-            <div className="px-10 pt-12 ">
+            <div className="px-4 md:px-10 pt-12 ">
               <div className="text-xl md:text-3xl lg:text-4xl text-[#576D2C]">
                 Accelerate&nbsp;Growth&nbsp;
                 <br />
@@ -206,8 +206,8 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                <p>Amplify&nbsp;Your&nbsp;Growth</p>
+              <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
                 <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
                   <ArrowRight />
                 </div>

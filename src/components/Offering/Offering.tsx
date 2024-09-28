@@ -52,7 +52,7 @@ const Offering = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white text-[#576D2C] p-3 sm:p-5 lg:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col "
+                className="bg-white text-[#576D2C] p-3 sm:p-5  rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col "
               >
                 <div className="flex-grow">
                   <h3 className="text-lg md:text-2xl text-black font-bold">
@@ -62,10 +62,10 @@ const Offering = () => {
                     {service.description}
                   </p>
                 </div>
-                <div className="w-full flex justify-center  mt-12">
-                  <div className="group rounded-full w-fit px-2 py-2 flex text-sm md:text-base  text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+                <div className="w-full flex justify-center  mt-6">
+                  <div className="group rounded-full w-fit px-3 py-2 flex text-sm md:text-base  bg-white text-[#576D2C] hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Schedule a Call
-                    <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
+                    <div className="p-2 bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
                       <ArrowRight />
                     </div>
                   </div>

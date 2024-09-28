@@ -22,10 +22,10 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex justify-center items-center gap-4 lg:gap-8">
-            <Image src="/fb.png" alt="frame" width={30} height={30} />
-            <Image src="/Twitter.png" alt="frame" width={30} height={30} />
-            <Image src="/Vimeo.png" alt="frame" width={30} height={30} />
-            <Image src="/Youtube.png" alt="frame" width={30} height={30} />
+            <Image src="/facebook1.png" alt="frame" width={30} height={30} />
+            <Image src="/Twitter1.png" alt="frame" width={30} height={30} />
+            <Image src="/vimeo1.png" alt="frame" width={30} height={30} />
+            <Image src="/Youtube1.png" alt="frame" width={30} height={30} />
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 w-full lg:w-10/12" />

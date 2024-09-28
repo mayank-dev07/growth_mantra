@@ -22,7 +22,7 @@ export default function VerticalSwiper() {
         }}
         loop={true}
         modules={[Autoplay, Pagination]}
-        className="!h-[670px] lg:!h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[670px] lg:!min-h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
           <div className="pe-20 xl:pe-28 ps-6 w-full h-fit">
@@ -34,16 +34,16 @@ export default function VerticalSwiper() {
                 height={800}
                 className="object-left !h-[300px] lg:!h-[400px] rounded-lg"
               ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-xl xl:text-2xl font-bold">
+              <div className="p-4 xl:p-5 flex flex-col gap-2 w-full tracking-wide h-[330px] md:h-full">
+                <p className="text-xl font-bold">
                   Struggling to Acquire New Customers or Quality Lead?
                 </p>
-                <p className="h-fit flex items-center ">
+                <p className="h-fit flex items-center text-base">
                   Our multi-channel acquisition strategies turn traffic into
                   qualified prospects
                 </p>
                 <div className="flex items-center gap-8">
-                  <p className="text-lg lg:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
+                  <p className="text-lg  underline underline-offset-8 text-[#576D2C] font-bold">
                     Boost your Acquisition
                   </p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
