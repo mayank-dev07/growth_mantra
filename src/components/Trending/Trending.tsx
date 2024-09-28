@@ -1,7 +1,6 @@
 import React from "react";
-import TrendingSwiper from "./TrendingSwiper";
 import { ArrowRight } from "lucide-react";
-
+import TrendingSwiper from "./TrendingSwiper1";
 const Trending = () => {
   return (
     <>

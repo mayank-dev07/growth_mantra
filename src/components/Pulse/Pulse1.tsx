@@ -12,7 +12,7 @@ const Pulse = () => {
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
-              <span className="text-[#576D2C]">PULSE</span>
+              <span className="text-[#576D2C]">COMPASS</span>
               Framework
             </p>
           </div>
@@ -54,12 +54,12 @@ const Pulse = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[31%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Evaluate
+                <span className="text-[#576D2C]">C</span>&nbsp;-&nbsp;Clarify
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left ">
-                  Conduct a comprehensive analysis of your current position, market, and competition
+                Define your vision and long-term objectives
                 </p>
 
 
@@ -69,12 +69,12 @@ const Pulse = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">L</span>&nbsp;-&nbsp;Leverage
+                <span className="text-[#576D2C]">O</span>&nbsp;-&nbsp;Observe
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  Identify and capitalize on your unique strengths and market opportunities
+                Conduct comprehensive market and competitive analysis
                 </p>
 
               </div>
@@ -84,13 +84,13 @@ const Pulse = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">E</span>
-                &nbsp;-&nbsp;Engage
+                <span className="text-[#576D2C]">M</span>
+                &nbsp;-&nbsp;Map
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  Develop strategies to deeply connect with your target audience
+                Outline potential growth paths and scenarios
                 </p>
 
               </div>
@@ -100,12 +100,12 @@ const Pulse = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[17%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">V</span>&nbsp;-&nbsp;Validate
+                <span className="text-[#576D2C]">P</span>&nbsp;-&nbsp;Prioritize
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  We develop targeted content and offers for each funnel stage
+                Identify and rank key initiatives based on impact and feasibility
                 </p>
 
               </div>
@@ -116,12 +116,12 @@ const Pulse = () => {
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">A</span>
-                &nbsp;-&nbsp;Adapt&nbsp;
+                &nbsp;-&nbsp;Align&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  {`Continuously refine your approach based on real-world results`}
+                  {`Ensure all strategies and tactics support your core objectives`}
                 </p>
 
               </div>
@@ -130,13 +130,13 @@ const Pulse = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-16">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">T</span>
-                &nbsp;-&nbsp;Transform&nbsp;
+                <span className="text-[#576D2C]">S</span>
+                &nbsp;-&nbsp;Systematize&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  {`Implement transformative changes that drive significant growth`}
+                  {`Develop systems and processes to execute your strategy`}
                 </p>
 
               </div>
@@ -146,12 +146,12 @@ const Pulse = () => {
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>
-                &nbsp;-&nbsp;Expand&nbsp;
+                &nbsp;-&nbsp;Sync&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
 
                 <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  {`Scale successful strategies to new markets or product lines`}
+                  {`Regularly review and adjust your strategy to stay on course`}
                 </p>
 
               </div>
