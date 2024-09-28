@@ -75,6 +75,7 @@ const Hero = () => {
             <VerticalSwiper />
           </div>
         </div>
+        
       </div>
 
       {/* Trusted Clients Section (unchanged) */}
