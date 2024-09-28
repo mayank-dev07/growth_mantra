@@ -1,20 +1,42 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const services = [
   {
     title: "Market Analysis",
     description: "Gain market insights for informed strategic decisions",
+    point1: "Market Analysis",
+    point2:`Growth opportunities unknown?`, 
+    point3:`Competitors outperforming you?`
   },
   {
     title: "Goal Setting and Prioritization",
     description: "Set achievable objectives aligned with business strategy.",
+    point1: "Goals not driving progress?",
+    point2: " Priorities constantly shifting?",
+    point3: "Strategy-goal misalignment?"
   },
   {
     title: "Risk Assessment and Mitigation",
     description: "Navigate challenges confidently with prepared strategies.",
+    point1: "Unprepared for market changes? ",
+    point2: "Potential threats overlooked?",
+    point3: "Growth roadblocks frequent?"
   },
 ];
+
+const CheckmarkIcon = () => (
+  <div className="w-[25px] h-[25px] flex justify-center items-center mr-3">
+    <Image
+    width={25}
+    height={25}
+      src="/Success.png" // Replace with the actual path to your PNG
+      alt="Checkmark Icon"
+      className="w-full h-full object-contain"
+    />
+  </div>
+);
 
 const Offering = () => {
   return (
@@ -44,6 +66,26 @@ const Offering = () => {
                     {service.description}
                   </p>
                 </div>
+                <div className="flex flex-col gap-4 mt-10">
+                  {/* Checkpoint 1 */}
+                  <div className="flex items-center">
+                    <CheckmarkIcon />
+                    <p className="text-lg text-black font-semibold">{service.point1}</p>
+                  </div>
+
+                  {/* Checkpoint 2 */}
+                  <div className="flex items-center">
+                    <CheckmarkIcon />
+                    <p className="text-lg text-black font-semibold">{service.point2}</p>
+                  </div>
+
+                  {/* Checkpoint 3 */}
+                  <div className="flex items-center">
+                    <CheckmarkIcon />
+                    <p className="text-lg text-black font-semibold">{service.point3}</p>
+                  </div>
+                </div>
+
                 <div className="w-full flex justify-center  mt-12">
                   <div className="group rounded-full w-fit px-2 py-2 flex text-sm md:text-base  text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Schedule a Call
