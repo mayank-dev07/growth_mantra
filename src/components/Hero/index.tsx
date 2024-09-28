@@ -21,21 +21,18 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-full w-full flex flex-col lg:flex-row pt-28">
+      <div className="h-full w-full flex flex-col lg:flex-row pt-20 lg:pt-28">
         <div
-          className={`w-full lg:w-8/12 h-full flex flex-col ${
-            scrollPosition > 50 ? "pt-36" : "lg:justify-start"
-          }`}
+          className={`w-full lg:w-8/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"}`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={400}
             height={400}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
-              scrollPosition > 50
-                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[45%] md:w-[35%] lg:w-[20%]"
-                : "relative"
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
+              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[45%] md:w-[35%] lg:w-[20%]"
+              : "relative"
             }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
@@ -66,7 +63,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-4/12 pt-8 xl:pt-12 flex justify-center items-center">
+        <div className="w-full lg:w-4/12 pt-4 lg:pt-12 flex justify-center items-center">
           <div className="w-full md:w-1/2 lg:w-full flex justify-center items-center">
             <VerticalSwiper />
           </div>

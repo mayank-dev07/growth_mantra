@@ -2,7 +2,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import VerticalSwiper from "../VerticalSwiper1";
+import VerticalSwiper from "../VerticalSwiper";
 
 const Hero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -24,16 +24,19 @@ const Hero = () => {
       <div className="h-full w-full flex lg:flex-row flex-col pt-20 lg:pt-28 gap-10 lg:gap-0">
         {/* Left Section */}
         <div
-          className={`w-full lg:w-8/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-36" : "lg:justify-start"}`}
+          className={`w-full lg:w-8/12 h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-36" : "lg:justify-start"
+          }`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={400}
             height={400}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[12%] "
-              : "relative"
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
+                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[12%]"
+                : "relative"
             }`}
           />
 
@@ -44,9 +47,9 @@ const Hero = () => {
 
             <div className="w-full flex flex-col gap-4 p-1 justify-center items-center lg:items-start">
               <div className="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
-                Transform Vision into
+                Your&nbsp;North&nbsp;Star
                 <div className="flex items-center gap-2">
-                  <div>Actionable</div>
+                  <div>Transform Vision into</div>
                   <div className="border-[#576D2C] py-2 px-4 md:px-6 text-2xl sm:text-3xl md:text-4xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
                     Growth
                   </div>
@@ -84,42 +87,12 @@ const Hero = () => {
           SOME OF OUR TRUSTED CLIENTS
         </div>
         <div className="w-full flex justify-center items-center gap-7 lg:gap-12 flex-wrap">
-          <Image
-            src="/sponser1.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          ></Image>{" "}
-          <Image
-            src="/sponser2.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          ></Image>{" "}
-          <Image
-            src="/sponser3.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          ></Image>{" "}
-          <Image
-            src="/sponser4.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          ></Image>{" "}
-          <Image
-            src="/sponser5.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          ></Image>{" "}
-          <Image
-            src="/sponser6.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          ></Image>{" "}
+          <Image src="/sponser1.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser2.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser3.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser4.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser5.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser6.png" alt="sponser" width={110} height={110} />
         </div>
       </div>
     </>
