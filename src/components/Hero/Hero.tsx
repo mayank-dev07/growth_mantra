@@ -43,10 +43,10 @@ const Hero = () => {
             </div>
 
             <div className="w-full flex flex-col gap-4 p-1 justify-center items-center lg:items-start">
-              <div className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
+              <div className="text-5xl sm:text-5xl md:text-5xl xl:text-6xl px-6 font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
                 <div className="flex items-center gap-2">
                   Unlock
-                  <div className="border-[#576D2C] py-1 px-2 md:px-4 text-2xl sm:text-2xl md:text-5xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
+                  <div className="border-[#576D2C] py-1 px-2 md:px-4 text-4xl sm:text-4xl md:text-6xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
                     Growth
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const Hero = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full h-full lg:w-4/12 pt-4 lg:pt-8 xl:pt-12 flex justify-center items-center">
+        <div className="w-full h-full lg:w-4/12 pt-4  lg:pt-8 xl:pt-12 flex justify-center items-center">
           <div className="w-full md:w-3/4 lg:w-full flex justify-center items-center -z-10 md:-z-0">
             <VerticalSwiper />
           </div>

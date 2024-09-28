@@ -43,11 +43,11 @@ const Hero = () => {
             </div>
 
             <div className="w-full flex flex-col gap-4 p-1 justify-center items-center lg:items-start">
-              <div className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
+              <div className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
                 Transform Vision into
                 <div className="flex items-center gap-2">
                   <div>Actionable</div>
-                  <div className="border-[#576D2C] py-2 px-4 md:px-6 text-2xl sm:text-3xl md:text-4xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
+                  <div className="border-[#576D2C] py-2 px-4 md:px-6 text-3xl sm:text-3xl md:text-4xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
                     Growth
                   </div>
                 </div>

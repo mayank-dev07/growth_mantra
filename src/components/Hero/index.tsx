@@ -40,21 +40,21 @@ const Hero = () => {
               👋 Welcome to The Growth Mantra
             </div>
             <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
-              <div className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold flex flex-col gap-4 text-center sm:text-left">
-                Your&nbsp;North&nbsp;Star
+              <div className="text-5xl sm:text-5xl md:text-5xl lg:text-7xl font-bold flex flex-col gap-4 text-center sm:text-left">
+                Your&nbsp;Retention&nbsp;
                 <div className="flex items-center gap-2 justify-center sm:justify-start">
-                  <div className="border-[#E74C3C] py-2 px-4 md:px-8 text-2xl sm:text-3xl md:text-5xl lg:text-7xl border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
+                  <div className="border-[#E74C3C] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-5xl lg:text-7xl border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
                     Growth
                   </div>
                   Catalyst
                 </div>
               </div>
               <div className="text-[#425466] text-base md:text-lg py-4 text-center sm:text-left">
-                Your strategic partner for sustainable growth
+              Transform One-Time Users into Lifelong Customers
               </div>
               <div className="w-full flex justify-center md:justify-start">
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-                  Unlock your Growth now
+                Boost Your  Retention
                   <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
