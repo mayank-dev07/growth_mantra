@@ -3,7 +3,6 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper1";
-import { head } from "framer-motion/client";
 
 
 const Hero = () => {
@@ -34,34 +33,18 @@ const Hero = () => {
             width={400}
             height={400}
             className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-<<<<<<< HEAD
+
               ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[11.3%] "
               : "relative"
               }`}
-=======
-              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:w-[11.3%]"
-              : "relative"
-            }`}
->>>>>>> 7ecd1efe2cb475fdcb5b43fc3830065e37387cbe
+
           />
           
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-6 justify-center items-center lg:items-start">
             <div className="w-fit p-4 text-sm lg:text-lg font-bold tracking-wider text-[#576D2C] bg-[#F4F4F4] rounded-xl">
               👋 Welcome to The Growth Mantra
             </div>
-<<<<<<< HEAD
-            <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
-              <div className="text-4xl sm:text-3xl md:text-5xl xl:text-7xl font-bold flex flex-col gap-4">
-                <div className="flex items-center gap-2">
-                  Unlock
-                  <div className="border-[#576D2C] py-1 px-2 md:px-4 text-2xl sm:text-2xl md:text-5xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
-                    Growth
-                  </div>
-                </div>
-                Overcome Challenges
-              </div>
-=======
->>>>>>> 7ecd1efe2cb475fdcb5b43fc3830065e37387cbe
+          
 
             <div className="w-full flex flex-col gap-4 p-1 justify-center items-center lg:items-start">
               <div className="text-5xl sm:text-5xl md:text-5xl xl:text-6xl px-6 font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
