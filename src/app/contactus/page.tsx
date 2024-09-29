@@ -1,10 +1,6 @@
-import CaseStudy from "@/components/CaseStudy/CaseStudy";
-import Offering from "@/components/Offering/Offering";
-import Pulse from "@/components/Pulse/Pulse";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/HeaderLogo";
-import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
-import Trending from "@/components/Trending/Trending";
+import ContactForm from "@/components/Form/Contact";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 const content1: { [key: string]: string } = {
@@ -16,12 +12,11 @@ const content1: { [key: string]: string } = {
   "Product Growth": "Align your product development with market needs and user expectations",
 }
 
-export default function Home() {
+export default function Contactus() {
   return (
     <>
 
       <Header />
-      {/* <Hero /> */}
       <section className="flex justify-between flex-col-reverse md:flex-row ">
         <div className="md:pl-10 pl-2 text-3xl my-3 text-[#576D2C] md:text-7xl font-bold flex flex-col gap-4">
           <div className="flex items-center gap-2 flex-wrap ">
@@ -66,7 +61,7 @@ export default function Home() {
 
       </ul>
 
-      <div className="w-full bg-[#576D2C] py-7 text-white text-sm md:text-4xl font-bold m-auto text-center">
+      <div className="w-full bg-[#576D2C] py-7 my-5 text-white text-sm md:text-4xl font-bold m-auto text-center">
         Whatever growth challenge you&apos;re facing, our expert<br /> consultants are ready to help you overcome it.
       </div>
       <section className="flex px-3 md:px-10 my-5 justify-around md:items-center flex-col md:flex-row">
@@ -77,19 +72,49 @@ export default function Home() {
           </div>
           <div className=" md:text-lg text-gray-700">Book a complimentary 45-minute strategy session with one of our senior consultants to discuss your business challenges and growth goals.</div>
           <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-          Book Your Free Strategy Session
+            Book Your Free Strategy Session
             <div className="p-2  bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
               <ArrowRight />
             </div>
           </div>
-
         </div>
       </section>
-      <Offering />
-      <Pulse />
-      <WhyChooseUs />
-      <CaseStudy />
-      <Trending />
+
+      <ContactForm />
+
+      <section className="flex px-3 md:px-10 my-16 justify-around md:items-center flex-col md:flex-row">
+        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#576D2C]">Our Consultants Impact</div>
+        <div className="md:w-2/5 space-y-4">
+          <div className="text-lg  font-bold text-gray-600">
+            &quot;The Growth Mantra &apos; consulting team revolutionized our go-to-market strategy. Their insights helped us capture market share 50% faster than projected.&quot;
+          </div>
+          <div className="italic text-gray-600"> - Michael L., CEO of InnovateTech</div>
+          <div className="text-lg  font-bold text-gray-600">
+            &quot;Working with their consultants on our user persona identification transformed our product development. We&apos;ve seen a 40% increase in user engagement since implementing their recommendations.&quot;
+          </div>
+          <div className="italic text-gray-600">- Sarah K., Founder of UserFirst Solutions</div>
+          <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+            Book Your Free Strategy Session
+            <div className="p-2  bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
+              <ArrowRight />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="my-16 text-5xl px-16 text-center m-auto line">
+        <p className="leading-[70px]">
+          <span className="text-[#576D2C]">
+            Ready to elevate your business growth?
+          </span>
+          Reach out<br /> today and let&apos;s start crafting your success story<br /> together.
+        </p>
+        <button className=" m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-[#576D2C] bg-white hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+          Start Your Growth Journey
+          <div className="p-2  bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
+            <ArrowRight />
+          </div>
+        </button>
+      </section>
       <Footer />
     </>
   );
