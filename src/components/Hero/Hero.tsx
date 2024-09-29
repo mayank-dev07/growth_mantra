@@ -3,6 +3,8 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper1";
+import { head } from "framer-motion/client";
+
 
 const Hero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -32,8 +34,8 @@ const Hero = () => {
             width={400}
             height={400}
             className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[11.3%] "
-                : "relative"
+              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[11.3%] "
+              : "relative"
               }`}
           />
           <div
@@ -44,15 +46,15 @@ const Hero = () => {
               👋 Welcome to The Growth Mantra
             </div>
             <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
-            <div className="text-4xl sm:text-3xl md:text-5xl xl:text-7xl font-bold flex flex-col gap-4">
-  <div className="flex items-center gap-2">
-    Unlock
-    <div className="border-[#576D2C] py-1 px-2 md:px-4 text-2xl sm:text-2xl md:text-5xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
-      Growth
-    </div>
-  </div>
-  Overcome Challenges
-</div>
+              <div className="text-4xl sm:text-3xl md:text-5xl xl:text-7xl font-bold flex flex-col gap-4">
+                <div className="flex items-center gap-2">
+                  Unlock
+                  <div className="border-[#576D2C] py-1 px-2 md:px-4 text-2xl sm:text-2xl md:text-5xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
+                    Growth
+                  </div>
+                </div>
+                Overcome Challenges
+              </div>
 
               <div className="text-[#425466] text-base md:text-lg py-4">
                 Your strategic partner for sustainable growth
