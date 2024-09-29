@@ -4,25 +4,25 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Market Analysis",
-    description: "Gain market insights for informed strategic decisions.",
-    point1: "Market Analysis",
-    point2: `Growth opportunities unknown?`,
-    point3: `Competitors outperforming you?`,
+    title: "Capture Accurate Retention Analysis",
+    description: "Analyze data to predict churn and improve customer retention.",
+    point1: "Unsure why customers churn?",
+    point2: `RFM Model not yielding insights?`,
+    point3: `Retention strategies falling short?`,
   },
   {
-    title: "Goal Setting and Prioritization",
-    description: "Set achievable objectives aligned with business strategy.",
-    point1: "Goals not driving progress?",
-    point2: " Priorities constantly shifting?",
-    point3: "Strategy-goal misalignment?",
+    title: "Optimize Digest and Customer Educational Content",
+    description: "Timely, relevant communications driving product adoption and success.",
+    point1: "User education not boosting retention?",
+    point2: "Email timing and content suboptimal?",
+    point3: "Customer communications lacking impact?",
   },
   {
-    title: "Risk Assessment and Mitigation",
-    description: "Navigate challenges confidently with prepared strategies.",
-    point1: "Unprepared for market changes?",
-    point2: "Potential threats overlooked?",
-    point3: "Growth roadblocks frequent?",
+    title: "Build Advanced Techniques for Pulling Users Back",
+    description: "Innovative re-engagement strategies to revive dormant user accounts.",
+    point1: "Dormant users not reactivating?",
+    point2: " Re-engagement efforts ineffective?",
+    point3: "Struggling with user segmentation?",
   },
 ];
 
@@ -41,7 +41,7 @@ const CheckmarkIcon = () => (
 const Offering = () => {
   return (
     <>
-      <section className="bg-[#576D2C] p-4 lg:p-10 text-white w-full">
+      <section className="bg-[#E74C3C] p-4 lg:p-10 text-white w-full">
         <div className="text-start mb-8 flex flex-col gap-3 md:gap-6">
           <h2 className="text-5xl lg:text-7xl font-bold mb-2">Our Offering</h2>
           <p className="text-lg lg:text-xl w-fit tracking-wider flex flex-col gap-1 text-[#DFDFDF]">
@@ -56,7 +56,7 @@ const Offering = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white text-[#576D2C] p-4 sm:p-6 lg:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
+                className="bg-white text-[#E74C3C] p-4 sm:p-6 lg:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
               >
                 <div className="flex-grow">
                   <h3 className="text-lg md:text-xl text-black font-bold">
@@ -87,9 +87,9 @@ const Offering = () => {
                 </div>
 
                 <div className="w-full flex justify-center mt-8">
-                  <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
+                  <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
                     Schedule a Call
-                    <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
+                    <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                       <ArrowRight />
                     </div>
                   </div>
@@ -100,9 +100,9 @@ const Offering = () => {
         </div>
       </section>
       <div className="py-8 px-2 w-full flex justify-center items-center">
-        <div className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          {`Lost in Business Chaos? Get Your Strategic Roadmap Now!`}
-          <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+        <div className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+          {`Stop losing customers- Unlock Retention Growth Now`}
+          <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
             <ArrowRight />
           </div>
         </div>

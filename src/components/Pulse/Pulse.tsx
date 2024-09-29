@@ -2,7 +2,6 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-
 const Pulse = () => {
   return (
     <>
@@ -21,139 +20,106 @@ const Pulse = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-0 z-10 flex align-middle justify-normal m-10">
+          <div className="absolute inset-52 top-[-20px] left-0 w-full">
             <Image
-              src="/GrowthMantra.png"
-              alt="Growth Mantra"
-              width={200} // Adjust width as needed
-              height={200} // Adjust height as needed
-              className="object-contain"
-            />
-          </div>
-          <div className="absolute inset-0 top-0 left-0 w-full">
-            <Image
-              src="/treeVector2.png"
+              src="/tree2.png"
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[1100px] w-auto"
-            />
-          </div>
-          <div className="absolute inset-0 top-0 left-[-400px] w-full flex justify-center">
-            <Image
-              src="/treedots.png"
-              alt="tree dots"
-              width={100}
-              height={700}
-              className="object-fill lg:object-contain h-[1110px] w-[1290px]"
+              className="object-fill lg:object-contain h-[850px] lg:h-[1100px] w-fit mt-6"
             />
           </div>
 
-
-
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[31%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[20%] mt-12">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Evaluate
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left ">
-                  Conduct a comprehensive analysis of your current position, market, and competition
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left ">
+                  Conduct a comprehensive analysis of your current position,
+                  market, and competition
                 </p>
-
-
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[15%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">L</span>&nbsp;-&nbsp;Leverage
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
-                  Identify and capitalize on your unique strengths and market opportunities
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
+                  Identify and capitalize on your unique strengths and market
+                  opportunities
                 </p>
-
               </div>
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>
                 &nbsp;-&nbsp;Engage
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
                   Develop strategies to deeply connect with your target audience
                 </p>
-
               </div>
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[17%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[10%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">V</span>&nbsp;-&nbsp;Validate
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
                   We develop targeted content and offers for each funnel stage
                 </p>
-
               </div>
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">A</span>
                 &nbsp;-&nbsp;Adapt&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
                   {`Continuously refine your approach based on real-world results`}
                 </p>
-
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[15%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">T</span>
                 &nbsp;-&nbsp;Transform&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
                   {`Implement transformative changes that drive significant growth`}
                 </p>
-
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[31%] mt-16">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[20%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>
                 &nbsp;-&nbsp;Expand&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-
-                <p className="leading-normal text-[#576D2C] font-bold test-base md:text-lg text-left">
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
                   {`Scale successful strategies to new markets or product lines`}
                 </p>
-
               </div>
             </div>
           </div>
