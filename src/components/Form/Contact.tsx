@@ -26,7 +26,10 @@ const ContactForm = () => {
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter name"
+              />
             </Form.Item>
 
             <Form.Item
@@ -42,7 +45,10 @@ const ContactForm = () => {
                 { type: "email", message: "Please enter a valid email" },
               ]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter phone no."
+              />
             </Form.Item>
           </div>
           <div className="flex gap-4 mb-4">
@@ -56,7 +62,10 @@ const ContactForm = () => {
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter Email"
+              />
             </Form.Item>
 
             <Form.Item
@@ -86,7 +95,10 @@ const ContactForm = () => {
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter Company website"
+              />
             </Form.Item>
 
             <Form.Item
@@ -102,7 +114,10 @@ const ContactForm = () => {
                 { type: "email", message: "Please enter a valid email" },
               ]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter Company website"
+              />
             </Form.Item>
           </div>
           <div className="flex flex-wrap gap-4 mb-4">
@@ -116,7 +131,10 @@ const ContactForm = () => {
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter Designation"
+              />
             </Form.Item>
           </div>
 

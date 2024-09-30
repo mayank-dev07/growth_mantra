@@ -73,7 +73,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col py-12 gap-8">
+      <div className="flex flex-col pb-12 gap-8">
         <div className="w-full h-full flex flex-col justify-center items-center text-[#B2B7BE]">
           SOME OF OUR TRUSTED CLIENTS
         </div>

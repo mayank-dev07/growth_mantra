@@ -22,10 +22,10 @@ export default function VerticalSwiper() {
         }}
         loop={true}
         modules={[Autoplay, Pagination]}
-        className="!h-[670px] lg:!min-h-[90vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
+        className="!h-[670px] lg:!min-h-[70vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28 ps-6 w-full h-fit">
+          <div className="pe-20 xl:pe-28 ps-6 w-full h-fit flex jsutify-center items-center">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -55,7 +55,7 @@ export default function VerticalSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit">
+          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -84,7 +84,7 @@ export default function VerticalSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit">
+          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -113,7 +113,7 @@ export default function VerticalSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit ">
+          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center ">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"
@@ -142,7 +142,7 @@ export default function VerticalSwiper() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit">
+          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center">
             <div className="h-fit flex flex-col shadow-md">
               <Image
                 src="/verticalswiper.png"

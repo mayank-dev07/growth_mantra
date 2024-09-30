@@ -177,11 +177,11 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full px-4 lg:px-28 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full h-full">
+      <div className="w-full h-full px-4 lg:px-28 py-5 md:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2  w-full h-full">
           <div className="bg-[#576D2C] text-white rounded-[15px] shadow-2xl flex flex-col">
-            <div className="px-4 md:px-10 pt-12 flex-grow">
-              <div className="text-xl md:text-3xl lg:text-4xl">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
+              <div className="text-lg md:text-2xl lg:text-3xl">
                 Break&nbsp;Free&nbsp;from
                 <br />
                 Growth&nbsp;Stasis
@@ -204,8 +204,8 @@ const CaseStudy = () => {
           </div>
 
           <div className="rounded-[15px] shadow-2xl flex flex-col">
-            <div className="px-4 md:px-10 pt-12 flex-grow">
-              <div className="text-xl md:text-3xl lg:text-4xl text-[#576D2C]">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
+              <div className="text-lg md:text-2xl lg:text-3xl text-[#576D2C]">
                 Accelerate&nbsp;Growth&nbsp;
                 <br />
                 With&nbsp;Proven&nbsp;Expertise

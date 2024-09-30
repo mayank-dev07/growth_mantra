@@ -179,8 +179,8 @@ const CaseStudy = () => {
       <div className="w-full h-full px-4 lg:px-28 py-16">
         <div className="flex flex-col lg:flex-row w-full h-full">
           <div className="w-full lg:w-1/2 bg-[#E84C3D] text-white rounded-[15px] shadow-2xl ">
-            <div className="px-10 pt-12 ">
-              <div className="text-xl md:text-3xl lg:text-4xl">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 ">
+              <div className="text-lg md:text-2xl lg:text-3xl">
                 Diagnose&nbsp;Your
                 <br />
                 Growth&nbsp;Blockers
@@ -204,8 +204,8 @@ const CaseStudy = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
-            <div className="px-10 pt-12 ">
-              <div className="text-xl md:text-3xl lg:text-4xl text-[#E74C3C]">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 ">
+              <div className="text-lg md:text-2xl lg:text-3xl text-[#E74C3C]">
                 Partner&nbsp;with&nbsp;Proven
                 <br />
                 Growth&nbsp;Catalysts

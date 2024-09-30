@@ -82,7 +82,7 @@ const Hero = () => {
       </div>
 
       {/* Trusted Clients Section */}
-      <div className="flex flex-col py-8 lg:py-12 gap-6 lg:gap-8">
+      <div className="flex flex-col pb-12 gap-8">
         <div className="w-full flex justify-center text-[#B2B7BE] text-center">
           SOME OF OUR TRUSTED CLIENTS
         </div>
