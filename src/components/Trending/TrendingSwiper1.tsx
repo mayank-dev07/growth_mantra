@@ -6,8 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 
 export default function TrendingSwiper() {
@@ -26,22 +25,23 @@ export default function TrendingSwiper() {
           },
         }}
         spaceBetween={10}
-
         navigation={{
           nextEl: ".next",
           prevEl: ".prev",
         }}
         loop={true}
-        modules={[Navigation]}
+        autoplay={{
+          delay: 10000,
+          disableOnInteraction: false,
+        }}
+        modules={[Navigation, Autoplay]}
         className="lg:!h-fit w-full"
       >
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-
                 src="/TrendingSwiper1.png"
-
                 alt="image"
                 width={900}
                 height={800}
@@ -52,12 +52,14 @@ export default function TrendingSwiper() {
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-
                   <div className="text-[#576D2C] text-base lg:text-xl font-bold">
-                  Strategy & Planning
+                    Strategy & Planning
                   </div>
                   <div className="text-base lg:text-lg">
-                  Transform your vision into a concrete roadmap for success. Our strategic planning services help you navigate the complex startup landscape, identify opportunities, and mitigate risks.
+                    Transform your vision into a concrete roadmap for success.
+                    Our strategic planning services help you navigate the
+                    complex startup landscape, identify opportunities, and
+                    mitigate risks.
                   </div>
                 </div>
               </div>
@@ -68,9 +70,7 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-
                 src="/TrendingSwiper2.png"
-
                 alt="image"
                 width={900}
                 height={800}
@@ -81,14 +81,14 @@ export default function TrendingSwiper() {
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-
                   <div className="text-[#576D2C] text-base lg:text-xl font-bold">
-                  User Persona
-                  Identification
+                    User Persona Identification
                   </div>
                   <div className="text-base lg:text-lg">
-                  Understand your customers at a deeper level. We use advanced analytics and market research to create detailed user personas, ensuring your products and marketing resonate with your target au.
-
+                    Understand your customers at a deeper level. We use advanced
+                    analytics and market research to create detailed user
+                    personas, ensuring your products and marketing resonate with
+                    your target au.
                   </div>
                 </div>
               </div>
@@ -137,7 +137,6 @@ export default function TrendingSwiper() {
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-
                   <div className="text-[#576D2C] text-base lg:text-xl font-bold">
                     Conversion Rate Optimization (CRO)
                   </div>
@@ -166,7 +165,6 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-xl font-bold">
-
                     Email Marketing Engine
                   </div>
                   <div className="text-base lg:text-lg">

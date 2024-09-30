@@ -32,10 +32,10 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3] !h-[300px] lg:!h-[400px] rounded-lg"
+                className="object-left  !h-[300px] rounded-lg"
               ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2  w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-xl  font-bold">
+              <div className="p-4  flex flex-col gap-2  w-full tracking-wide  md:h-full">
+                <p className="text-lg font-bold">
                   Struggling to Acquire New Customers or Quality Lead?
                 </p>
                 <p className="h-fit flex items-center text-base">
@@ -62,10 +62,10 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3]  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left   !h-[300px]   rounded-lg"
               ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-xl xl:text-2xl font-bold">
+              <div className="p-4  flex flex-col gap-2 xl:gap-4 w-full tracking-wide  md:h-full">
+                <p className="text-lg font-bold">
                   Losing customers too quickly?
                 </p>
                 <p className="h-fit flex items-center ">
@@ -91,10 +91,10 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3]  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left   !h-[300px]   rounded-lg"
               ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-xl xl:text-2xl font-bold">
+              <div className="p-4  flex flex-col gap-2 xl:gap-4 w-full tracking-wide  md:h-full">
+                <p className="text-lg font-bold">
                   Conversion Rates Not Meeting Targets?
                 </p>
                 <p className="h-fit flex items-center ">
@@ -120,12 +120,10 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3] !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left  !h-[300px]   rounded-lg"
               ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-xl xl:text-2xl font-bold">
-                  Marketing ROI Unclear?
-                </p>
+              <div className="p-4  flex flex-col gap-2 xl:gap-4 w-full tracking-wide  md:h-full">
+                <p className="text-lg font-bold">Marketing ROI Unclear?</p>
                 <p className="h-fit flex items-center ">
                   Gain clarity with our data-driven approach to growth
                   marketing.
@@ -151,10 +149,10 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left aspect-[2/3]  !h-[300px]  lg:!h-[400px] rounded-lg"
+                className="object-left   !h-[300px]   rounded-lg"
               ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2 xl:gap-4 w-full tracking-wide h-[330px] md:h-full">
-                <p className="text-xl xl:text-2xl font-bold">
+              <div className="p-4  flex flex-col gap-2 xl:gap-4 w-full tracking-wide  md:h-full">
+                <p className="text-lg font-bold">
                   Scaling Challenges Holding You Back?
                 </p>
                 <p className="h-fit flex items-center ">

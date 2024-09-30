@@ -6,7 +6,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 import React from "react";
 
@@ -149,16 +149,18 @@ const CaseStudy = () => {
                   prevEl: ".prev",
                 }}
                 loop={true}
-                modules={[Navigation]}
+                autoplay={{
+                  delay: 10000,
+                  disableOnInteraction: false,
+                }}
+                modules={[Navigation, Autoplay]}
                 className="mySwiper"
                 breakpoints={{
-                  // Mobile view
                   0: {
-                    slidesPerView: 1, // Show 1 slide on mobile screens
+                    slidesPerView: 1,
                   },
-                  // Tablet and laptop view
                   768: {
-                    slidesPerView: 2, // Show 2 slides on tablet and larger screens
+                    slidesPerView: 2,
                   },
                 }}
               >
@@ -171,63 +173,61 @@ const CaseStudy = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-
             </div>
           </div>
         </div>
       </div>
       <div className="w-full h-full px-4 lg:px-28 py-16">
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full h-full">
-    <div className="bg-[#576D2C] text-white rounded-[15px] shadow-2xl flex flex-col">
-      <div className="px-4 md:px-10 pt-12 flex-grow">
-        <div className="text-xl md:text-3xl lg:text-4xl">
-          Break&nbsp;Free&nbsp;from
-          <br />
-          Growth&nbsp;Stasis
-        </div>
-        <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-          Struggling to break through the growth plateau? Our expert
-          consultants will identify the root causes and provide tailored
-          solutions to propel your business forward.
-        </div>
-      </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full h-full">
+          <div className="bg-[#576D2C] text-white rounded-[15px] shadow-2xl flex flex-col">
+            <div className="px-4 md:px-10 pt-12 flex-grow">
+              <div className="text-xl md:text-3xl lg:text-4xl">
+                Break&nbsp;Free&nbsp;from
+                <br />
+                Growth&nbsp;Stasis
+              </div>
+              <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
+                Struggling to break through the growth plateau? Our expert
+                consultants will identify the root causes and provide tailored
+                solutions to propel your business forward.
+              </div>
+            </div>
 
-      <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-        <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
-          <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-            <ArrowRight />
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
+              <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
+                <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+                  <ArrowRight />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-[15px] shadow-2xl flex flex-col">
+            <div className="px-4 md:px-10 pt-12 flex-grow">
+              <div className="text-xl md:text-3xl lg:text-4xl text-[#576D2C]">
+                Accelerate&nbsp;Growth&nbsp;
+                <br />
+                With&nbsp;Proven&nbsp;Expertise
+              </div>
+              <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
+                Don&apos;t just talk about growth – achieve it. Our team of
+                seasoned consultants has a proven track record of delivering
+                tangible results for companies like yours.
+              </div>
+            </div>
+
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
+              <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
+                <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
+                  <ArrowRight />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div className="rounded-[15px] shadow-2xl flex flex-col">
-      <div className="px-4 md:px-10 pt-12 flex-grow">
-        <div className="text-xl md:text-3xl lg:text-4xl text-[#576D2C]">
-          Accelerate&nbsp;Growth&nbsp;
-          <br />
-          With&nbsp;Proven&nbsp;Expertise
-        </div>
-        <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-          Don&apos;t just talk about growth – achieve it. Our team of
-          seasoned consultants has a proven track record of delivering
-          tangible results for companies like yours.
-        </div>
-      </div>
-
-      <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-        <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
-          <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
-            <ArrowRight />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
     </>
   );
 };

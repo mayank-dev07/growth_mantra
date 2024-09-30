@@ -70,11 +70,11 @@ const AutoCarousel: React.FC = () => {
         className="flex"
         animate={controls}
         ref={carouselRef}
-        style={{ display: "flex", whiteSpace: "nowrap" }}
+        style={{ display: "flex", whiteSpace: "wrap" }}
       >
         {cards.concat(cards).map((card, index) => (
-          <div key={index} className="min-w-[50%] flex-shrink-0 p-4">
-            <div className="bg-[#E74C3C] shadow-[0_10px_15px_-3px_rgba(255,255,255,0.4),0_4px_6px_-4px_rgba(255,255,255,0.2)] rounded-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
+          <div key={index} className="min-w-[60%] md:min-w-[45%] flex p-4">
+            <div className="bg-[#E74C3C] shadow-[0_10px_15px_-3px_rgba(255,255,255,0.4),0_4px_6px_-4px_rgba(255,255,255,0.2)] rounded-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 w-full md:w-11/12">
               <div className="relative h-20 w-20 mx-auto mb-7 mt-5">
                 <Image
                   src={card.imageSrc}

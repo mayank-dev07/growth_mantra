@@ -6,7 +6,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 import React from "react";
 
@@ -148,16 +148,18 @@ const CaseStudy = () => {
                   prevEl: ".prev",
                 }}
                 loop={true}
-                modules={[Navigation]}
+                autoplay={{
+                  delay: 10000,
+                  disableOnInteraction: false,
+                }}
+                modules={[Navigation, Autoplay]}
                 className="mySwiper"
                 breakpoints={{
-                  // Mobile view
                   0: {
-                    slidesPerView: 1, // Show 1 slide on mobile screens
+                    slidesPerView: 1,
                   },
-                  // Tablet and laptop view
                   768: {
-                    slidesPerView: 2, // Show 2 slides on tablet and larger screens
+                    slidesPerView: 2,
                   },
                 }}
               >
@@ -170,7 +172,6 @@ const CaseStudy = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-
             </div>
           </div>
         </div>
