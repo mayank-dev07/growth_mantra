@@ -2,7 +2,7 @@ import Footer from "@/components/Footer/Footer";
 import ContactForm from "@/components/Form/Contact";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import Header from "@/components/Header/Header";
+import Header from "@/components/Header/Header3";
 const content1: { [key: string]: string } = {
   "Strategy & Planning":
     "Transform your vision into a concrete roadmap for success",
@@ -20,7 +20,7 @@ export default function Contactus() {
   return (
     <>
       <Header />
-      <section className="flex justify-between flex-col-reverse md:flex-row mt-[120px]">
+      <section className="flex justify-between flex-col-reverse md:flex-row mt-44">
         <div className="md:pl-10 pl-2 text-3xl my-3 text-[#576D2C] md:text-7xl font-bold flex flex-col gap-4">
           <div className="flex items-center gap-2 flex-wrap ">
             <div className="text-nowrap">Unlock Your</div>
@@ -53,7 +53,7 @@ export default function Contactus() {
             key={key + "list"}
             className="md:px-10 px-3 py-3 flex text-sm md:text-xl gap-x-1 "
           >
-            <Image src={"/Success.svg"} alt="" width={20} height={20} />
+            <Image src={"/success.svg"} alt="" width={20} height={20} />
             <p className="font-bold text-[#576D2C]">
               {key} :{" "}
               <span className="text-black font-normal">{content1[key]}</span>
@@ -121,6 +121,32 @@ export default function Contactus() {
           </div>
         </div>
       </section>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+  {/* Heading */}
+  <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-left mb-6 sm:mb-8 md:mb-10" style={{ color: '#576D2C' }}>
+    What our clients say
+  </h2>
+  {/* Cards Section */}
+  <div className="flex flex-col sm:flex-row justify-center sm:space-x-6 md:space-x-8 space-y-6 sm:space-y-0">
+    {/* Card 1 */}
+    <div className="bg-white w-full sm:w-[300px] p-6 sm:p-8 shadow-md rounded-md border">
+      <h3 className="text-xl sm:text-2xl font-semibold">Sarah J.</h3>
+      <p className="text-sm text-gray-500 mb-4">CEO Of TechStart Inc.</p>
+      <p className="text-gray-600">
+        &quot;The Growth Mantra team transformed our approach to customer acquisition. Their insights and strategies helped us achieve a 150% increase in qualified leads within just three months.&quot;
+      </p>
+    </div>
+    {/* Card 2 */}
+    <div className="bg-white w-full sm:w-[300px] p-6 sm:p-8 shadow-md rounded-md border">
+      <h3 className="text-xl sm:text-2xl font-semibold">Mark L.</h3>
+      <p className="text-sm text-gray-500 mb-4">Founder Of ScaleUp Solutions</p>
+      <p className="text-gray-600">
+        &quot;Working with The Growth Mantra was a game-changer for our scaling strategy. Their holistic approach and data-driven insights gave us the roadmap we needed to double our revenue in a year.&quot;
+      </p>
+    </div>
+  </div>
+</div>
+
       <section className="my-16 text-2xl md:text-5xl md:px-16 text-center m-auto line">
         <p className="md:leading-[70px]">
           <span className="text-[#576D2C]">
