@@ -92,37 +92,35 @@ export default function Contactus() {
 
             <ContactForm />
 
-            <section className="flex px-3 md:px-10 my-16 justify-around md:items-center flex-col md:flex-row">
-                <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#E74C3C]">
+            <section className="flex flex-col md:flex-row px-3 md:px-10 my-16 justify-around md:items-center">
+                {/* Adjusting heading size for responsiveness */}
+                <div className="md:w-2/5 text-[1.5rem] sm:text-[2rem] md:text-8xl font-bold my-1 text-[#E74C3C]">
                     Our Consultants Impact
                 </div>
+
                 <div className="md:w-2/5 space-y-4">
-                    <div className="text-lg  font-bold text-gray-600">
-                        &quot;The Growth Mantra &apos; consulting team revolutionized our
-                        go-to-market strategy. Their insights helped us capture market share
-                        50% faster than projected.&quot;
+                    <div className="text-lg font-bold text-gray-600">
+                        &quot;The Growth Mantra&apos;s consulting team revolutionized our go-to-market strategy. Their insights helped us capture market share 50% faster than projected.&quot;
                     </div>
                     <div className="italic text-gray-600">
-                        {" "}
                         - Michael L., CEO of InnovateTech
                     </div>
-                    <div className="text-lg  font-bold text-gray-600">
-                        &quot;Working with their consultants on our user persona
-                        identification transformed our product development. We&apos;ve seen
-                        a 40% increase in user engagement since implementing their
-                        recommendations.&quot;
+                    <div className="text-lg font-bold text-gray-600">
+                        &quot;Working with their consultants on our user persona identification transformed our product development. We&apos;ve seen a 40% increase in user engagement since implementing their recommendations.&quot;
                     </div>
                     <div className="italic text-gray-600">
                         - Sarah K., Founder of UserFirst Solutions
                     </div>
-                    <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+                    {/* Responsive button */}
+                    <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                         Book Your Free Strategy Session
-                        <div className="p-2  bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
+                        <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                             <ArrowRight />
                         </div>
                     </div>
                 </div>
             </section>
+
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Heading */}
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-left mb-6 sm:mb-8 md:mb-10" style={{ color: '#E74C3C' }}>
@@ -152,11 +150,11 @@ export default function Contactus() {
             <section className="my-16 text-2xl md:text-5xl md:px-16 text-center m-auto line w-[93%]">
                 <p className="md:leading-[70px]">
                     <span className="text-[#E74C3C]">
-                        Ready to leverage our growth-driving services? 
+                        Ready to leverage our growth-driving services?
                     </span>
-                     Reach
+                    Reach
                     <br /> out
-                     {`today and let's craft your success story together.`}
+                    {`today and let's craft your success story together.`}
                 </p>
                 <button className="m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#E74C3C] bg-white hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Start Your Growth Journey
