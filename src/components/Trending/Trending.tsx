@@ -1,14 +1,11 @@
 "use client";
 import React from "react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import { Autoplay, Navigation } from "swiper/modules";
-import Image from "next/image";
 import TrendingSwiper from "./TrendingSwiper1";
 const Trending = () => {
   return (

@@ -33,7 +33,7 @@ const Footer = () => {
           <span className="block text-base lg:text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022 ABC. All rights reserved.
           </span>
-          <Image src="/Frame.png" alt="frame" width={200} height={200} />
+          <Image src="/logo.png" alt="frame" width={200} height={200} />
           <ul className="flex flex-wrap items-center mb-6 text-base lg:text-sm font-bold text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">

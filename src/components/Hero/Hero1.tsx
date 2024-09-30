@@ -24,16 +24,19 @@ const Hero = () => {
       <div className="h-full w-full flex lg:flex-row flex-col pt-20 lg:pt-28 gap-10 lg:gap-0">
         {/* Left Section */}
         <div
-          className={`w-full lg:w-8/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-36" : "lg:justify-start"}`}
+          className={`w-full lg:w-8/12 h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-36" : "lg:justify-start"
+          }`}
         >
           <Image
-            src="/Frame.png"
+            src="/logo.png"
             alt="frame"
-            width={400}
-            height={400}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[12%] "
-              : "relative"
+            width={100}
+            height={100}
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
+                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[40px] md:!w-[55px] "
+                : "relative"
             }`}
           />
 

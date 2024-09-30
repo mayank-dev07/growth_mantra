@@ -23,16 +23,19 @@ const Hero = () => {
     <>
       <div className="h-full w-full flex flex-col lg:flex-row pt-20 lg:pt-28">
         <div
-          className={`w-full lg:w-8/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"}`}
+          className={`w-full lg:w-8/12 h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Image
-            src="/Frame.png"
+            src="/logo.png"
             alt="frame"
-            width={300}
-            height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[12%] "
-              : "relative"
+            width={100}
+            height={100}
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
+                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[40px] md:!w-[55px] "
+                : "relative"
             }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
@@ -50,11 +53,11 @@ const Hero = () => {
                 </div>
               </div>
               <div className="text-[#425466] text-base md:text-lg py-2 text-center sm:text-left">
-              Your strategic partner for sustainable growth
-                            </div>
+                Your strategic partner for sustainable growth
+              </div>
               <div className="w-full flex justify-center md:justify-start">
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-                Unlock your Growth now
+                  Unlock your Growth now
                   <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
@@ -75,42 +78,12 @@ const Hero = () => {
           SOME OF OUR TRUSTED CLIENTS
         </div>
         <div className="w-full flex justify-center items-center gap-4 lg:gap-12 flex-wrap">
-          <Image
-            src="/sponser1.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          />
-          <Image
-            src="/sponser2.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          />
-          <Image
-            src="/sponser3.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          />
-          <Image
-            src="/sponser4.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          />
-          <Image
-            src="/sponser5.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          />
-          <Image
-            src="/sponser6.png"
-            alt="sponser"
-            width={110}
-            height={110}
-          />
+          <Image src="/sponser1.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser2.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser3.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser4.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser5.png" alt="sponser" width={110} height={110} />
+          <Image src="/sponser6.png" alt="sponser" width={110} height={110} />
         </div>
       </div>
     </>
