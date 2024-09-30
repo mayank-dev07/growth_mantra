@@ -23,11 +23,11 @@ const Pulse = () => {
         <div className="relative h-fit pb-20">
           <div className="absolute inset-52 top-[-20px] left-0 w-full">
             <Image
-              src="/tree2.png"
+              src="/treevector.png"
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[600px] md:h-[800px] lg:h-[1100px] w-auto mt-6"
+              className="object-fill lg:object-contain h-[800px] md:h-[800px] lg:h-[1200px] w-auto mt-6"
             />
           </div>
 
@@ -46,7 +46,7 @@ const Pulse = () => {
           </div>
 
           {/* Observe Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">O</span>&nbsp;-&nbsp;Observe
@@ -60,7 +60,7 @@ const Pulse = () => {
           </div>
 
           {/* Map Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">M</span>&nbsp;-&nbsp;Map
@@ -74,7 +74,7 @@ const Pulse = () => {
           </div>
 
           {/* Prioritize Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[17%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[17%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">P</span>&nbsp;-&nbsp;Prioritize
@@ -88,7 +88,7 @@ const Pulse = () => {
           </div>
 
           {/* Align Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">A</span>&nbsp;-&nbsp;Align
@@ -102,7 +102,7 @@ const Pulse = () => {
           </div>
 
           {/* Systematize Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">S</span>&nbsp;-&nbsp;Systematize
@@ -116,7 +116,7 @@ const Pulse = () => {
           </div>
 
           {/* Sync Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[31%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[31%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Sync

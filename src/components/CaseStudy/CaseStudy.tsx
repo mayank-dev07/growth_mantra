@@ -46,7 +46,7 @@ const CaseStudy = () => {
 
   return (
     <>
-      <div className="w-full h-full bg-[#576D2C] px-2 md:px-16 py-20  ">
+      <div className="w-full h-full bg-[#576D2C] px-2 md:px-16 py-10  ">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#576D2C] pt-6 px-6">
             <p
@@ -83,8 +83,8 @@ const CaseStudy = () => {
         </div>
 
         <div className="w-full pt-28 flex flex-col gap-2 pb-4">
-          <p className="text-5xl lg:text-7xl text-white">Featured Case Study</p>
-          <p className="text-2xl text-white py-8">
+          <p className="text-5xl lg:text-6xl text-white">Featured Case Study</p>
+          <p className="text-2xl text-white py-6">
             Highlighting successful projects with links to full case studies
           </p>
         </div>
@@ -113,7 +113,7 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 p-8 px-2 md:px-12 gap-8">
+          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-10 p-4 px-2 md:px-12 gap-8">
             <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
               <div className="h-full md:h-[400px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
                 <div className="w-full flex flex-col justify-start items-center lg:px-8 text-white">
@@ -143,7 +143,6 @@ const CaseStudy = () => {
 
             <div className="flex w-full lg:w-2/3 gap-2 overflow-hidden">
               <Swiper
-                slidesPerView={2}
                 spaceBetween={10}
                 navigation={{
                   nextEl: ".next",
@@ -152,6 +151,16 @@ const CaseStudy = () => {
                 loop={true}
                 modules={[Navigation]}
                 className="mySwiper"
+                breakpoints={{
+                  // Mobile view
+                  0: {
+                    slidesPerView: 1, // Show 1 slide on mobile screens
+                  },
+                  // Tablet and laptop view
+                  768: {
+                    slidesPerView: 2, // Show 2 slides on tablet and larger screens
+                  },
+                }}
               >
                 {slides.map((slide) => (
                   <SwiperSlide key={slide.id}>
@@ -162,60 +171,63 @@ const CaseStudy = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
+
             </div>
           </div>
         </div>
       </div>
       <div className="w-full h-full px-4 lg:px-28 py-16">
-        <div className="flex flex-col lg:flex-row w-full h-full">
-          <div className="w-full lg:w-1/2 bg-[#576D2C] text-white rounded-[15px] shadow-2xl ">
-            <div className="px-4 md:px-10 pt-12 ">
-              <div className="text-xl md:text-3xl lg:text-4xl">
-                Break&nbsp;Free&nbsp;from
-                <br />
-                Growth&nbsp;Stasis
-              </div>
-              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-                Struggling to break through the growth plateau? Our expert
-                consultants will identify the root causes and provide tailored
-                solutions to propel your business forward.
-              </div>
-            </div>
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full h-full">
+    <div className="bg-[#576D2C] text-white rounded-[15px] shadow-2xl flex flex-col">
+      <div className="px-4 md:px-10 pt-12 flex-grow">
+        <div className="text-xl md:text-3xl lg:text-4xl">
+          Break&nbsp;Free&nbsp;from
+          <br />
+          Growth&nbsp;Stasis
+        </div>
+        <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
+          Struggling to break through the growth plateau? Our expert
+          consultants will identify the root causes and provide tailored
+          solutions to propel your business forward.
+        </div>
+      </div>
 
-            <div className=" md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
-                <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                  <ArrowRight />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
-            <div className="px-4 md:px-10 pt-12 ">
-              <div className="text-xl md:text-3xl lg:text-4xl text-[#576D2C]">
-                Accelerate&nbsp;Growth&nbsp;
-                <br />
-                With&nbsp;Proven&nbsp;Expertise
-              </div>
-              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-                Don&apos;t just talk about growth – achieve it. Our team of
-                seasoned consultants has a proven track record of delivering
-                tangible results for companies like yours.
-              </div>
-            </div>
-
-            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
-                <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
-                  <ArrowRight />
-                </div>
-              </div>
-            </div>
+      <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
+        <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+          <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
+          <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+            <ArrowRight />
           </div>
         </div>
       </div>
+    </div>
+
+    <div className="rounded-[15px] shadow-2xl flex flex-col">
+      <div className="px-4 md:px-10 pt-12 flex-grow">
+        <div className="text-xl md:text-3xl lg:text-4xl text-[#576D2C]">
+          Accelerate&nbsp;Growth&nbsp;
+          <br />
+          With&nbsp;Proven&nbsp;Expertise
+        </div>
+        <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
+          Don&apos;t just talk about growth – achieve it. Our team of
+          seasoned consultants has a proven track record of delivering
+          tangible results for companies like yours.
+        </div>
+      </div>
+
+      <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
+        <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+          <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
+          <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
+            <ArrowRight />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     </>
   );
 };

@@ -142,7 +142,6 @@ const CaseStudy = () => {
 
             <div className="flex w-full lg:w-2/3 gap-2 overflow-hidden">
               <Swiper
-                slidesPerView={2}
                 spaceBetween={10}
                 navigation={{
                   nextEl: ".next",
@@ -151,6 +150,16 @@ const CaseStudy = () => {
                 loop={true}
                 modules={[Navigation]}
                 className="mySwiper"
+                breakpoints={{
+                  // Mobile view
+                  0: {
+                    slidesPerView: 1, // Show 1 slide on mobile screens
+                  },
+                  // Tablet and laptop view
+                  768: {
+                    slidesPerView: 2, // Show 2 slides on tablet and larger screens
+                  },
+                }}
               >
                 {slides.map((slide) => (
                   <SwiperSlide key={slide.id}>
@@ -161,6 +170,7 @@ const CaseStudy = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
+
             </div>
           </div>
         </div>
