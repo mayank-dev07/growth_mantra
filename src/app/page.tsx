@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import Offering from "@/components/Offering";
 import Pulse from "@/components/Pulse";
 import Trending from "@/components/Trending";
-import WhyChooseUs from "@/components/WhyChooseUs";
+import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs2";
 
 export default function Home() {
   return (
