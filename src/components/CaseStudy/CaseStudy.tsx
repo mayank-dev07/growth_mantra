@@ -48,9 +48,17 @@ const CaseStudy = () => {
     <>
       <div className="w-full h-full bg-[#576D2C] px-2 md:px-16 py-10  ">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
+          <div className="w-full flex justify-center lg:justify-start items-center px-4 lg:pe-12">
+            <Image
+              src="/casestudy2.png"
+              alt="casestudy"
+              width={350}
+              height={350}
+            />
+          </div>
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#576D2C] pt-6 px-6">
             <p
-              className="tracking-widest text-base md:text-xl lg:text-2xl xl:text-3xl"
+              className="tracking-widest text-lg md:text-xl lg:text-2xl xl:text-3xl"
               style={{ lineHeight: "3rem" }}
             >
               Effective Growth Strategies can increase revenue by up to
@@ -71,14 +79,6 @@ const CaseStudy = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="w-full flex justify-center lg:justify-end items-center px-4 lg:pe-12">
-            <Image
-              src="/casestudy2.png"
-              alt="casestudy"
-              width={350}
-              height={350}
-            />
           </div>
         </div>
 

@@ -58,7 +58,7 @@ const CaseStudy = () => {
           </div>
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#E74C3C] pt-5 px-6 ">
             <p
-              className="tracking-widest text-base md:text-xl lg:text-2xl xl:text-3xl"
+              className="tracking-widest text-lg md:text-xl lg:text-2xl xl:text-3xl"
               style={{ lineHeight: "3rem" }}
             >
               Effective Growth Strategies can increase revenue by up to
