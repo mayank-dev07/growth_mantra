@@ -46,7 +46,7 @@ const CaseStudy = () => {
 
   return (
     <>
-      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-20  ">
+      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-16  ">
         <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
           <div className="w-full flex justify-center lg:justify-start items-center px-4 lg:pe-12">
             <Image
@@ -56,7 +56,7 @@ const CaseStudy = () => {
               height={350}
             />
           </div>
-          <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#E74C3C] pt-6 px-6 ">
+          <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#E74C3C] pt-5 px-6 ">
             <p
               className="tracking-widest text-base md:text-xl lg:text-2xl xl:text-3xl"
               style={{ lineHeight: "3rem" }}
@@ -81,9 +81,9 @@ const CaseStudy = () => {
             </div>
           </div>
         </div>
-        <div className="w-full pt-28 flex flex-col gap-2 pb-4">
+        <div className="w-full pt-20 flex flex-col gap-2 pb-3">
           <p className="text-5xl lg:text-7xl text-white">Featured Case Study</p>
-          <p className="text-2xl text-white py-8">
+          <p className="text-2xl text-white py-6">
             Highlighting successful projects with links to full case studies
           </p>
         </div>
@@ -112,7 +112,7 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-20 p-8 px-2 md:px-12 gap-8">
+          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-5 p-8 px-2 md:px-12 gap-8">
             <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
               <div className="h-full md:h-[400px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
                 <div className="w-full flex flex-col justify-start items-center lg:px-8 text-white">

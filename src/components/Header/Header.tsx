@@ -2,11 +2,10 @@
 import { Drawer } from "antd";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const [showNotification, setShowNotification] = useState(true);
 
   const showDrawer = () => {
     setOpen(true);
@@ -16,7 +15,7 @@ const Header = () => {
   };
 
   // Track scroll position
- 
+
 
   return (
     <>
