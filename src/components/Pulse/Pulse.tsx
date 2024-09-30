@@ -6,8 +6,8 @@ const Pulse = () => {
   return (
     <>
       <div className="w-full h-full pt-8">
-        <div className="w-full  flex flex-col justify-center items-center px-4 lg:px-16 gap-10">
-          <div className="text-3xl md:text-4xl lg:text-7xl text-[#576D2C] w-full justify-start items-start flex flex-col gap-4">
+        <div className="w-full flex flex-col justify-center items-start px-4 lg:px-16 gap-10">
+          <div className="text-3xl md:text-4xl lg:text-7xl text-[#576D2C] w-full flex flex-col gap-4">
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
@@ -15,22 +15,23 @@ const Pulse = () => {
               Framework
             </p>
           </div>
-          <p className="text-lg lg:text-xl tracking-wide leading-relaxed">
-            {` Strategic planning approach guiding startups towards sustainable growth.`}
+          <p className="text-lg lg:text-xl tracking-wide leading-relaxed w-full text-left">
+            {`Strategic planning approach guiding startups towards sustainable growth.`}
           </p>
         </div>
+
         <div className="relative h-fit pb-20">
           <div className="absolute inset-52 top-[-20px] left-0 w-full">
             <Image
-              src="/tree2.png"
+              src="/treevector.png"
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[850px] lg:h-[1100px] w-fit mt-6"
+              className="object-fill lg:object-contain h-[850px] lg:h-[1300px] w-fit mt-6"
             />
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[20%] mt-12">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[17%] mt-12">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Evaluate
@@ -43,7 +44,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[15%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">L</span>&nbsp;-&nbsp;Leverage
@@ -57,7 +58,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[9%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>
@@ -71,7 +72,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[10%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[7%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">V</span>&nbsp;-&nbsp;Validate
@@ -84,7 +85,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[9%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">A</span>
@@ -97,7 +98,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[15%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[13%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">T</span>
@@ -110,7 +111,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[20%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[17%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>

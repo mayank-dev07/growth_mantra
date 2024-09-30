@@ -59,7 +59,7 @@ const Offering = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white text-[#E74C3C] p-4 sm:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              className="bg-white text-[#E74C3C] p-4 sm:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col h-full" // Make sure to set height to full
             >
               <div className="flex-grow">
                 <h3 className="text-lg md:text-xl text-black font-bold">
@@ -68,6 +68,14 @@ const Offering = () => {
                 <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
                   {service.description}
                 </p>
+              </div>
+              <div className="w-full flex justify-center mt-4 align-middle">
+                <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#E74C3C] hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
+                  Schedule a Call
+                  <div className="p-2 bg-[#E74C3C] rounded-full text-white group-hover:text-[#E74C3C] group-hover:bg-white transition-all duration-300 ease-in-out">
+                    <ArrowRight />
+                  </div>
+                </div>
               </div>
             </div>
           ))}

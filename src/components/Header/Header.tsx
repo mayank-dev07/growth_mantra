@@ -2,11 +2,10 @@
 import { Drawer } from "antd";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const [showNotification, setShowNotification] = useState(true);
 
   const showDrawer = () => {
     setOpen(true);
@@ -16,33 +15,14 @@ const Header = () => {
   };
 
   // Track scroll position
-  useEffect(() => {
-    const handleScroll = () => {
-      // Hide notification on scroll down, show when back to top
-      if (window.scrollY > 50) {
-        setShowNotification(false);
-      } else {
-        setShowNotification(true);
-      }
-    };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <>
       <div className="flex flex-col justify-center items-center fixed top-0 left-0 right-0 bg-white z-50">
-        {/* Notification bar with smooth slide animation */}
-        <div
-          className={`w-full h-full p-2 bg-[#576D2C] flex justify-center items-center text-white gap-2 md:gap-5 transition-all duration-500 ease-in-out transform ${
-            showNotification ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
-          }`}
-        >
+        <div className="w-full h-full p-2 bg-[#576D2C] flex justify-center items-center text-white gap-2 md:gap-5">
           <div>Low Marketing Budget? We&apos;ve Got You!</div>
-          <div className="px-4 py-1 rounded-full bg-[#FFFFFF] text-sm md:text-lg text-black">
+          <div className="px-4 py-1 rounded-full bg-[#ffffff] text-sm md:text-lg text-black">
             Schedule&nbsp;a&nbsp;call
           </div>
         </div>
