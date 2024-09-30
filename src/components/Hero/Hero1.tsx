@@ -43,7 +43,7 @@ const Hero = () => {
             </div>
 
             <div className="w-full flex flex-col gap-4 p-1 justify-center items-center lg:items-start">
-              <div className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
+              <div className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl sm:px-4 font-bold flex flex-col gap-2 sm:gap-3 text-[#576D2C]">
                 Transform Vision into
                 <div className="flex items-center gap-2">
                   <div>Actionable</div>
