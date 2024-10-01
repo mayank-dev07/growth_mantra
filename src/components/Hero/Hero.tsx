@@ -50,7 +50,7 @@ const Hero = () => {
                     Growth
                   </div>
                 </div>
-                Overcome,&nbsp;Challenges
+                Overcome, Challenges
               </div>
               <div className="text-[#425466] text-base md:text-lg py-2 text-center sm:text-left">
                 Your strategic partner for sustainable growth
