@@ -127,7 +127,7 @@ const ContactForm = () => {
               style={{ padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please select at least one challenge" }]}
             >
-              <div className="flex flex-col md:flex-row gap-y-5 gap-x-10 ">
+              <div className="flex flex-col md:flex-row gap-y-5 gap-x-10">
                 {[
                   "Defining Growth Strategy",
                   "Entering New Markets",
@@ -136,12 +136,16 @@ const ContactForm = () => {
                   "Enhancing Brand Positioning",
                   "Other",
                 ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-2">
+                  <label
+                    key={index}
+                    htmlFor={`checkbox-${index}`} // Label wraps everything, making the whole div clickable
+                    className="flex items-center gap-2 cursor-pointer" // Added cursor-pointer for better UX
+                  >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
-                      type="checkbox" 
-                      id={`checkbox-${index}`} 
-                      value={item} 
+                      type="checkbox"
+                      id={`checkbox-${index}`}
+                      value={item}
                     />
 
                     <svg
@@ -171,15 +175,12 @@ const ContactForm = () => {
                         </clipPath>
                       </defs>
                     </svg>
-                    <label
-                      htmlFor={`checkbox-${index}`} // Changed for checkboxes
-                      className="font-semibold text-white"
-                    >
-                      {item}
-                    </label>
-                  </div>
+
+                    <span className="font-semibold text-white">{item}</span>
+                  </label>
                 ))}
               </div>
+
             </Form.Item>
 
 
@@ -199,7 +200,7 @@ const ContactForm = () => {
               style={{ padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please select an interest" }]}
             >
-              <div className="flex flex-col md:flex-row gap-y-5 gap-x-10 ">
+              <div className="flex flex-col md:flex-row gap-y-5 gap-x-10">
                 {[
                   "Strategy & Planning",
                   "User Persona Identification",
@@ -209,13 +210,16 @@ const ContactForm = () => {
                   "Product Growth",
                   "Other",
                 ].map((item, x) => (
-                  <div key={x} className="flex items-center gap-2">
+                  <label
+                    key={x}
+                    htmlFor={`radio-interest-${x}`} // Label wraps everything, making the whole div clickable
+                    className="flex items-center gap-2 cursor-pointer" // Added cursor-pointer for better UX
+                  >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
-                      type="radio"
-                      
+                      type="checkbox"
                       id={`radio-interest-${x}`}
-                      value={item} 
+                      value={item}
                     />
 
                     <svg
@@ -245,15 +249,12 @@ const ContactForm = () => {
                         </clipPath>
                       </defs>
                     </svg>
-                    <label
-                      htmlFor={`radio-interest-${x}`}
-                      className="font-semibold text-white"
-                    >
-                      {item}
-                    </label>
-                  </div>
+
+                    <span className="font-semibold text-white">{item}</span>
+                  </label>
                 ))}
               </div>
+
             </Form.Item>
           </div>
           <div className="flex flex-wrap gap-4 mb-4">
@@ -267,7 +268,7 @@ const ContactForm = () => {
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your situation" }]}
             >
-              <input className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" placeholder="Enter Brief Description" />
             </Form.Item>
           </div>
           <div className="my-5">
@@ -283,17 +284,21 @@ const ContactForm = () => {
               style={{ padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please select an engagement time" }]}
             >
-              <div className="flex gap-x-4 md:gap-x-10 ">
+              <div className="flex gap-x-4 md:gap-x-10">
                 {[
                   "Immediate [Less than 15 days]",
                   "Within 30 Days",
                   "Just exploring for now",
                 ].map((item, y) => (
-                  <div key={y} className="flex items-center gap-2">
+                  <label
+                    key={y}
+                    htmlFor={`radio-engage-${y}`}
+                    className="flex items-center gap-2 cursor-pointer" // Label wraps everything, making the whole div clickable
+                  >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
-                      type="radio"
-                      name="engage_time" // Ensure this is the same name for grouping
+                      type="checkbox"
+                      name="engage_time" // Group the radios together by name
                       id={`radio-engage-${y}`}
                       value={item} // Set value for form submission
                     />
@@ -325,15 +330,12 @@ const ContactForm = () => {
                         </clipPath>
                       </defs>
                     </svg>
-                    <label
-                      htmlFor={`radio-engage-${y}`}
-                      className="font-semibold text-white"
-                    >
-                      {item}
-                    </label>
-                  </div>
+
+                    <span className="font-semibold text-white">{item}</span>
+                  </label>
                 ))}
               </div>
+
             </Form.Item>
           </div>
         </Form>
