@@ -1,0 +1,23 @@
+str = input("Enteter the string:")
+punctuation = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+
+
+result = ""
+
+for char in str:
+    if char not in punctuation:
+        result = result + char
+        
+print(result)
+        
+# program to short the sentence in alphabetical order
+
+# str = input("Enter the string:")
+
+# words = str.split()
+
+# sorted_word = sorted(words)
+
+# print(sorted_word)
+
