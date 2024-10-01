@@ -100,27 +100,6 @@ const ContactForm = () => {
                 placeholder="Enter Company website"
               />
             </Form.Item>
-
-            <Form.Item
-              label={
-                <span className="text-white text-sm md:text-lg font-bold">
-                  Company&nbsp;Website
-                </span>
-              }
-              name="phone"
-              style={{ width: "48%" }}
-              rules={[
-                { required: true, message: "Please enter your email" },
-                { type: "email", message: "Please enter a valid email" },
-              ]}
-            >
-              <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
-                placeholder="Enter Company website"
-              />
-            </Form.Item>
-          </div>
-          <div className="flex flex-wrap gap-4 mb-4">
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
@@ -212,7 +191,7 @@ const ContactForm = () => {
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
-                  Consulting Areas of Interest (multi select)
+                  Consulting Areas of Interest
                 </span>
               }
               name="challenge"
@@ -292,7 +271,7 @@ const ContactForm = () => {
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
-                  How Soon Are You Looking to Engage a Consultant?
+                  How Soon Are You Looking to Engage a Us?
                 </span>
               }
               name="challenge"
