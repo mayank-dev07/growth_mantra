@@ -139,9 +139,9 @@ const ContactForm = () => {
                   <div key={index} className="flex items-center gap-2">
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
-                      type="checkbox" // Changed from radio to checkbox
-                      id={`checkbox-${index}`} // Changed id for checkboxes
-                      value={item} // Set value for form submission
+                      type="checkbox" 
+                      id={`checkbox-${index}`} 
+                      value={item} 
                     />
 
                     <svg
@@ -213,9 +213,9 @@ const ContactForm = () => {
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
                       type="radio"
-                      name="interest" // Ensure this is the same name for grouping
+                      
                       id={`radio-interest-${x}`}
-                      value={item} // Set value for form submission
+                      value={item} 
                     />
 
                     <svg
