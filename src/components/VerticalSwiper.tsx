@@ -6,7 +6,6 @@ import "swiper/css";
 
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
 
 export default function VerticalSwiper() {
   return (
