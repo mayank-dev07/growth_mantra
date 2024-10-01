@@ -125,7 +125,12 @@ const ContactForm = () => {
               }
               name="index_challenge"
               style={{ padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please select at least one challenge" }]}
+              rules={[
+                {
+                  required: true,
+                  message: "Please select at least one challenge",
+                },
+              ]}
             >
               <div className="flex flex-col md:flex-row gap-y-5 gap-x-10">
                 {[
@@ -180,9 +185,7 @@ const ContactForm = () => {
                   </label>
                 ))}
               </div>
-
             </Form.Item>
-
 
             <input
               placeholder="Specify other Business challenge"
@@ -254,8 +257,11 @@ const ContactForm = () => {
                   </label>
                 ))}
               </div>
-
             </Form.Item>
+            <input
+              placeholder="Specify other Consulting Area of Interest"
+              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+            />
           </div>
           <div className="flex flex-wrap gap-4 mb-4">
             <Form.Item
@@ -266,23 +272,28 @@ const ContactForm = () => {
               }
               name="situation"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please enter your situation" }]}
+              rules={[
+                { required: true, message: "Please enter your situation" },
+              ]}
             >
-              <input className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" placeholder="Enter Brief Description" />
+              <input
+                className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                placeholder="Enter Brief Description"
+              />
             </Form.Item>
           </div>
           <div className="my-5">
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
-
                   How Soon Are You Looking to Engage with Us?
-
                 </span>
               }
               name="engage_time"
               style={{ padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please select an engagement time" }]}
+              rules={[
+                { required: true, message: "Please select an engagement time" },
+              ]}
             >
               <div className="flex gap-x-4 md:gap-x-10">
                 {[
@@ -297,7 +308,7 @@ const ContactForm = () => {
                   >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
-                      type="checkbox"
+                      type="radio"
                       name="engage_time" // Group the radios together by name
                       id={`radio-engage-${y}`}
                       value={item} // Set value for form submission
@@ -335,7 +346,6 @@ const ContactForm = () => {
                   </label>
                 ))}
               </div>
-
             </Form.Item>
           </div>
         </Form>
