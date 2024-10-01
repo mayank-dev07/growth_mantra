@@ -21,20 +21,20 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-full w-full flex flex-col lg:flex-row pt-20 lg:pt-28">
+      <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full lg:w-8/12 h-full flex flex-col ${
+          className={`w-full md:w-7/12 h-full flex flex-col ${
             scrollPosition > 50 ? "pt-24" : "lg:justify-start"
           }`}
         >
           <Image
-            src="/logo.png"
+            src="/Frame.png"
             alt="frame"
-            width={100}
-            height={100}
+            width={300}
+            height={300}
             className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
               scrollPosition > 50
-                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[40px] md:!w-[55px] "
+                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                 : "relative"
             }`}
           />
@@ -43,10 +43,10 @@ const Hero = () => {
               👋 Welcome to The Growth Mantra
             </div>
             <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
-              <div className="text-5xl sm:text-5xl md:text-5xl lg:text-6xl font-bold flex flex-col gap-4 text-center sm:text-left">
+              <div className="text-5xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center sm:text-left">
                 Your&nbsp;North&nbsp;Star
                 <div className="flex items-center gap-2 justify-center sm:justify-start">
-                  <div className="border-[#E74C3C] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-5xl lg:text-6xl border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
+                  <div className="border-[#E74C3C] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-4xl lg:text-6xl border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
                     Growth
                   </div>
                   Catalyst
@@ -66,8 +66,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-4/12 pt-4 lg:pt-12 flex justify-center items-center">
-          <div className="w-full md:w-1/2 lg:w-full flex justify-center items-center -z-10 md:-z-0">
+        <div className="w-full md:w-5/12 pt-4 lg:pt-12 flex justify-center items-center">
+          <div className="w-full  lg:w-full flex justify-center items-center -z-10 md:-z-0">
             <VerticalSwiper />
           </div>
         </div>

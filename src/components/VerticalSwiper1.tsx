@@ -6,7 +6,6 @@ import "swiper/css";
 
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
 
 export default function VerticalSwiper() {
   return (
@@ -25,149 +24,59 @@ export default function VerticalSwiper() {
         className="!h-[670px] lg:!min-h-[70vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28 ps-6 w-full h-fit flex jsutify-center items-center">
-            <div className="h-fit flex flex-col shadow-md">
-              <Image
-                src="/verticalswiper.png"
-                alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[300px]  rounded-lg"
-              ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2 w-full tracking-wide  md:h-full">
-                <p className="text-lg font-bold">
-                  Struggling to Acquire New Customers or Quality Lead?
-                </p>
-                <p className="h-fit flex items-center text-base">
-                  Our multi-channel acquisition strategies turn traffic into
-                  qualified prospects
-                </p>
-                <div className="flex items-center gap-8">
-                  <p className="text-lg  underline underline-offset-8 text-[#576D2C] font-bold">
-                    Boost your Acquisition
-                  </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                    <ArrowRight />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="pe-12  lg:ps-28 w-full h-fit flex jsutify-center items-center">
+            <Image
+              src="/assets/consulting_home/swiper1.svg"
+              alt="image"
+              width={900}
+              height={800}
+              className="object-left !h-[500px]  rounded-lg"
+            ></Image>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center">
-            <div className="h-fit flex flex-col shadow-md">
-              <Image
-                src="/verticalswiper.png"
-                alt="image"
-                width={900}
-                height={800}
-                className="object-left  !h-[300px]   rounded-lg"
-              ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2  w-full tracking-wide  md:h-full">
-                <p className="text-lg font-bold">
-                  Losing customers too quickly?
-                </p>
-                <p className="h-fit flex items-center ">
-                  Our retention strategies will keep them engaged
-                </p>
-                <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
-                    Boost your Acquisition
-                  </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                    <ArrowRight />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="pe-12  lg:ps-28 w-full h-fit flex jsutify-center items-center">
+            <Image
+              src="/assets/consulting_home/swiper2.svg"
+              alt="image"
+              width={900}
+              height={800}
+              className="object-left  !h-[500px]   rounded-lg"
+            ></Image>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center">
-            <div className="h-fit flex flex-col shadow-md">
-              <Image
-                src="/verticalswiper.png"
-                alt="image"
-                width={900}
-                height={800}
-                className="object-left  !h-[300px]   rounded-lg"
-              ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2  w-full tracking-wide  md:h-full">
-                <p className="text-lg font-bold">
-                  Conversion Rates Not Meeting Targets?
-                </p>
-                <p className="h-fit flex items-center ">
-                  Optimize your funnel with our proven CRO techniques
-                </p>
-                <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
-                    Maximize Your Conversions
-                  </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                    <ArrowRight />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="pe-12  lg:ps-28 w-full h-fit flex jsutify-center items-center">
+            <Image
+              src="/assets/consulting_home/swiper3.svg"
+              alt="image"
+              width={900}
+              height={800}
+              className="object-left  !h-[500px]   rounded-lg"
+            ></Image>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center ">
-            <div className="h-fit flex flex-col shadow-md">
-              <Image
-                src="/verticalswiper.png"
-                alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[300px]   rounded-lg"
-              ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2  w-full tracking-wide  md:h-full">
-                <p className="text-lg font-bold">Marketing ROI Unclear?</p>
-                <p className="h-fit flex items-center ">
-                  Gain clarity with our data-driven approach to growth
-                  marketing.
-                </p>
-                <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
-                    Boost Your ROI
-                  </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                    <ArrowRight />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="pe-12  lg:ps-28 w-full h-fit flex jsutify-center items-center ">
+            <Image
+              src="/assets/consulting_home/swiper4.svg"
+              alt="image"
+              width={900}
+              height={800}
+              className="object-left !h-[500px]   rounded-lg"
+            ></Image>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="pe-20 xl:pe-28  ps-6 w-full h-fit flex jsutify-center items-center">
-            <div className="h-fit flex flex-col shadow-md">
-              <Image
-                src="/verticalswiper.png"
-                alt="image"
-                width={900}
-                height={800}
-                className="object-left  !h-[300px]   rounded-lg"
-              ></Image>
-              <div className="p-4 xl:p-5 flex flex-col gap-2  w-full tracking-wide  md:h-full">
-                <p className="text-lg font-bold">
-                  Scaling Challenges Holding You Back?
-                </p>
-                <p className="h-fit flex items-center ">
-                  Navigate growth hurdles with our tailored scaling strategies
-                </p>
-                <div className="flex items-center gap-8">
-                  <p className="text-lg xl:text-xl underline underline-offset-8 text-[#576D2C] font-bold">
-                    Scale Your Business Smartly
-                  </p>
-                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                    <ArrowRight />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="pe-12  lg:ps-28 w-full h-fit flex jsutify-center items-center">
+            <Image
+              src="/assets/consulting_home/swiper5.svg"
+              alt="image"
+              width={900}
+              height={800}
+              className="object-left  !h-[500px]   rounded-lg"
+            ></Image>
           </div>
         </SwiperSlide>
       </Swiper>

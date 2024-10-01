@@ -27,7 +27,7 @@ export default function VerticalSwiper() {
           <div className="pe-12  lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/assets/acquistion/swiper1.png"
+                src="/assets/retention/swiper1.svg"
                 alt="image"
                 width={900}
                 height={800}
@@ -40,7 +40,7 @@ export default function VerticalSwiper() {
           <div className="pe-12  lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/assets/acquistion/swiper2.png"
+                src="/assets/retention/swiper2.svg"
                 alt="image"
                 width={900}
                 height={800}
@@ -52,7 +52,7 @@ export default function VerticalSwiper() {
         <SwiperSlide>
           <div className="pe-12  lg:ps-28 w-full h-fit">
             <Image
-              src="/assets/acquistion/swiper3.png"
+              src="/assets/retention/swiper3.svg"
               alt="image"
               width={900}
               height={800}
@@ -64,7 +64,7 @@ export default function VerticalSwiper() {
           <div className="pe-12  lg:ps-28 w-full h-fit ">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/assets/acquistion/swiper4.png"
+                src="/assets/retention/swiper4.svg"
                 alt="image"
                 width={900}
                 height={800}
@@ -78,7 +78,7 @@ export default function VerticalSwiper() {
           <div className="pe-12  lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/assets/acquistion/swiper5.png"
+                src="/assets/retention/swiper5.svg"
                 alt="image"
                 width={900}
                 height={800}
