@@ -16,7 +16,8 @@ const Pulse = () => {
             </p>
           </div>
           <p className="text-base md:text-lg lg:text-xl tracking-wide leading-relaxed text-center px-4">
-            Strategic planning approach guiding startups towards sustainable growth.
+            Strategic planning approach guiding startups towards sustainable
+            growth.
           </p>
         </div>
 
@@ -32,7 +33,7 @@ const Pulse = () => {
           </div>
 
           {/* Clarify Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[30%] mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">C</span>&nbsp;-&nbsp;Clarify
@@ -46,7 +47,7 @@ const Pulse = () => {
           </div>
 
           {/* Observe Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-5 lg:mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[15%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">O</span>&nbsp;-&nbsp;Observe
@@ -60,7 +61,7 @@ const Pulse = () => {
           </div>
 
           {/* Map Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-5 lg:mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">M</span>&nbsp;-&nbsp;Map
@@ -74,21 +75,22 @@ const Pulse = () => {
           </div>
 
           {/* Prioritize Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[17%] mt-5 lg:mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[13%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">P</span>&nbsp;-&nbsp;Prioritize
               </p>
               <div className="text-base md:text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-4 md:px-6 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-left">
-                  Identify and rank key initiatives based on impact and feasibility
+                  Identify and rank key initiatives based on impact and
+                  feasibility
                 </p>
               </div>
             </div>
           </div>
 
           {/* Align Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[18%] mt-5 lg:mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[25%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">A</span>&nbsp;-&nbsp;Align
@@ -102,10 +104,11 @@ const Pulse = () => {
           </div>
 
           {/* Systematize Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[22%] mt-5 lg:mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[35%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">S</span>&nbsp;-&nbsp;Systematize
+                <span className="text-[#576D2C]">S</span>
+                &nbsp;-&nbsp;Systematize
               </p>
               <div className="text-base md:text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-4 md:px-6 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-left">
@@ -116,7 +119,7 @@ const Pulse = () => {
           </div>
 
           {/* Sync Section */}
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[31%] mt-5 lg:mt-16">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[45%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Sync

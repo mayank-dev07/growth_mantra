@@ -22,7 +22,7 @@ const ContactForm = () => {
                   Name
                 </span>
               }
-              name="name"
+              name="user_name"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
@@ -38,7 +38,7 @@ const ContactForm = () => {
                   Phone No
                 </span>
               }
-              name="phone"
+              name="user_phone"
               style={{ width: "48%" }}
               rules={[
                 { required: true, message: "Please enter your email" },
@@ -58,7 +58,7 @@ const ContactForm = () => {
                   Work Email
                 </span>
               }
-              name="name"
+              name="user_email"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
@@ -74,7 +74,7 @@ const ContactForm = () => {
                   Company&nbsp;Name
                 </span>
               }
-              name="phone"
+              name="user_companyname"
               style={{ width: "48%" }}
               rules={[
                 { required: true, message: "Please enter your email" },
@@ -91,7 +91,7 @@ const ContactForm = () => {
                   Company&nbsp;Website
                 </span>
               }
-              name="name"
+              name="user_companywebsite"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
@@ -100,34 +100,13 @@ const ContactForm = () => {
                 placeholder="Enter Company website"
               />
             </Form.Item>
-
-            <Form.Item
-              label={
-                <span className="text-white text-sm md:text-lg font-bold">
-                  Company&nbsp;Website
-                </span>
-              }
-              name="phone"
-              style={{ width: "48%" }}
-              rules={[
-                { required: true, message: "Please enter your email" },
-                { type: "email", message: "Please enter a valid email" },
-              ]}
-            >
-              <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
-                placeholder="Enter Company website"
-              />
-            </Form.Item>
-          </div>
-          <div className="flex flex-wrap gap-4 mb-4">
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
                   Designation
                 </span>
               }
-              name="name"
+              name="user_designation"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
@@ -212,7 +191,7 @@ const ContactForm = () => {
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
-                  Consulting Areas of Interest (multi select)
+                  Consulting Areas of Interest
                 </span>
               }
               name="challenge"
@@ -228,12 +207,12 @@ const ContactForm = () => {
                   "Growth Marketing",
                   "Product Growth",
                   "Other",
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-2">
+                ].map((item, x) => (
+                  <div key={x} className="flex items-center gap-2">
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
                       type="checkbox"
-                      id={`checkbox-${index}`}
+                      id={`checkbox-${x}`}
                     />
 
                     <svg
@@ -264,7 +243,7 @@ const ContactForm = () => {
                       </defs>
                     </svg>
                     <label
-                      htmlFor={`checkbox-${index}`}
+                      htmlFor={`checkbox-${x}`}
                       className="font-semibold text-white"
                     >
                       {item}
@@ -292,7 +271,7 @@ const ContactForm = () => {
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
-                  How Soon Are You Looking to Engage a Consultant?
+                  How Soon Are You Looking to Engage with Us?
                 </span>
               }
               name="challenge"
@@ -304,12 +283,12 @@ const ContactForm = () => {
                   "Immediate [Less than 15 days]",
                   "Within 30 Days",
                   "Just exploring for now",
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-2">
+                ].map((item, y) => (
+                  <div key={y} className="flex items-center gap-2">
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
                       type="checkbox"
-                      id={`checkbox-${index}`}
+                      id={`checkbox-${y}`}
                     />
 
                     <svg
@@ -340,7 +319,7 @@ const ContactForm = () => {
                       </defs>
                     </svg>
                     <label
-                      htmlFor={`checkbox-${index}`}
+                      htmlFor={`checkbox-${y}`}
                       className="font-semibold text-white"
                     >
                       {item}

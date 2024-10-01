@@ -31,7 +31,7 @@ const Pulse = () => {
             />
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[17%] mt-12">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-12">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Evaluate
@@ -44,7 +44,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[8%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">L</span>&nbsp;-&nbsp;Leverage
@@ -58,7 +58,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[9%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[3%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>
@@ -72,7 +72,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[7%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[6%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">V</span>&nbsp;-&nbsp;Validate
@@ -85,7 +85,7 @@ const Pulse = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[9%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[15%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">A</span>
@@ -98,7 +98,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[13%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[25%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">T</span>
@@ -111,7 +111,7 @@ const Pulse = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[17%] mt-5 lg:mt-[68px]">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[40%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#576D2C]">E</span>

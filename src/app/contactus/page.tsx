@@ -68,7 +68,7 @@ export default function Contactus() {
       </div>
       <section className="flex px-3 md:px-10 my-5 justify-around md:items-center flex-col md:flex-row">
         <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#576D2C]">
-          Connect with Our Consulting Team
+          Get in touch
         </div>
         <div className="md:w-2/5 space-y-2">
           <div className="text-lg md:text-2xl font-bold">
@@ -91,68 +91,83 @@ export default function Contactus() {
       <ContactForm />
 
       <section className="flex flex-col md:flex-row px-3 md:px-10 my-16 justify-around md:items-center">
-  {/* Adjusting heading size for responsiveness */}
-  <div className="md:w-2/5 text-[2.5rem] sm:text-[3rem] md:text-8xl font-bold my-1 text-[#576D2C]">
-    Our Consultants Impact
-  </div>
+        {/* Adjusting heading size for responsiveness */}
+        <div className="md:w-2/5 text-[2.5rem] sm:text-[3rem] md:text-8xl font-bold my-1 text-[#576D2C]">
+          Our Consultants Impact
+        </div>
 
-  <div className="md:w-2/5 space-y-4">
-    <div className="text-lg font-bold text-gray-600">
-      &quot;The Growth Mantra&apos;s consulting team revolutionized our go-to-market strategy. Their insights helped us capture market share 50% faster than projected.&quot;
-    </div>
-    <div className="italic text-gray-600">
-      - Michael L., CEO of InnovateTech
-    </div>
-    <div className="text-lg font-bold text-gray-600">
-      &quot;Working with their consultants on our user persona identification transformed our product development. We&apos;ve seen a 40% increase in user engagement since implementing their recommendations.&quot;
-    </div>
-    <div className="italic text-gray-600">
-      - Sarah K., Founder of UserFirst Solutions
-    </div>
-    {/* Responsive button */}
-    <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-      Book Your Free Strategy Session
-      <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
-        <ArrowRight />
-      </div>
-    </div>
-  </div>
-</section>
+        <div className="md:w-2/5 space-y-4">
+          <div className="text-lg font-bold text-gray-600">
+            &quot;The Growth Mantra&apos;s consulting team revolutionized our
+            go-to-market strategy. Their insights helped us capture market share
+            50% faster than projected.&quot;
+          </div>
+          <div className="italic text-gray-600">
+            - Michael L., CEO of InnovateTech
+          </div>
+          <div className="text-lg font-bold text-gray-600">
+            &quot;Working with their consultants on our user persona
+            identification transformed our product development. We&apos;ve seen
+            a 40% increase in user engagement since implementing their
+            recommendations.&quot;
+          </div>
+          <div className="italic text-gray-600">
+            - Sarah K., Founder of UserFirst Solutions
+          </div>
+          {/* Responsive button */}
+          <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+            Book Your Free Strategy Session
+            <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
+              <ArrowRight />
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-  {/* Heading */}
-  <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-left mb-6 sm:mb-8 md:mb-10" style={{ color: '#576D2C' }}>
-    What our clients say
-  </h2>
-  {/* Cards Section */}
-  <div className="flex flex-col sm:flex-row justify-center sm:space-x-6 md:space-x-8 space-y-6 sm:space-y-0">
-    {/* Card 1 */}
-    <div className="bg-white w-full sm:w-[300px] p-6 sm:p-8 shadow-md rounded-md border">
-      <h3 className="text-xl sm:text-2xl font-semibold">Sarah J.</h3>
-      <p className="text-sm text-gray-500 mb-4">CEO Of TechStart Inc.</p>
-      <p className="text-gray-600">
-        &quot;The Growth Mantra team transformed our approach to customer acquisition. Their insights and strategies helped us achieve a 150% increase in qualified leads within just three months.&quot;
-      </p>
-    </div>
-    {/* Card 2 */}
-    <div className="bg-white w-full sm:w-[300px] p-6 sm:p-8 shadow-md rounded-md border">
-      <h3 className="text-xl sm:text-2xl font-semibold">Mark L.</h3>
-      <p className="text-sm text-gray-500 mb-4">Founder Of ScaleUp Solutions</p>
-      <p className="text-gray-600">
-        &quot;Working with The Growth Mantra was a game-changer for our scaling strategy. Their holistic approach and data-driven insights gave us the roadmap we needed to double our revenue in a year.&quot;
-      </p>
-    </div>
-  </div>
-</div>
+        {/* Heading */}
+        <h2
+          className="text-4xl sm:text-5xl md:text-6xl font-bold text-left mb-6 sm:mb-8 md:mb-10"
+          style={{ color: "#576D2C" }}
+        >
+          What our clients say
+        </h2>
+        {/* Cards Section */}
+        <div className="flex flex-col sm:flex-row justify-center sm:space-x-6 md:space-x-8 space-y-6 sm:space-y-0">
+          {/* Card 1 */}
+          <div className="bg-white w-full sm:w-[300px] p-6 sm:p-8 shadow-md rounded-md border">
+            <h3 className="text-xl sm:text-2xl font-semibold">Sarah J.</h3>
+            <p className="text-sm text-gray-500 mb-4">CEO Of TechStart Inc.</p>
+            <p className="text-gray-600">
+              &quot;The Growth Mantra team transformed our approach to customer
+              acquisition. Their insights and strategies helped us achieve a
+              150% increase in qualified leads within just three months.&quot;
+            </p>
+          </div>
+          {/* Card 2 */}
+          <div className="bg-white w-full sm:w-[300px] p-6 sm:p-8 shadow-md rounded-md border">
+            <h3 className="text-xl sm:text-2xl font-semibold">Mark L.</h3>
+            <p className="text-sm text-gray-500 mb-4">
+              Founder Of ScaleUp Solutions
+            </p>
+            <p className="text-gray-600">
+              &quot;Working with The Growth Mantra was a game-changer for our
+              scaling strategy. Their holistic approach and data-driven insights
+              gave us the roadmap we needed to double our revenue in a
+              year.&quot;
+            </p>
+          </div>
+        </div>
+      </div>
 
-      <section className="my-16 text-2xl md:text-5xl md:px-16 text-center m-auto line">
+      <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line">
         <p className="md:leading-[70px]">
-          <span className="text-[#576D2C]">
+          <span className="text-[#576D2C] text-3xl md:text-6xl">
             Ready to elevate your business growth?
           </span>
-          Reach out
-          <br /> today and let&apos;s start crafting your success story
-          <br /> together.
+          <br />
+          Reach out today and let&apos;s start crafting your success story
+          together.
         </p>
         <button className=" m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-[#576D2C] bg-white hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
           Start Your Growth Journey
