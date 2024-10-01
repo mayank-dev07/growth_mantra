@@ -42,7 +42,7 @@ const Hero = () => {
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl">
               👋 Welcome to The Growth Mantra
             </div>
-            <div className="w-full flex flex-col gap-6 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
+            <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
               <div className="text-5xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center sm:text-left">
                 Your&nbsp;Retention
                 <div className="flex items-center gap-2 justify-center sm:justify-start">
