@@ -31,11 +31,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-<<<<<<< Updated upstream
                 className="object-contain  !h-[500px] rounded-lg "
-=======
-                className="object-left  !h-[500px] rounded-lg "
->>>>>>> Stashed changes
               ></Image>
             </div>
           </div>
@@ -48,11 +44,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-<<<<<<< Updated upstream
                 className="object-contain   !h-[500px]   rounded-lg "
-=======
-                className="object-left   !h-[500px]   rounded-lg "
->>>>>>> Stashed changes
               ></Image>
             </div>
           </div>
@@ -64,11 +56,7 @@ export default function VerticalSwiper() {
               alt="image"
               width={900}
               height={800}
-<<<<<<< Updated upstream
               className="object-contain  !h-[500px] rounded-lg "
-=======
-              className="object-left  !h-[500px] rounded-lg "
->>>>>>> Stashed changes
             ></Image>
           </div>
         </SwiperSlide>
@@ -80,11 +68,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-<<<<<<< Updated upstream
                 className="object-contain  !h-[500px]   rounded-lg "
-=======
-                className="object-left  !h-[500px]   rounded-lg "
->>>>>>> Stashed changes
               ></Image>
             </div>
           </div>
@@ -98,11 +82,7 @@ export default function VerticalSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-<<<<<<< Updated upstream
                 className="object-contain   !h-[500px]   rounded-lg "
-=======
-                className="object-left   !h-[500px]   rounded-lg "
->>>>>>> Stashed changes
               ></Image>
             </div>
           </div>
