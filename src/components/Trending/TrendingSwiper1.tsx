@@ -45,7 +45,7 @@ export default function TrendingSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                className="object-contain !h-[280px] lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
@@ -74,7 +74,7 @@ export default function TrendingSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                className="object-contain !h-[280px] lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
@@ -103,7 +103,7 @@ export default function TrendingSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                className="object-contain !h-[280px] lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
@@ -130,7 +130,7 @@ export default function TrendingSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                className="object-contain !h-[280px] lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
@@ -157,7 +157,7 @@ export default function TrendingSwiper() {
                 alt="image"
                 width={900}
                 height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                className="object-contain !h-[280px] lg:!h-[400px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
