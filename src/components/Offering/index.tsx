@@ -1,43 +1,52 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
     title: "Acquisition Mastery",
+    href: "/acquisition",
     description:
       "Accelerate new customer acquisition with data-driven strategies and campaigns.",
   },
   {
     title: "Retention Revolution",
+    href: "/retention",
     description:
       "Transform how you build customer loyalty with personalized engagement campaigns.",
   },
   {
     title: "Funnel Optimization",
+    href: "",
     description:
       "Maximize conversions by refining every step of your marketing funnel.",
   },
   {
     title: "Conversion Rate Optimization (CRO)",
+    href: "",
     description:
       "Boost conversion rates with strategic A/B testing and user behavior analysis.",
   },
   {
     title: "Email Marketing Engine",
+    href: "",
     description:
       "Design targeted email sequences that nurture and convert leads.",
   },
   {
     title: "SEO Domination",
+    href: "",
     description: "Climb search engine rankings through strategic SEO tactics.",
   },
   {
     title: "CRM Growth Engine",
+    href: "",
     description:
       "Leverage data to personalize and scale customer interactions.",
   },
   {
     title: "UX for Exponential Growth",
+    href: "",
     description: "Create intuitive experiences that drive repeat business.",
   },
 ];
@@ -70,12 +79,15 @@ const Offering = () => {
                 </p>
               </div>
               <div className="w-full flex justify-center mt-4 align-middle">
-                <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#E74C3C] hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                  Schedule a Call
+                <Link
+                  href={service.href}
+                  className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#E74C3C] hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out"
+                >
+                  Learn More
                   <div className="p-2 bg-[#E74C3C] rounded-full text-white group-hover:text-[#E74C3C] group-hover:bg-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
           ))}

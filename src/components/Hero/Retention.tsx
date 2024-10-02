@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper3";
 
-const Hero = () => {
+const RetentionHero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
@@ -90,4 +90,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default RetentionHero;

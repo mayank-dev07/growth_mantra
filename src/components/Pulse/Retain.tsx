@@ -42,7 +42,7 @@ const executeItems = [
   "Monitor KPIs and adjust tactics in real-time tems",
 ];
 
-const Pulse = () => {
+const Retain = () => {
   return (
     <>
       <div className="w-full h-full pt-8">
@@ -267,4 +267,4 @@ const Pulse = () => {
   );
 };
 
-export default Pulse;
+export default Retain;

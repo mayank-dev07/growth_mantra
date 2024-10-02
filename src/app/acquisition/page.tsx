@@ -1,9 +1,9 @@
 import CaseStudy from "@/components/CaseStudy";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero/Hero2";
-import Offering from "@/components/Offering/Offering2";
-import Pulse from "@/components/Pulse/Pulse2";
+import Acquisition from "@/components/Hero/Acquisition";
+import Offering from "@/components/Offering/RetentionOffering";
+import Retain from "@/components/Pulse/Retain";
 import Trending from "@/components/Trending";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs2";
 
@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
+      <Acquisition />
       <Offering />
-      <Pulse />
+      <Retain />
       <WhyChooseUs />
       <CaseStudy />
       <Trending />
