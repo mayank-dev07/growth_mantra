@@ -23,30 +23,30 @@ const services = [
   },
   {
     title: "Conversion Rate Optimization (CRO)",
-    href: "",
+    href: "/cro",
     description:
       "Boost conversion rates with strategic A/B testing and user behavior analysis.",
   },
   {
     title: "Email Marketing Engine",
-    href: "",
+    href: "/eme",
     description:
       "Design targeted email sequences that nurture and convert leads.",
   },
   {
     title: "SEO Domination",
-    href: "",
+    href: "/seo",
     description: "Climb search engine rankings through strategic SEO tactics.",
   },
   {
     title: "CRM Growth Engine",
-    href: "",
+    href: "/crm",
     description:
       "Leverage data to personalize and scale customer interactions.",
   },
   {
     title: "UX for Exponential Growth",
-    href: "",
+    href: "/ux",
     description: "Create intuitive experiences that drive repeat business.",
   },
 ];

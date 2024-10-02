@@ -42,7 +42,7 @@ const executeItems = [
   "Monitor KPIs and adjust tactics in real-time tems",
 ];
 
-const Retain = () => {
+const Cro = () => {
   return (
     <>
       <div className="w-full h-full pt-8">
@@ -51,12 +51,14 @@ const Retain = () => {
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
-              <span className="text-[#E74C3C]">RETAIN</span>
+              <span className="text-[#E74C3C]">CONVERT</span>
               Framework
             </p>
           </div>
           <p className="text-lg lg:text-xl tracking-wide leading-relaxed">
-            {`Our proven framework for sustainable customer retention across industries. Adaptable for startups and established businesses.`}
+            {`Our proven framework transforms Cros into powerful growth engines.
+
+`}
           </p>
         </div>
         <div className="relative h-fit pb-20 ">
@@ -66,22 +68,23 @@ const Retain = () => {
               alt="tree"
               width={1000}
               height={600}
-              className="object-fill lg:object-contain h-[1200px] w-fit"
+              className="object-fill lg:object-contain h-[1500px] w-fit"
             />
           </div>
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">R</span>&nbsp;-&nbsp;Review
+                <span className="text-[#E74C3C]">C</span>&nbsp;-&nbsp;Collect
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
-                        Identify key drop-off points and opportunities for
-                        improvement
+                      We gather comprehensive data on user behavior and current conversion rates
+
+
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -102,15 +105,17 @@ const Retain = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp;Evaluate
+                <span className="text-[#E74C3C]">O</span>&nbsp;-&nbsp;Observe
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        Identify key drop-off points and opportunities for
-                        improvement
+                      We analyze user journeys and identify conversion bottlenecks
+
+
+
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -132,15 +137,18 @@ const Retain = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">T</span>
-                &nbsp;-&nbsp;Target
+                <span className="text-[#E74C3C]">N</span>
+                &nbsp;-&nbsp;Navigate
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        Segment users based on behavior and engagement levels
+                      We map out optimization strategies for each stage of the user flow
+
+
+
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -162,14 +170,16 @@ const Retain = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">A</span>&nbsp;-&nbsp;Active
+                <span className="text-[#E74C3C]">V</span>&nbsp;-&nbsp;Validate
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        Implement personalized re-engagement campaigns
+                      We conduct rigorous A/B tests to prove hypotheses
+
+
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -188,18 +198,21 @@ const Retain = () => {
             </div>
           </div>
 
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[30%] mt-10">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[15%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">I</span>
-                &nbsp;-&nbsp;Improve&nbsp;
+                <span className="text-[#E74C3C]">E</span>
+                &nbsp;-&nbsp;Evaluate&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        {`Continuously enhance product experience based on user feedback`}
+                        {` We analyze test results and calculate impact on key metrics
+
+
+`}
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -217,19 +230,80 @@ const Retain = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">N</span>
-                &nbsp;-&nbsp;Nurture
+                <span className="text-[#E74C3C]">R</span>
+                &nbsp;-&nbsp;Refine
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
                     <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        Frustrated with high churn? Book Your Retention
-                        Consultation Today!
+                      We implement winning variations and iterate on insights
+
+                      </p>
+                    </AccordionTrigger>
+                    <AccordionContent>
+                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
+                        {leverageItems.map((item, index) => (
+                          <li key={index} className="flex items-center">
+                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[30%] mt-10">
+            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
+              <p className="text-3xl lg:text-4xl font-bold">
+                <span className="text-[#E74C3C]">T</span>
+                &nbsp;-&nbsp;Track
+              </p>
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
+                <Accordion type="single" collapsible>
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger className="hover:no-underline !border-b-0">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We continuously monitor performance and identify new optimization opportunities
+
+
+                      </p>
+                    </AccordionTrigger>
+                    <AccordionContent>
+                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
+                        {leverageItems.map((item, index) => (
+                          <li key={index} className="flex items-center">
+                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
+            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
+              <p className="text-3xl lg:text-4xl font-bold">
+                <span className="text-[#E74C3C]">R</span>
+                &nbsp;-&nbsp;Refine
+              </p>
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
+                <Accordion type="single" collapsible>
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger className="hover:no-underline !border-b-0">
+                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We implement winning variations and iterate on insights
+
                       </p>
                     </AccordionTrigger>
                     <AccordionContent>
@@ -255,7 +329,9 @@ const Retain = () => {
             className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
           >
-            Frustrated with high churn? Book Your Retention Consultation Today!
+            Master the Art of Conversion - Book Your CRO Strategy Session Today!
+
+
 
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
               <ArrowRight />
@@ -268,4 +344,4 @@ const Retain = () => {
   );
 };
 
-export default Retain;
+export default Cro;

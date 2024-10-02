@@ -4,44 +4,28 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Traffic and Leads",
+    title: "A/B Testing:",
     description:
-      "Drive targeted traffic, convert visitors into high-quality, qualified leads",
-    point1: "Struggling to reach your target audience?",
-    point2: "Need more leads to fuel your sales pipeline?",
-    point3: "Losing potential custoomers?",
+      "Implement strategic experiments to identify and optimize high-impact elements.",
+    point1: "A/B tests not improving conversions?",
+    point2: "Unsure what and when to test?",
+    point3: "Results hard to interpret?",
   },
   {
-    title: "Paid Ads",
+    title: "User Flow Optimization:",
     description:
-      "Maximize ROI with strategic PPC campaigns across major platforms.",
-    point1: "ADs not delivering results?",
-    point2: "Want to optimize your PPC campaigns?",
-    point3: "Struggling to reach the right audience?",
+      "Streamline conversion funnels to guide users towards desired actions.",
+    point1: "High bounce rates?",
+    point2: "Users abandoning mid-journey?",
+    point3: "Conversion path unclear?",
   },
   {
-    title: "Paid Social",
+    title: "Landing Page Optimization",
     description:
-      "Craft engaging, platform-specific campagins that convert scrollers into customers.",
-    point1: "Not seeing results from social media?",
-    point2: "Want to improve engagement and conversions?",
-    point3: "Missing your target audience online?",
-  },
-  {
-    title: "Post Compaign Optimization",
-    description:
-      "Continuously improve campaigns, adapting to market changes and behaviors",
-    point1: "Campaigns underperforming over time?",
-    point2: "Lacking data-driven improvements?",
-    point3: "Market changes hurting results?",
-  },
-  {
-    title: "Affiliate Marketing",
-    description:
-      "Expand reach through strategic partnerships and affiliate network management",
-    point1: "Looking to expand reach cost-effectively?",
-    point2: "Need a reliable refferal system?",
-    point3: "Need help building affiliate Network?",
+      "Transform landing pages into conversion powerhouses with data-driven insights.",
+    point1: "Low conversion rates?",
+    point2: "Visitors not taking action?",
+    point3: "Page elements underperforming?",
   },
 ];
 
@@ -57,7 +41,7 @@ const CheckmarkIcon = () => (
   </div>
 );
 
-const AcquisitionOffering = () => {
+const CroOffering = () => {
   return (
     <>
       <section className="bg-[#E74C3C] p-4 lg:p-8 text-white w-full">
@@ -122,7 +106,8 @@ const AcquisitionOffering = () => {
 
       <div className="py-6 px-4 w-full flex justify-center items-center">
         <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          {`Stop Wasting Ad Budget- Unlock Acquisition Growth Now`}
+          {`Stop Leaking Conversions - Get Your CRO Audit Now!
+`}
           <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
             <ArrowRight />
           </div>
@@ -133,4 +118,4 @@ const AcquisitionOffering = () => {
   );
 };
 
-export default AcquisitionOffering;
+export default CroOffering;

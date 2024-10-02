@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Acquisition from "@/components/Hero/Acquisition";
 import AcquisitionOffering from "@/components/Offering/AcquisitionOffering";
-import Retain from "@/components/Pulse/Retain";
+import Acquire from "@/components/Pulse/Acquire";
 import Trending from "@/components/Trending";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs2";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <Acquisition />
       <AcquisitionOffering />
-      <Retain />
+      <Acquire/>
       <WhyChooseUs />
       <CaseStudy />
       <Trending />
