@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Funnel Optimization",
-    href: "",
+    href: "/funnel",
     description:
       "Maximize conversions by refining every step of your marketing funnel.",
   },
