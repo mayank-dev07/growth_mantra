@@ -21,8 +21,7 @@ const services = [
   },
   {
     title: "Increase Open and Click Rates",
-    description:
-      "Optimize emails for higher engagement and conversion rates.",
+    description: "Optimize emails for higher engagement and conversion rates.",
     point1: "Emails ignored?",
     point2: "Low click-through rates?",
     point3: "Subject lines underperforming?",
@@ -63,17 +62,17 @@ const EmeOffering = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 sm:px-8 lg:px-0">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:px-8 lg:px-0">
           {services.map((service, index) => (
             <div
               key={index}
               className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
               <div className="flex-grow">
-                <h3 className="text-lg md:text-xl text-black font-bold">
+                <h3 className="text-base md:text-lg text-black font-bold">
                   {service.title}
                 </h3>
-                <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
+                <p className="text-sm md:text-base pt-2 text-[#8A8A8A]">
                   {service.description}
                 </p>
               </div>
@@ -81,19 +80,19 @@ const EmeOffering = () => {
               <div className="flex flex-col gap-4 mt-4">
                 <div className="flex items-center">
                   <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-base text-black font-semibold">
                     {service.point1}
                   </p>
                 </div>
                 <div className="flex items-center">
                   <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-base text-black font-semibold">
                     {service.point2}
                   </p>
                 </div>
                 <div className="flex items-center">
                   <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-base text-black font-semibold">
                     {service.point3}
                   </p>
                 </div>

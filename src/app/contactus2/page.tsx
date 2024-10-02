@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/Footer";
 import ContactForm from "@/components/Form/Contact2";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
