@@ -155,7 +155,7 @@ export default function Contactus() {
           </div>
         </section>
         <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#E74C3C] bg-white hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-          Elevate Your Growth Now
+          Start Your Growth Journey
           <div className="p-2 bg-[#E74C3C] rounded-full text-white group-hover:text-[#E74C3C] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
