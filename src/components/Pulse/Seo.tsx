@@ -61,13 +61,13 @@ const Seo = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20 ">
-          <div className="absolute inset-52 top-[-40px] left-0 w-full">
+          <div className="absolute inset-52 top-[-60px] left-0 w-full">
             <Image
               src="/treevector.png"
               alt="tree"
               width={1000}
               height={600}
-              className="object-fill lg:object-contain h-[1200px] w-fit"
+              className="object-fill lg:object-contain h-[1150px] w-fit"
             />
           </div>
 

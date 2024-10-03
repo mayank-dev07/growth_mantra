@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-const Pulse = () => {
+const Strategy = () => {
   return (
     <>
       <div className="w-full h-full pt-8">
@@ -22,7 +22,7 @@ const Pulse = () => {
         </div>
 
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-52 top-[-20px] left-0 w-full">
+          <div className="absolute inset-52 top-[-80px] left-0 w-full">
             <Image
               src="/treevector.png"
               alt="tree"
@@ -152,4 +152,4 @@ const Pulse = () => {
   );
 };
 
-export default Pulse;
+export default Strategy;
