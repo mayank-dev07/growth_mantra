@@ -45,8 +45,8 @@ export default function Contactus() {
         </div>
       </section>
       <section className="lg:px-10 px-2 md:px-6 sm:px-2 md:w-2/3 text-gray-600 my-5">
-        At The Growth Mantra, we're more than just consultants – we're your
-        partners in navigating the complex landscape of business growth.
+        {` At The Growth Mantra, we're more than just consultants – we're your
+        partners in navigating the complex landscape of business growth.`}
       </section>
 
       <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row">
@@ -61,10 +61,10 @@ export default function Contactus() {
             unique business.
             <br />
             <br />
-            We've experienced firsthand the challenges of scaling startups and
+            {` We've experienced firsthand the challenges of scaling startups and
             the pitfalls of unfocused growth strategies. This deep understanding
             drives our passion for helping businesses like yours achieve
-            sustainable, meaningful growth.
+            sustainable, meaningful growth.`}
           </div>
         </div>
       </section>
@@ -111,10 +111,10 @@ export default function Contactus() {
         </div>
         <div className="md:w-2/5 space-y-2">
           <div className=" md:text-lg text-white">
-            Led by industry veterans with proven track records in scaling
+            {`Led by industry veterans with proven track records in scaling
             businesses, our team combines strategic thinking with hands-on
             execution skills. From growth scientists to creative strategists,
-            we've assembled a diverse group of experts dedicated to your growth.
+            we've assembled a diverse group of experts dedicated to your growth.`}
           </div>
         </div>
       </section>
@@ -149,8 +149,8 @@ export default function Contactus() {
           </div>
           <div className="md:w-2/5 space-y-2">
             <div className=" md:text-lg text-white">
-              Don't let growth challenges hold you back. Partner with The Growth
-              Mantra and transform your business trajectory.
+              {` Don't let growth challenges hold you back. Partner with The Growth
+              Mantra and transform your business trajectory.`}
             </div>
           </div>
         </section>
@@ -165,8 +165,8 @@ export default function Contactus() {
       <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[70px]">
           <span className="text-[#E74C3C] ">At The Growth Mantra,</span>
-          <span>we don't just predict the future of business growth</span>
-          <span className="text-[#E74C3C]">– we help you create it</span>
+          <span>{`we don't just predict the future of business growth`}</span>
+          <span className="text-[#E74C3C]">{`– we help you create it`}</span>
         </p>
       </section>
 
