@@ -5,17 +5,18 @@ import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header/Header2";
 const content1: { [key: string]: string } = {
   "Acquisition Mastery":
-    "Transform your vision into a concrete roadmap for success",
-  "Retention Revolution": "Understand your customers at a deeper level",
+    "Supercharge your customer acquisition and lead generation",
+  "Retention Revolution": "Transform one-time users into loyal brand advocates",
   "Funnel Optimization ":
-    "Launch products or enter new markets with confidence",
-  "CRM Growth Engine": "Build a brand that stands out in a crowded marketplace",
+    "Craft high-converting funnels that boost your bottom line",
+  "CRM Growth Engine":
+    "Leverage customer data for personalized, high-impact journeys",
   "Conversion Rate Optimization (CRO)":
-    "Accelerate your growth with data-driven marketing strategies",
-  "Sales Acceleration ":
-    "Align your product development with market needs and user expectations",
+    "Unlock hidden revenue with data-driven enhancements",
+  "Email Marketing Engine": "Design engaging sequences that convert at scale",
+  "Sales Acceleration ": "Empower your team to close more deals, faster",
   "SEO Domination":
-    " Align your product development with market needs and user expectations",
+    "Climb the search rankings and establish thought leadership",
 };
 
 export default function Contactus() {
@@ -66,7 +67,8 @@ export default function Contactus() {
         <div className=" inline">Not sure which service you need?</div>
         Don&apos;t worry – our experts will
         <br /> help you identify the
-        <div className="inline">best solutions</div> for your unique challenges.
+        <div className="inline">&nbsp;best solutions</div> for your unique
+        challenges.
       </div>
 
       <section className="flex px-3 md:px-10 my-5 justify-around md:items-center flex-col md:flex-row">
@@ -98,7 +100,7 @@ export default function Contactus() {
           Our Consultants Impact
         </div>
 
-        <div className="md:w-2/5 space-y-4">
+        <div className="md:w-4/5 space-y-4">
           <div className="text-lg font-bold text-gray-600">
             &quot;The Growth Mantra&apos;s consulting team revolutionized our
             go-to-market strategy. Their insights helped us capture market share
@@ -170,7 +172,7 @@ export default function Contactus() {
           {`today and let's craft your success story together.`}
         </p>
         <button className="m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#E74C3C] bg-white hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-          Start Your Growth Journey
+          Elevate Your Growth Now
           <div className="p-2 bg-[#E74C3C] rounded-full text-white group-hover:text-[#E74C3C] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
