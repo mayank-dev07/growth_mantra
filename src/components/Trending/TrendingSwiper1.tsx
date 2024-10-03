@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, FreeMode } from "swiper/modules";
 import Image from "next/image";
 
 export default function TrendingSwiper() {
@@ -25,27 +25,23 @@ export default function TrendingSwiper() {
           },
         }}
         spaceBetween={10}
-        navigation={{
-          nextEl: ".next",
-          prevEl: ".prev",
-        }}
-        loop={true}
+        freeMode={true}
         autoplay={{
-          delay: 10000,
+          delay: 2400,
           disableOnInteraction: false,
         }}
-        modules={[Navigation, Autoplay]}
+        modules={[FreeMode, Autoplay]}
         className="lg:!h-fit w-full"
       >
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/TrendingSwiper1.png"
+                src="/assets/trending_services/Acquisition_Mastery.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-contain !h-full rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
@@ -53,13 +49,12 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    Strategy & Planning
+                    Acquisition Mastery
                   </div>
                   <div className="text-sm lg:text-base">
-                    Transform your vision into a concrete roadmap for success.
-                    Our strategic planning services help you navigate the
-                    complex startup landscape, identify opportunities, and
-                    mitigate risks.
+                    Supercharge your new customer acquisition, lead generation,
+                    and traffic with precision-targeted paid ads, social
+                    strategies, and affiliate marketing.
                   </div>
                 </div>
               </div>
@@ -70,11 +65,11 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/TrendingSwiper2.png"
+                src="/assets/trending_services/Retention_Revolution.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-contain !h-full rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
@@ -82,13 +77,11 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    User Persona Identification
+                    Retention Revolution
                   </div>
                   <div className="text-sm lg:text-base">
-                    Understand your customers at a deeper level. We use advanced
-                    analytics and market research to create detailed user
-                    personas, ensuring your products and marketing resonate with
-                    your target au.
+                    Transform one-time users into loyal advocates with advanced
+                    retention analysis and personalized re-engagement campaigns.
                   </div>
                 </div>
               </div>
@@ -99,11 +92,11 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Funnel_Optimization.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-contain !h-full rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
@@ -126,11 +119,11 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-contain !h-full rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
@@ -153,11 +146,11 @@ export default function TrendingSwiper() {
           <div className="p-0 lg:p-4 w-full h-full">
             <div className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Email_Marketing_Engine.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-contain !h-full rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
                 <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
