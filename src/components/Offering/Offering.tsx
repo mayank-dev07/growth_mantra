@@ -21,12 +21,14 @@ const services = [
     description:
       "Launch your product or enter new markets with confidence. Our go-to-market strategies are designed to maximize impact, minimize risk, and accelerate adoption.",
   },
-  { href: "/brandSolution",
+  {
+    href: "/brandSolution",
     title: "Brand Solutions",
     description:
       "Build a brand that stands out in a crowded marketplace. We help you craft a compelling brand story, visual identity, and messaging that captures your unique value proposition.",
   },
-  {href: "/growthMarketing",
+  {
+    href: "/growthMarketing",
     title: "Growth Marketing",
     description:
       "Accelerate your growth with data-driven marketing strategies. We integrate cutting-edge tactics across channels to drive acquisition, engagement, and retention.",
@@ -63,20 +65,20 @@ const Offering = () => {
                   <h3 className="text-lg md:text-xl text-black font-bold">
                     {service.title}
                   </h3>
-                  <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
+                  <p className="text-base pt-2 text-[#8A8A8A]">
                     {service.description}
                   </p>
                 </div>
                 <div className="w-full flex justify-center mt-4">
-                <Link
-                  href={service.href}
-                  className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#576D2C] hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out"
-                >
-                  Learn More
-                  <div className="p-2 bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
-                    <ArrowRight />
-                  </div>
-                </Link>
+                  <Link
+                    href={service.href}
+                    className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#576D2C] hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out"
+                  >
+                    Learn More
+                    <div className="p-2 bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
+                      <ArrowRight />
+                    </div>
+                  </Link>
                 </div>
               </div>
             ))}

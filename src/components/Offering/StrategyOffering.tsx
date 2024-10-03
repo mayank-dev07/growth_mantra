@@ -43,7 +43,9 @@ const StrategyOffering = () => {
     <>
       <section className="bg-[#576D2C] p-4 lg:p-10 text-white w-full">
         <div className="text-start mb-8 flex flex-col gap-3 md:gap-6">
-          <h2 className="text-5xl lg:text-7xl font-bold mb-2">Our StrategyOffering</h2>
+          <h2 className="text-5xl lg:text-7xl font-bold mb-2">
+            Our StrategyOffering
+          </h2>
           <p className="text-lg lg:text-xl w-fit tracking-wider flex flex-col gap-1 text-[#DFDFDF]">
             <span>
               Explore our comprehensive suite of services designed to fuel your
@@ -59,36 +61,42 @@ const StrategyOffering = () => {
                 className="bg-white text-[#576D2C] p-4 sm:p-6 lg:p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
               >
                 <div className="flex-grow">
-                  <h3 className="text-lg md:text-xl text-black font-bold">
+                  <h3 className="text-lg  text-black font-bold">
                     {service.title}
                   </h3>
-                  <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
+                  <p className="text-base  pt-1 text-[#8A8A8A]">
                     {service.description}
                   </p>
                 </div>
-                <div className="flex flex-col gap-4 mt-8">
+                <div className="flex flex-col gap-4 mt-2">
                   {/* Checkpoint 1 */}
                   <div className="flex items-center">
                     <CheckmarkIcon />
-                    <p className="text-lg text-black font-semibold">{service.point1}</p>
+                    <p className="text-sm text-black font-semibold">
+                      {service.point1}
+                    </p>
                   </div>
 
                   {/* Checkpoint 2 */}
                   <div className="flex items-center">
                     <CheckmarkIcon />
-                    <p className="text-lg text-black font-semibold">{service.point2}</p>
+                    <p className="text-sm text-black font-semibold">
+                      {service.point2}
+                    </p>
                   </div>
 
                   {/* Checkpoint 3 */}
                   <div className="flex items-center">
                     <CheckmarkIcon />
-                    <p className="text-lg text-black font-semibold">{service.point3}</p>
+                    <p className="text-sm text-black font-semibold">
+                      {service.point3}
+                    </p>
                   </div>
                 </div>
 
                 <div className="w-full flex justify-center mt-8">
-                  <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                    Schedule a Call
+                  <div className="group rounded-full w-fit px-4 py-2 flex text-sm  text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
+                    Schedule&nbsp;a&nbsp;Call
                     <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
                       <ArrowRight />
                     </div>

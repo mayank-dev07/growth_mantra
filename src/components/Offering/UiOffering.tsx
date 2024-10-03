@@ -19,7 +19,6 @@ const services = [
     point2: "Conversion bottlenecks unclear?",
     point3: "Sales cycle too long?",
   },
-  
 ];
 
 const CheckmarkIcon = () => (
@@ -27,7 +26,7 @@ const CheckmarkIcon = () => (
     <Image
       width={30}
       height={30}
-      src="/Success.png" // Replace with the actual path to your PNG
+      src="/Success.png"
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
@@ -48,13 +47,13 @@ const UiOffering = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 sm:px-8 lg:px-0 lg:w-[60%]">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 place-items-center gap-6 lg:gap-8 sm:px-8 lg:px-0 ">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col w-10/12"
             >
-              <div className="flex-grow"> 
+              <div className="flex-grow">
                 <h3 className="text-lg md:text-xl text-black font-bold">
                   {service.title}
                 </h3>
@@ -66,19 +65,19 @@ const UiOffering = () => {
               <div className="flex flex-col gap-4 mt-4">
                 <div className="flex items-center">
                   <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-base lg:text-lg text-black font-semibold">
                     {service.point1}
                   </p>
                 </div>
                 <div className="flex items-center">
                   <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-base lg:text-lg text-black font-semibold">
                     {service.point2}
                   </p>
                 </div>
                 <div className="flex items-center">
                   <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
+                  <p className="text-base lg:text-lg text-black font-semibold">
                     {service.point3}
                   </p>
                 </div>
@@ -86,7 +85,7 @@ const UiOffering = () => {
 
               <div className="w-full flex justify-center mt-8">
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                  Schedule a Call
+                  Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>

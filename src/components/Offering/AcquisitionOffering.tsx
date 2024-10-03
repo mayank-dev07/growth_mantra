@@ -27,32 +27,32 @@ const services = [
     point2: "Want to improve engagement and conversions?",
     point3: "Missing your target audience online?",
   },
- 
 ];
-const service2 = [ {
-  title: "Post Campaign Optimization",
-  description:
-    "Continuously improve campaigns, adapting to market changes and behaviors",
-  point1: "Campaigns underperforming over time?",
-  point2: "Lacking data-driven improvements?",
-  point3: "Market changes hurting results?",
-},
-{
-  title: "Affiliate Marketing",
-  description:
-    "Expand reach through strategic partnerships and affiliate network management",
-  point1: "Looking to expand reach cost-effectively?",
-  point2: "Need a reliable referral system?",
-  point3: "Need help building an affiliate network?",
-},]
-
+const service2 = [
+  {
+    title: "Post Campaign Optimization",
+    description:
+      "Continuously improve campaigns, adapting to market changes and behaviors",
+    point1: "Campaigns underperforming over time?",
+    point2: "Lacking data-driven improvements?",
+    point3: "Market changes hurting results?",
+  },
+  {
+    title: "Affiliate Marketing",
+    description:
+      "Expand reach through strategic partnerships and affiliate network management",
+    point1: "Looking to expand reach cost-effectively?",
+    point2: "Need a reliable referral system?",
+    point3: "Need help building an affiliate network?",
+  },
+];
 
 const CheckmarkIcon = () => (
   <div className="w-[30px] h-[30px] flex justify-center items-center mr-2">
     <Image
       width={30}
       height={30}
-      src="/Success.png" 
+      src="/Success.png"
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
@@ -111,7 +111,7 @@ const AcquisitionOffering = () => {
 
               <div className="w-full flex justify-center mt-8">
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                  Schedule a Call
+                  Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
@@ -158,14 +158,14 @@ const AcquisitionOffering = () => {
 
               <div className="w-full flex justify-center mt-8">
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                  Schedule a Call
+                  Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
                 </div>
               </div>
             </div>
-         ) )}
+          ))}
         </div>
       </section>
 

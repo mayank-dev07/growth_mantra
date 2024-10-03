@@ -21,7 +21,7 @@ const Trending = () => {
           </p>
           <div className="pb-8 md:py-4 w-full flex justify-center md:justify-start items-center">
             <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-              Schedule a call
+              Schedule&nbsp;a&nbsp;Call
               <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                 <ArrowRight />
               </div>
