@@ -9,48 +9,50 @@ const services = [
       "Drive targeted traffic, convert visitors into high-quality, qualified leads",
     point1: "Struggling to reach your target audience?",
     point2: "Need more leads to fuel your sales pipeline?",
-    point3: "Losing potential custoomers?",
+    point3: "Losing potential customers?",
   },
   {
     title: "Paid Ads",
     description:
       "Maximize ROI with strategic PPC campaigns across major platforms.",
-    point1: "ADs not delivering results?",
+    point1: "Ads not delivering results?",
     point2: "Want to optimize your PPC campaigns?",
     point3: "Struggling to reach the right audience?",
   },
   {
     title: "Paid Social",
     description:
-      "Craft engaging, platform-specific campagins that convert scrollers into customers.",
+      "Craft engaging, platform-specific campaigns that convert scrollers into customers.",
     point1: "Not seeing results from social media?",
     point2: "Want to improve engagement and conversions?",
     point3: "Missing your target audience online?",
   },
-  {
-    title: "Post Compaign Optimization",
-    description:
-      "Continuously improve campaigns, adapting to market changes and behaviors",
-    point1: "Campaigns underperforming over time?",
-    point2: "Lacking data-driven improvements?",
-    point3: "Market changes hurting results?",
-  },
-  {
-    title: "Affiliate Marketing",
-    description:
-      "Expand reach through strategic partnerships and affiliate network management",
-    point1: "Looking to expand reach cost-effectively?",
-    point2: "Need a reliable refferal system?",
-    point3: "Need help building affiliate Network?",
-  },
+ 
 ];
+const service2 = [ {
+  title: "Post Campaign Optimization",
+  description:
+    "Continuously improve campaigns, adapting to market changes and behaviors",
+  point1: "Campaigns underperforming over time?",
+  point2: "Lacking data-driven improvements?",
+  point3: "Market changes hurting results?",
+},
+{
+  title: "Affiliate Marketing",
+  description:
+    "Expand reach through strategic partnerships and affiliate network management",
+  point1: "Looking to expand reach cost-effectively?",
+  point2: "Need a reliable referral system?",
+  point3: "Need help building an affiliate network?",
+},]
+
 
 const CheckmarkIcon = () => (
   <div className="w-[30px] h-[30px] flex justify-center items-center mr-2">
     <Image
       width={30}
       height={30}
-      src="/Success.png" // Replace with the actual path to your PNG
+      src="/Success.png" 
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
@@ -117,6 +119,53 @@ const AcquisitionOffering = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 sm:px-8 lg:px-0 mx-auto mt-6 lg:w-[60%] ">
+          {service2.map((service, index) => (
+            <div
+              key={index}
+              className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
+            >
+              <div className="flex-grow">
+                <h3 className="text-lg md:text-xl text-black font-bold">
+                  {service.title}
+                </h3>
+                <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
+                  {service.description}
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-4 mt-4">
+                <div className="flex items-center">
+                  <CheckmarkIcon />
+                  <p className="text-lg text-black font-semibold">
+                    {service.point1}
+                  </p>
+                </div>
+                <div className="flex items-center">
+                  <CheckmarkIcon />
+                  <p className="text-lg text-black font-semibold">
+                    {service.point2}
+                  </p>
+                </div>
+                <div className="flex items-center">
+                  <CheckmarkIcon />
+                  <p className="text-lg text-black font-semibold">
+                    {service.point3}
+                  </p>
+                </div>
+              </div>
+
+              <div className="w-full flex justify-center mt-8">
+                <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
+                  Schedule a Call
+                  <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </div>
+            </div>
+         ) )}
         </div>
       </section>
 

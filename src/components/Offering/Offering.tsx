@@ -1,33 +1,38 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
+    href: "/strategyPlanning",
     title: "Strategy & Planning",
     description:
-      "Transform your vision into a concrete roadmap for success. Our strategic planning services help you navigate the complex startup landscape, identify opportunities, and mitigate risks.",
+      "Transform your vision into a concrete roadmap for success. Our strategic planning href help you navigate the complex startup landscape, identify opportunities, and mitigate risks.",
   },
   {
+    href: "/upi",
     title: "User Personal Identification",
     description:
       "Understand your customers at a deeper level. We use advanced analytics and market research to create detailed user personas, ensuring your products and marketing resonate with your target audience.",
   },
   {
+    href: "/marketStrategy",
     title: "Go-to-Market Strategy",
     description:
       "Launch your product or enter new markets with confidence. Our go-to-market strategies are designed to maximize impact, minimize risk, and accelerate adoption.",
   },
-  {
+  { href: "/brandSolution",
     title: "Brand Solutions",
     description:
       "Build a brand that stands out in a crowded marketplace. We help you craft a compelling brand story, visual identity, and messaging that captures your unique value proposition.",
   },
-  {
+  {href: "/growthMarketing",
     title: "Growth Marketing",
     description:
       "Accelerate your growth with data-driven marketing strategies. We integrate cutting-edge tactics across channels to drive acquisition, engagement, and retention.",
   },
   {
+    href: "/productGrowth",
     title: "Product Growth",
     description:
       "Align your product development with market needs and user expectations. Our product growth strategies ensure you're building features that drive adoption and retention.",
@@ -63,12 +68,15 @@ const Offering = () => {
                   </p>
                 </div>
                 <div className="w-full flex justify-center mt-4">
-                  <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#576D2C] hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                    Schedule a Call
-                    <div className="p-2 bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
-                      <ArrowRight />
-                    </div>
+                <Link
+                  href={service.href}
+                  className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base bg-white text-[#576D2C] hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out"
+                >
+                  Learn More
+                  <div className="p-2 bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
+                    <ArrowRight />
                   </div>
+                </Link>
                 </div>
               </div>
             ))}
