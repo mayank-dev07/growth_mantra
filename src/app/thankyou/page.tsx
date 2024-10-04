@@ -77,8 +77,9 @@ export default function Home() {
           <span>Thank you for reaching out to</span>
           <span className="text-[#E74C3C] ">&nbsp;The Growth Mantra.</span>
           <span>
-            &nbsp; We're excited about the possibility of partnering with you to
-            drive
+            &nbsp;{" "}
+            {`We're excited about the possibility of partnering with you to
+            drive`}
           </span>
           <span className="text-[#E74C3C]">&nbsp;exceptional growth</span>
           <span>&nbsp;business.</span>
@@ -117,8 +118,8 @@ export default function Home() {
           <div className="bg-white shadow-lg rounded-lg p-6 w-64 h-64 flex flex-col justify-center text-center">
             <h2 className="text-xl font-semibold text-red-500">Evaluation</h2>
             <p className="mt-4 text-gray-600 overflow-hidden">
-              We'll evaluate how our expertise aligns with your unique needs and
-              growth potential.
+              {` We'll evaluate how our expertise aligns with your unique needs and
+              growth potential.`}
             </p>
           </div>
           <div className="flex mt-4">
@@ -135,8 +136,8 @@ export default function Home() {
           <div className="bg-white shadow-lg rounded-lg p-6 w-64 h-64 flex flex-col justify-center text-center">
             <h2 className="text-xl font-semibold text-red-500">Response</h2>
             <p className="mt-4 text-gray-600 overflow-hidden">
-              If we determine there's a strong fit, we'll reach out to schedule
-              your personalized strategy session.
+              {`If we determine there's a strong fit, we'll reach out to schedule
+              your personalized strategy session.`}
             </p>
           </div>
         </div>
@@ -198,7 +199,7 @@ export default function Home() {
             &nbsp;our full expertise and resources
           </span>
           <span>to each</span>
-          <span className="text-[#E74C3C]">&nbsp;client's success.</span>
+          <span className="text-[#E74C3C]">&nbsp;{`client's success.`}</span>
         </p>
       </section>
 
@@ -214,7 +215,7 @@ export default function Home() {
       <WhyChooseUs />
       <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[60px]">
-          <span> Discover how we've helped businesses like yours</span>
+          <span> {`Discover how we've helped businesses like yours`}</span>
           <span className="text-[#E74C3C] ">
             &nbsp;achieve remarkable growth.
           </span>
@@ -336,17 +337,17 @@ export default function Home() {
 
       <div className="w-fulll flex justify-center items-center mt-10">
         <p className="text-[#E74C3C] container text-center text-xl md:text-2xl">
-          We appreciate your interest in The Growth Mantra. Our commitment to
+          {` We appreciate your interest in The Growth Mantra. Our commitment to
           exclusivity means that if selected, you'll receive our unpided
           attention and expertise. We look forward to the possibility of
-          partnering with you on your growth journey
+          partnering with you on your growth journey`}
         </p>
       </div>
       <section className="flex px-3 md:px-10 py-12 mt-10 justify-around md:items-center flex-col md:flex-row bg-[#E74C3C] text-white">
         <div className=" space-y-2">
           <div className="text-xl md:text-2xl text-white text-center">
-            In the meantime, if you have any urgent questions, please don't
-            hesitate to reach out to us at
+            {` In the meantime, if you have any urgent questions, please don't
+            hesitate to reach out to us at`}
             <br />
             <span className="font-bold">contact@thegrowthmantra.com</span>
           </div>
