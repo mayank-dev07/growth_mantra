@@ -45,7 +45,7 @@ const services = [
       "Leverage data to personalize and scale customer interactions.",
   },
   {
-    title: "UX for Exponential Growth",
+    title: "Sales Growth",
     href: "/ux",
     description: "Create intuitive experiences that drive repeat business.",
   },
