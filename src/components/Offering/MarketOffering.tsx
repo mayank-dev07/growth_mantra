@@ -39,7 +39,7 @@ const CheckmarkIcon = () => (
     <Image
       width={30}
       height={30}
-      src="/Success.png" // Replace with the actual path to your PNG
+      src="/Success.svg" // Replace with the actual path to your PNG
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
@@ -117,7 +117,7 @@ const MarketOffering = () => {
       </section>
       <div className="py-8 px-2 w-full flex justify-center items-center">
         <div className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          {`Targeting Wrong Audience? Discover Your True Customers Now!`}
+          {` Product Launch Fears? Get Your Winning Go-to-Market Plan!`}
           <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
             <ArrowRight />
           </div>
