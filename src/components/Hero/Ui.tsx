@@ -40,11 +40,11 @@ const UiHero = () => {
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#E74C3C] bg-[#FFEDEB] rounded-xl">
-              👋 Welcome to The Growth Mantra
+               The Growth Mantra - Sales Growth
             </div>
             <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start">
               <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center sm:text-left">
-                Your&nbsp;UI
+                Your&nbsp; Sales Growth
                 <div className="flex items-center gap-2 justify-center sm:justify-start">
                   <div className="border-[#E74C3C] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-4xl lg:text-6xl border-4 w-fit rounded-full text-[#E74C3C] font-bold shadow-2xl">
                     Growth
