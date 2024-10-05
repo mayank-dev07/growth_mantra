@@ -4,43 +4,11 @@ import React from "react";
 
 import {
   Accordion,
-  AccordionContent,
   AccordionItem,
-  AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const probeItems = [
-  "Market research, Ideal Customer Profile, and competitor analysis",
-  "Comprehensive data analysis",
-  "Customer journey mapping",
-  "Identifying key performance indicators (KPIs)",
-];
-const uncoverItems = [
-  "Reveal untapped market segments",
-  "Identify bottlenecks in the customer journey",
-  "Discover underutilized channels or resources",
-  "Pinpoint areas for optimization and innovation",
-];
 
-const leverageItems = [
-  "Create personalized customer experiences",
-  "Develop multi-channel growth plans",
-  "Customer journey mapping ",
-  "Identifying key performance indicators (KPIs)",
-];
 
-const synthesizesItems = [
-  " Integrate marketing, sales, and product strategies",
-  "Align business goals with marketing objectives",
-  "Combine short-term tactics with long-term vision ",
-  "Blend creativity with data-driven decision making",
-];
-
-const executeItems = [
-  " Implement strategies with agile methodologies",
-  "Conduct regular A/B testing and optimization ",
-  "Monitor KPIs and adjust tactics in real-time tems",
-];
 
 const Cro = () => {
   return (
@@ -68,7 +36,7 @@ const Cro = () => {
               alt="tree"
               width={1000}
               height={600}
-              className="object-fill lg:object-contain h-[1600px] w-fit"
+              className="object-fill lg:object-contain h-[1300px] w-fit"
             />
           </div>
 
@@ -80,23 +48,12 @@ const Cro = () => {
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
                       We gather comprehensive data on user behavior and current conversion rates
 
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {probeItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -110,24 +67,13 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We analyze user journeys and identify conversion bottlenecks
 
 
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {uncoverItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -143,24 +89,13 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We map out optimization strategies for each stage of the user flow
 
 
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                  
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -175,23 +110,12 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We conduct rigorous A/B tests to prove hypotheses
 
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {synthesizesItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -207,24 +131,13 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                         {` We analyze test results and calculate impact on key metrics
 
 
 `}
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {executeItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                  
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -239,22 +152,11 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We implement winning variations and iterate on insights
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -269,23 +171,12 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We continuously monitor performance and identify new optimization opportunities
 
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -300,22 +191,11 @@ const Cro = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We implement winning variations and iterate on insights
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
