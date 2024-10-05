@@ -1,5 +1,13 @@
+"use client";
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+import { Autoplay, FreeMode } from "swiper/modules";
 import Image from "next/image";
 
 const services = [
@@ -27,8 +35,6 @@ const services = [
     point2: "Want to improve engagement and conversions?",
     point3: "Missing your target audience online?",
   },
-];
-const service2 = [
   {
     title: "Post Campaign Optimization",
     description:
@@ -73,100 +79,75 @@ const AcquisitionOffering = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 sm:px-8 lg:px-0">
+        <Swiper
+          breakpoints={{
+            1200: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+            700: {
+              slidesPerView: 2,
+            },
+          }}
+          spaceBetween={20}
+          freeMode={true}
+          autoplay={{
+            delay: 2400,
+            disableOnInteraction: false,
+          }}
+          modules={[FreeMode, Autoplay]}
+          className="lg:!h-fit w-full"
+        >
           {services.map((service, index) => (
-            <div
-              key={index}
-              className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
-            >
-              <div className="flex-grow">
-                <h3 className="text-lg md:text-xl text-black font-bold">
-                  {service.title}
-                </h3>
-                <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
-                  {service.description}
-                </p>
-              </div>
+            <SwiperSlide>
+              <div
+                key={index}
+                className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              >
+                <div className="flex-grow">
+                  <h3 className="text-lg md:text-xl text-black font-bold">
+                    {service.title}
+                  </h3>
+                  <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
+                    {service.description}
+                  </p>
+                </div>
 
-              <div className="flex flex-col gap-4 mt-4">
-                <div className="flex items-center">
-                  <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
-                    {service.point1}
-                  </p>
+                <div className="flex flex-col gap-4 mt-4">
+                  <div className="flex items-center">
+                    <CheckmarkIcon />
+                    <p className="text-lg text-black font-semibold">
+                      {service.point1}
+                    </p>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckmarkIcon />
+                    <p className="text-lg text-black font-semibold">
+                      {service.point2}
+                    </p>
+                  </div>
+                  <div className="flex items-center">
+                    <CheckmarkIcon />
+                    <p className="text-lg text-black font-semibold">
+                      {service.point3}
+                    </p>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
-                    {service.point2}
-                  </p>
-                </div>
-                <div className="flex items-center">
-                  <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
-                    {service.point3}
-                  </p>
-                </div>
-              </div>
 
-              <div className="w-full flex justify-center mt-8">
-                <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                  Schedule&nbsp;a&nbsp;Call
-                  <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
-                    <ArrowRight />
+                <div className="w-full flex justify-center mt-8">
+                  <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
+                    Schedule&nbsp;a&nbsp;Call
+                    <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
+                      <ArrowRight />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
           ))}
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 sm:px-8 lg:px-0 mx-auto mt-6 lg:w-[60%] ">
-          {service2.map((service, index) => (
-            <div
-              key={index}
-              className="bg-white text-[#E74C3C] p-4 lg:p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
-            >
-              <div className="flex-grow">
-                <h3 className="text-lg md:text-xl text-black font-bold">
-                  {service.title}
-                </h3>
-                <p className="text-base md:text-lg pt-2 text-[#8A8A8A]">
-                  {service.description}
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-4 mt-4">
-                <div className="flex items-center">
-                  <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
-                    {service.point1}
-                  </p>
-                </div>
-                <div className="flex items-center">
-                  <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
-                    {service.point2}
-                  </p>
-                </div>
-                <div className="flex items-center">
-                  <CheckmarkIcon />
-                  <p className="text-lg text-black font-semibold">
-                    {service.point3}
-                  </p>
-                </div>
-              </div>
-
-              <div className="w-full flex justify-center mt-8">
-                <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
-                  Schedule&nbsp;a&nbsp;Call
-                  <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
-                    <ArrowRight />
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        </Swiper>
       </section>
 
       <div className="py-6 px-4 w-full flex justify-center items-center">
