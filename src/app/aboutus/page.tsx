@@ -91,7 +91,7 @@ export default function Contactus() {
             {Object.keys(content1).map((key: string) => (
               <li
                 key={key + "list"}
-                className="md:px-10 px-3 py-3 flex text-sm md:text-xl gap-x-1 "
+                className=" py-3 flex text-sm md:text-xl gap-x-1 "
               >
                 <p className="font-bold text-[#E74C3C]">
                   {key} :
@@ -128,7 +128,7 @@ export default function Contactus() {
             {Object.keys(content2).map((key: string) => (
               <li
                 key={key + "list"}
-                className="md:px-10 px-3 py-3 flex text-sm md:text-xl gap-x-1 "
+                className=" py-3 flex text-sm md:text-xl gap-x-1 "
               >
                 <p className="font-bold text-[#E74C3C]">
                   {key} :{" "}

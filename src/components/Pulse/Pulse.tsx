@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Pulse = () => {
@@ -128,15 +129,17 @@ const Pulse = () => {
 
         <hr className="border-t-2 w-full" />
         <div className="py-8 w-full flex justify-center items-center px-4">
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
-          transition-all duration-500 ease-in-out font-bold"
-          >
-            Experience the ELEVATE Advantage - Book Your Strategy Session Today!
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-              <ArrowRight />
-            </div>
-          </div>
+        <Link href="/contactus" passHref>
+  <div
+    className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold"
+  >
+    Experience the ELEVATE Advantage - Book Your Strategy Session Today!
+    <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+      <ArrowRight />
+    </div>
+  </div>
+</Link>
+
         </div>
         <hr className="border-t-2 w-full" />
       </div>

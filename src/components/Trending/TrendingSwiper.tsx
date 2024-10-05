@@ -52,9 +52,8 @@ export default function TrendingSwiper() {
                     Acquisition Mastery
                   </div>
                   <div className="text-sm lg:text-base">
-                    Supercharge your new customer acquisition, lead generation,
-                    and traffic with precision-targeted paid ads, social
-                    strategies, and affiliate marketing.
+                  Boost acquisition, leads, and traffic with precise paid ads, social, and affiliate strategies.
+
                   </div>
                 </div>
               </div>
@@ -80,8 +79,7 @@ export default function TrendingSwiper() {
                     Retention Revolution
                   </div>
                   <div className="text-sm lg:text-base">
-                    Transform one-time users into loyal advocates with advanced
-                    retention analysis and personalized re-engagement campaigns.
+                  Turn users into loyal advocates with retention analysis and personalized campaigns
                   </div>
                 </div>
               </div>
@@ -107,8 +105,8 @@ export default function TrendingSwiper() {
                     Funnel Optimization
                   </div>
                   <div className="text-sm lg:text-base">
-                    Craft high-converting funnels that guide prospects
-                    seamlessly from awareness to purchase and beyond.
+                  Create funnels that guide prospects smoothly from awareness to purchase.
+
                   </div>
                 </div>
               </div>
@@ -131,11 +129,11 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
-                    Conversion Rate Optimization (CRO)
+                    Conversion Rate Optimization
                   </div>
                   <div className="text-sm lg:text-base">
-                    Leverage customer data to create personalized journeys that
-                    nurture relationships and drive long-term value.
+                  Use customer data to personalize journeys, nurturing relationships for lasting value.
+
                   </div>
                 </div>
               </div>
@@ -161,8 +159,8 @@ export default function TrendingSwiper() {
                     Email Marketing Engine
                   </div>
                   <div className="text-sm lg:text-base">
-                    Design engaging drip sequences that educate, nurture, and
-                    convert your audience at scale.
+                  Create drip sequences to educate, nurture, and convert audiences at scale. 
+
                   </div>
                 </div>
               </div>
