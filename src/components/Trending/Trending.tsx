@@ -7,6 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import TrendingSwiper from "./TrendingSwiper1";
+import Link from "next/link";
 const Trending = () => {
   return (
     <>
@@ -20,12 +21,15 @@ const Trending = () => {
             industry.
           </p>
           <div className="pb-8 md:py-4 w-full flex justify-center md:justify-start items-center">
-            <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-              Schedule&nbsp;a&nbsp;Call
-              <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                <ArrowRight />
-              </div>
-            </div>
+          <Link href="/contactus" passHref>
+  <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+    Schedule&nbsp;a&nbsp;Call
+    <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+      <ArrowRight />
+    </div>
+  </div>
+</Link>
+
           </div>
           <div className="w-full flex justify-start lg:ml-8 items-center lg:mt-28">
             <div className="w-full lg:w-8/12 flex gap-x-20 justify-center lg:justify-start items-center">

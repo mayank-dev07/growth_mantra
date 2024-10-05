@@ -65,13 +65,13 @@ const Pulse = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-52 top-[-20px] left-0 w-full">
+          <div className="absolute inset-52 top-[-65px] left-0 w-full">
             <Image
               src="/treevector.png"
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[1100px] w-fit"
+              className="object-fill lg:object-contain h-[1200px] w-fit"
             />
           </div>
 

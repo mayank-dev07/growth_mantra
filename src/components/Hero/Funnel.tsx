@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper3";
+import Link from "next/link";
 
 const FunnelHero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -56,12 +57,14 @@ const FunnelHero = () => {
                 Transform Your Customer Journey into a Conversion Machine
               </div>
               <div className="w-full flex justify-center md:justify-start">
+                <Link href="/contactus2" passHref>
                 <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                   Refine Your Funnel Marketing
                   <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
                     <ArrowRight />
                   </div>
                 </div>
+              </Link> 
               </div>
             </div>
           </div>

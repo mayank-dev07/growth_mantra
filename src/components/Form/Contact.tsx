@@ -6,7 +6,6 @@ const ContactForm = () => {
   return (
     <>
       <section className="bg-[#576D2C] md:px-10 px-3 py-3 w-full">
-        <h2 className="text-6xl font-extrabold text-white "> Inquiry Form</h2>
         <p className="text-white my-1 text-lg">
           Tell us about your business challenges, and We&apos;ll prepare
           tailored insights

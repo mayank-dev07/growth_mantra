@@ -22,9 +22,11 @@ const Header = () => {
       <div className="flex flex-col justify-center items-center fixed top-0 left-0 right-0 bg-white z-50">
         <div className="w-full h-full p-2 bg-[#576D2C] flex justify-center items-center text-white gap-2 md:gap-5">
           <div>Low Marketing Budget? We&apos;ve Got You!</div>
+          <Link href="/contactus" passHref>
           <div className="px-4 py-1 rounded-full bg-[#ffffff] text-sm md:text-lg text-black">
             Schedule&nbsp;a&nbsp;call
           </div>
+          </Link>
         </div>
         {/* Navigation bar */}
         <div className="w-full h-full hidden md:flex justify-center items-center gap-2 md:gap-3 text-sm md:text-lg lg:gap-10 py-4 text-[#6F6F6F]">

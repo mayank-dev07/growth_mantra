@@ -73,15 +73,15 @@ const CaseStudy = () => {
               months.
             </p>
             <div className="py-4 w-full flex justify-center items-center">
-  <Link href="/contactus">
-    <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-      Schedule&nbsp;a&nbsp;Call
-      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-        <ArrowRight />
-      </div>
-    </div>
-  </Link>
-</div>
+              <Link href="/contactus">
+                <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  Schedule&nbsp;a&nbsp;Call
+                  <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </Link>
+            </div>
 
           </div>
         </div>
@@ -124,12 +124,15 @@ const CaseStudy = () => {
                   Explore our latest articles and case studies to stay ahead in
                   your industry.
                   <div className="py-8 w-full flex justify-center md:justify-start items-center">
-                    <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                      <p>Schedule&nbsp;a&nbsp;call</p>
-                      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                        <ArrowRight />
+                    <Link href="/contactus" passHref>
+                      <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                        <p>Schedule&nbsp;a&nbsp;call</p>
+                        <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+                          <ArrowRight />
+                        </div>
                       </div>
-                    </div>
+                    </Link>
+
                   </div>
                 </div>
                 <div className="w-full flex justify-start lg:ml-8 items-center">
@@ -191,17 +194,20 @@ const CaseStudy = () => {
                 Growth&nbsp;Stasis
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-              {`Stuck at the same level? Our expert consultants pinpoint the roadblocks and craft tailored strategies to kickstart your next growth phase. It's time to push beyond limits.`}
+                {`Stuck at the same level? Our expert consultants pinpoint the roadblocks and craft tailored strategies to kickstart your next growth phase. It's time to push beyond limits.`}
               </div>
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
-                <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                  <ArrowRight />
+              <Link href="/contactus" passHref>
+                <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+                    <ArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
+
             </div>
           </div>
 
@@ -213,17 +219,20 @@ const CaseStudy = () => {
                 With&nbsp;Proven&nbsp;Expertise
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-              Stop dreaming about growth—make it happen. Our seasoned consultants have a track record of transforming ambition into measurable success for businesses like yours. Let’s turn your growth goals into reality.
+                Stop dreaming about growth—make it happen. Our seasoned consultants have a track record of transforming ambition into measurable success for businesses like yours. Let’s turn your growth goals into reality.
               </div>
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
-                <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
-                  <ArrowRight />
+              <Link href="/contactus" passHref>
+                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-[12px] md:text-base hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
+                  <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">
+                    <ArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
+
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper1";
+import Link from "next/link";
 
 const Hero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -56,12 +57,15 @@ const Hero = () => {
                 Your strategic partner for sustainable growth
               </div>
               <div className="w-full flex justify-center md:justify-start">
-                <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-                  Unlock your Growth now
-                  <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
-                    <ArrowRight />
-                  </div>
-                </div>
+              <Link href="/contactus" passHref>
+  <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+    Unlock your Growth now
+    <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
+      <ArrowRight />
+    </div>
+  </div>
+</Link>
+
               </div>
             </div>
           </div>
