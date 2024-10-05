@@ -4,43 +4,9 @@ import React from "react";
 
 import {
   Accordion,
-  AccordionContent,
   AccordionItem,
-  AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const probeItems = [
-  "Market research, Ideal Customer Profile, and competitor analysis",
-  "Comprehensive data analysis",
-  "Customer journey mapping",
-  "Identifying key performance indicators (KPIs)",
-];
-const uncoverItems = [
-  "Reveal untapped market segments",
-  "Identify bottlenecks in the customer journey",
-  "Discover underutilized channels or resources",
-  "Pinpoint areas for optimization and innovation",
-];
-
-const leverageItems = [
-  "Create personalized customer experiences",
-  "Develop multi-channel growth plans",
-  "Customer journey mapping ",
-  "Identifying key performance indicators (KPIs)",
-];
-
-const synthesizesItems = [
-  " Integrate marketing, sales, and product strategies",
-  "Align business goals with marketing objectives",
-  "Combine short-term tactics with long-term vision ",
-  "Blend creativity with data-driven decision making",
-];
-
-const executeItems = [
-  " Implement strategies with agile methodologies",
-  "Conduct regular A/B testing and optimization ",
-  "Monitor KPIs and adjust tactics in real-time tems",
-];
 
 const Seo = () => {
   return (
@@ -67,7 +33,7 @@ const Seo = () => {
               alt="tree"
               width={1000}
               height={600}
-              className="object-fill lg:object-contain h-[1150px] w-fit"
+              className="object-fill lg:object-contain h-[920px] w-fit"
             />
           </div>
 
@@ -79,22 +45,11 @@ const Seo = () => {
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
                       Conduct comprehensive SEO audits and competitor analysis
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {probeItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -108,22 +63,11 @@ const Seo = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Develop a tailored SEO roadmap aligned with business objectives
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {uncoverItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -139,22 +83,11 @@ const Seo = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Produce high-quality, SEO-optimized content
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -169,22 +102,11 @@ const Seo = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Implement technical SEO improvements and on-page optimizations
 
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {synthesizesItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                    
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -200,22 +122,11 @@ const Seo = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                         {`Build high-quality backlinks and improve domain authority
 `}
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {executeItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                   
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -230,21 +141,10 @@ const Seo = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <Accordion type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className="hover:no-underline !border-b-0">
                       <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Continuously monitor rankings, traffic, and conversions
                       </p>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </AccordionContent>
+                 
                   </AccordionItem>
                 </Accordion>
               </div>

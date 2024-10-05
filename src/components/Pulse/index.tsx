@@ -8,6 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 const probeItems = [
   "Market research, Ideal Customer Profile, and competitor analysis",
@@ -229,16 +230,18 @@ const Pulse = () => {
 
         <hr className="border-t-2 w-full" />
         <div className="py-8 w-full flex justify-center items-center px-4">
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
-          transition-all duration-500 ease-in-out font-bold"
-          >
-            Scale Smarter, Not Harder - Get Your Custom Roadmap
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-              <ArrowRight />
-            </div>
-          </div>
-        </div>
+  <Link href="/contactus2">
+    <div
+      className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+      transition-all duration-500 ease-in-out font-bold"
+    >
+      Scale Smarter, Not Harder - Get Your Custom Roadmap
+      <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+        <ArrowRight />
+      </div>
+    </div>
+  </Link>
+</div>
         <hr className="border-t-2 w-full" />
       </div>
     </>
