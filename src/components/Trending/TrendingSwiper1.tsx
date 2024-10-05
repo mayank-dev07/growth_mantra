@@ -49,12 +49,11 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    Acquisition Mastery
+                  Strategy & Planning
                   </div>
                   <div className="text-sm lg:text-base">
-                    Supercharge your new customer acquisition, lead generation,
-                    and traffic with precision-targeted paid ads, social
-                    strategies, and affiliate marketing.
+                  Turn vision into action with strategic startup roadmaps.
+
                   </div>
                 </div>
               </div>
@@ -77,11 +76,11 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    Retention Revolution
+                  User Persona Identification
                   </div>
                   <div className="text-sm lg:text-base">
-                    Transform one-time users into loyal advocates with advanced
-                    retention analysis and personalized re-engagement campaigns.
+                  Create personas using analytics for deeper customer insight.
+
                   </div>
                 </div>
               </div>
@@ -104,11 +103,11 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    Funnel Optimization
+                  Brand Solutions
                   </div>
                   <div className="text-sm lg:text-base">
-                    Craft high-converting funnels that guide prospects
-                    seamlessly from awareness to purchase and beyond.
+                  Craft a standout brand identity, story, and messaging.
+
                   </div>
                 </div>
               </div>
@@ -131,44 +130,17 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    Conversion Rate Optimization (CRO)
+                  Growth Marketing
                   </div>
                   <div className="text-sm lg:text-base">
-                    Leverage customer data to create personalized journeys that
-                    nurture relationships and drive long-term value.
+                  Drive growth using data-driven, cross-channel marketing tactics.
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
-              <Image
-                src="/assets/trending_services/Email_Marketing_Engine.png"
-                alt="image"
-                width={400}
-                height={400}
-                className="object-contain !h-[500px] rounded-lg"
-              ></Image>
-              <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
-                  05
-                </div>
-                <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                    Email Marketing Engine
-                  </div>
-                  <div className="text-sm lg:text-base">
-                    Design engaging drip sequences that educate, nurture, and
-                    convert your audience at scale.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
+      
       </Swiper>
     </>
   );

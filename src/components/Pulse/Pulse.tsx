@@ -11,12 +11,12 @@ const Pulse = () => {
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
-              <span className="text-[#576D2C]">PULSE</span>
+              <span className="text-[#576D2C]">ELEVATE</span>
               Framework
             </p>
           </div>
           <p className="text-lg lg:text-xl tracking-wide leading-relaxed w-full text-left">
-            {`Strategic planning approach guiding startups towards sustainable growth.`}
+            {`Unique, process-driven approach solving complex challenges for startup growth.`}
           </p>
         </div>
 

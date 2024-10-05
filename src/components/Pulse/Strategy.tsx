@@ -122,7 +122,7 @@ const Strategy = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[45%] mt-5 lg:mt-16">
             <div className="h-auto w-11/12 lg:w-[45%] tracking-wide">
               <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">E</span>&nbsp;-&nbsp;Sync
+                <span className="text-[#576D2C]">S</span>&nbsp;-&nbsp;Sync
               </p>
               <div className="text-base md:text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-4 md:px-6 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-left">
@@ -140,7 +140,7 @@ const Strategy = () => {
             className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
             transition-all duration-500 ease-in-out font-bold"
           >
-            Experience the ELEVATE Advantage - Book Your Strategy Session Today!
+            Navigating Blindly? Find Your COMPASS Today!
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
               <ArrowRight />
             </div>

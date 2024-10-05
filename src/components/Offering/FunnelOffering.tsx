@@ -4,28 +4,28 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Keyword Research",
+    title: "Funnel Mapping",
     description:
-      "Uncover high-intent keywords driving conversions in your target audience.",
-    point1: "Targeting wrong keywords?",
-    point2: "Competitor keywords unknown?",
-    point3: "Search intent unclear?",
+      "Visualize and optimize the entire customer journey for maximum results.",
+    point1: "Unclear customer journey?",
+    point2: "Missing Funnel optimization opportunities?",
+    point3: "Struggling to unlock your Funnel’s true potential?",
   },
   {
-    title: "On-Page SEO",
+    title: "Retention Funnel",
     description:
-      "Optimize every element for maximum search visibility and engagement.",
-    point1: "Rankings dropping post-update?",
-    point2: "Technical SEO issues?",
-    point3: "Low click-through rates?",
+      "Boost customer engagement and lifetime value with targeted strategies.",
+    point1: "Low repeat purchases?",
+    point2: "Struggling with customer engagement issues?",
+    point3: "Low customer lifetime value?",
   },
   {
-    title: "Content Strategy for SEO",
+    title: "Sales Funnel",
     description:
-      "Create ranking content aligning search visibility with business goals.",
-    point1: "Content not ranking?",
-    point2: "High bounce rates?",
-    point3: "Low organic conversions?",
+      "Align sales process with customer needs for higher conversions.",
+    point1: "Poor conversion rates?",
+    point2: "Leads not closing?",
+    point3: "Sales process ineffective?",
   },
 ];
 
@@ -41,7 +41,7 @@ const CheckmarkIcon = () => (
   </div>
 );
 
-const SeoOffering = () => {
+const FunnelOffering = () => {
   return (
     <>
       <section className="bg-[#E74C3C] p-4 lg:p-8 text-white w-full">
@@ -106,7 +106,7 @@ const SeoOffering = () => {
 
       <div className="py-6 px-4 w-full flex justify-center items-center">
         <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          {` Invisible in Search? Get Your SEO Audit Now!`}
+          {`Struggling with your funnel Strategies? Let's find a solution`}
           <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
             <ArrowRight />
           </div>
@@ -117,4 +117,4 @@ const SeoOffering = () => {
   );
 };
 
-export default SeoOffering;
+export default FunnelOffering;

@@ -187,9 +187,7 @@ const CaseStudy = () => {
                 Growth&nbsp;Stasis
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-                Struggling to break through the growth plateau? Our expert
-                consultants will identify the root causes and provide tailored
-                solutions to propel your business forward.
+              {`Stuck at the same level? Our expert consultants pinpoint the roadblocks and craft tailored strategies to kickstart your next growth phase. It's time to push beyond limits.`}
               </div>
             </div>
 
@@ -211,9 +209,7 @@ const CaseStudy = () => {
                 With&nbsp;Proven&nbsp;Expertise
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-                Don&apos;t just talk about growth – achieve it. Our team of
-                seasoned consultants has a proven track record of delivering
-                tangible results for companies like yours.
+              Stop dreaming about growth—make it happen. Our seasoned consultants have a track record of transforming ambition into measurable success for businesses like yours. Let’s turn your growth goals into reality.
               </div>
             </div>
 
