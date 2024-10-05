@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const CaseStudy = () => {
   const slides = [
@@ -71,14 +72,17 @@ const CaseStudy = () => {
               </span>{" "}
               months.
             </p>
-            <div className="py-4 w-full flex justify-center  items-center">
-              <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                Schedule&nbsp;a&nbsp;Call
-                <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                  <ArrowRight />
-                </div>
-              </div>
-            </div>
+            <div className="py-4 w-full flex justify-center items-center">
+  <Link href="/contactus">
+    <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+      Schedule&nbsp;a&nbsp;Call
+      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+        <ArrowRight />
+      </div>
+    </div>
+  </Link>
+</div>
+
           </div>
         </div>
 
