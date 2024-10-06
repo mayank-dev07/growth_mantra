@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 import { Autoplay, FreeMode } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TrendingSwiper() {
   return (
@@ -35,7 +36,7 @@ export default function TrendingSwiper() {
       >
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/strategyPlanning" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Acquisition_Mastery.png"
                 alt="image"
@@ -49,20 +50,19 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                  Strategy & Planning
+                    Strategy & Planning
                   </div>
                   <div className="text-sm lg:text-base">
-                  Turn vision into action with strategic startup roadmaps.
-
+                    Turn vision into action with strategic startup roadmaps.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/upi" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Retention_Revolution.png"
                 alt="image"
@@ -76,20 +76,19 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                  User Persona Identification
+                    User Personal Identification
                   </div>
                   <div className="text-sm lg:text-base">
-                  Create personas using analytics for deeper customer insight.
-
+                    Create personas using analytics for deeper customer insight.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/brandSolution" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Funnel_Optimization.png"
                 alt="image"
@@ -103,20 +102,19 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                  Brand Solutions
+                    Brand Solutions
                   </div>
                   <div className="text-sm lg:text-base">
-                  Craft a standout brand identity, story, and messaging.
-
+                    Craft a standout brand identity, story, and messaging.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/growthMarketing" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
@@ -130,17 +128,17 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#576D2C] text-base lg:text-lg font-bold">
-                  Growth Marketing
+                    Growth Marketing
                   </div>
                   <div className="text-sm lg:text-base">
-                  Drive growth using data-driven, cross-channel marketing tactics.
+                    Drive growth using data-driven, cross-channel marketing
+                    tactics.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
-      
       </Swiper>
     </>
   );
