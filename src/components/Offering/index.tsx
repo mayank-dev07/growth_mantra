@@ -7,47 +7,47 @@ const services = [
     title: "Acquisition Mastery",
     href: "/acquisition",
     description:
-      "Accelerate new customer acquisition with data-driven strategies and campaigns.",
+      "Precision-targeted strategies skyrocket lead generation and new customer acquisition.",
   },
   {
     title: "Retention Revolution",
     href: "/retention",
     description:
-      "Transform how you build customer loyalty with personalized engagement campaigns.",
+      "Transform users into loyal advocates with personalized re-engagement campaigns.",
   },
   {
     title: "Funnel Optimization",
     href: "/funnel",
     description:
-      "Maximize conversions by refining every step of your marketing funnel.",
+      "Craft high-converting funnels guiding prospects from awareness to purchase.",
   },
   {
     title: "Conversion Rate Optimization (CRO)",
     href: "/cro",
     description:
-      "Boost conversion rates with strategic A/B testing and user behavior analysis.",
+      "Boost conversions with data-driven A/B testing and flow enhancements.",
   },
   {
     title: "Email Marketing Engine",
     href: "/eme",
     description:
-      "Design targeted email sequences that nurture and convert leads.",
+      "Design engaging sequences that nurture and convert audiences at scale.",
   },
   {
     title: "SEO Domination",
     href: "/seo",
-    description: "Climb search engine rankings through strategic SEO tactics.",
+    description: "Climb rankings with strategies driving organic growth and thought leadership.",
   },
   {
     title: "CRM Growth Engine",
     href: "/crm",
     description:
-      "Leverage data to personalize and scale customer interactions.",
+      "Leverage data for personalized journeys driving long-term customer value.",
   },
   {
     title: "Sales Growth",
     href: "/ux",
-    description: "Create intuitive experiences that drive repeat business.",
+    description: "Empower sales teams with proven strategies to close more deals.",
   },
 ];
 
