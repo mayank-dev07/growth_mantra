@@ -3,13 +3,6 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-const leverageItems = [
-  "Create personalized customer experiences",
-  "Develop multi-channel growth plans",
-  "Customer journey mapping ",
-  "Identifying key performance indicators (KPIs)",
-];
-
 const Acquire = () => {
   return (
     <>
@@ -167,15 +160,15 @@ const Acquire = () => {
         <hr className="border-t-2 w-full mt-10" />
         <div className="py-8 w-full flex justify-center items-center px-4">
           <Link href="/contactus2" passHref>
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+            <div
+              className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
-          >
-            Acquisition Strategies Fallling? Let&apos;s find a solution
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-              <ArrowRight />
+            >
+              Acquisition Strategies Fallling? Let&apos;s find a solution
+              <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                <ArrowRight />
+              </div>
             </div>
-          </div>
           </Link>
         </div>
         <hr className="border-t-2 w-full" />

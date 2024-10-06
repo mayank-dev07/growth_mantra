@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 import { Autoplay, FreeMode } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TrendingSwiper() {
   return (
@@ -35,7 +36,7 @@ export default function TrendingSwiper() {
       >
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/acquisition" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Acquisition_Mastery.png"
                 alt="image"
@@ -52,17 +53,17 @@ export default function TrendingSwiper() {
                     Acquisition Mastery
                   </div>
                   <div className="text-sm lg:text-base">
-                  Boost acquisition, leads, and traffic with precise paid ads, social, and affiliate strategies.
-
+                    Boost acquisition, leads, and traffic with precise paid ads,
+                    social, and affiliate strategies.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/retention" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Retention_Revolution.png"
                 alt="image"
@@ -79,16 +80,17 @@ export default function TrendingSwiper() {
                     Retention Revolution
                   </div>
                   <div className="text-sm lg:text-base">
-                  Turn users into loyal advocates with retention analysis and personalized campaigns
+                    Turn users into loyal advocates with retention analysis and
+                    personalized campaigns
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/funnel" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Funnel_Optimization.png"
                 alt="image"
@@ -105,17 +107,17 @@ export default function TrendingSwiper() {
                     Funnel Optimization
                   </div>
                   <div className="text-sm lg:text-base">
-                  Create funnels that guide prospects smoothly from awareness to purchase.
-
+                    Create funnels that guide prospects smoothly from awareness
+                    to purchase.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/cro" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
@@ -132,17 +134,17 @@ export default function TrendingSwiper() {
                     Conversion Rate Optimization
                   </div>
                   <div className="text-sm lg:text-base">
-                  Use customer data to personalize journeys, nurturing relationships for lasting value.
-
+                    Use customer data to personalize journeys, nurturing
+                    relationships for lasting value.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/eme" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Email_Marketing_Engine.png"
                 alt="image"
@@ -159,12 +161,12 @@ export default function TrendingSwiper() {
                     Email Marketing Engine
                   </div>
                   <div className="text-sm lg:text-base">
-                  Create drip sequences to educate, nurture, and convert audiences at scale. 
-
+                    Create drip sequences to educate, nurture, and convert
+                    audiences at scale.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
       </Swiper>

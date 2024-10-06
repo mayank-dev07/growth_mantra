@@ -4,13 +4,6 @@ import React from "react";
 
 import Link from "next/link";
 
-const leverageItems = [
-  "Create personalized customer experiences",
-  "Develop multi-channel growth plans",
-  "Customer journey mapping ",
-  "Identifying key performance indicators (KPIs)",
-];
-
 const Funnel = () => {
   return (
     <>
