@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-[#425466] text-base md:text-lg py-2 text-center sm:text-left">
-              {`"You're One Step Closer to Transforming Your Business"`}
+              {` "You're One Step Closer to Transforming Your Business" `}
             </div>
           </div>
         </div>
