@@ -82,7 +82,7 @@ export default function Home() {
             drive`}
           </span>
           <span className="text-[#E74C3C]">&nbsp;exceptional growth</span>
-          <span>&nbsp;business.</span>
+          <span>&nbsp;for your business.</span>
         </p>
       </section>
       <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
