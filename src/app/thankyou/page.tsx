@@ -82,14 +82,14 @@ export default function Home() {
             drive`}
           </span>
           <span className="text-[#E74C3C]">&nbsp;exceptional growth</span>
-          <span>&nbsp;for your business.</span>
+          <span>&nbsp;business.</span>
         </p>
       </section>
       <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
             <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center ">
-              What&nbsp;happens&nbsp;next
+              What&nbsp;Happens&nbsp;next
             </div>
           </div>
         </div>
@@ -147,9 +147,9 @@ export default function Home() {
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
             <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center ">
-              Committed to Your
+              "Committed to Your
               <div className="flex items-center gap-2 justify-center">
-                Success
+                Success"
               </div>
             </div>
           </div>
