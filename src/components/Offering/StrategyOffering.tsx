@@ -7,7 +7,7 @@ const services = [
   {
     title: "Market Analysis",
     description: "Gain market insights for informed strategic decisions.",
-    point1: "Market Analysis",
+    point1: "Market position unclear?",
     point2: `Growth opportunities unknown?`,
     point3: `Competitors outperforming you?`,
   },
@@ -32,7 +32,7 @@ const CheckmarkIcon = () => (
     <Image
       width={30}
       height={30}
-      src="/Success.png" // Replace with the actual path to your PNG
+      src="/Success.svg" // Replace with the actual path to your PNG
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />

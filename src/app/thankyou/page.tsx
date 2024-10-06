@@ -72,10 +72,12 @@ export default function Home() {
       </div>
       {/* Thank you for reaching out to The Growth Mantra. We're excited about the possibility of partnering with you to drive exceptional growth for your business. */}
 
-      <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
-        <p className="md:leading-[60px]">
-          <span>Thank you for reaching out to</span>
-          <span className="text-[#E74C3C] ">&nbsp;The Growth Mantra.</span>
+      <section className="my-16 text-lg md:text-2xl md:px-16 text-center m-auto line w-[93%]">
+        <p className="md:leading-[40px]">
+
+          <span className="text-xl md:text-4xl">Thank you for reaching out to</span>
+          <span className="text-[#E74C3C] text-xl md:text-4xl">&nbsp;The Growth Mantra.</span>
+          <br />
           <span>
             &nbsp;{" "}
             {`We're excited about the possibility of partnering with you to
@@ -147,9 +149,9 @@ export default function Home() {
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
             <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center ">
-              "Committed to Your
+              Committed to Your
               <div className="flex items-center gap-2 justify-center">
-                Success"
+                Success
               </div>
             </div>
           </div>
@@ -198,7 +200,7 @@ export default function Home() {
           <span className="text-[#E74C3C] ">
             &nbsp;our full expertise and resources
           </span>
-          <span>to each</span>
+          <span>&nbsp;to each</span>
           <span className="text-[#E74C3C]">&nbsp;{`client's success.`}</span>
         </p>
       </section>
@@ -213,12 +215,13 @@ export default function Home() {
       </div>
 
       <WhyChooseUs />
-      <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
-        <p className="md:leading-[60px]">
-          <span> {`Discover how we've helped businesses like yours`}</span>
-          <span className="text-[#E74C3C] ">
+      <section className="my-16 text-lg md:text-xl  md:px-16 text-center m-auto line w-[93%]">
+        <p className="md:leading-[40px]">
+          <span className="text-lg md:text-3xl" > {`Discover how we've helped businesses like yours`}</span>
+          <span className="text-[#E74C3C] text-lg md:text-3xl ">
             &nbsp;achieve remarkable growth.
           </span>
+          <br />
           <span>To maintain our</span>
           <span className="text-[#E74C3C]">
             &nbsp;Our case studies showcase the power of our
@@ -355,12 +358,13 @@ export default function Home() {
       </section>
       <div className="w-full h-full ">
         <section className="flex px-3 md:px-10 justify-around md:items-center flex-col md:flex-row">
-          <section className="my-10 text-xl md:text-4xl md:px-16 text-center m-auto line w-[80%]">
-            <p className="md:leading-[60px] tracking-wider">
-              <span>Thank you for considering</span>
-              <span className="text-[#E74C3C] ">
+          <section className="my-10 text-xl md:text-xl md:px-16 text-center m-auto line w-[80%]">
+            <p className="md:leading-[40px] tracking-wider">
+              <span className="text-xl md:text-2xl">Thank you for considering</span>
+              <span className="text-[#E74C3C] text-xl md:text-3xl ">
                 &nbsp;The Growth Mantra as your growth partner.&nbsp;
               </span>
+              <br />
               <span>{`We're excited about the potential to
                 drive extraordinary results for your business.`}</span>
             </p>
