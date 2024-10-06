@@ -78,7 +78,7 @@ const AutoCarousel: React.FC = () => {
                 <Image
                   src={card.imageSrc}
                   alt={card.title}
-                  layout="fill" // Show 2 slides on tablet and larger screens
+                  layout="fill"
                   objectFit="contain"
                   className="rounded-t-lg "
                   onError={(e) =>

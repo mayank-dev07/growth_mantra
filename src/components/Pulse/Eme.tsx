@@ -1,15 +1,7 @@
-
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-
-import {
-  Accordion,
-  AccordionItem,
-} from "@/components/ui/accordion";
 import Link from "next/link";
-
-
 
 const Eme = () => {
   return (
@@ -48,17 +40,14 @@ const Eme = () => {
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp;Evaluate
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
-                      We analyze your current email performance and subscriber data
-
-
-
-                      </p>
-                     
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
+                      We analyze your current email performance and subscriber
+                      data
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -68,17 +57,14 @@ const Eme = () => {
                 <span className="text-[#E74C3C]">N</span>&nbsp;-&nbsp;Nurture
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                      We develop personalized content strategies for different segments
-
-
-
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We develop personalized content strategies for different
+                      segments
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -90,17 +76,14 @@ const Eme = () => {
                 &nbsp;-&nbsp;Guide
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                      We create customer journey maps and align email touchpoints
-
-
-
-                      </p>
-                    
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We create customer journey maps and align email
+                      touchpoints
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -111,16 +94,14 @@ const Eme = () => {
                 <span className="text-[#E74C3C]">A</span>&nbsp;-&nbsp;Automate
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                      We implement intelligent automation for timely, relevant communication
-
-
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We implement intelligent automation for timely, relevant
+                      communication
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -132,17 +113,16 @@ const Eme = () => {
                 &nbsp;-&nbsp;Grow&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        {`  We continuously expand and refine your email list
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      {`  We continuously expand and refine your email list
 
 
 `}
-                      </p>
-                    
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -153,14 +133,13 @@ const Eme = () => {
                 &nbsp;-&nbsp;Enhance
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We constantly test and optimize for improved performance
-                      </p>
-                    
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -169,18 +148,16 @@ const Eme = () => {
         <hr className="border-t-2 w-full mt-10" />
         <div className="py-8 w-full flex justify-center items-center px-4">
           <Link href="/contactus2" passHref>
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+            <div
+              className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
-          >
-         Tired of Underperforming Emails? Schedule Your ENGAGE Session Today!
-
-
-
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-              <ArrowRight />
+            >
+              Tired of Underperforming Emails? Schedule Your ENGAGE Session
+              Today!
+              <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                <ArrowRight />
+              </div>
             </div>
-          </div>
           </Link>
         </div>
         <hr className="border-t-2 w-full" />

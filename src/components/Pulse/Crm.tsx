@@ -1,14 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-
-import {
-  Accordion,
-  AccordionItem,
-} from "@/components/ui/accordion";
 import Link from "next/link";
-
-
 
 const Crm = () => {
   return (
@@ -19,7 +12,7 @@ const Crm = () => {
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
-              <span className="text-[#E74C3C]">RELAATE</span>
+              <span className="text-[#E74C3C]">RELATE</span>
               Framework
             </p>
           </div>
@@ -46,16 +39,13 @@ const Crm = () => {
                 <span className="text-[#E74C3C]">R</span>&nbsp;-&nbsp;Review
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
                       We analyze your current CRM data and processes
-
-
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -65,16 +55,13 @@ const Crm = () => {
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp;Engage
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We develop strategies for meaningful customer interactions
-
-
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -86,16 +73,13 @@ const Crm = () => {
                 &nbsp;-&nbsp;Leverage
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We utilize data insights to personalize experiences
-
-
-                      </p>
-                  
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -106,16 +90,13 @@ const Crm = () => {
                 <span className="text-[#E74C3C]">A</span>&nbsp;-&nbsp;Align
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We ensure CRM strategies support overall business goals
-
-
-                      </p>
-                  
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -127,16 +108,15 @@ const Crm = () => {
                 &nbsp;-&nbsp;Track&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        {` We monitor KPIs and customer feedback
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      {` We monitor KPIs and customer feedback
 
 `}
-                      </p>
-                  
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -147,15 +127,13 @@ const Crm = () => {
                 &nbsp;-&nbsp;Evolve
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We continuously refine and improve CRM strategies
-
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -164,17 +142,15 @@ const Crm = () => {
         <hr className="border-t-2 w-full mt-10" />
         <div className="py-8 w-full flex justify-center items-center px-4">
           <Link href="/contactus2" passHref>
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+            <div
+              className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
-          >
-           Master the Art of CRM Growth - Book Your Strategy Session Today!
-
-
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-              <ArrowRight />
+            >
+              Master the Art of CRM Growth - Book Your Strategy Session Today!
+              <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                <ArrowRight />
+              </div>
             </div>
-          </div>
           </Link>
         </div>
         <hr className="border-t-2 w-full" />

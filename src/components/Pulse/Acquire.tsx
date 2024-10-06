@@ -3,21 +3,12 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-} from "@/components/ui/accordion";
-
-
 const leverageItems = [
   "Create personalized customer experiences",
   "Develop multi-channel growth plans",
   "Customer journey mapping ",
   "Identifying key performance indicators (KPIs)",
 ];
-
-
 
 const Acquire = () => {
   return (
@@ -53,14 +44,14 @@ const Acquire = () => {
                 <span className="text-[#E74C3C]">A</span>&nbsp;-&nbsp;Analyze
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
-                        We deep dive into your current acquisition channels and customer data
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
+                      We deep dive into your current acquisition channels and
+                      customer data
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -70,14 +61,14 @@ const Acquire = () => {
                 <span className="text-[#E74C3C]">C</span>&nbsp;-&nbsp;Create
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        We develop tailored strategies based on data insights and market trends
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We develop tailored strategies based on data insights and
+                      market trends
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -89,14 +80,14 @@ const Acquire = () => {
                 &nbsp;-&nbsp;Quantity
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                       We set clear, measurable goals for each acquisition channel
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We set clear, measurable goals for each acquisition
+                      channel
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -107,14 +98,14 @@ const Acquire = () => {
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Unity
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                       We Integrate all acquisition efforts for a cohesive, multi-channel
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We Integrate all acquisition efforts for a cohesive,
+                      multi-channel
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -126,14 +117,13 @@ const Acquire = () => {
                 &nbsp;-&nbsp;Implement&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        {`We execute strategies with precision and agility`}
-                      </p>
-                  
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      {`We execute strategies with precision and agility`}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -144,23 +134,14 @@ const Acquire = () => {
                 &nbsp;-&nbsp;Evolve
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                      We optimize and adapt strategies based on real-time data and results
-                      </p>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                  </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We optimize and adapt strategies based on real-time data
+                      and results
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -171,23 +152,13 @@ const Acquire = () => {
                 &nbsp;-&nbsp;Review
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                       We continously monitor performance against set KPIs
-                      </p>
-                    <AccordionContent>
-                      <ul className="space-y-2 text-base lg:text-lg text-gray-700">
-                        {leverageItems.map((item, index) => (
-                          <li key={index} className="flex items-center">
-                            <span className="h-2 w-2 mt-1.5 bg-[#E74C3C] rounded-full flex-shrink-0 mr-3"></span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                  </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We continously monitor performance against set KPIs
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -200,7 +171,7 @@ const Acquire = () => {
             className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
           >
-            Acauisition Strategies Fallling? Let&apos;s find a solution
+            Acquisition Strategies Fallling? Let&apos;s find a solution
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
               <ArrowRight />
             </div>

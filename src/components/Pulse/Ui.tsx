@@ -1,14 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-
-import {
-  Accordion,
-  AccordionItem,
-} from "@/components/ui/accordion";
 import Link from "next/link";
-
-
 
 const Ui = () => {
   return (
@@ -46,17 +39,13 @@ const Ui = () => {
                 <span className="text-[#E74C3C]">C</span>&nbsp;-&nbsp;Clarify
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
                       Define your ideal customer profile and sales objectives
-
-
-
-                      </p>
-                    
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -66,18 +55,13 @@ const Ui = () => {
                 <span className="text-[#E74C3C]">L</span>&nbsp;-&nbsp;Leverage
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Utilize data and technology to enhance sales processes
-
-
-
-
-                      </p>
-                  
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -89,17 +73,13 @@ const Ui = () => {
                 &nbsp;-&nbsp;Optimize
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Refine your sales funnel for maximum conversion
-
-
-
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -110,16 +90,13 @@ const Ui = () => {
                 <span className="text-[#E74C3C]">S</span>&nbsp;-&nbsp;Synergize
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Align sales and marketing for a unified growth strategy
-
-
-                      </p>
-                 
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -131,18 +108,17 @@ const Ui = () => {
                 &nbsp;-&nbsp;Engage&nbsp;
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                        {`Implement effective outreach and nurturing tactics
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      {`Implement effective outreach and nurturing tactics
 
 
 
 `}
-                      </p>
-                   
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -153,38 +129,30 @@ const Ui = () => {
                 &nbsp;-&nbsp;Review
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                      <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       Continuously analyze performance and gather feedback
-
-
-                      </p>
-                  
-                  </AccordionItem>
-                </Accordion>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
 
         <hr className="border-t-2 w-full mt-10" />
         <div className="py-8 w-full flex justify-center items-center px-4">
-          <Link href="/contactus2" passHref>  
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+          <Link href="/contactus2" passHref>
+            <div
+              className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
-          >
-          Frustrated with Stagnant Sales? Unlock the CLOSER Framework Today!
-
-
-
-
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-              <ArrowRight />
+            >
+              Frustrated with Stagnant Sales? Unlock the CLOSER Framework Today!
+              <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                <ArrowRight />
+              </div>
             </div>
-          </div>
           </Link>
         </div>
         <hr className="border-t-2 w-full" />

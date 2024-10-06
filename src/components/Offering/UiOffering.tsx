@@ -26,7 +26,7 @@ const CheckmarkIcon = () => (
     <Image
       width={30}
       height={30}
-      src="/Success.png"
+      src="/success.png"
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
@@ -92,7 +92,6 @@ const UiOffering = () => {
                     </div>
                   </div>
                 </Link>
-
               </div>
             </div>
           ))}
@@ -101,12 +100,12 @@ const UiOffering = () => {
 
       <div className="py-6 px-4 w-full flex justify-center items-center">
         <Link href="/contactus2" passHref>
-        <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-          {`Tired of Lost Deals? Book Your Sales Growth Consultation Now!`}
-          <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-            <ArrowRight />
+          <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+            {`Tired of Lost Deals? Book Your Sales Growth Consultation Now!`}
+            <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+              <ArrowRight />
+            </div>
           </div>
-        </div>
         </Link>
       </div>
       <hr className="border-t-2 w-full" />
