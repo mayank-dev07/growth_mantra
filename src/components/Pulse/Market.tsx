@@ -39,7 +39,7 @@ const Market = () => {
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left ">
-                 Conduct comprehensive market research and customer analysis
+                  Conduct comprehensive market research and customer analysis
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Market = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                 Define your unique value proposition and target segments
+                  Define your unique value proposition and target segments
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Market = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                Develop channel strategies and partnerships
+                  Develop channel strategies and partnerships
                 </p>
               </div>
             </div>
@@ -105,26 +105,26 @@ const Market = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Align all elements of your go-to-market strategy for maximum impact`} 
+                  {`Align all elements of your go-to-market strategy for maximum impact`}
                 </p>
               </div>
             </div>
           </div>
-         
+
         </div>
 
         <hr className="border-t-2 w-full" />
         <div className="py-8 w-full flex justify-center items-center px-4">
-          <Link href="/contactus" passHref>
-          <div
-            className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
+          <Link href="/contactus2" passHref>
+            <div
+              className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
-          >
-            Launch Anxiety? Boost the LAUNCH Protocol Now!
-            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-              <ArrowRight />
+            >
+              Launch Anxiety? Boost the LAUNCH Protocol Now!
+              <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
+                <ArrowRight />
+              </div>
             </div>
-          </div>
           </Link>
         </div>
         <hr className="border-t-2 w-full" />
