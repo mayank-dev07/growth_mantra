@@ -7,7 +7,7 @@ const ContactForm = () => {
     <>
       <section className="bg-[#576D2C] md:px-10 px-3 py-3 w-full">
         <p className="text-white my-1 text-lg">
-          Tell us about your business challenges, and We&apos;ll prepare
+          Tell us about your business challenges, and we&apos;ll prepare
           tailored insights
           <br /> for our initial discussion.
         </p>
@@ -138,7 +138,7 @@ const ContactForm = () => {
                   "Scaling Operations",
                   "Improving Product-Market Fit",
                   "Enhancing Brand Positioning",
-                  "Other",
+                  "Other (please specify)",
                 ].map((item, index) => (
                   <label
                     key={index}
@@ -210,7 +210,6 @@ const ContactForm = () => {
                   "Brand Solutions",
                   "Growth Marketing",
                   "Product Growth",
-                  "Other",
                 ].map((item, x) => (
                   <label
                     key={x}

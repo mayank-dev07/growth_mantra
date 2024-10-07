@@ -43,9 +43,9 @@ const slides = [
   },
 ];
 const content1 = [
-  "We work with a limited number of companies at any given time",
+  "We work with a limited number of companies at any given time.",
   "Our selection process is thorough to ensure a perfect fit.",
-  "We only partner with businesses where we can drive significant, measurable impact",
+  "We only partner with businesses where we can drive significant, measurable impact.",
 ];
 
 export default function Home() {
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-[#425466] text-base md:text-lg py-2 text-center sm:text-left">
-              {` You're One Step Closer to Transforming Your Business`}
+              {` "You're One Step Closer to Transforming Your Business"`}
             </div>
           </div>
         </div>
@@ -74,9 +74,12 @@ export default function Home() {
 
       <section className="my-16 text-lg md:text-2xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[40px]">
-
-          <span className="text-xl md:text-4xl">Thank you for reaching out to</span>
-          <span className="text-[#576d2c] text-xl md:text-4xl">&nbsp;The Growth Mantra.</span>
+          <span className="text-xl md:text-4xl">
+            Thank you for reaching out to
+          </span>
+          <span className="text-[#576d2c] text-xl md:text-4xl">
+            &nbsp;The Growth Mantra.
+          </span>
           <br />
           <span>
             &nbsp;{" "}
@@ -91,7 +94,7 @@ export default function Home() {
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
             <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center ">
-              What&nbsp;happens&nbsp;next
+              What&nbsp;Happens&nbsp;Next
             </div>
           </div>
         </div>
@@ -149,10 +152,8 @@ export default function Home() {
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
             <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center ">
-              Committed to Your
-              <div className="flex items-center gap-2 justify-center">
-                Success
-              </div>
+              {`"Committed to Your
+                Success"`}
             </div>
           </div>
         </div>
@@ -165,11 +166,11 @@ export default function Home() {
           <span className="text-[#576d2c] ">
             &nbsp;delivering unparalleled results.
           </span>
-          <span>To maintain our</span>
+          <span>To maintain our</span>{" "}
           <span className="text-[#576d2c]">
             &nbsp;high standards of service
           </span>
-          <span>&nbsp;and ensure transformative outcomes,</span>
+          <span>&nbsp;and ensure transformative outcomes:</span>
         </p>
       </section>
       <div className="w-full flex justify-center items-center">
@@ -207,7 +208,7 @@ export default function Home() {
 
       <div className="w-full flex justify-center ">
         <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold bg-white text-[#576d2c] hover:text-white hover:bg-[#576d2c] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-          While You Wait, Explore Our Success Stories
+          {`"While You Wait, Explore Our Success Stories"`}
           <div className="p-3 text-white rounded-full bg-[#576d2c] group-hover:text-[#576d2c] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
@@ -217,12 +218,14 @@ export default function Home() {
       <WhyChooseUs />
       <section className="my-16 text-lg md:text-xl  md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[40px]">
-          <span className="text-lg md:text-3xl" > {`Discover how we've helped businesses like yours`}</span>
+          <span className="text-lg md:text-3xl">
+            {" "}
+            {`Discover how we've helped businesses like yours`}
+          </span>
           <span className="text-[#576d2c] text-lg md:text-3xl ">
             &nbsp;achieve remarkable growth.
           </span>
           <br />
-          <span>To maintain our</span>
           <span className="text-[#576d2c]">
             &nbsp;Our case studies showcase the power of our
           </span>
@@ -329,10 +332,7 @@ export default function Home() {
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
             <div className="text-4xl sm:text-5xl md:text-4xl lg:text-6xl font-bold flex flex-col gap-4 text-center ">
-              Preparing&nbsp;for&nbsp;Your
-              <div className="flex items-center gap-2 justify-center">
-                Growth Journey
-              </div>
+              {`"Preparing for Your Growth Journey"`}
             </div>
           </div>
         </div>
@@ -341,7 +341,7 @@ export default function Home() {
       <div className="w-fulll flex justify-center items-center mt-10">
         <p className="text-[#576d2c] container text-center text-xl md:text-2xl">
           {` We appreciate your interest in The Growth Mantra. Our commitment to
-          exclusivity means that if selected, you'll receive our unpided
+          exclusivity means that if selected, you'll receive our undivided
           attention and expertise. We look forward to the possibility of
           partnering with you on your growth journey`}
         </p>
@@ -358,9 +358,11 @@ export default function Home() {
       </section>
       <div className="w-full h-full ">
         <section className="flex px-3 md:px-10 justify-around md:items-center flex-col md:flex-row">
-        <section className="my-10 text-xl md:text-xl md:px-16 text-center m-auto line w-[80%]">
+          <section className="my-10 text-xl md:text-xl md:px-16 text-center m-auto line w-[80%]">
             <p className="md:leading-[40px] tracking-wider">
-              <span className="text-xl md:text-2xl">Thank you for considering</span>
+              <span className="text-xl md:text-2xl">
+                Thank you for considering
+              </span>
               <span className="text-[#576d2c] text-xl md:text-3xl ">
                 &nbsp;The Growth Mantra as your growth partner.&nbsp;
               </span>

@@ -68,7 +68,7 @@ export default function Contactus() {
       </div>
       <section className="flex px-3 md:px-10 my-5 justify-around md:items-center flex-col md:flex-row">
         <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#576D2C]">
-          Get in touch
+          Connect with Our Consulting Team
         </div>
         <div className="md:w-2/5 space-y-2">
           <div className="text-lg md:text-2xl font-bold">
@@ -93,7 +93,7 @@ export default function Contactus() {
       <section className="flex flex-col md:flex-row px-3 md:px-8 gap-8 my-16 justify-around md:items-center">
         {/* Adjusting heading size for responsiveness */}
         <div className="md:w-2/5 text-[2.5rem] sm:text-[3rem] md:text-8xl font-bold my-1 text-[#576D2C]">
-          Our Consultants Impact
+          {`Our Consultants' Impact`}
         </div>
 
         <div className="md:w-2/5 space-y-4">
@@ -130,7 +130,7 @@ export default function Contactus() {
           className="text-4xl sm:text-5xl md:text-6xl font-bold text-left mb-6 sm:mb-8 md:mb-10"
           style={{ color: "#576D2C" }}
         >
-          What our clients say
+          What Our Clients Say
         </h2>
         {/* Cards Section */}
         <div className="flex flex-col sm:flex-row justify-center sm:space-x-6 md:space-x-8 space-y-6 sm:space-y-0">
@@ -175,6 +175,17 @@ export default function Contactus() {
             <ArrowRight />
           </div>
         </button>
+      </section>
+
+      <section className="my-8 text-xl md:text-4xl md:px-16 text-center m-auto line">
+        <p className="md:leading-[70px]">
+          <span className="text-[#576D2C] text-3xl md:text-6xl">
+            At The Growth Mantra,
+          </span>
+          <br />
+          {`" we don't just consult – we catalyze
+            transformative growth"`}
+        </p>
       </section>
       <Footer />
     </>
