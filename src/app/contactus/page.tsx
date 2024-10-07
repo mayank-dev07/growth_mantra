@@ -53,7 +53,7 @@ export default function Contactus() {
             key={key + "list"}
             className="md:px-10 px-3 py-3 flex text-sm md:text-xl gap-x-1 "
           >
-            <Image src={"/success.svg"} alt="" width={20} height={20} />
+            <Image src={"/Success.png"} alt="" width={20} height={20} />
             <p className="font-bold text-[#576D2C]">
               {key} :{" "}
               <span className="text-black font-normal">{content1[key]}</span>

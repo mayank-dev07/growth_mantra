@@ -181,7 +181,7 @@ export default function Home() {
               className="md:px-10 px-3 py-3 flex text-sm md:text-xl gap-x-1 container"
             >
               <Image
-                src={"/success.svg"}
+                src={"/Success.png"}
                 alt=""
                 width={20}
                 height={20}
