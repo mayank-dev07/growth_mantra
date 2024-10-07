@@ -1,6 +1,6 @@
 "use client";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer2";
+import Header from "@/components/Header/Header3";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
@@ -59,7 +59,7 @@ export default function Home() {
               Thank You for
               <div className="flex items-center gap-2 justify-center">
                 Choosing
-                <div className="border-[#576d2c] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-4xl lg:text-6xl border-4 w-fit rounded-full text-[#576d2c] font-bold shadow-2xl">
+                <div className="border-[#16213E] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-4xl lg:text-6xl border-4 w-fit rounded-full text-[#16213E] font-bold shadow-2xl">
                   Growth
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function Home() {
           <span className="text-xl md:text-4xl">
             Thank you for reaching out to
           </span>
-          <span className="text-[#576d2c] text-xl md:text-4xl">
+          <span className="text-[#16213E] text-xl md:text-4xl">
             &nbsp;The Growth Mantra.
           </span>
           <br />
@@ -86,7 +86,7 @@ export default function Home() {
             {`We're excited about the possibility of partnering with you to
             drive`}
           </span>
-          <span className="text-[#576d2c]">&nbsp;exceptional growth</span>
+          <span className="text-[#16213E]">&nbsp;exceptional growth</span>
           <span>&nbsp;for your business.</span>
         </p>
       </section>
@@ -103,7 +103,7 @@ export default function Home() {
       <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center">
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
           <div className="bg-white shadow-lg rounded-lg p-6 w-64 h-64 flex flex-col justify-center text-center">
-            <h2 className="text-xl font-semibold text-[#576d2c]">Review</h2>
+            <h2 className="text-xl font-semibold text-[#16213E]">Review</h2>
             <p className="mt-4 text-gray-600 overflow-hidden">
               Our team of growth experts will carefully review your submission
               within the next 48 hours.
@@ -121,7 +121,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
           <div className="bg-white shadow-lg rounded-lg p-6 w-64 h-64 flex flex-col justify-center text-center">
-            <h2 className="text-xl font-semibold text-[#576d2c]">Evaluation</h2>
+            <h2 className="text-xl font-semibold text-[#16213E]">Evaluation</h2>
             <p className="mt-4 text-gray-600 overflow-hidden">
               {` We'll evaluate how our expertise aligns with your unique needs and
               growth potential.`}
@@ -139,7 +139,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
           <div className="bg-white shadow-lg rounded-lg p-6 w-64 h-64 flex flex-col justify-center text-center">
-            <h2 className="text-xl font-semibold text-[#576d2c]">Response</h2>
+            <h2 className="text-xl font-semibold text-[#16213E]">Response</h2>
             <p className="mt-4 text-gray-600 overflow-hidden">
               {`If we determine there's a strong fit, we'll reach out to schedule
               your personalized strategy session.`}
@@ -163,11 +163,11 @@ export default function Home() {
       <section className="my-10 text-xl md:text-3xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[60px]">
           <span>At The Growth Mantra, we believe in</span>
-          <span className="text-[#576d2c] ">
+          <span className="text-[#16213E] ">
             &nbsp;delivering unparalleled results.
           </span>
           <span>To maintain our</span>{" "}
-          <span className="text-[#576d2c]">
+          <span className="text-[#16213E]">
             &nbsp;high standards of service
           </span>
           <span>&nbsp;and ensure transformative outcomes:</span>
@@ -187,7 +187,7 @@ export default function Home() {
                 height={20}
                 className="object-contain"
               />
-              <p className="font-bold text-[#576d2c]">
+              <p className="font-bold text-[#16213E]">
                 <span className=" font-normal">{item}</span>
               </p>
             </li>
@@ -198,18 +198,18 @@ export default function Home() {
       <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[60px]">
           <span>This approach allows us to dedicate</span>
-          <span className="text-[#576d2c] ">
+          <span className="text-[#16213E] ">
             &nbsp;our full expertise and resources
           </span>
           <span>&nbsp;to each</span>
-          <span className="text-[#576d2c]">&nbsp;{`client's success.`}</span>
+          <span className="text-[#16213E]">&nbsp;{`client's success.`}</span>
         </p>
       </section>
 
       <div className="w-full flex justify-center ">
-        <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold bg-white text-[#576d2c] hover:text-white hover:bg-[#576d2c] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+        <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold bg-white text-[#16213E] hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
           {`"While You Wait, Explore Our Success Stories"`}
-          <div className="p-3 text-white rounded-full bg-[#576d2c] group-hover:text-[#576d2c] group-hover:bg-white transition-all duration-300 ease-in-out">
+          <div className="p-3 text-white rounded-full bg-[#16213E] group-hover:text-[#16213E] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
         </div>
@@ -222,11 +222,11 @@ export default function Home() {
             {" "}
             {`Discover how we've helped businesses like yours`}
           </span>
-          <span className="text-[#576d2c] text-lg md:text-3xl ">
+          <span className="text-[#16213E] text-lg md:text-3xl ">
             &nbsp;achieve remarkable growth.
           </span>
           <br />
-          <span className="text-[#576d2c]">
+          <span className="text-[#16213E]">
             &nbsp;Our case studies showcase the power of our
           </span>
           <span>&nbsp;data-driven strategies and personalized approach.</span>
@@ -239,26 +239,26 @@ export default function Home() {
             Highlighting successful projects with links to full case studies
           </p>
         </div>
-        <div className="rounded-3xl w-full bg-[#576d2c] h-full ">
+        <div className="rounded-3xl w-full bg-[#16213E] h-full ">
           <div className="w-full flex justify-center items-center">
             <div className="py-6 w-11/12 lg:w-10/12 xl:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-6">
               <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576d2c] text-sm md:text-base">
+                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#16213E] text-sm md:text-base">
                   All&nbsp;Work
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576d2c] text-sm md:text-base">
+                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#16213E] text-sm md:text-base">
                   UI/UX&nbsp;Design
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576d2c] text-sm md:text-base">
+                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#16213E] text-sm md:text-base">
                   Digital&nbsp;Marketing
                 </p>
               </div>
               <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576d2c] text-sm md:text-base">
+                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#16213E] text-sm md:text-base">
                   Branding
                 </p>
               </div>
@@ -271,9 +271,9 @@ export default function Home() {
                   Explore our latest articles and case studies to stay ahead in
                   your industry.
                   <div className="py-8 w-full flex justify-center md:justify-start items-center">
-                    <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576d2c] bg-white text-[#576d2c] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                    <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                       <p>Schedule&nbsp;a&nbsp;call</p>
-                      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576d2c] group-hover:text-[#576d2c]">
+                      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
                         <ArrowRight />
                       </div>
                     </div>
@@ -339,14 +339,14 @@ export default function Home() {
       </div>
 
       <div className="w-fulll flex justify-center items-center mt-10">
-        <p className="text-[#576d2c] container text-center text-xl md:text-2xl">
+        <p className="text-[#16213E] container text-center text-xl md:text-2xl">
           {` We appreciate your interest in The Growth Mantra. Our commitment to
           exclusivity means that if selected, you'll receive our undivided
           attention and expertise. We look forward to the possibility of
           partnering with you on your growth journey`}
         </p>
       </div>
-      <section className="flex px-3 md:px-10 py-12 mt-10 justify-around md:items-center flex-col md:flex-row bg-[#576d2c] text-white">
+      <section className="flex px-3 md:px-10 py-12 mt-10 justify-around md:items-center flex-col md:flex-row bg-[#16213E] text-white">
         <div className=" space-y-2">
           <div className="text-xl md:text-2xl text-white text-center">
             {` In the meantime, if you have any urgent questions, please don't
@@ -363,7 +363,7 @@ export default function Home() {
               <span className="text-xl md:text-2xl">
                 Thank you for considering
               </span>
-              <span className="text-[#576d2c] text-xl md:text-3xl ">
+              <span className="text-[#16213E] text-xl md:text-3xl ">
                 &nbsp;The Growth Mantra as your growth partner.&nbsp;
               </span>
               <br />
@@ -372,9 +372,9 @@ export default function Home() {
             </p>
           </section>
         </section>
-        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#576d2c] bg-white hover:text-white hover:bg-[#576d2c] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
           Back to Home
-          <div className="p-2 bg-[#576d2c] rounded-full text-white group-hover:text-[#576d2c] group-hover:bg-white transition-all duration-300 ease-in-out">
+          <div className="p-2 bg-[#16213E] rounded-full text-white group-hover:text-[#16213E] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
         </button>
