@@ -5,7 +5,7 @@ const ContactForm = () => {
   const [form] = Form.useForm();
   return (
     <>
-      <section className="bg-[#E74C3C] md:px-10 px-3 py-3 w-full">
+      <section className="bg-[#16213E] md:px-10 px-3 py-3 w-full">
         <p className="text-white my-1 text-lg">
           Tell us about your business challenges, and We&apos;ll prepare
           tailored insights
