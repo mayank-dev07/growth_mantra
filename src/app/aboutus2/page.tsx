@@ -1,6 +1,6 @@
-import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/Footer/Footer2";
 import { ArrowRight } from "lucide-react";
-import Header from "@/components/Header/Header";
+import Header from "@/components/Header/Header3";
 const content1: { [key: string]: string } = {
   "The Growth Mantra Frameworks":
     "Our approaches using different proprietary frameworks for solving complex growth challenges, ensuring a comprehensive and adaptable strategy for your business.",
@@ -32,14 +32,14 @@ export default function Contactus() {
           Catalysts for
           <div className="flex items-center gap-2 flex-wrap ">
             <div className="text-nowrap">Transformative</div>
-            <div className="border-[#576d2c] py-1 px-4  border-4 w-fit rounded-full text-[#576d2c] font-bold shadow-2xl">
+            <div className="border-[#16213E] py-1 px-4  border-4 w-fit rounded-full text-[#16213E] font-bold shadow-2xl">
               Growth
             </div>
           </div>
         </div>
 
         <div>
-          <div className="bg-[#576d2c] text-nowrap py-3 md:p-10 px-12 text-3xl font-black text-white md:rounded-l-3xl md:rounded-none rounded-r-3xl md:w-auto w-8/12">
+          <div className="bg-[#16213E] text-nowrap py-3 md:p-10 px-12 text-3xl font-black text-white md:rounded-l-3xl md:rounded-none rounded-r-3xl md:w-auto w-8/12">
             About Us
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Contactus() {
       </section>
 
       <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row">
-        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#576d2c]">
+        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#16213E]">
           Our Story
         </div>
         <div className="md:w-2/5 space-y-2">
@@ -69,7 +69,7 @@ export default function Contactus() {
         </div>
       </section>
 
-      <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row bg-[#576d2c] text-white">
+      <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row bg-[#16213E] text-white">
         <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold ">
           Our Mission
         </div>
@@ -83,7 +83,7 @@ export default function Contactus() {
       </section>
 
       <section className="flex px-3 md:px-10 my-12 justify-around md:items-start flex-col md:flex-row">
-        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#576d2c] ">
+        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#16213E] ">
           What sets us apart
         </div>
         <div className="md:w-2/5 space-y-2">
@@ -93,7 +93,7 @@ export default function Contactus() {
                 key={key + "list"}
                 className=" py-3 flex text-sm md:text-xl gap-x-1 "
               >
-                <p className="font-bold text-[#576d2c]">
+                <p className="font-bold text-[#16213E]">
                   {key} :
                   <span className="text-black font-normal">
                     {content1[key]}
@@ -105,7 +105,7 @@ export default function Contactus() {
         </div>
       </section>
 
-      <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row bg-[#576d2c] text-white">
+      <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row bg-[#16213E] text-white">
         <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold ">
           Our Team
         </div>
@@ -120,7 +120,7 @@ export default function Contactus() {
       </section>
 
       <section className="flex px-3 md:px-10 my-12 justify-around md:items-start flex-col md:flex-row">
-        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#576d2c] ">
+        <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#16213E] ">
           Our Values
         </div>
         <div className="md:w-2/5 space-y-2">
@@ -130,7 +130,7 @@ export default function Contactus() {
                 key={key + "list"}
                 className=" py-3 flex text-sm md:text-xl gap-x-1 "
               >
-                <p className="font-bold text-[#576d2c]">
+                <p className="font-bold text-[#16213E]">
                   {key} :{" "}
                   <span className="text-black font-normal">
                     {content2[key]}
@@ -142,7 +142,7 @@ export default function Contactus() {
         </div>
       </section>
 
-      <div className="w-full h-full bg-[#576d2c]">
+      <div className="w-full h-full bg-[#16213E]">
         <section className="flex px-3 md:px-10 py-12 justify-around md:items-center flex-col md:flex-row">
           <div className="md:w-2/5 text-[1.3rem] my-1 md:text-5xl font-bold  text-white">
             Ready to Unlock Your Growth Potential?
@@ -154,9 +154,9 @@ export default function Contactus() {
             </div>
           </div>
         </section>
-        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#576d2c] bg-white hover:text-white hover:bg-[#576d2c] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
           Start Your Growth Journey
-          <div className="p-2 bg-[#576d2c] rounded-full text-white group-hover:text-[#576d2c] group-hover:bg-white transition-all duration-300 ease-in-out">
+          <div className="p-2 bg-[#16213E] rounded-full text-white group-hover:text-[#16213E] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
         </button>
@@ -164,9 +164,9 @@ export default function Contactus() {
 
       <section className="my-16 text-xl md:text-5xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[70px]">
-          <span className="text-[#576d2c] ">At The Growth Mantra,</span>
+          <span className="text-[#16213E] ">At The Growth Mantra,</span>
           <span>{`we don't just predict the future of business growth`}</span>
-          <span className="text-[#576d2c]">{`– we help you create it`}</span>
+          <span className="text-[#16213E]">{`– we help you create it`}</span>
         </p>
       </section>
 
