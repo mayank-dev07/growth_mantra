@@ -1,7 +1,6 @@
 "use client";
 import { Drawer } from "antd";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 

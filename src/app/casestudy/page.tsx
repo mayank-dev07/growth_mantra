@@ -122,6 +122,55 @@ export default function Home() {
         </div>
       </div>
       {/* Thank you for reaching out to The Growth Mantra. We're excited about the possibility of partnering with you to drive exceptional growth for your business. */}
+      <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
+        <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
+          <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
+            <div className="text-2xl md:text-3xl font-semibold flex flex-col gap-4 text-center tracking-widest">
+              Testimonials
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
+        <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
+          <div className="bg-white shadow-lg rounded-lg p-6  flex flex-col justify-center text-start">
+            <h2 className="text-xl font-semibold text-black">Sarah Chen</h2>
+            <span className="text-base text-gray-300">CMO</span>
+            <p className="mt-4 text-gray-600 overflow-hidden">
+              {`"The Growth Mantra didn't just meet our expectations – they
+              shattered them. Their data-driven approach and relentless focus on
+              results transformed our acquisition strategy. We're now seeing a
+              consistent 40% month-over-month growth in new customers."`}
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
+          <div className="bg-white shadow-lg rounded-lg p-6  flex flex-col justify-center text-start">
+            <h2 className="text-xl font-semibold text-black">
+              Michael Rodriguez
+            </h2>
+            <span className="text-base text-gray-300">Founder</span>
+            <p className="mt-4 text-gray-600 overflow-hidden">
+              {`"Working with The Growth Mantra was a game-changer for our e-commerce business. Their CRO expertise helped us optimize our funnel, resulting in a 75% increase in conversion rates. They're not just service providers; they're true growth partners."`}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
+          <div className="bg-white shadow-lg rounded-lg p-6  flex flex-col justify-center text-start">
+            <h2 className="text-xl font-semibold text-black">
+              Amanda Thompson
+            </h2>
+            <span className="text-base text-gray-300">
+              Head of Customer Success
+            </span>
+            <p className="mt-4 text-gray-600 overflow-hidden">
+              {`"The team at The Growth Mantra has an uncanny ability to identify and capitalize on growth opportunities. Their retention strategies helped us reduce churn by 50% and significantly boost customer lifetime value. I can't recommend them enough!"`}
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
@@ -158,7 +207,7 @@ export default function Home() {
           <div className="md:w-full text-[1.3rem] my-1 md:text-5xl font-bold  text-white flex flex-col justify-center items-center">
             Ready to Be Our Next Success Story?
             <p className="text-lg md:text-xl py-3 font-normal tracking-wide">
-              Let's unlock your business's full potential together
+              {`Let's unlock your business's full potential together`}
             </p>
           </div>
         </section>
