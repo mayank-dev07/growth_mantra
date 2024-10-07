@@ -1,7 +1,7 @@
 "use client";
 import Footer from "@/components/Footer/Footer2";
 import Header from "@/components/Header/Header3";
-import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
+import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs3";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 
