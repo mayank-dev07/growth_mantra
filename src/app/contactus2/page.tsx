@@ -45,7 +45,7 @@ export default function Contactus() {
         here to guide you every step of the way.
       </section>
       <h1 className="md:px-10 px-3 my-8 text-3xl md:text-6xl font-bold text-[#16213E]">
-        Our Consulting Expertise
+        Our Offering
       </h1>
 
       <ul>
