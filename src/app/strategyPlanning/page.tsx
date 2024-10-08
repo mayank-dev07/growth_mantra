@@ -13,9 +13,8 @@ export default function Home() {
     <>
       <Header />
       <StrategyHero />
-    
-      <StrategyOffering/>
-      <Strategy/>
+      <StrategyOffering />
+      <Strategy />
       <WhyChooseUs />
       <CaseStudy />
       <Trending />

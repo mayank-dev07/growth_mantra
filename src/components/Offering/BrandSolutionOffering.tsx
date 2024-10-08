@@ -41,7 +41,7 @@ const CheckmarkIcon = () => (
     <Image
       width={30}
       height={30}
-      src="/Success.png" // Replace with the actual path to your PNG
+      src="/assets/success_green.png" // Replace with the actual path to your PNG
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
