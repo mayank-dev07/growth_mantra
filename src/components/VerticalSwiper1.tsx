@@ -23,7 +23,7 @@ export default function VerticalSwiper() {
         className="!h-[670px] lg:!min-h-[70vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
-          <Link href="/contactus" passHref>
+          <Link href="/contactus2" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
                 src="/assets/consulting_home/swiper1.svg"
@@ -36,7 +36,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus" passHref>
+          <Link href="/contactus2" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
                 src="/assets/consulting_home/swiper2.svg"
@@ -49,7 +49,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus" passHref>
+          <Link href="/contactus2" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
                 src="/assets/consulting_home/swiper3.svg"
@@ -62,7 +62,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus" passHref>
+          <Link href="/contactus2" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
                 src="/assets/consulting_home/swiper4.svg"
@@ -75,7 +75,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus" passHref>
+          <Link href="/contactus2" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
                 src="/assets/consulting_home/swiper5.svg"
