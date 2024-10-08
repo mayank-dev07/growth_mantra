@@ -6,13 +6,55 @@ import { ArrowRight } from "lucide-react";
 const ContactForm = () => {
   const [form] = Form.useForm();
   const [growthFocus, setGrowthFocus] = useState<string[]>([]);
+  const [otherOption, setOtherOption] = useState<string>("");
+  const [otherChallenge, setOtherChallenge] = useState<string>("");
+  const [selectedChallenge, setSelectedChallenge] = useState<string>("");
 
   const handleGrowthFocusChange = (value: string) => {
-    setGrowthFocus((prev) =>
-      prev.includes(value)
-        ? prev.filter((item) => item !== value)
-        : [...prev, value]
-    );
+    if (value === "Other (Please specify below)") {
+      if (!growthFocus.includes(value)) {
+        setGrowthFocus((prev) => [...prev, value]);
+      }
+    } else {
+      setGrowthFocus((prev) =>
+        prev.includes(value)
+          ? prev.filter((item) => item !== value)
+          : [...prev, value]
+      );
+
+      if (growthFocus.includes("Other (Please specify below)")) {
+        setOtherOption("");
+      }
+    }
+
+    if (growthFocus.length > 0 && value !== "Other (Please specify below)") {
+      if (growthFocus.includes("Other (Please specify below)")) {
+        setGrowthFocus((prev) => [
+          ...prev.filter((item) => item !== "Other (Please specify below)"),
+          otherOption,
+        ]);
+      }
+    }
+  };
+
+  const handleChallengeChange = (value: string) => {
+    if (value === "Other (Please specify below)") {
+      setSelectedChallenge(value);
+    } else {
+      setSelectedChallenge(value);
+    }
+
+    if (selectedChallenge === "Other (Please specify below)") {
+      setOtherChallenge("");
+    }
+  };
+
+  const handleOtherChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setOtherOption(e.target.value);
+  };
+
+  const handleOtherChallenge = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setOtherChallenge(e.target.value);
   };
 
   const handleSubmit = async () => {
@@ -22,7 +64,21 @@ const ContactForm = () => {
     try {
       const values = await form.validateFields();
 
-      const formData = { ...values, growthFocus };
+      const formData = {
+        ...values,
+        primaryBusinessChallenge:
+          selectedChallenge === "Other (Please specify below)"
+            ? otherChallenge
+            : selectedChallenge,
+        growthFocus: growthFocus.includes("Other (Please specify below)")
+          ? [
+              ...growthFocus.filter(
+                (item) => item !== "Other (Please specify below)"
+              ),
+              otherOption,
+            ]
+          : growthFocus,
+      };
 
       console.log("Form Data:", formData);
 
@@ -39,6 +95,11 @@ const ContactForm = () => {
 
       if (result.result === "success") {
         alert("Data submitted successfully!");
+        setGrowthFocus([]);
+        setOtherOption("");
+        setOtherChallenge("");
+        setSelectedChallenge("");
+        form.resetFields();
       } else {
         alert("Error: " + result.error);
       }
@@ -46,7 +107,6 @@ const ContactForm = () => {
       console.error("Validation Failed:", errorInfo);
     }
   };
-
   return (
     <>
       <section className="bg-[#16213E] md:px-10 px-3 py-3 w-full">
@@ -213,6 +273,7 @@ const ContactForm = () => {
                       id={`radio-${index}`}
                       name="engagementTimeline"
                       value={item}
+                      onChange={() => handleChallengeChange(item)}
                     />
 
                     <svg
@@ -249,10 +310,14 @@ const ContactForm = () => {
               </div>
             </Form.Item>
 
-            <input
-              placeholder={`Specify your "Primary Business challenge"`}
-              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
-            />
+            {selectedChallenge === "Other (Please specify below)" && (
+              <input
+                placeholder={`Specify your "Primary Business challenge"`}
+                className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none"
+                value={otherChallenge}
+                onChange={handleOtherChallenge}
+              />
+            )}
           </div>
           <div className="my-5">
             <Form.Item
@@ -321,35 +386,20 @@ const ContactForm = () => {
                   </label>
                 ))}
               </div>
-            </Form.Item>
-            <input
-              placeholder={`Specify your "Growth Focus Area"`}
-              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
-            />
-          </div>
-          <div className="flex flex-wrap gap-4 mb-4">
-            <Form.Item
-              label={
-                <span className="text-white text-sm md:text-lg font-bold">
-                  Problem Statement Brief
-                </span>
-              }
-              name="problemStatement"
-              style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[
-                {
-                  required: true,
-                  message: "Please enter your problemStatement",
-                },
-              ]}
-            >
-              <input
-                className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
-                placeholder="Enter Brief Description"
-              />
+
+              {growthFocus.includes("Other (Please specify below)") && (
+                <div className="mt-3">
+                  <input
+                    placeholder={`Specify your "Primary Business challenge"`}
+                    className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
+                    value={otherOption}
+                    onChange={handleOtherChange}
+                  />
+                </div>
+              )}
             </Form.Item>
           </div>
-          <div className=" flex flex-col md:flex-row justify-between items-start md:items-center my-5">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center my-5 gap-10">
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
@@ -414,6 +464,7 @@ const ContactForm = () => {
                 ))}
               </div>
             </Form.Item>
+
             <div className="my-5">
               <Form.Item
                 label={
@@ -427,27 +478,70 @@ const ContactForm = () => {
                   { required: true, message: "Please select from the options" },
                 ]}
               >
-                <select className="w-full px-4 py-2 rounded-lg border border-gray-300 bg-white text-black text-sm md:text-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                  <option value="" disabled selected>
-                    Select an option
-                  </option>
-                  <option value="Referral">Referral</option>
-                  <option value="Social Media">Social Media</option>
-                  <option value="Search Engine">Search Engine</option>
-                  <option value="Advertisement">Advertisement</option>
-                  <option value="Other">Other</option>
-                </select>
+                <div className="flex gap-x-4 md:gap-x-10">
+                  {[
+                    "Referral",
+                    "Social Media",
+                    "Search Engine",
+                    "Advertisement",
+                    "Other",
+                  ].map((item, y) => (
+                    <label
+                      key={y}
+                      htmlFor={`radio-referral-${y}`}
+                      className="flex items-center gap-2 cursor-pointer" // Label wraps everything, making the whole div clickable
+                    >
+                      <input
+                        className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
+                        type="radio"
+                        name="referralSource" // Group the radios together by name
+                        id={`radio-referral-${y}`}
+                        value={item} // Set value for form submission
+                      />
+
+                      <svg
+                        className="peer-checked:opacity-100 opacity-20"
+                        width="22"
+                        height="22"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clipPath="url(#clip0_258_23863)">
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M0 10.8711C0 8.08632 1.15893 5.4156 3.22183 3.44647C5.28473 1.47734 8.08262 0.371094 11 0.371094C13.9174 0.371094 16.7153 1.47734 18.7782 3.44647C20.8411 5.4156 22 8.08632 22 10.8711C22 13.6559 20.8411 16.3266 18.7782 18.2957C16.7153 20.2648 13.9174 21.3711 11 21.3711C8.08262 21.3711 5.28473 20.2648 3.22183 18.2957C1.15893 16.3266 0 13.6559 0 10.8711H0ZM10.3723 15.3651L16.7053 7.80789L15.5613 6.93429L10.1611 13.3757L6.336 10.3335L5.39733 11.4087L10.3723 15.3665V15.3651Z"
+                            fill="white"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_258_23863">
+                            <rect
+                              width="22"
+                              height="21"
+                              fill="white"
+                              transform="translate(0 0.371094)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <span className="font-semibold text-white">{item}</span>
+                    </label>
+                  ))}
+                </div>
               </Form.Item>
             </div>
-
             <br />
           </div>
+
           <div className="w-full flex justify-center items-center">
             <button
               type="submit"
               className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
             >
-              Request Consultation
+              Schedule a call
               <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
                 <ArrowRight />
               </div>

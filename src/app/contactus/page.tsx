@@ -119,19 +119,14 @@ export default function Contactus() {
             go-to-market strategy. Their insights helped us capture market share
             50% faster than projected.&quot;
           </div>
-          <div className="italic text-gray-600">
-            - Michael L., CEO of InnovateTech
-          </div>
+          <div className="italic text-gray-600">- Michael L., CEO</div>
           <div className="text-lg font-bold text-gray-600">
             &quot;Working with their consultants on our user persona
             identification transformed our product development. We&apos;ve seen
             a 40% increase in user engagement since implementing their
             recommendations.&quot;
           </div>
-          <div className="italic text-gray-600">
-            - Sarah K., Founder of UserFirst Solutions
-          </div>
-          {/* Responsive button */}
+          <div className="italic text-gray-600">- Sarah K., Founder</div>
           <button
             onClick={scrollToContactForm}
             className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"

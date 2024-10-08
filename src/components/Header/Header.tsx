@@ -21,9 +21,7 @@ const Header = () => {
         {/* Top banner */}
         <div className="w-full h-full p-2 bg-[#576D2C] flex justify-center items-center text-white gap-2 md:gap-5">
           <div>
-            {
-              "`Ready to Be Our Next Success Story? Let’s unlock Growth together !!`"
-            }
+            {`Ready to Be Our Next Success Story? Let’s unlock Growth together !!`}
           </div>
           <Link href="/contactus" passHref>
             <div className="px-4 py-1 rounded-full bg-[#ffffff] text-sm md:text-lg text-black">
@@ -34,42 +32,47 @@ const Header = () => {
 
         {/* Navigation bar */}
         <div className="w-full h-full hidden md:flex justify-center items-center gap-2 md:gap-3 text-sm md:text-lg lg:gap-10 py-4">
-          <Link href="/consulting">
+          <Link href="/">
             <span
-              className={`${isActive("/consulting") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               Consulting
             </span>
           </Link>
-          <Link href="/">
+          <Link href="/services">
             <span
-              className={`${isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/services") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               Services
             </span>
           </Link>
           <Link href="/casestudies">
             <span
-              className={`${isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               Case&nbsp;Studies
             </span>
           </Link>
           <Link href="/contactus">
             <span
-              className={`${isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               Contact&nbsp;us
             </span>
           </Link>
           <Link href="/aboutus">
             <span
-              className={`${isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               About&nbsp;us
             </span>
@@ -98,40 +101,45 @@ const Header = () => {
           <div className="flex flex-col gap-4 font-semibold">
             <Link href="/">
               <span
-                className={`${isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 Acquisition
               </span>
             </Link>
             <Link href="/services">
               <span
-                className={`${isActive("/services") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/services") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 Services
               </span>
             </Link>
             <Link href="/casestudies">
               <span
-                className={`${isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 Case&nbsp;Studies
               </span>
             </Link>
             <Link href="/contactus">
               <span
-                className={`${isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 Contact&nbsp;us
               </span>
             </Link>
             <Link href="/aboutus">
               <span
-                className={`${isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 About&nbsp;us
               </span>

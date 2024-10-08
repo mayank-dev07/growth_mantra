@@ -19,9 +19,7 @@ const Header = () => {
       <div className="flex flex-col justify-center items-center fixed top-0 left-0 right-0 bg-white z-50">
         <div className="w-full h-full p-2 bg-[#16213E] flex justify-center items-center text-white gap-2 md:gap-5">
           <div>
-            {
-              "`Ready to Be Our Next Success Story? Let’s unlock Growth together !! `"
-            }
+            {`Ready to Be Our Next Success Story? Let’s unlock Growth together !!`}
           </div>
           <Link href="/contactus" passHref>
             <div className="px-4 py-1 rounded-full bg-white text-black text-sm md:text-lg">
