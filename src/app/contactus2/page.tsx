@@ -100,9 +100,9 @@ export default function Contactus() {
 
       <ContactForm />
 
-      <section className="flex flex-col md:flex-row px-3 md:px-8 my-16 gap-8 justify-around md:items-center">
+      <section className="flex flex-col lg:flex-row px-3 md:px-12 my-16 gap-12 justify-around lg:items-center">
         {/* Adjusting heading size for responsiveness */}
-        <div className="md:w-2/5 text-[1.5rem] sm:text-[2rem] md:text-8xl font-bold my-1 text-[#16213E]">
+        <div className="md:w-2/5 text-[1.5rem] sm:text-3xl md:text-7xl  font-bold my-1 text-[#16213E]">
           Our Consultants Impact
         </div>
 

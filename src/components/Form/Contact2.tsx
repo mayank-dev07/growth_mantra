@@ -1,9 +1,66 @@
 "use client";
-import React from "react";
-import { Form } from "antd";
+import React, { useState } from "react";
+import { Form, message } from "antd";
 import { ArrowRight } from "lucide-react";
+
+// Define the types for form data
+interface ContactFormData {
+  user_name: string;
+  user_phone: string;
+  user_email: string;
+  user_companyname: string;
+  user_companywebsite: string;
+  user_designation: string;
+  index_challenge: string;
+  interest: string[];
+  problemStatement: string;
+  engage_time: string;
+  hear_about: string;
+}
 const ContactForm = () => {
   const [form] = Form.useForm();
+  const [growthFocus, setGrowthFocus] = useState<string[]>([]);
+
+  const handleGrowthFocusChange = (value: string) => {
+    setGrowthFocus((prev) =>
+      prev.includes(value)
+        ? prev.filter((item) => item !== value)
+        : [...prev, value]
+    );
+  };
+
+  const handleSubmit = async () => {
+    const url =
+      "https://script.google.com/macros/s/AKfycbxY0SDqQ63RkXgF8L7MLH3uCHMM3SecOMz310ztVknk0vsENLcnnBfgHNplSg2Xrm8z1g/exec";
+
+    try {
+      const values = await form.validateFields();
+
+      const formData = { ...values, growthFocus };
+
+      console.log("Form Data:", formData);
+
+      const response = await fetch(url, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (result.result === "success") {
+        alert("Data submitted successfully!");
+      } else {
+        alert("Error: " + result.error);
+      }
+    } catch (errorInfo) {
+      console.error("Validation Failed:", errorInfo);
+    }
+  };
+
   return (
     <>
       <section className="bg-[#16213E] md:px-10 px-3 py-3 w-full">
@@ -13,7 +70,12 @@ const ContactForm = () => {
           <br /> for our initial discussion.
         </p>
 
-        <Form form={form} layout="vertical" className="py-5 px-4 rounded-lg ">
+        <Form
+          form={form}
+          layout="vertical"
+          className="py-5 px-4 rounded-lg "
+          onFinish={handleSubmit}
+        >
           <div className="flex gap-4 mb-4">
             <Form.Item
               label={
@@ -21,12 +83,12 @@ const ContactForm = () => {
                   Full Name
                 </span>
               }
-              name="user_name"
+              name="name"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
               <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                 placeholder="Enter name"
               />
             </Form.Item>
@@ -37,15 +99,18 @@ const ContactForm = () => {
                   Phone Number
                 </span>
               }
-              name="user_phone"
+              name="phoneNo"
               style={{ width: "48%" }}
               rules={[
-                { required: true, message: "Please enter your email" },
-                { type: "email", message: "Please enter a valid email" },
+                { required: true, message: "Please enter your number" },
+                {
+                  pattern: /^[0-9]{10}$/,
+                  message: "Please enter a valid 10-digit phone number",
+                },
               ]}
             >
               <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                 placeholder="Enter phone no."
               />
             </Form.Item>
@@ -57,12 +122,15 @@ const ContactForm = () => {
                   Work Email Address
                 </span>
               }
-              name="user_email"
+              name="email"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please enter your name" }]}
+              rules={[
+                { required: true, message: "Please enter your name" },
+                { type: "email", message: "Please enter a valid email" },
+              ]}
             >
               <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                 placeholder="Enter Email"
               />
             </Form.Item>
@@ -73,14 +141,17 @@ const ContactForm = () => {
                   Company&nbsp;Name
                 </span>
               }
-              name="user_companyname"
+              name="companyName"
               style={{ width: "48%" }}
               rules={[
                 { required: true, message: "Please enter your email" },
-                { type: "email", message: "Please enter a valid email" },
+                { type: "string", message: "Please enter a valid email" },
               ]}
             >
-              <input className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]" />
+              <input
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
+                placeholder="enter company name"
+              />
             </Form.Item>
           </div>
           <div className="flex  gap-4 mb-4">
@@ -90,12 +161,12 @@ const ContactForm = () => {
                   Website&nbsp;URL
                 </span>
               }
-              name="user_companywebsite"
+              name="companyWebsite"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
               <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                 placeholder="Enter Company website"
               />
             </Form.Item>
@@ -105,12 +176,12 @@ const ContactForm = () => {
                   Designation
                 </span>
               }
-              name="user_designation"
+              name="designation"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please enter your name" }]}
             >
               <input
-                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                 placeholder="Enter Designation"
               />
             </Form.Item>
@@ -123,7 +194,7 @@ const ContactForm = () => {
                   Primary Business Challenge
                 </span>
               }
-              name="index_challenge"
+              name="primaryBusinessChallenge"
               style={{ padding: "0px", margin: "0px" }}
               rules={[
                 {
@@ -154,7 +225,7 @@ const ContactForm = () => {
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
                       type="radio" // Changed to radio for single-select
                       id={`radio-${index}`}
-                      name="challenge" // Name is the same for all, making them mutually exclusive
+                      name="engagementTimeline" // Name is the same for all, making them mutually exclusive
                       value={item}
                     />
 
@@ -194,7 +265,7 @@ const ContactForm = () => {
 
             <input
               placeholder="Specify other Business challenge"
-              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
             />
           </div>
           <div className="my-5">
@@ -204,7 +275,7 @@ const ContactForm = () => {
                   Your Growth Focus
                 </span>
               }
-              name="interest"
+              name="growthFocus"
               style={{ padding: "0px", margin: "0px" }}
               rules={[{ required: true, message: "Please select an interest" }]}
             >
@@ -216,17 +287,19 @@ const ContactForm = () => {
                   "Branding & Messaging",
                   "Sales Growth",
                   "Other (custom entry)",
-                ].map((item, x) => (
+                ].map((item, index) => (
                   <label
-                    key={x}
-                    htmlFor={`radio-interest-${x}`} // Label wraps everything, making the whole div clickable
+                    key={index}
+                    htmlFor={`checkbox-growthFocus-${index}`}
                     className="flex items-center gap-1 cursor-pointer" // Added cursor-pointer for better UX
                   >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
                       type="checkbox"
-                      id={`radio-interest-${x}`}
+                      id={`checkbox-growthFocus-${index}`}
                       value={item}
+                      checked={growthFocus.includes(item)}
+                      onChange={() => handleGrowthFocusChange(item)}
                     />
 
                     <svg
@@ -264,7 +337,7 @@ const ContactForm = () => {
             </Form.Item>
             <input
               placeholder="Specify other Consulting Area of Interest"
-              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+              className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
             />
           </div>
           <div className="flex flex-wrap gap-4 mb-4">
@@ -274,14 +347,17 @@ const ContactForm = () => {
                   Problem Statement Brief
                 </span>
               }
-              name="situation"
+              name="problemStatement"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[
-                { required: true, message: "Please enter your situation" },
+                {
+                  required: true,
+                  message: "Please enter your problemStatement",
+                },
               ]}
             >
               <input
-                className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none focus:border-[#435a22]"
+                className="w-full border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                 placeholder="Enter Brief Description"
               />
             </Form.Item>
@@ -293,7 +369,7 @@ const ContactForm = () => {
                   How Soon Are You Looking to Engage with Us?
                 </span>
               }
-              name="engage_time"
+              name="engagementTimeline"
               style={{ padding: "0px", margin: "0px" }}
               rules={[
                 { required: true, message: "Please select an engagement time" },
@@ -313,7 +389,7 @@ const ContactForm = () => {
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
                       type="radio"
-                      name="engage_time" // Group the radios together by name
+                      name="engagementTimeline" // Group the radios together by name
                       id={`radio-engage-${y}`}
                       value={item} // Set value for form submission
                     />
@@ -358,7 +434,7 @@ const ContactForm = () => {
                     How Did You Hear About Us?
                   </span>
                 }
-                name="hear_about"
+                name="referralSource"
                 style={{ padding: "0px", margin: "0px" }}
                 rules={[
                   { required: true, message: "Please select from the options" },
@@ -380,12 +456,15 @@ const ContactForm = () => {
             <br />
           </div>
           <div className="w-full flex justify-center items-center">
-            <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+            <button
+              type="submit"
+              className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
+            >
               Request Consultation
-              <div className="p-2  bg-white rounded-full text-black group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
+              <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
                 <ArrowRight />
               </div>
-            </div>
+            </button>
           </div>
         </Form>
       </section>
