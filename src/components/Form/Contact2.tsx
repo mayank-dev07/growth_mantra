@@ -136,7 +136,7 @@ const ContactForm = () => {
             >
               <input
                 className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
-                placeholder="enter company name"
+                placeholder="Enter company name"
               />
             </Form.Item>
           </div>
@@ -192,26 +192,26 @@ const ContactForm = () => {
               <div className="flex flex-col md:flex-row flex-wrap gap-5">
                 {[
                   "Customer Acquisition Strategies",
+                  "Conversion Rate Optimization (CRO)",
+                  "Brand Strategy & Positioning",
+                  "Product Growth & Market Fit",
+                  "Go-to-Market Strategy",
                   "Retention Strategies",
                   "Funnel Optimization",
                   "CRM Growth",
-                  "Conversion Rate Optimization (CRO)",
-                  "Brand Strategy & Positioning",
-                  "Go-to-Market Strategy",
-                  "Product Growth & Market Fit",
                   "SEO Strategy",
                   "Other (Please specify below)",
                 ].map((item, index) => (
                   <label
                     key={index}
-                    htmlFor={`radio-${index}`} // Label wraps everything, making the whole div clickable
-                    className="flex items-center gap-2 cursor-pointer" // Added cursor-pointer for better UX
+                    htmlFor={`radio-${index}`}
+                    className="flex items-center gap-2 cursor-pointer"
                   >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
-                      type="radio" // Changed to radio for single-select
+                      type="radio"
                       id={`radio-${index}`}
-                      name="engagementTimeline" // Name is the same for all, making them mutually exclusive
+                      name="engagementTimeline"
                       value={item}
                     />
 
@@ -250,7 +250,7 @@ const ContactForm = () => {
             </Form.Item>
 
             <input
-              placeholder="Specify other Business challenge"
+              placeholder={`Specify your "Primary Business challenge"`}
               className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
             />
           </div>
@@ -267,17 +267,18 @@ const ContactForm = () => {
             >
               <div className="flex flex-col md:flex-row gap-y-5 gap-x-5">
                 {[
-                  "Acquisition Growth",
-                  "Retention Growth",
-                  "Conversion Optimization",
-                  "Branding & Messaging",
-                  "Sales Growth",
-                  "Other (custom entry)",
+                  "Strategy & Planning",
+                  "User Persona Identification",
+                  "Go-to-Market Strategy",
+                  "Brand Solutions",
+                  "Growth Marketing",
+                  "Product Growth",
+                  "Other (Please specify below)",
                 ].map((item, index) => (
                   <label
                     key={index}
                     htmlFor={`checkbox-growthFocus-${index}`}
-                    className="flex items-center gap-1 cursor-pointer" // Added cursor-pointer for better UX
+                    className="flex items-center gap-1 cursor-pointer"
                   >
                     <input
                       className="peer relative appearance-none shrink-0 w-4 h-4 mt-1 hidden"
@@ -322,7 +323,7 @@ const ContactForm = () => {
               </div>
             </Form.Item>
             <input
-              placeholder="Specify other Consulting Area of Interest"
+              placeholder={`Specify your "Growth Focus Area"`}
               className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
             />
           </div>
