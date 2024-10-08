@@ -1,22 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { Form, message } from "antd";
+import { Form } from "antd";
 import { ArrowRight } from "lucide-react";
 
-// Define the types for form data
-interface ContactFormData {
-  user_name: string;
-  user_phone: string;
-  user_email: string;
-  user_companyname: string;
-  user_companywebsite: string;
-  user_designation: string;
-  index_challenge: string;
-  interest: string[];
-  problemStatement: string;
-  engage_time: string;
-  hear_about: string;
-}
 const ContactForm = () => {
   const [form] = Form.useForm();
   const [growthFocus, setGrowthFocus] = useState<string[]>([]);
