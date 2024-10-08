@@ -1,50 +1,14 @@
 "use client";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
 const CaseStudy = () => {
-  const slides = [
-    {
-      id: 1,
-      company: "Ai Corporation. 2023",
-      project: "Ai Wave - Ai Chatbot Mobile App",
-    },
-    {
-      id: 2,
-      company: "Tech Solutions. 2023",
-      project: "Tech Guru - AI-Powered Platform",
-    },
-    {
-      id: 3,
-      company: "Future Innovations. 2023",
-      project: "InnoX - Smart Home Solutions",
-    },
-    {
-      id: 4,
-      company: "Creative Minds. 2023",
-      project: "CreatiX - Mobile Art App",
-    },
-    {
-      id: 5,
-      company: "Bright AI. 2023",
-      project: "BrightBot - AI-powered Assistant",
-    },
-    {
-      id: 6,
-      company: "NextGen Tech. 2023",
-      project: "NextGen Cloud Solutions",
-    },
-  ];
-
   return (
     <>
       <div className="w-full h-full bg-[#576D2C] px-2 md:px-16 py-10  ">

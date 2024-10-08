@@ -9,75 +9,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-const services = [
-  {
-    title: "$300M+",
-    description: "Additional revenue generated for our clients.",
-  },
-  {
-    title: "500M+",
-    description: "New app downloads through our acquisition strategies.",
-  },
-  {
-    title: "300%",
-    description: "Average ROI across all projects",
-  },
-  {
-    title: "5M+",
-    description: "New leads generated through our acquisition strategies.",
-  },
-  {
-    title: "3M+",
-    description: "transactions generated through our retention strategies.",
-  },
-  {
-    title: "65%",
-    description: "Additional revenue generated for our clients.",
-  },
-  {
-    title: "40%",
-    description: "Additional revenue generated for our clients.",
-  },
-  {
-    title: "85%",
-    description: "Additional revenue generated for our clients.",
-  },
-];
-
 const CaseStudy = () => {
-  const slides = [
-    {
-      id: 1,
-      company: "Ai Corporation. 2023",
-      project: "Ai Wave - Ai Chatbot Mobile App",
-    },
-    {
-      id: 2,
-      company: "Tech Solutions. 2023",
-      project: "Tech Guru - AI-Powered Platform",
-    },
-    {
-      id: 3,
-      company: "Future Innovations. 2023",
-      project: "InnoX - Smart Home Solutions",
-    },
-    {
-      id: 4,
-      company: "Creative Minds. 2023",
-      project: "CreatiX - Mobile Art App",
-    },
-    {
-      id: 5,
-      company: "Bright AI. 2023",
-      project: "BrightBot - AI-powered Assistant",
-    },
-    {
-      id: 6,
-      company: "NextGen Tech. 2023",
-      project: "NextGen Cloud Solutions",
-    },
-  ];
-
   return (
     <>
       <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-16  ">
