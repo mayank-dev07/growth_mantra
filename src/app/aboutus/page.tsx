@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer/Footer2";
 import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header/Header3";
+import Link from "next/link";
 const content1: { [key: string]: string } = {
   "The Growth Mantra Frameworks":
     "Our approaches using different proprietary frameworks for solving complex growth challenges, ensuring a comprehensive and adaptable strategy for your business.",
@@ -154,12 +155,15 @@ export default function Contactus() {
             </div>
           </div>
         </section>
-        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+        <Link
+          href="/contactus"
+          className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
+        >
           Start Your Growth Journey
           <div className="p-2 bg-[#16213E] rounded-full text-white group-hover:text-[#16213E] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
-        </button>
+        </Link>
       </div>
 
       <section className="my-16 text-xl md:text-5xl md:px-16 text-center m-auto line w-[93%]">
