@@ -62,7 +62,10 @@ export default function TrendingSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/upi" className="h-fit flex flex-col ">
+            <Link
+              href="/userpersonaidentification"
+              className="h-fit flex flex-col "
+            >
               <Image
                 src="/assets/trending_services/Retention_Revolution.png"
                 alt="image"
