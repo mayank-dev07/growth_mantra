@@ -54,7 +54,7 @@ export default function Contactus() {
             className="md:px-10 px-3 py-3 flex text-sm md:text-xl gap-x-1 "
           >
             <Image
-              src={"/success.png"}
+              src={"/SuccessContact.png"}
               alt=""
               width={20}
               height={20}
