@@ -12,7 +12,7 @@ interface Card {
 const cards: Card[] = [
   {
     id: 1,
-    title: "Data-Driven Strategy Formulation",
+    title: " Accelerate Growth with Precision-Driven Acquisition Engine",
     imageSrc: "/Strategy.png",
   },
   {
@@ -25,9 +25,25 @@ const cards: Card[] = [
     title: "Amplify Customer Lifetime Value",
     imageSrc: "/Customer.png",
   },
+
   {
     id: 4,
     title: "Conversion-Focused Optimization",
+    imageSrc: "/CaroselConversion.png",
+  },
+  {
+    id: 5,
+    title: "Craft a Unique, Brand-Aligned Growth Strategy",
+    imageSrc: "/CaroselConversion.png",
+  },
+  {
+    id: 6,
+    title: "Optimize Messaging for Maximum Impact",
+    imageSrc: "/CaroselConversion.png",
+  },
+  {
+    id: 7,
+    title: "Gain 24/7 Actionable Data Insights",
     imageSrc: "/CaroselConversion.png",
   },
 ];
