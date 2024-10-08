@@ -51,9 +51,9 @@ const ContactForm = () => {
     <>
       <section className="bg-[#16213E] md:px-10 px-3 py-3 w-full">
         <p className="text-white my-1 text-lg">
-          Tell us about your business challenges, and We&apos;ll prepare
-          tailored insights
-          <br /> for our initial discussion.
+          {`Tell us about your growth challenges, and we'll recommend the best`}
+          <br />
+          services for your needs.
         </p>
 
         <Form

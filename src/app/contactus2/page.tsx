@@ -41,13 +41,12 @@ export default function Contactus() {
         </div>
       </section>
       <section className="lg:px-10 px-2 md:px-6 sm:px-2 md:w-2/3 text-gray-600 my-5">
-        Ready to unlock your businesss full potential? The Growth Mantra team is
-        here to guide you every step of the way.
+        {`Ready to unlock your business's full potential? The Growth Mantra team is
+        here to guide you every step of the way.`}
       </section>
       <h1 className="md:px-10 px-3 my-8 text-3xl md:text-6xl font-bold text-[#16213E]">
-        Our Offering
+        Our Growth-Driving Services
       </h1>
-
       <ul>
         {Object.keys(content1).map((key: string) => (
           <li
@@ -68,7 +67,6 @@ export default function Contactus() {
           </li>
         ))}
       </ul>
-
       <div className="w-full bg-[#16213E] py-7 my-5 text-white text-sm md:text-4xl font-bold m-auto text-center  m-">
         <div className=" inline">Not sure which service you need?</div>
         Don&apos;t worry – our experts will
@@ -76,7 +74,6 @@ export default function Contactus() {
         <div className="inline">&nbsp;best solutions</div> for your unique
         challenges.
       </div>
-
       <section className="flex px-3 md:px-10 my-5 justify-around md:items-center flex-col md:flex-row">
         <div className="md:w-2/5 text-[1.3rem] my-1 md:text-8xl font-bold  text-[#16213E]">
           Get in Touch
@@ -90,16 +87,14 @@ export default function Contactus() {
             specific needs and how we can help.
           </div>
           <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
-            Book Your Free Strategy Session
+            Book Your Free Consultation
             <div className="p-2  bg-white rounded-full text-black group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
               <ArrowRight />
             </div>
           </div>
         </div>
       </section>
-
       <ContactForm />
-
       <section className="flex flex-col lg:flex-row px-3 md:px-12 my-16 gap-12 justify-around lg:items-center">
         {/* Adjusting heading size for responsiveness */}
         <div className="md:w-2/5 text-[1.5rem] sm:text-3xl md:text-7xl  font-bold my-1 text-[#16213E]">
@@ -133,16 +128,14 @@ export default function Contactus() {
           </div>
         </div>
       </section>
-
       {/*  */}
-
       <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
         <p className="md:leading-[70px]">
           <span className="text-[#16213E] text-3xl md:text-6xl">
             Ready to leverage our growth-driving services?
           </span>
           <br />
-          Reach out
+          Reach out&nbsp;
           {`today and let's craft your success story together.`}
         </p>
         <button className="m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
@@ -151,6 +144,14 @@ export default function Contactus() {
             <ArrowRight />
           </div>
         </button>
+      </section>
+      <section className="my-16 text-xl md:text-4xl md:px-16 text-center m-auto line w-[93%]">
+        <p className="md:leading-[70px]">
+          <span className="text-[#16213E] text-3xl md:text-6xl">
+            {`At The Growth Mantra, our services don't just drive growth – they
+            revolutionize it`}
+          </span>
+        </p>
       </section>
 
       <Footer />

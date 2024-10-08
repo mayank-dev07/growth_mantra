@@ -17,7 +17,7 @@ const Acquire = () => {
             </p>
           </div>
           <p className="text-lg lg:text-xl tracking-wide leading-relaxed">
-            {`Our proven framework for sustainable customer retention across industries. Adaptable for startups and established businesses.`}
+            {`Our unique, process-driven approach for sustainable customer acquisition across industries and business stages.`}
           </p>
         </div>
         <div className="relative h-fit pb-20 ">
@@ -88,14 +88,14 @@ const Acquire = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Unity
+                <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Unify
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <div>
                   <div>
                     <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We Integrate all acquisition efforts for a cohesive,
-                      multi-channel
+                      multi-channel approach
                     </p>
                   </div>
                 </div>
@@ -123,6 +123,23 @@ const Acquire = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[34%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
               <p className="text-3xl lg:text-4xl font-bold">
+                <span className="text-[#E74C3C]">R</span>
+                &nbsp;-&nbsp;Review
+              </p>
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
+                <div>
+                  <div>
+                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
+                      We continously monitor performance against set KPIs
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
+            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
+              <p className="text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">E</span>
                 &nbsp;-&nbsp;Evolve
               </p>
@@ -138,23 +155,6 @@ const Acquire = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">R</span>
-                &nbsp;-&nbsp;Review
-              </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <div>
-                  <div>
-                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                      We continously monitor performance against set KPIs
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <hr className="border-t-2 w-full mt-10" />
@@ -164,7 +164,7 @@ const Acquire = () => {
               className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
             >
-              Acquisition Strategies Fallling? Let&apos;s find a solution
+              {`Acquisition Strategies Failing? Let’s find a solution`}
               <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
                 <ArrowRight />
               </div>

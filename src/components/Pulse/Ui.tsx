@@ -17,7 +17,7 @@ const Ui = () => {
             </p>
           </div>
           <p className="text-lg lg:text-xl tracking-wide leading-relaxed">
-            {`Our proven framework transforms Uis into powerful growth engines.
+            {`Strategic framework transforming sales processes for consistent, scalable growth.
 
 `}
           </p>

@@ -76,7 +76,7 @@ export default function TrendingSwiper() {
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
                   <div className="text-[#16213E] text-base lg:text-lg font-bold">
-                    User Personal Identification
+                    User Persona Identification
                   </div>
                   <div className="text-sm lg:text-base">
                     Create personas using analytics for deeper customer insight.

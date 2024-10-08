@@ -17,7 +17,7 @@ const Cro = () => {
             </p>
           </div>
           <p className="text-lg lg:text-xl tracking-wide leading-relaxed mb-10">
-            {`Our proven framework transforms Cros into powerful growth engines.
+            {`Our proven framework systematically boosts conversion rates across industries.
 
 `}
           </p>
@@ -29,7 +29,7 @@ const Cro = () => {
               alt="tree"
               width={1000}
               height={600}
-              className="object-fill lg:object-contain h-[1300px] w-fit"
+              className="object-fill lg:object-contain h-[1100px] w-fit"
             />
           </div>
 
@@ -153,23 +153,6 @@ const Cro = () => {
                     <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
                       We continuously monitor performance and identify new
                       optimization opportunities
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
-            <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
-                <span className="text-[#E74C3C]">R</span>
-                &nbsp;-&nbsp;Refine
-              </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
-                <div>
-                  <div>
-                    <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                      We implement winning variations and iterate on insights
                     </p>
                   </div>
                 </div>

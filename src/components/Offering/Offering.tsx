@@ -7,11 +7,11 @@ const services = [
     href: "/strategyPlanning",
     title: "Strategy & Planning",
     description:
-      "Transform your vision into a concrete roadmap for success. Our strategic planning href help you navigate the complex startup landscape, identify opportunities, and mitigate risks.",
+      "Transform your vision into a concrete roadmap for success. Our strategic planning help you navigate the complex startup landscape, identify opportunities, and mitigate risks.",
   },
   {
     href: "/upi",
-    title: "User Personal Identification",
+    title: "User Persona Identification",
     description:
       "Understand your customers at a deeper level. We use advanced analytics and market research to create detailed user personas, ensuring your products and marketing resonate with your target audience.",
   },

@@ -40,8 +40,8 @@ const Retain = () => {
                 <div>
                   <div>
                     <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left ">
-                      Identify key drop-off points and opportunities for
-                      improvement
+                      Conduct a comprehensive analysis of current retention
+                      metrics and user behavior
                     </p>
                   </div>
                 </div>
@@ -127,8 +127,8 @@ const Retain = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <div>
                   <p className="leading-normal text-[#E74C3C] font-bold test-base md:text-lg text-left">
-                    Frustrated with high churn? Book Your Retention Consultation
-                    Today!
+                    Develop ongoing strategies to increase user satisfaction and
+                    loyalty
                   </p>
                 </div>
               </div>

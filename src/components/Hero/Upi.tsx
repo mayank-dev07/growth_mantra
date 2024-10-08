@@ -24,22 +24,24 @@ const UpiHero = () => {
     <>
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full md:w-7/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-            }`}
+          className={`w-full md:w-7/12 h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={300}
             height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
                 ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                 : "relative"
-              }`}
+            }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#576D2C] bg-[#FFEDEB] rounded-xl">
-              The Growth Mantra -  User Personal Identification
+              The Growth Mantra - User Persona Identification
             </div>
             <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center sm:justify-start items-center sm:items-start text-[#576D2C]">
               <div className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-bold flex flex-col gap-4 text-center sm:text-left">
