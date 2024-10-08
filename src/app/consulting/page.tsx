@@ -7,11 +7,9 @@ import Header from "@/components/Header/Header";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import Trending from "@/components/Trending/Trending";
 
-
 export default function Home() {
   return (
     <>
-  
       <Header />
       <Hero />
       <Offering />

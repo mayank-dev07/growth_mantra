@@ -1,8 +1,11 @@
+"use client";
 import Footer from "@/components/Footer/Footer2";
 import ContactForm from "@/components/Form/Contact2";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header/Header3";
+import { useRef } from "react";
+
 const content1: { [key: string]: string } = {
   "Acquisition Mastery":
     "Supercharge your customer acquisition and lead generation",
@@ -20,6 +23,10 @@ const content1: { [key: string]: string } = {
 };
 
 export default function Contactus() {
+  const contactFormRef = useRef<HTMLDivElement>(null);
+  const scrollToContactForm = () => {
+    contactFormRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <Header />
@@ -86,15 +93,20 @@ export default function Contactus() {
             Book a free 30-minute call with our service experts to discuss your
             specific needs and how we can help.
           </div>
-          <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+          <button
+            onClick={scrollToContactForm}
+            className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base  text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
+          >
             Book Your Free Consultation
             <div className="p-2  bg-white rounded-full text-black group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
               <ArrowRight />
             </div>
-          </div>
+          </button>
         </div>
       </section>
-      <ContactForm />
+      <div ref={contactFormRef}>
+        <ContactForm />
+      </div>
       <section className="flex flex-col lg:flex-row px-3 md:px-12 my-16 gap-12 justify-around lg:items-center">
         {/* Adjusting heading size for responsiveness */}
         <div className="md:w-2/5 text-[1.5rem] sm:text-3xl md:text-7xl  font-bold my-1 text-[#16213E]">
@@ -120,12 +132,15 @@ export default function Contactus() {
             - Sarah K., Founder of UserFirst Solutions
           </div>
           {/* Responsive button */}
-          <div className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+          <button
+            onClick={scrollToContactForm}
+            className="group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
+          >
             Book Your Free Strategy Session
             <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
               <ArrowRight />
             </div>
-          </div>
+          </button>
         </div>
       </section>
       {/*  */}
@@ -138,7 +153,10 @@ export default function Contactus() {
           Reach out&nbsp;
           {`today and let's craft your success story together.`}
         </p>
-        <button className="m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+        <button
+          onClick={scrollToContactForm}
+          className="m-auto mt-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
+        >
           Elevate Your Growth Now
           <div className="p-2 bg-[#16213E] rounded-full text-white group-hover:text-[#16213E] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
