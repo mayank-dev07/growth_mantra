@@ -60,10 +60,10 @@ const CaseStudy = () => {
                 Growth&nbsp;Blockers
               </div>
               <div className="py-6 text-base md:text-lg  flex justify-center items-start">
-                Discover what's secretly holding your startup back. Let our
+                {`Discover what's secretly holding your startup back. Let our
                 expert consultants dive in, pinpoint key bottlenecks, and craft
                 a tailored action plan to ignite your growth. Ready to elevate
-                your business? Get started today!{" "}
+                your business? Get started today!`}
               </div>
             </div>
 
