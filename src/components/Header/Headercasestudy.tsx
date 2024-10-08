@@ -23,7 +23,7 @@ const Header = () => {
               "`Ready to Be Our Next Success Story? Let’s unlock Growth together !! `"
             }
           </div>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="px-4 py-1 rounded-full bg-white text-black text-sm md:text-lg">
               Schedule&nbsp;a&nbsp;call
             </div>

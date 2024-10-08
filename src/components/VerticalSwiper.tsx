@@ -26,7 +26,7 @@ export default function VerticalSwiper() {
         <SwiperSlide>
           <div className="pe-12 lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <Image
                   src="/assets/acquistion/swiper1.png"
                   alt="image"
@@ -41,7 +41,7 @@ export default function VerticalSwiper() {
         <SwiperSlide>
           <div className="pe-12 lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <Image
                   src="/assets/acquistion/swiper2.png"
                   alt="image"
@@ -55,7 +55,7 @@ export default function VerticalSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="pe-12 lg:ps-28 w-full h-fit">
-            <Link href="/contactus2" passHref>
+            <Link href="/contactus" passHref>
               <Image
                 src="/assets/acquistion/swiper3.png"
                 alt="image"
@@ -69,7 +69,7 @@ export default function VerticalSwiper() {
         <SwiperSlide>
           <div className="pe-12 lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <Image
                   src="/assets/acquistion/swiper4.png"
                   alt="image"
@@ -84,7 +84,7 @@ export default function VerticalSwiper() {
         <SwiperSlide>
           <div className="pe-12 lg:ps-28 w-full h-fit">
             <div className="h-fit flex flex-col">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <Image
                   src="/assets/acquistion/swiper5.png"
                   alt="image"

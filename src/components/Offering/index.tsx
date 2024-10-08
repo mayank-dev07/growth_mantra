@@ -23,19 +23,19 @@ const services = [
   },
   {
     title: "Conversion Rate Optimization (CRO)",
-    href: "/cro",
+    href: "/conversionrateoptimization",
     description:
       "Boost conversions with data-driven A/B testing and flow enhancements.",
   },
   {
     title: "Email Marketing Engine",
-    href: "/eme",
+    href: "/emailmarketingengine",
     description:
       "Design engaging sequences that nurture and convert audiences at scale.",
   },
   {
     title: "SEO Domination",
-    href: "/seo",
+    href: "/searchengineoptimization",
     description: "Climb rankings with strategies driving organic growth and thought leadership.",
   },
   {
@@ -46,7 +46,7 @@ const services = [
   },
   {
     title: "Sales Growth",
-    href: "/ux",
+    href: "/salesgrowth",
     description: "Empower sales teams with proven strategies to close more deals.",
   },
 ];
@@ -94,15 +94,15 @@ const Offering = () => {
         </div>
       </section>
       <div className="py-8 px-2 w-full flex justify-center items-center">
-  <Link href="/contactus2" passHref>
-    <div className="group rounded-full w-fit px-6 py-3 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-      {`Ready to Outpace Your Competition? Let's Talk Growth`}
-      <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-        <ArrowRight />
+        <Link href="/contactus" passHref>
+          <div className="group rounded-full w-fit px-6 py-3 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+            {`Ready to Outpace Your Competition? Let's Talk Growth`}
+            <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+              <ArrowRight />
+            </div>
+          </div>
+        </Link>
       </div>
-    </div>
-  </Link>
-</div>
       <hr className="border-t-2 w-full" />
     </>
   );

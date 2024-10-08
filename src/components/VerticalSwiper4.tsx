@@ -23,7 +23,7 @@ export default function VerticalSwiper() {
         className="!h-[670px] lg:!min-h-[70vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576d2c] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576d2c] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
@@ -38,7 +38,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
@@ -53,7 +53,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
@@ -68,7 +68,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image

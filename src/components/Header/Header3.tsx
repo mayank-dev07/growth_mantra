@@ -25,7 +25,7 @@ const Header = () => {
               "`Ready to Be Our Next Success Story? Let’s unlock Growth together !! `"
             }
           </div>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="px-4 py-1 rounded-full bg-white text-black text-sm md:text-lg">
               Schedule&nbsp;a&nbsp;call
             </div>
@@ -38,45 +38,40 @@ const Header = () => {
           </div>
           <Link href="/consulting">
             <span
-              className={`${
-                isActive("/consulting") ? "text-[#16213E]" : "text-[#6F6F6F]"
-              }`}
+              className={`${isActive("/consulting") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
             >
               Consulting
             </span>
           </Link>
           <Link href="/">
             <span
-              className={`${
-                isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
-              }`}
+              className={`${isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
             >
               Services
             </span>
           </Link>
           <Link href="/casestudies">
             <span
-              className={`${
-                isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
-              }`}
+              className={`${isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
             >
               Case&nbsp;Studies
             </span>
           </Link>
-          <Link href="/contactus2">
+          <Link href="/contactus">
             <span
-              className={`${
-                isActive("/contactus2") ? "text-[#16213E]" : "text-[#6F6F6F]"
-              }`}
+              className={`${isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
             >
               Contact&nbsp;us
             </span>
           </Link>
-          <Link href="/aboutus2">
+          <Link href="/aboutus">
             <span
-              className={`${
-                isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-              }`}
+              className={`${isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
             >
               About&nbsp;us
             </span>
@@ -105,45 +100,40 @@ const Header = () => {
           <div className="flex flex-col gap-4 font-semibold">
             <Link href="/">
               <span
-                className={`${
-                  isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+                className={`${isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                  }`}
               >
                 Acquisition
               </span>
             </Link>
             <Link href="/services">
               <span
-                className={`${
-                  isActive("/services") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+                className={`${isActive("/services") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                  }`}
               >
                 Services
               </span>
             </Link>
             <Link href="/casestudies">
               <span
-                className={`${
-                  isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+                className={`${isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                  }`}
               >
                 Case&nbsp;Studies
               </span>
             </Link>
-            <Link href="/contactus2">
+            <Link href="/contactus">
               <span
-                className={`${
-                  isActive("/contactus2") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+                className={`${isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                  }`}
               >
                 Contact&nbsp;us
               </span>
             </Link>
-            <Link href="/aboutus2">
+            <Link href="/aboutus">
               <span
-                className={`${
-                  isActive("/aboutus2") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+                className={`${isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                  }`}
               >
                 About&nbsp;us
               </span>

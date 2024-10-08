@@ -23,7 +23,7 @@ export default function VerticalSwiper() {
         className="!h-[670px] lg:!min-h-[70vh] w-full [&_.swiper-pagination-bullet-active]:!bg-[#576D2C] [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet]:!border-2 [&_.swiper-pagination-bullet]:!border-[#576D2C] [&_.swiper-pagination-bullet]:!w-5 [&_.swiper-pagination-bullet]:!h-5 [&_.swiper-pagination-bullet]:!p-3"
       >
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center">
               <Image
                 src="/assets/user persona/slide1.png"
@@ -36,7 +36,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center">
               <Image
                 src="/assets/user persona/slide2.png"
@@ -49,7 +49,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center">
               <Image
                 src="/assets/user persona/slide3.png"
@@ -62,7 +62,7 @@ export default function VerticalSwiper() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center">
               <Image
                 src="/assets/user persona/slide4.png"

@@ -103,7 +103,7 @@ const MarketOffering = () => {
                 </div>
 
                 <div className="w-full flex justify-center mt-8">
-                  <Link href="/contactus2" passHref>
+                  <Link href="/contactus" passHref>
                     <div className="group rounded-full w-fit px-4 py-2 flex text-sm text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
                       Schedule&nbsp;a&nbsp;Call
                       <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
@@ -118,7 +118,7 @@ const MarketOffering = () => {
         </div>
       </section>
       <div className="py-8 px-2 w-full flex justify-center items-center">
-        <Link href="/contactus2" passHref>
+        <Link href="/contactus" passHref>
           <div className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
             {` Product Launch Fears? Get Your Winning Go-to-Market Plan!`}
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">

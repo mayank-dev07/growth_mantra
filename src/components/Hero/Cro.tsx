@@ -33,8 +33,8 @@ const CroHero = () => {
             width={300}
             height={300}
             className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-                ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
-                : "relative"
+              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
+              : "relative"
               }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
@@ -55,7 +55,7 @@ const CroHero = () => {
                 Converting Visitors into Customers, Guaranteed
               </div>
               <div className="w-full flex justify-center md:justify-start">
-                <Link href="/contactus2" passHref>
+                <Link href="/contactus" passHref>
                   <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Amplify Your CRO Strategies
                     <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
