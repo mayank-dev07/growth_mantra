@@ -26,7 +26,7 @@ const CheckmarkIcon = () => (
     <Image
       width={30}
       height={30}
-      src="/success.png"
+      src="/assets/success_red.png"
       alt="Checkmark Icon"
       className="w-full h-full object-contain"
     />
