@@ -82,105 +82,6 @@ const CaseStudy = () => {
                 </div>
               </Link>
             </div>
-
-          </div>
-        </div>
-
-        <div className="w-full pt-28 flex flex-col gap-2 pb-4">
-          <p className="text-5xl lg:text-6xl text-white">Featured Case Study</p>
-          <p className="text-2xl text-white py-6">
-            Highlighting successful projects with links to full case studies
-          </p>
-        </div>
-        <div className="rounded-3xl w-full bg-[#576D2C] h-full border-[1px]">
-          <div className="w-full flex justify-center items-center">
-            <div className="py-10 w-11/12 lg:w-10/12 xl:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-6">
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576D2C] text-sm md:text-base">
-                  All&nbsp;Work
-                </p>
-              </div>
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576D2C] text-sm md:text-base">
-                  UI/UX&nbsp;Design
-                </p>
-              </div>
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576D2C] text-sm md:text-base">
-                  Digital&nbsp;Marketing
-                </p>
-              </div>
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#576D2C] text-sm md:text-base">
-                  Branding
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-10 p-4 px-2 md:px-12 gap-8">
-            <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className="h-full md:h-[400px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
-                <div className="w-full flex flex-col justify-start items-center lg:px-8 text-white">
-                  Explore our latest articles and case studies to stay ahead in
-                  your industry.
-                  <div className="py-8 w-full flex justify-center md:justify-start items-center">
-                    <Link href="/contactus2" passHref>
-                      <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                        <p>Schedule&nbsp;a&nbsp;call</p>
-                        <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
-                          <ArrowRight />
-                        </div>
-                      </div>
-                    </Link>
-
-                  </div>
-                </div>
-                <div className="w-full flex justify-start lg:ml-8 items-center">
-                  <div className="w-full lg:w-8/12 flex gap-x-20 justify-center lg:justify-start items-center">
-                    <div className="w-20 h-20 flex justify-center items-center prev rounded-full bg-white">
-                      <ChevronLeft size={30} />
-                    </div>
-                    <div className="w-20 h-20 flex justify-center items-center next rounded-full bg-white">
-                      <ChevronRight size={30} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex w-full lg:w-2/3 gap-2 overflow-hidden">
-              <Swiper
-                spaceBetween={10}
-                navigation={{
-                  nextEl: ".next",
-                  prevEl: ".prev",
-                }}
-                loop={true}
-                autoplay={{
-                  delay: 10000,
-                  disableOnInteraction: false,
-                }}
-                modules={[Navigation, Autoplay]}
-                className="mySwiper"
-                breakpoints={{
-                  0: {
-                    slidesPerView: 1,
-                  },
-                  768: {
-                    slidesPerView: 2,
-                  },
-                }}
-              >
-                {slides.map((slide) => (
-                  <SwiperSlide key={slide.id}>
-                    <div className="bg-white h-[400px] rounded-3xl p-6 text-sm md:text-base lg:text-lg flex flex-col justify-between">
-                      <div>{slide.company}</div>
-                      <div>{slide.project}</div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
           </div>
         </div>
       </div>
@@ -207,7 +108,6 @@ const CaseStudy = () => {
                   </div>
                 </div>
               </Link>
-
             </div>
           </div>
 
@@ -219,7 +119,10 @@ const CaseStudy = () => {
                 With&nbsp;Proven&nbsp;Expertise
               </div>
               <div className="py-6 text-base md:text-lg lg:text-xl flex justify-center items-start">
-                Stop dreaming about growth—make it happen. Our seasoned consultants have a track record of transforming ambition into measurable success for businesses like yours. Let’s turn your growth goals into reality.
+                Stop dreaming about growth—make it happen. Our seasoned
+                consultants have a track record of transforming ambition into
+                measurable success for businesses like yours. Let’s turn your
+                growth goals into reality.
               </div>
             </div>
 
@@ -232,7 +135,6 @@ const CaseStudy = () => {
                   </div>
                 </div>
               </Link>
-
             </div>
           </div>
         </div>

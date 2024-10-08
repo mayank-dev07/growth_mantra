@@ -1,15 +1,48 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+
+const services = [
+  {
+    title: "$300M+",
+    description: "Additional revenue generated for our clients.",
+  },
+  {
+    title: "500M+",
+    description: "New app downloads through our acquisition strategies.",
+  },
+  {
+    title: "300%",
+    description: "Average ROI across all projects",
+  },
+  {
+    title: "5M+",
+    description: "New leads generated through our acquisition strategies.",
+  },
+  {
+    title: "3M+",
+    description: "transactions generated through our retention strategies.",
+  },
+  {
+    title: "65%",
+    description: "Additional revenue generated for our clients.",
+  },
+  {
+    title: "40%",
+    description: "Additional revenue generated for our clients.",
+  },
+  {
+    title: "85%",
+    description: "Additional revenue generated for our clients.",
+  },
+];
 
 const CaseStudy = () => {
   const slides = [
@@ -73,112 +106,14 @@ const CaseStudy = () => {
               months.
             </p>
             <div className="py-4 w-full flex justify-center items-center">
-  <Link href="/contactus2">
-    <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-      Schedule&nbsp;a&nbsp;Call
-      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-        <ArrowRight />
-      </div>
-    </div>
-  </Link>
-</div>
-
-          </div>
-        </div>
-        <div className="w-full pt-20 flex flex-col gap-2 pb-3">
-          <p className="text-5xl lg:text-7xl text-white">Featured Case Study</p>
-          <p className="text-2xl text-white py-6">
-            Highlighting successful projects with links to full case studies
-          </p>
-        </div>
-        <div className="rounded-3xl w-full bg-[#E74C3C] h-full ">
-          <div className="w-full flex justify-center items-center">
-            <div className="py-6 w-11/12 lg:w-10/12 xl:w-8/12 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-6">
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  All&nbsp;Work
-                </p>
-              </div>
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  UI/UX&nbsp;Design
-                </p>
-              </div>
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  Digital&nbsp;Marketing
-                </p>
-              </div>
-              <div className="w-full flex justify-center items-center">
-                <p className="px-20  w-full py-3 flex justify-center items-center border-white border-[1px] bg-transparent text-white rounded-full font-bold transition-all hover:bg-white hover:text-[#E74C3C] text-sm md:text-base">
-                  Branding
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="w-full flex flex-col lg:flex-row justify-start items-start h-full pb-5 p-8 px-2 md:px-12 gap-8">
-            <div className="w-full lg:w-1/3 h-full m-0 lg:m-4">
-              <div className="h-full md:h-[400px] rounded-3xl grid grid-cols-1 content-between text-2xl ">
-                <div className="w-full flex flex-col justify-start items-center lg:px-8 text-white">
-                  Explore our latest articles and case studies to stay ahead in
-                  your industry.
-                  <div className="py-8 w-full flex justify-center md:justify-start items-center">
-  <Link href="/contactus2" passHref>
-    <div className="group rounded-full w-fit px-4 py-1.5 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-      <p>Schedule&nbsp;a&nbsp;call</p>
-      <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-        <ArrowRight />
-      </div>
-    </div>
-  </Link>
-</div>
-
-                </div>
-                <div className="w-full flex justify-start lg:ml-8 items-center">
-                  <div className="w-full lg:w-8/12 flex gap-x-20 justify-center lg:justify-start items-center">
-                    <div className="w-20 h-20 flex justify-center items-center prev rounded-full bg-white">
-                      <ChevronLeft size={30} />
-                    </div>
-                    <div className="w-20 h-20 flex justify-center items-center next rounded-full bg-white">
-                      <ChevronRight size={30} />
-                    </div>
+              <Link href="/contactus2">
+                <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  Schedule&nbsp;a&nbsp;Call
+                  <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                    <ArrowRight />
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="flex w-full lg:w-2/3 gap-2 overflow-hidden">
-              <Swiper
-                spaceBetween={10}
-                navigation={{
-                  nextEl: ".next",
-                  prevEl: ".prev",
-                }}
-                loop={true}
-                autoplay={{
-                  delay: 10000,
-                  disableOnInteraction: false,
-                }}
-                modules={[Navigation, Autoplay]}
-                className="mySwiper"
-                breakpoints={{
-                  0: {
-                    slidesPerView: 1,
-                  },
-                  768: {
-                    slidesPerView: 2,
-                  },
-                }}
-              >
-                {slides.map((slide) => (
-                  <SwiperSlide key={slide.id}>
-                    <div className="bg-white h-[400px] rounded-3xl p-6 text-sm md:text-base lg:text-lg flex flex-col justify-between">
-                      <div>{slide.company}</div>
-                      <div>{slide.project}</div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
+              </Link>
             </div>
           </div>
         </div>
@@ -202,15 +137,14 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-            <Link href="/contactus2" passHref>
-  <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-    <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
-    <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
-      <ArrowRight />
-    </div>
-  </div>
-</Link>
-
+              <Link href="/contactus2" passHref>
+                <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
@@ -230,15 +164,14 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-            <Link href="/contactus2" passHref>
-  <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#E74C3C] text-white bg-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-    <p>Amplify&nbsp;Your&nbsp;Growth</p>
-    <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#E74C3C]">
-      <ArrowRight />
-    </div>
-  </div>
-</Link>
-
+              <Link href="/contactus2" passHref>
+                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#E74C3C] text-white bg-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Amplify&nbsp;Your&nbsp;Growth</p>
+                  <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#E74C3C]">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

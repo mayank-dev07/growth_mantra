@@ -28,39 +28,55 @@ const Header = () => {
           </Link>
         </div>
         {/* Navigation Links */}
-        <div className="w-full h-full hidden md:flex justify-center items-center gap-2 md:gap-3 text-sm md:text-lg lg:gap-10 py-6 text-[#6F6F6F] relative">
-          {/* Logo */}
+        <div className="w-full h-full hidden md:flex justify-center items-center gap-2 md:gap-3 text-sm md:text-lg lg:gap-10 py-4">
           <div className="absolute left-0 ml-10">
-            <Image src={"/logo.png"} alt="logo" width={70} height={70} />
+            <Image src={"/logo.png"} alt="logo" width={50} height={50} />
           </div>
-          {/* Links */}
-          <div className="flex gap-2 md:gap-3 lg:gap-10">
-            <Link href="/">
-              <span className={`${isActive("/") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
-                Acquisition
-              </span>
-            </Link>
-            <Link href="/services">
-              <span className={`${isActive("/services") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
-                Services
-              </span>
-            </Link>
-            <Link href="/casestudies">
-              <span className={`${isActive("/casestudies") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
-                Case&nbsp;Studies
-              </span>
-            </Link>
-            <Link href="/contactus2">
-              <span className={`${isActive("/contactus2") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
-                Contact&nbsp;us
-              </span>
-            </Link>
-            <Link href="/aboutus2">
-              <span className={`${isActive("/aboutus2") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
-                About&nbsp;us
-              </span>
-            </Link>
-          </div>
+          <Link href="/consulting">
+            <span
+              className={`${
+                isActive("/consulting") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
+            >
+              Consulting
+            </span>
+          </Link>
+          <Link href="/">
+            <span
+              className={`${
+                isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
+            >
+              Services
+            </span>
+          </Link>
+          <Link href="/casestudies">
+            <span
+              className={`${
+                isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
+            >
+              Case&nbsp;Studies
+            </span>
+          </Link>
+          <Link href="/contactus2">
+            <span
+              className={`${
+                isActive("/contactus2") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
+            >
+              Contact&nbsp;us
+            </span>
+          </Link>
+          <Link href="/aboutus2">
+            <span
+              className={`${
+                isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
+            >
+              About&nbsp;us
+            </span>
+          </Link>
         </div>
         {/* Mobile Menu Icon */}
         <div className="flex md:hidden w-full justify-end h-[50px] items-center px-6">
@@ -84,27 +100,47 @@ const Header = () => {
         >
           <div className="flex flex-col gap-4 font-semibold">
             <Link href="/">
-              <span className={`${isActive("/") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
+              <span
+                className={`${
+                  isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
+              >
                 Acquisition
               </span>
             </Link>
             <Link href="/services">
-              <span className={`${isActive("/services") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
+              <span
+                className={`${
+                  isActive("/services") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
+              >
                 Services
               </span>
             </Link>
             <Link href="/casestudies">
-              <span className={`${isActive("/casestudies") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
+              <span
+                className={`${
+                  isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
+              >
                 Case&nbsp;Studies
               </span>
             </Link>
             <Link href="/contactus2">
-              <span className={`${isActive("/contactus2") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
+              <span
+                className={`${
+                  isActive("/contactus2") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
+              >
                 Contact&nbsp;us
               </span>
             </Link>
             <Link href="/aboutus2">
-              <span className={`${isActive("/aboutus2") ? "text-blue-500" : "text-[#6F6F6F]"}`}>
+              <span
+                className={`${
+                  isActive("/aboutus2") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
+              >
                 About&nbsp;us
               </span>
             </Link>

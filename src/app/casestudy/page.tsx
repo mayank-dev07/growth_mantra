@@ -122,17 +122,8 @@ export default function Home() {
         </div>
       </div>
       {/* Thank you for reaching out to The Growth Mantra. We're excited about the possibility of partnering with you to drive exceptional growth for your business. */}
-      <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
-        <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
-          <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
-            <div className="text-2xl md:text-3xl font-semibold flex flex-col gap-4 text-center tracking-widest">
-              Testimonials
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
+      /
+      {/* <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
           <div className="bg-white shadow-lg rounded-lg p-6  flex flex-col justify-center text-start">
             <h2 className="text-xl font-semibold text-black">Sarah Chen</h2>
@@ -170,8 +161,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
-
+      </div> */}
       <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
@@ -181,7 +171,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="w-full p-5 md:p-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-4 lg:gap-y-8 sm:px-6 lg:px-0">
           {services.map((service, index) => (
@@ -201,7 +190,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
       <div className="w-full h-full bg-[#16213E]">
         <section className="flex px-3 md:px-10 py-6 justify-center items-center flex-col md:flex-row">
           <div className="md:w-full text-[1.3rem] my-1 md:text-5xl font-bold  text-white flex flex-col justify-center items-center">
@@ -311,7 +299,6 @@ export default function Home() {
         </div>
       </div>
       <Trending />
-
       <Footer />
     </>
   );
