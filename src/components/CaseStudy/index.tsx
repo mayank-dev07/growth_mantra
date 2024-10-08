@@ -38,7 +38,7 @@ const CaseStudy = () => {
               months.
             </p>
             <div className="py-4 w-full flex justify-center items-center">
-              <Link href="/contactus2">
+              <Link href="/contactus">
                 <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -68,7 +68,7 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#E84C3D] bg-white text-[#E84C3D] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Book&nbsp;Your&nbsp;Free&nbsp;Growth&nbsp;Consultation</p>
 
@@ -97,7 +97,7 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm hover:bg-white hover:text-[#E84C3D] text-white bg-[#E84C3D] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Amplify&nbsp;Your&nbsp;Growth</p>
                   <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#E84C3D]">
@@ -127,7 +127,7 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 mt-5 w-full flex justify-center md:justify-start items-center">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Book&nbsp;Your&nbsp;Free&nbsp;Growth&nbsp;Consultation</p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">
@@ -154,7 +154,7 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm  hover:bg-white hover:text-[#E74C3C] text-white bg-[#E74C3C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Amplify&nbsp;Your&nbsp;Growth</p>
                   <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#E74C3C]">

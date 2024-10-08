@@ -56,7 +56,7 @@ const StrategyHero = () => {
                 Transfrom Vision into Actionalbe Growth Strategies
               </div>
               <div className="w-full flex justify-center md:justify-start">
-                <Link href="/contactus2" passHref>
+                <Link href="/contactus" passHref>
                   <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Unlock Your Business Growth
                     <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">

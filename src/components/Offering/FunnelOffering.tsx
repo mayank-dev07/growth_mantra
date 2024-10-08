@@ -92,7 +92,7 @@ const FunnelOffering = () => {
               </div>
 
               <div className="w-full flex justify-center mt-8">
-                <Link href="/contactus2" passHref>
+                <Link href="/contactus" passHref>
                   <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base text-white bg-[#E74C3C] hover:bg-white hover:text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
                     Schedule&nbsp;a&nbsp;Call
                     <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#E74C3C] group-hover:text-white transition-all duration-300 ease-in-out">
@@ -107,7 +107,7 @@ const FunnelOffering = () => {
       </section>
 
       <div className="py-6 px-4 w-full flex justify-center items-center">
-        <Link href="/contactus2" passHref>
+        <Link href="/contactus" passHref>
           <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out font-bold">
             {`Struggling with your funnel Strategies? Let's find a solution`}
             <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">

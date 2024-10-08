@@ -117,7 +117,7 @@ export default function TrendingSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/cro" className="h-fit flex flex-col ">
+            <Link href="/conversionrateoptimization" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
@@ -144,7 +144,7 @@ export default function TrendingSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/eme" className="h-fit flex flex-col ">
+            <Link href="/emailmarketingengine" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Email_Marketing_Engine.png"
                 alt="image"

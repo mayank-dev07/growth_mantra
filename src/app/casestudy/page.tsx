@@ -62,20 +62,18 @@ export default function Home() {
       <Header />
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full  h-full flex flex-col ${
-            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-          }`}
+          className={`w-full  h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+            }`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={300}
             height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
-              scrollPosition > 50
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
                 ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                 : "relative"
-            }`}
+              }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#16213E] bg-[#FFEDEB] rounded-xl">
@@ -95,7 +93,7 @@ export default function Home() {
                 industries
               </div>
               <div className="w-full flex justify-center ">
-                <Link href="/contactus2" passHref>
+                <Link href="/contactus" passHref>
                   <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Explore Our Case Studies
                     <div className="p-3 bg-white rounded-full text-[#16213E] group-hover:bg-[#16213E] group-hover:text-white transition-all duration-300 ease-in-out">
@@ -228,7 +226,7 @@ export default function Home() {
               months.
             </p>
             <div className="py-4 w-full flex justify-center items-center">
-              <Link href="/contactus2">
+              <Link href="/contactus">
                 <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
@@ -259,7 +257,7 @@ export default function Home() {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
@@ -286,7 +284,7 @@ export default function Home() {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
-              <Link href="/contactus2" passHref>
+              <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#16213E] text-white bg-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Amplify&nbsp;Your&nbsp;Growth</p>
                   <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#16213E]">

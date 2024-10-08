@@ -45,7 +45,7 @@ const StrategyOffering = () => {
       <section className="bg-[#576D2C] p-4 lg:p-10 text-white w-full">
         <div className="text-start mb-8 flex flex-col gap-3 md:gap-6">
           <h2 className="text-5xl lg:text-7xl font-bold mb-2">
-            Our StrategyOffering
+            Our Strategy Offering
           </h2>
           <p className="text-lg lg:text-xl w-fit tracking-wider flex flex-col gap-1 text-[#DFDFDF]">
             <span>
@@ -96,7 +96,7 @@ const StrategyOffering = () => {
                 </div>
 
                 <div className="w-full flex justify-center mt-8">
-                  <Link href="/contactus2" passHref>
+                  <Link href="/contactus" passHref>
                     <div className="group rounded-full w-fit px-4 py-2 flex text-sm text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-2 cursor-pointer transition-all duration-500 ease-in-out">
                       Schedule&nbsp;a&nbsp;Call
                       <div className="p-2 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">
@@ -111,7 +111,7 @@ const StrategyOffering = () => {
         </div>
       </section>
       <div className="py-8 px-2 w-full flex justify-center items-center">
-        <Link href="/contactus2" passHref>
+        <Link href="/contactus" passHref>
           <div className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
             {`Lost in Business Chaos? Get Your Strategic Roadmap Now!`}
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">

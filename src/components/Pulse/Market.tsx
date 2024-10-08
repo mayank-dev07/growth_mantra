@@ -92,7 +92,7 @@ const Market = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Craft compelling meszaging and content strategies`}
+                  {`Craft compelling messaging  and content strategies`}
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Market = () => {
 
         <hr className="border-t-2 w-full" />
         <div className="py-8 w-full flex justify-center items-center px-4">
-          <Link href="/contactus2" passHref>
+          <Link href="/contactus" passHref>
             <div
               className="group rounded-full w-fit px-6 py-4 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer
           transition-all duration-500 ease-in-out font-bold"
