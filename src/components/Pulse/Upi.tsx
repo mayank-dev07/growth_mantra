@@ -118,7 +118,7 @@ const Upi = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`SContinuously refine personas based on new data and market changes`}
+                  {`Continuously refine personas based on new data and market changes`}
                 </p>
               </div>
             </div>

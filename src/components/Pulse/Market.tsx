@@ -92,7 +92,7 @@ const Market = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Craft compelling meszaging and content strategies`}
+                  {`Craft compelling messaging  and content strategies`}
                 </p>
               </div>
             </div>

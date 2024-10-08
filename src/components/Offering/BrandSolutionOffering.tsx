@@ -54,7 +54,7 @@ const BrandSolutionOffering = () => {
       <section className="bg-[#576D2C] p-4 lg:p-10 text-white w-full">
         <div className="text-start mb-8 flex flex-col gap-3 md:gap-6">
           <h2 className="text-5xl lg:text-7xl font-bold mb-2">
-            Our BrandSolutionOffering
+            Our Brand Solution Offering
           </h2>
           <p className="text-lg lg:text-xl w-fit tracking-wider flex flex-col gap-1 text-[#DFDFDF]">
             <span>

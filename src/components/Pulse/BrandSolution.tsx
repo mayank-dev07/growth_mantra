@@ -16,7 +16,7 @@ const BrandSolution = () => {
             </p>
           </div>
           <p className="text-lg lg:text-xl tracking-wide leading-relaxed w-full text-left">
-            {`Go-to-BrandSolution approach driving successful product launches`}
+            {`Brand solution approach driving meaningful connections and growth.`}
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const BrandSolution = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Continuously assess and rfine brand perfomance`}
+                  {`Continuously assess and refine brand perfomance`}
                 </p>
               </div>
             </div>
