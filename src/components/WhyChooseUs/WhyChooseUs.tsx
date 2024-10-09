@@ -1,6 +1,7 @@
 import React from "react";
 import AutoCarousel from "./AutoCarousel";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
@@ -77,12 +78,15 @@ const WhyChooseUs = () => {
             </p>
           </div>
         </section>
-        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#576D2C] bg-white hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+        <Link
+          href="/contactus"
+          className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#576D2C] bg-white hover:text-white hover:bg-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
+        >
           Schedule a call
           <div className="p-2 bg-[#576D2C] rounded-full text-white group-hover:text-[#576D2C] group-hover:bg-white transition-all duration-300 ease-in-out">
             <ArrowRight />
           </div>
-        </button>
+        </Link>
       </div>
       <div className=" flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 py-2 lg:py-0 flex justify-center items-center">
