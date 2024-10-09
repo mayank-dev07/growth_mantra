@@ -50,7 +50,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full px-4 lg:px-20 py-5 md:py-12">
+      <div className="w-full h-full px-2 lg:px-20 py-5 md:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2  w-full h-full">
           <div className="bg-[#E84C3D] text-white rounded-[15px] shadow-2xl flex flex-col">
             <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">

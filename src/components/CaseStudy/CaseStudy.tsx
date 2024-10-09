@@ -49,7 +49,7 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full px-4 lg:px-20 py-5 md:py-12">
+      <div className="w-full h-full px-2 lg:px-20 py-5 md:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2  w-full h-full">
           <div className="bg-[#576D2C] text-white rounded-[15px] shadow-2xl flex flex-col">
             <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
@@ -65,7 +65,7 @@ const CaseStudy = () => {
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
               <Link href="/contactus" passHref>
-                <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                <div className="group rounded-full w-fit px-2 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
                     <ArrowRight />
@@ -83,10 +83,10 @@ const CaseStudy = () => {
                 With&nbsp;Proven&nbsp;Expertise
               </div>
               <div className="py-6 text-base md:text-lg  flex justify-center items-start">
-                Stop dreaming about growth—make it happen. Our seasoned
+                {` Stop dreaming about growth—make it happen. Our seasoned
                 consultants have a track record of transforming ambition into
                 measurable success for businesses like yours. Let’s turn your
-                growth goals into reality.
+                growth goals into reality.`}
               </div>
             </div>
 
