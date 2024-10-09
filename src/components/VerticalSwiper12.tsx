@@ -27,7 +27,7 @@ export default function VerticalSwiper() {
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
-                  src="/assets/CRM Landing Page/slide1.png"
+                  src="/assets/retention/slide1.png"
                   alt="image"
                   width={900}
                   height={800}
@@ -42,7 +42,7 @@ export default function VerticalSwiper() {
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
-                  src="/assets/CRM Landing Page/slide2.png"
+                  src="/assets/retention/slide2.png"
                   alt="image"
                   width={900}
                   height={800}
@@ -56,7 +56,7 @@ export default function VerticalSwiper() {
           <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <Image
-                src="/assets/CRM Landing Page/slide3.png"
+                src="/assets/retention/slide3.png"
                 alt="image"
                 width={900}
                 height={800}
@@ -70,7 +70,7 @@ export default function VerticalSwiper() {
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
-                  src="/assets/CRM Landing Page/slide4.png"
+                  src="/assets/retention/slide4.png"
                   alt="image"
                   width={900}
                   height={800}
@@ -85,7 +85,7 @@ export default function VerticalSwiper() {
             <div className="pe-12 lg:ps-28 w-full h-fit">
               <div className="h-fit flex flex-col ">
                 <Image
-                  src="/assets/CRM Landing Page/slide5.png"
+                  src="/assets/retention/slide5.png"
                   alt="image"
                   width={900}
                   height={800}

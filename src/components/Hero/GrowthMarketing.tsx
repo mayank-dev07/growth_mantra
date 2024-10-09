@@ -2,7 +2,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import VerticalSwiper from "../VerticalSwiper1";
+import VerticalSwiper from "../VerticalSwiper6";
 import Link from "next/link";
 
 const GrowthMarketingHero = () => {
