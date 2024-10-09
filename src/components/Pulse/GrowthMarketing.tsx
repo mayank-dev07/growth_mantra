@@ -8,7 +8,7 @@ const GrowthMarketing = () => {
     <>
       <div className="w-full h-full pt-8">
         <div className="w-full flex flex-col justify-center items-start px-4 lg:px-16 gap-10">
-          <div className="text-3xl md:text-4xl lg:text-7xl text-[#576D2C] w-full flex flex-col gap-4">
+          <div className="text-2xl md:text-4xl lg:text-7xl text-[#576D2C] w-full flex flex-col gap-4">
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
@@ -65,7 +65,8 @@ const GrowthMarketing = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  Continuously improve campaign performance through data analysis
+                  Continuously improve campaign performance through data
+                  analysis
                 </p>
               </div>
             </div>
@@ -110,8 +111,6 @@ const GrowthMarketing = () => {
               </div>
             </div>
           </div>
-
-
         </div>
 
         <hr className="border-t-2 w-full" />

@@ -8,7 +8,7 @@ const Market = () => {
     <>
       <div className="w-full h-full pt-8">
         <div className="w-full flex flex-col justify-center items-start px-4 lg:px-16 gap-10">
-          <div className="text-3xl md:text-4xl lg:text-7xl text-[#576D2C] w-full flex flex-col gap-4">
+          <div className="text-2xl md:text-4xl lg:text-7xl text-[#576D2C] w-full flex flex-col gap-4">
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
@@ -110,7 +110,6 @@ const Market = () => {
               </div>
             </div>
           </div>
-
         </div>
 
         <hr className="border-t-2 w-full" />

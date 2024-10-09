@@ -36,7 +36,8 @@ const services = [
   {
     title: "SEO Domination",
     href: "/searchengineoptimization",
-    description: "Climb rankings with strategies driving organic growth and thought leadership.",
+    description:
+      "Climb rankings with strategies driving organic growth and thought leadership.",
   },
   {
     title: "CRM Growth Engine",
@@ -47,7 +48,8 @@ const services = [
   {
     title: "Sales Growth",
     href: "/salesgrowth",
-    description: "Empower sales teams with proven strategies to close more deals.",
+    description:
+      "Empower sales teams with proven strategies to close more deals.",
   },
 ];
 
@@ -64,7 +66,7 @@ const Offering = () => {
             <span>growth at every stage of your business journey.</span>
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-4 lg:gap-y-8 sm:px-6 lg:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-2 lg:gap-y-8 sm:px-6 lg:px-0">
           {services.map((service, index) => (
             <div
               key={index}

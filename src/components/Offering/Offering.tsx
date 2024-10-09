@@ -65,7 +65,7 @@ const Offering = () => {
                   <h3 className="text-lg md:text-xl text-black font-bold">
                     {service.title}
                   </h3>
-                  <p className="text-base pt-2 text-[#8A8A8A]">
+                  <p className="text-base md:pt-2 text-[#8A8A8A]">
                     {service.description}
                   </p>
                 </div>

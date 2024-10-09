@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center fixed top-0 left-0 right-0 bg-white z-50">
-        <div className="w-full h-full p-2 bg-[#16213E] flex justify-center items-center text-white gap-2 md:gap-5">
+        <div className="w-full h-full p-2 bg-[#16213E] flex justify-center items-center text-white gap-2 md:gap-5 text-sm">
           <div>
             {`Ready to Be Our Next Success Story? Let’s unlock Growth together !!`}
           </div>
@@ -106,7 +106,7 @@ const Header = () => {
                   isActive("/") ? "text-[#16213E]" : "text-[#6F6F6F]"
                 }`}
               >
-                Acquisition
+                Consulting
               </span>
             </Link>
             <Link href="/services">

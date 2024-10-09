@@ -412,7 +412,7 @@ const ContactForm = () => {
                 { required: true, message: "Please select an engagement time" },
               ]}
             >
-              <div className="flex gap-x-4 md:gap-x-10">
+              <div className="flex flex-wrap gap-5 gap-x-4 md:gap-x-10">
                 {[
                   "Immediate [Less than 15 days]",
                   "Within 30 Days",
@@ -478,12 +478,12 @@ const ContactForm = () => {
                   { required: true, message: "Please select from the options" },
                 ]}
               >
-                <div className="flex gap-x-4 md:gap-x-10">
+                <div className="flex flex-wrap gap-5 gap-x-4 md:gap-x-10">
                   {[
-                    "Referral",
                     "Social Media",
                     "Search Engine",
                     "Advertisement",
+                    "Referral",
                     "Other",
                   ].map((item, y) => (
                     <label

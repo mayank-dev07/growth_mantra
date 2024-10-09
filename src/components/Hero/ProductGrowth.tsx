@@ -24,18 +24,20 @@ const ProductGrowthHero = () => {
     <>
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full md:w-7/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-            }`}
+          className={`w-full md:w-7/12 h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={300}
             height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
-              ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
-              : "relative"
-              }`}
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
+                ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
+                : "relative"
+            }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#576D2C] bg-[#FFEDEB] rounded-xl">
@@ -68,7 +70,7 @@ const ProductGrowthHero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-5/12 pt-4 lg:pt-12 flex justify-center items-center">
+        <div className="w-full md:w-5/12 pt-4 mr-2 md:mr-4 lg:pt-12 flex justify-center items-center">
           <div className="w-full  lg:w-full flex justify-center items-center -z-10 md:-z-0">
             <VerticalSwiper />
           </div>

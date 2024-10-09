@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` w-full flex flex-col overflow-x-hidden ${plusJakartaSans.className}`}
+        className={`h-full w-screen flex flex-col overflow-x-hidden ${plusJakartaSans.className}`}
       >
         {children}
       </body>

@@ -9,15 +9,15 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex flex-wrap justify-center items-center mb-6 text-sm md:text-base lg:text-lg  text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 md:gap-10 lg:gap-16">
             <Link href="/" className="text-[#16213E]">
-              About us
+              Consulting
             </Link>
-            <Link href="/" className="text-[#16213E]">
+            <Link href="/services" className="text-[#16213E]">
               Services
             </Link>
-            <Link href="/" className="text-[#16213E]">
-              Case Studies
+            <Link href="/aboutus" className="text-[#16213E]">
+              About us
             </Link>
-            <Link href="/" className="text-[#16213E]">
+            <Link href="/contactus" className="text-[#16213E]">
               Contact Us
             </Link>
           </div>

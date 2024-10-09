@@ -8,7 +8,7 @@ const Crm = () => {
     <>
       <div className="w-full h-full pt-8">
         <div className="w-full  flex flex-col justify-center items-center px-4 lg:px-16 gap-10">
-          <div className="text-3xl md:text-4xl lg:text-7xl text-[#E74C3C] w-full justify-start items-start flex flex-col gap-4">
+          <div className="text-2xl md:text-4xl lg:text-7xl text-[#E74C3C] w-full justify-start items-start flex flex-col gap-4">
             <p>Our Growth Mantra:</p>
             <p className="text-[#B2B7BE] flex gap-2 lg:gap-6">
               The
