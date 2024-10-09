@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
       <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
-            <div className="text-2xl md:text-3xl font-semibold flex flex-col gap-4 text-center tracking-widest text-[#576D2C]">
+            <div className="text-2xl md:text-5xl font-semibold flex flex-col gap-4 text-center tracking-widest text-[#576D2C]">
               Our Impact in Numbers
             </div>
           </div>
