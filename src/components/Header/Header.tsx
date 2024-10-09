@@ -48,7 +48,7 @@ const Header = () => {
               Services
             </span>
           </Link>
-          <Link href="/casestudies">
+          {/* <Link href="/casestudies">
             <span
               className={`${
                 isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
@@ -56,7 +56,7 @@ const Header = () => {
             >
               Case&nbsp;Studies
             </span>
-          </Link>
+          </Link> */}
           <Link href="/contactus">
             <span
               className={`${
@@ -115,7 +115,7 @@ const Header = () => {
                 Services
               </span>
             </Link>
-            <Link href="/casestudies">
+            {/* <Link href="/casestudies">
               <span
                 className={`${
                   isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
@@ -123,7 +123,7 @@ const Header = () => {
               >
                 Case&nbsp;Studies
               </span>
-            </Link>
+            </Link> */}
             <Link href="/contactus">
               <span
                 className={`${

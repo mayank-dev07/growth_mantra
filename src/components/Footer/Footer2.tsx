@@ -30,19 +30,24 @@ const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 w-full lg:w-10/12" />
         <div className="w-full flex flex-col lg:flex-row gap-6 justify-between items-center">
-          <span className="block text-base lg:text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2022 ABC. All rights reserved.
+          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            © 2024 93 Communications. All rights reserved!
           </span>
           <Image src="/logo.png" alt="frame" width={200} height={200} />
-          <ul className="flex flex-wrap items-center mb-6 text-base lg:text-sm font-bold text-gray-500 sm:mb-0 dark:text-gray-400">
+          <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                About
+              <a href="/toolsandtech" className="hover:underline me-2 md:me-6">
+                Tools&nbsp;and&nbsp;Tech
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Privacy Policy
+              <a href="/t&c" className="hover:underline me-2 md:me-6">
+                Terms&nbsp;&&nbsp;conditions
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline me-2 md:me-6">
+                Privacy&nbsp;Policy
               </a>
             </li>
           </ul>

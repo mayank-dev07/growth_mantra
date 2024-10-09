@@ -31,7 +31,7 @@ export default function Contactus() {
     <>
       <Header />
       <section className="flex justify-between flex-col-reverse md:flex-row  mt-44">
-        <div className="md:pl-10 pl-2 text-3xl my-3 text-black md:text-7xl font-bold flex flex-col gap-4">
+        <div className="md:pl-10 pl-2 text-3xl my-3 text-black sm:text-5xl lg:text-7xl font-bold flex flex-col gap-4">
           <div className="flex items-center gap-2 flex-wrap ">
             <div className="text-nowrap">Your</div>
             <div className="border-[#16213E] py-1 px-4  border-4 w-fit rounded-full text-[#16213E] font-bold shadow-2xl">

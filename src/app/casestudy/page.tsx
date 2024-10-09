@@ -66,17 +66,40 @@ export default function Home() {
             scrollPosition > 50 ? "pt-24" : "lg:justify-start"
           }`}
         >
-          <Image
-            src="/Frame.png"
-            alt="frame"
-            width={300}
-            height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
-              scrollPosition > 50
-                ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
-                : "relative"
-            }`}
-          />
+         <Link href="/">
+            <Image
+              src="/Frame.png"
+              alt="frame"
+              width={300}
+              height={300}
+              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+                scrollPosition > 50
+                  ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
+                  : "relative"
+              }`}
+            />
+          </Link>className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            © 2024 93 Communications. All rights reserved!
+          </span>
+          <Image src="/logo.png" alt="frame" width={200} height={200} />
+          <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <a href="/toolsandtech" className="hover:underline me-2 md:me-6">
+                Tools&nbsp;and&nbsp;Tech
+              </a>
+            </li>
+            <li>
+              <a href="/t&c" className="hover:underline me-2 md:me-6">
+                Terms&nbsp;&&nbsp;conditions
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline me-2 md:me-6">
+                Privacy&nbsp;Policy
+              </a>
+            </li>
+          </ul>
+        </div>
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#16213E] bg-[#FFEDEB] rounded-xl">
               👋 Welcome to The Growth Mantra/ Case Study

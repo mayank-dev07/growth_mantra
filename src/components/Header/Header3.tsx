@@ -48,7 +48,7 @@ const Header = () => {
               Services
             </span>
           </Link>
-          <Link href="/casestudies">
+          {/* <Link href="/casestudies">
             <span
               className={`${
                 isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
@@ -56,7 +56,7 @@ const Header = () => {
             >
               Case&nbsp;Studies
             </span>
-          </Link>
+          </Link> */}
           <Link href="/contactus">
             <span
               className={`${
@@ -77,8 +77,11 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="flex justify-between items-center w-full">
-          <div className="flex justify-start items-start">
+        <div className="flex justify-between items-center w-full ">
+          <Link
+            href="/"
+            className="flex justify-start items-start sticky  md:absolute  md:top-[54px]"
+          >
             <Image
               src="/Frame.png"
               alt="frame"
@@ -87,7 +90,7 @@ const Header = () => {
               className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal 
                 `}
             />
-          </div>
+          </Link>
 
           <div className="flex md:hidden w-full justify-end h-[50px] items-center px-6">
             <Menu onClick={showDrawer} className="flex md:hidden " />
@@ -128,7 +131,7 @@ const Header = () => {
                 Services
               </span>
             </Link>
-            <Link href="/casestudies">
+            {/* <Link href="/casestudies">
               <span
                 className={`${
                   isActive("/casestudies") ? "text-[#16213E]" : "text-[#6F6F6F]"
@@ -136,7 +139,7 @@ const Header = () => {
               >
                 Case&nbsp;Studies
               </span>
-            </Link>
+            </Link> */}
             <Link href="/contactus">
               <span
                 className={`${
