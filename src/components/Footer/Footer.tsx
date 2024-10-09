@@ -40,7 +40,7 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 w-full lg:w-10/12" />
         <div className="w-full flex flex-col lg:flex-row gap-6 justify-between items-center">
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024 93 Communications. All rights reserved!
+            © 2024 93Communications. All rights reserved!
           </span>
           <Image
             src="/assets/logo/alt_logo.png"
