@@ -23,8 +23,12 @@ const Footer = () => {
               Contact Us
             </Link>
           </div>
-          <div className="flex justify-center items-center gap-4 lg:gap-8">
-            <a href="https://www.linkedin.com/company/thegrowthmantra/" target="_blank" rel="noopener noreferrer">
+          <div className="flex justify-center items-center gap-4 lg:gap-8 pe-2">
+            <a
+              href="https://www.linkedin.com/company/thegrowthmantra/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin size={30} color="red" />
             </a>
 
@@ -38,7 +42,12 @@ const Footer = () => {
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024 93 Communications. All rights reserved!
           </span>
-          <Image src="/assets/logo/alt_logo.png" alt="frame" width={200} height={200} />
+          <Image
+            src="/assets/logo/alt_logo.png"
+            alt="frame"
+            width={200}
+            height={200}
+          />
           <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
               <a href="/toolsandtech" className="hover:underline me-2 ">
@@ -57,7 +66,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center mt-2">
           Made with ❤️ in India!!
         </div>
       </div>

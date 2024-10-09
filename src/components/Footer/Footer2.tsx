@@ -23,7 +23,7 @@ const Footer = () => {
               Contact Us
             </Link>
           </div>
-          <div className="flex justify-center items-center gap-4 lg:gap-8">
+          <div className="flex justify-center items-center gap-4 lg:gap-8 pe-2">
             <a
               href="https://www.linkedin.com/company/thegrowthmantra/"
               target="_blank"
@@ -66,7 +66,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center mt-2">
           Made with ❤️ in India!!
         </div>
       </div>
