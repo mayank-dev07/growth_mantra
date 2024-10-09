@@ -25,7 +25,7 @@ const Cro = () => {
         <div className="relative h-fit pb-20 ">
           <div className="absolute inset-52 top-[-90px] left-0 w-full">
             <Image
-              src="/treevector.png"
+              src="/assets/logo/final_tree.png"
               alt="tree"
               width={1000}
               height={600}
