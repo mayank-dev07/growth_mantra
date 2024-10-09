@@ -24,12 +24,16 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex justify-center items-center gap-4 lg:gap-8">
-            <a href="https://www.linkedin.com/company/thegrowthmantra/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={30} color="blue" />
+            <a
+              href="https://www.linkedin.com/company/thegrowthmantra/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} color="black" />
             </a>
 
             <a href="mailto:contact@thegrowthmantra.com">
-              <SiGmail size={30} color="blue" />
+              <SiGmail size={30} color="black" />
             </a>
           </div>
         </div>
@@ -38,7 +42,12 @@ const Footer = () => {
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024 93 Communications. All rights reserved!
           </span>
-          <Image src="/assets/logo/alt_logo.png" alt="frame" width={200} height={200} />
+          <Image
+            src="/assets/logo/alt_logo.png"
+            alt="frame"
+            width={200}
+            height={200}
+          />
           <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
               <a href="/toolsandtech" className="hover:underline me-2 ">
