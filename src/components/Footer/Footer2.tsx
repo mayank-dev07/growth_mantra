@@ -33,24 +33,29 @@ const Footer = () => {
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024 93 Communications. All rights reserved!
           </span>
-          <Image src="/logo.png" alt="frame" width={200} height={200} />
+          <div>
+            <Image src="/logo.png" alt="frame" width={200} height={200} />
+          </div>
           <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="/toolsandtech" className="hover:underline me-2 md:me-6">
+              <a href="/toolsandtech" className="hover:underline me-2 ">
                 Tools&nbsp;and&nbsp;Tech
               </a>
             </li>
             <li>
-              <a href="/t&c" className="hover:underline me-2 md:me-6">
+              <a href="/t&c" className="hover:underline me-2 ">
                 Terms&nbsp;&&nbsp;conditions
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline me-2 md:me-6">
+              <a href="#" className="hover:underline">
                 Privacy&nbsp;Policy
               </a>
             </li>
           </ul>
+        </div>
+        <div className="w-full flex justify-center items-center">
+          Made with ❤️ in India!!
         </div>
       </div>
     </footer>
