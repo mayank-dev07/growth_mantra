@@ -191,7 +191,10 @@ const ContactForm = () => {
               style={{ width: "48%" }}
               rules={[
                 { required: true, message: "Please enter your company name" },
-                { type: "string", message: "Please enter a valid company name" },
+                {
+                  type: "string",
+                  message: "Please enter a valid company name",
+                },
               ]}
             >
               <input
@@ -209,7 +212,9 @@ const ContactForm = () => {
               }
               name="companyWebsite"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please enter your website url" }]}
+              rules={[
+                { required: true, message: "Please enter your website url" },
+              ]}
             >
               <input
                 className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
@@ -224,7 +229,9 @@ const ContactForm = () => {
               }
               name="designation"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please enter your Designation" }]}
+              rules={[
+                { required: true, message: "Please enter your Designation" },
+              ]}
             >
               <input
                 className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
@@ -313,7 +320,7 @@ const ContactForm = () => {
             {selectedChallenge === "Other (Please specify below)" && (
               <input
                 placeholder={`Specify your "Primary Business challenge"`}
-                className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none"
+                className="w-full md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none"
                 value={otherChallenge}
                 onChange={handleOtherChallenge}
               />
@@ -391,7 +398,7 @@ const ContactForm = () => {
                 <div className="mt-3">
                   <input
                     placeholder={`Specify your "Growth Focus Area"`}
-                    className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
+                    className="w-full md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                     value={otherOption}
                     onChange={handleOtherChange}
                   />
