@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -22,10 +24,13 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex justify-center items-center gap-4 lg:gap-8">
-            <Image src="/fb2.png" alt="frame" width={30} height={30} />
-            <Image src="/Twitter2.png" alt="frame" width={30} height={30} />
-            <Image src="/Vimeo2.png" alt="frame" width={30} height={30} />
-            <Image src="/Youtube2.png" alt="frame" width={30} height={30} />
+            <a href="https://www.linkedin.com/company/thegrowthmantra/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size={30} color="blue" />
+            </a>
+
+            <a href="mailto:contact@thegrowthmantra.com">
+              <SiGmail size={30} color="blue" />
+            </a>
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 w-full lg:w-10/12" />
@@ -33,9 +38,7 @@ const Footer = () => {
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024 93 Communications. All rights reserved!
           </span>
-          <div>
-            <Image src="/logo.png" alt="frame" width={200} height={200} />
-          </div>
+          <Image src="/assets/logo/alt_logo.png" alt="frame" width={200} height={200} />
           <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
               <a href="/toolsandtech" className="hover:underline me-2 ">

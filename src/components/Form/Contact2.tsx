@@ -171,7 +171,7 @@ const ContactForm = () => {
               name="email"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
               rules={[
-                { required: true, message: "Please enter your name" },
+                { required: true, message: "Please enter your work email" },
                 { type: "email", message: "Please enter a valid email" },
               ]}
             >
@@ -190,8 +190,8 @@ const ContactForm = () => {
               name="companyName"
               style={{ width: "48%" }}
               rules={[
-                { required: true, message: "Please enter your email" },
-                { type: "string", message: "Please enter a valid email" },
+                { required: true, message: "Please enter your company name" },
+                { type: "string", message: "Please enter a valid company name" },
               ]}
             >
               <input
@@ -209,7 +209,7 @@ const ContactForm = () => {
               }
               name="companyWebsite"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please enter your name" }]}
+              rules={[{ required: true, message: "Please enter your website url" }]}
             >
               <input
                 className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
@@ -224,7 +224,7 @@ const ContactForm = () => {
               }
               name="designation"
               style={{ width: "48%", padding: "0px", margin: "0px" }}
-              rules={[{ required: true, message: "Please enter your name" }]}
+              rules={[{ required: true, message: "Please enter your Designation" }]}
             >
               <input
                 className="w-full  border-b-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "

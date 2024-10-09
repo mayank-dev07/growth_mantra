@@ -62,12 +62,11 @@ export default function Home() {
       <Header />
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full  h-full flex flex-col ${
-            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-          }`}
+          className={`w-full  h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+            }`}
         >
           <Image
-            src="/Frame.png"
+            src="/assets/logo/main_logo.png"
             alt="frame"
             width={300}
             height={300}
@@ -123,7 +122,7 @@ export default function Home() {
       </div>
       {/* Thank you for reaching out to The Growth Mantra. We're excited about the possibility of partnering with you to drive exceptional growth for your business. */}
       /
-      {/* <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
+  {/* <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
           <div className="bg-white shadow-lg rounded-lg p-6  flex flex-col justify-center text-start">
             <h2 className="text-xl font-semibold text-black">Sarah Chen</h2>

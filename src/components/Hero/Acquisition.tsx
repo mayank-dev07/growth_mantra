@@ -24,21 +24,19 @@ const Acquisition = () => {
     <>
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full md:w-7/12 h-full flex flex-col ${
-            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-          }`}
+          className={`w-full md:w-7/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+            }`}
         >
           <Link href="/">
             <Image
-              src="/Frame.png"
+              src="/assets/logo/main_logo.png"
               alt="frame"
               width={300}
               height={300}
-              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
-                scrollPosition > 50
+              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
                   ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                   : "relative"
-              }`}
+                }`}
             />
           </Link>
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
