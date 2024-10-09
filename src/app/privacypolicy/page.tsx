@@ -12,7 +12,7 @@ const PrivacyPolicy: React.FC = () => {
         {" "}
         {/* Added mt-8 for the whole section */}
         <h1 className="text-3xl font-bold text-[#16213E]">Privacy Policy</h1>
-        <p className="text-[#6B6E8E]">Last Updated: [Insert Date]</p>
+        <p className="text-[#6B6E8E]">Last Updated: 9 Oct 2024</p>
         <p>
           The Growth Mantra (“we,” “our,” or “us”) is committed to protecting
           the privacy of our clients, users, and website visitors. This Privacy
