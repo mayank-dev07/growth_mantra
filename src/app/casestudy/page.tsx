@@ -62,18 +62,20 @@ export default function Home() {
       <Header />
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full  h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-            }`}
+          className={`w-full  h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Image
             src="/Frame.png"
             alt="frame"
             width={300}
             height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
                 ? "fixed top-[64px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                 : "relative"
-              }`}
+            }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#16213E] bg-[#FFEDEB] rounded-xl">
@@ -163,7 +165,7 @@ export default function Home() {
       <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
         <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
           <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
-            <div className="text-2xl md:text-3xl font-semibold flex flex-col gap-4 text-center tracking-widest">
+            <div className="text-2xl md:text-5xl font-semibold flex flex-col gap-4 text-center tracking-widest">
               Our Impact in Numbers
             </div>
           </div>
