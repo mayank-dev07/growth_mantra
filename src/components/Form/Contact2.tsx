@@ -390,7 +390,7 @@ const ContactForm = () => {
               {growthFocus.includes("Other (Please specify below)") && (
                 <div className="mt-3">
                   <input
-                    placeholder={`Specify your "Primary Business challenge"`}
+                    placeholder={`Specify your "Growth Focus Area"`}
                     className="md:w-1/2 border-b-2 py-2 border-white bg-transparent text-white placeholder-gray-300 outline-none "
                     value={otherOption}
                     onChange={handleOtherChange}
