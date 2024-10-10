@@ -30,6 +30,21 @@ const cards: Card[] = [
     title: "Conversion-Focused Optimization",
     imageSrc: "/CaroselConversion.png",
   },
+  {
+    id: 5,
+    title: "Craft a Unique, Brand-Aligned Growth Strategy",
+    imageSrc: "/assets/Icons/Craft a Unique.png",
+  },
+  {
+    id: 6,
+    title: "Optimize Messaging for Maximum Impact",
+    imageSrc: "/assets/Icons/data insights.png",
+  },
+  {
+    id: 7,
+    title: "Gain 24/7 Actionable Data Insights",
+    imageSrc: "/assets/Icons/Messaging.png",
+  },
 ];
 
 const AutoCarousel: React.FC = () => {
