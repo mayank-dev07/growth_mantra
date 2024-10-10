@@ -74,6 +74,19 @@ export default function VerticalSwiper() {
             </div>
           </Link>
         </SwiperSlide>
+        <SwiperSlide>
+          <Link href="/contactus" passHref>
+            <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
+              <Image
+                src="/assets/Consulting Home/slide5.png"
+                alt="image"
+                width={900}
+                height={800}
+                className="object-contain !h-[500px] rounded-lg"
+              />
+            </div>
+          </Link>
+        </SwiperSlide>
       </Swiper>
     </>
   );
