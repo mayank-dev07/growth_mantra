@@ -36,7 +36,7 @@ export default function TrendingSwiper() {
       >
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/strategyPlanning" className="h-fit flex flex-col ">
+            <Link href="/StrategyPlanning" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Acquisition_Mastery.png"
                 alt="image"
@@ -63,7 +63,7 @@ export default function TrendingSwiper() {
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
             <Link
-              href="/userpersonaidentification"
+              href="/UserPersona"
               className="h-fit flex flex-col "
             >
               <Image
@@ -91,7 +91,7 @@ export default function TrendingSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/brandSolution" className="h-fit flex flex-col ">
+            <Link href="/BrandSolution" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Funnel_Optimization.png"
                 alt="image"
@@ -117,7 +117,7 @@ export default function TrendingSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/growthMarketing" className="h-fit flex flex-col ">
+            <Link href="/GrowthMarketing" className="h-fit flex flex-col ">
               <Image
                 src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
