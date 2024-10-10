@@ -62,7 +62,7 @@ const Pulse = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-52 top-[-65px] left-0 w-full">
+          <div className="absolute inset-52 top-[-65px] left-0 w-full hidden md:block">
             <Image
               src="/assets/logo/final_tree.png"
               alt="tree"

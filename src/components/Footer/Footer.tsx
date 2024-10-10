@@ -51,12 +51,12 @@ const Footer = () => {
           />
           <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="/toolsandtech" className="hover:underline me-2 ">
-                Tools&nbsp;and&nbsp;Tech
+              <a href="/faqs" className="hover:underline me-7 ">
+                FAQs
               </a>
             </li>
             <li>
-              <a href="/t&c" className="hover:underline me-2 ">
+              <a href="/t&c" className="hover:underline me-7 ">
                 Terms&nbsp;&&nbsp;conditions
               </a>
             </li>

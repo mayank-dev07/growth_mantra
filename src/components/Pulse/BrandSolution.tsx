@@ -21,15 +21,16 @@ const BrandSolution = () => {
         </div>
 
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-52 top-[-90px] left-0 w-full">
-            <Image
-              src="/assets/logo/final_tree.png"
-              alt="tree"
-              width={900}
-              height={500}
-              className="object-fill lg:object-contain h-[850px] lg:h-[1250px] w-fit mt-6"
-            />
-          </div>
+        <div className="absolute inset-52 top-[-90px] left-0 w-full hidden md:block">
+  <Image
+    src="/assets/logo/final_tree.png"
+    alt="tree"
+    width={900}
+    height={500}
+    className="object-fill lg:object-contain h-[850px] lg:h-[1250px] w-fit mt-6"
+  />
+</div>
+
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-12">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
