@@ -62,8 +62,9 @@ export default function Home() {
       <Header />
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full  h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-            }`}
+          className={`w-full  h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Image
             src="/assets/logo/main_logo.png"
@@ -111,18 +112,10 @@ export default function Home() {
         <div className="w-full h-full flex flex-col justify-center items-center text-[#B2B7BE]">
           SOME OF OUR TRUSTED CLIENTS
         </div>
-        <div className="w-full flex justify-center items-center gap-4 lg:gap-12 flex-wrap">
-          <Image src="/sponser1.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser2.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser3.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser4.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser5.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser6.png" alt="sponser" width={110} height={110} />
-        </div>
       </div>
       {/* Thank you for reaching out to The Growth Mantra. We're excited about the possibility of partnering with you to drive exceptional growth for your business. */}
       /
-  {/* <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
+      {/* <div className="w-full flex flex-col gap-4 lg:flex-row lg:gap-8 justify-center items-center px-12 py-6">
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-8 items-center">
           <div className="bg-white shadow-lg rounded-lg p-6  flex flex-col justify-center text-start">
             <h2 className="text-xl font-semibold text-black">Sarah Chen</h2>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper10";
 import Link from "next/link";
+import Sponsor from "../Sponsor";
 
 const CroHero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -78,18 +79,11 @@ const CroHero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col pb-12 gap-8">
+      <div className="flex flex-col ">
         <div className="w-full h-full flex flex-col justify-center items-center text-[#B2B7BE]">
           SOME OF OUR TRUSTED CLIENTS
         </div>
-        <div className="w-full flex justify-center items-center gap-4 lg:gap-12 flex-wrap">
-          <Image src="/sponser1.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser2.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser3.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser4.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser5.png" alt="sponser" width={110} height={110} />
-          <Image src="/sponser6.png" alt="sponser" width={110} height={110} />
-        </div>
+        <Sponsor />
       </div>
     </>
   );
