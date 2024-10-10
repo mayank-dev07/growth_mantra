@@ -165,7 +165,7 @@ const ContactForm = () => {
             <Form.Item
               label={
                 <span className="text-white text-sm md:text-lg font-bold">
-                  Work Email Address
+                  Work&nbsp;Email&nbsp;Address
                 </span>
               }
               name="email"
