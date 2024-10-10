@@ -64,9 +64,9 @@ export default function Contactus() {
             personalized to fit your business.
             <br />
             <br />
-            We've walked the challenging path of scaling startups, and now we
+            {`We've walked the challenging path of scaling startups, and now we
             use that experience to help businesses like yours grow smarter, not
-            harder.
+            harder.`}
             <br />
             <br />
             At
@@ -85,13 +85,13 @@ export default function Contactus() {
             intentional and geared for long-term impact.
             <br />
             <br />
-            We don’t just execute strategies—we collaborate with you, ensuring a
+            {` We don’t just execute strategies—we collaborate with you, ensuring a
             seamless partnership. Our team’s passion, combined with a focus on
-            measurable results, sets us apart.
+            measurable results, sets us apart.`}
             <br />
             <br />
-            From local startups to international brands, we’ve seen how a
-            tailored growth strategy can transform businesses. Let’s
+            {`From local startups to international brands, we’ve seen how a
+            tailored growth strategy can transform businesses. Let’s`}
             <span className="font-bold">
               &nbsp;revolutionize the way you grow.&nbsp;
             </span>
