@@ -31,7 +31,9 @@ const Header = () => {
         <Link href="/strategyPlanning">Strategy and Planning</Link>
       </Menu.Item>
       <Menu.Item>
-        <Link href="/userpersonaidentification">User persona Identification</Link>
+        <Link href="/userpersonaidentification">
+          User persona Identification
+        </Link>
       </Menu.Item>
       <Menu.Item>
         <Link href="/marketStrategy">Go-to-Market-Strategy</Link>
@@ -63,7 +65,9 @@ const Header = () => {
         <Link href="/funnel">Funnel Optimization</Link>
       </Menu.Item>
       <Menu.Item>
-        <Link href="/conversionrateoptimization">Conversion Rate Optimization (CRO)</Link>
+        <Link href="/conversionrateoptimization">
+          Conversion Rate Optimization (CRO)
+        </Link>
       </Menu.Item>
       <Menu.Item>
         <Link href="/emailmarketingengine">Email Marketing Engine</Link>
@@ -77,7 +81,6 @@ const Header = () => {
       <Menu.Item>
         <Link href="/salesgrowth">Sales Growth</Link>
       </Menu.Item>
-
     </Menu>
   );
 
@@ -96,30 +99,49 @@ const Header = () => {
         </div>
 
         <div className="w-full h-full hidden md:flex justify-center items-center gap-2 md:gap-3 text-sm md:text-lg lg:gap-10 py-4">
-          <Dropdown overlay={consultingMenu} placement="bottomCenter" trigger={['click']}>
+          <Dropdown
+            overlay={consultingMenu}
+            placement="bottomCenter"
+            trigger={["click"]}
+          >
             <div className="cursor-pointer text-[#6F6F6F] hover:text-[#16213E]">
               Consulting
             </div>
           </Dropdown>
-          <Dropdown overlay={servicesMenu} placement="bottomCenter" trigger={['click']}>
+          <Dropdown
+            overlay={servicesMenu}
+            placement="bottomCenter"
+            trigger={["click"]}
+          >
             <div className="cursor-pointer text-[#6F6F6F] hover:text-[#16213E]">
               Services
             </div>
           </Dropdown>
           <Link href="/contactus">
             <span
-              className={`${isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               Contact&nbsp;us
             </span>
           </Link>
           <Link href="/aboutus">
             <span
-              className={`${isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                }`}
+              className={`${
+                isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
             >
               About&nbsp;us
+            </span>
+          </Link>
+          <Link href="/toolsandtech">
+            <span
+              className={`${
+                isActive("/toolsandtexh") ? "text-[#16213E]" : "text-[#6F6F6F]"
+              }`}
+            >
+              Tools&nbsp;&&nbsp;Tech
             </span>
           </Link>
         </div>
@@ -146,65 +168,155 @@ const Header = () => {
             {/* State variables for dropdown visibility */}
             <div className="flex flex-col">
               <div
-                className="cursor-pointer text-[#6F6F6F] hover:text-[#16213E] py-2"
+                className="cursor-pointer text-[#6F6F6F] hover:text-[#16213E]"
                 onClick={() => setConsultingOpen((prev) => !prev)} // Toggle visibility
               >
                 Consulting
               </div>
               {consultingOpen && (
                 <div className="pl-4 flex flex-col gap-1">
-                  <Link href="/" className="text-[#6F6F6F] hover:text-[#16213E]">Home</Link>
-                  <Link href="/strategyPlanning" className="text-[#6F6F6F] hover:text-[#16213E]">Strategy and Planning</Link>
-                  <Link href="/userpersonaidentification" className="text-[#6F6F6F] hover:text-[#16213E]">User Persona Identification</Link>
-                  <Link href="/marketStrategy" className="text-[#6F6F6F] hover:text-[#16213E]">Go-to-Market Strategy</Link>
-                  <Link href="/brandSolution" className="text-[#6F6F6F] hover:text-[#16213E]">Brand Solution</Link>
-                  <Link href="/growthMarketing" className="text-[#6F6F6F] hover:text-[#16213E]">Growth Marketing</Link>
-                  <Link href="/productGrowth" className="text-[#6F6F6F] hover:text-[#16213E]">Product Growth</Link>
+                  <Link
+                    href="/"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    href="/strategyPlanning"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Strategy and Planning
+                  </Link>
+                  <Link
+                    href="/userpersonaidentification"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    User Persona Identification
+                  </Link>
+                  <Link
+                    href="/marketStrategy"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Go-to-Market Strategy
+                  </Link>
+                  <Link
+                    href="/brandSolution"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Brand Solution
+                  </Link>
+                  <Link
+                    href="/growthMarketing"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Growth Marketing
+                  </Link>
+                  <Link
+                    href="/productGrowth"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Product Growth
+                  </Link>
                 </div>
               )}
             </div>
-
             <div className="flex flex-col">
               <div
-                className="cursor-pointer text-[#6F6F6F] hover:text-[#16213E] py-2"
+                className="cursor-pointer text-[#6F6F6F] hover:text-[#16213E]"
                 onClick={() => setServicesOpen((prev) => !prev)} // Toggle visibility
               >
                 Services
               </div>
               {servicesOpen && (
                 <div className="pl-4 flex flex-col gap-1">
-                  <Link href="/" className="text-[#6F6F6F] hover:text-[#16213E]">Home</Link>
-                  <Link href="/acquisition" className="text-[#6F6F6F] hover:text-[#16213E]">Acquisition Mastery</Link>
-                  <Link href="/retention" className="text-[#6F6F6F] hover:text-[#16213E]">Retention Revolution</Link>
-                  <Link href="/funnel" className="text-[#6F6F6F] hover:text-[#16213E]">Funnel Optimization</Link>
-                  <Link href="/conversionrateoptimization" className="text-[#6F6F6F] hover:text-[#16213E]">Conversion Rate Optimization (CRO)</Link>
-                  <Link href="/emailmarketingengine" className="text-[#6F6F6F] hover:text-[#16213E]">Email Marketing Engine</Link>
-                  <Link href="/searchengineoptimization" className="text-[#6F6F6F] hover:text-[#16213E]">SEO Domination</Link>
-                  <Link href="/crm" className="text-[#6F6F6F] hover:text-[#16213E]">CRM Growth Engine</Link>
-                  <Link href="/salesgrowth" className="text-[#6F6F6F] hover:text-[#16213E]">Sales Growth</Link>
+                  <Link
+                    href="/"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    href="/acquisition"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Acquisition Mastery
+                  </Link>
+                  <Link
+                    href="/retention"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Retention Revolution
+                  </Link>
+                  <Link
+                    href="/funnel"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Funnel Optimization
+                  </Link>
+                  <Link
+                    href="/conversionrateoptimization"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Conversion Rate Optimization (CRO)
+                  </Link>
+                  <Link
+                    href="/emailmarketingengine"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Email Marketing Engine
+                  </Link>
+                  <Link
+                    href="/searchengineoptimization"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    SEO Domination
+                  </Link>
+                  <Link
+                    href="/crm"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    CRM Growth Engine
+                  </Link>
+                  <Link
+                    href="/salesgrowth"
+                    className="text-[#6F6F6F] hover:text-[#16213E]"
+                  >
+                    Sales Growth
+                  </Link>
                 </div>
               )}
             </div>
-
             <Link href="/contactus">
               <span
-                className={`${isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/contactus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 Contact&nbsp;us
               </span>
             </Link>
             <Link href="/aboutus">
               <span
-                className={`${isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 About&nbsp;us
+              </span>
+            </Link>{" "}
+            <Link href="/toolsandtech">
+              <span
+                className={`${
+                  isActive("/toolsandtexh")
+                    ? "text-[#16213E]"
+                    : "text-[#6F6F6F]"
+                }`}
+              >
+                Tools&nbsp;&&nbsp;Tech
               </span>
             </Link>
           </div>
         </Drawer>
-
       </div>
     </>
   );
