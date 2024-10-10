@@ -1,30 +1,30 @@
 import CaseStudy from "@/components/CaseStudy/CaseStudy";
-import Hero from "@/components/Hero/Hero";
-import Offering from "@/components/Offering/Offering";
-import Pulse from "@/components/Pulse/Pulse";
+
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import Trending from "@/components/Trending/Trending";
+import StrategyHero from "@/components/Hero/Strategy";
+import StrategyOffering from "@/components/Offering/StrategyOffering";
+import Strategy from "@/components/Pulse/Strategy";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Business Consulting Services | Growth Mantra",
+  title: "Strategic Planning Solution | Growth Mantra",
   description:
-    "Unlock sustainable business growth with Growth Mantra's expert consulting services. Tailored strategies for success.",
+    "Drive strategic excellence with our planning services. Align your business goals with proven strategies.",
 };
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <Offering />
-      <Pulse />
+      <StrategyHero />
+      <StrategyOffering />
+      <Strategy />
       <WhyChooseUs />
       <CaseStudy />
       <Trending />
-
       <Footer />
     </>
   );
