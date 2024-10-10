@@ -23,15 +23,16 @@ const Crm = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20 ">
-          <div className="absolute inset-52 top-[-60px] left-0 w-full">
-            <Image
-              src="/assets/logo/final_tree.png"
-              alt="tree"
-              width={1000}
-              height={600}
-              className="object-fill lg:object-contain h-[920px] w-fit"
-            />
-          </div>
+        <div className="absolute inset-52 top-[-60px] left-0 w-full hidden md:block">
+  <Image
+    src="/assets/logo/final_tree.png"
+    alt="tree"
+    width={1000}
+    height={600}
+    className="object-fill lg:object-contain h-[920px] w-fit"
+  />
+</div>
+
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">

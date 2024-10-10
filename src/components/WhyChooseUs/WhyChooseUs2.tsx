@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white  p-4 sm:p-6  flex flex-col h-full" // Make sure to set height to full
+                className="bg-white p-4 sm:p-6 flex flex-col h-full shadow-lg" // Added shadow
               >
                 <div className="flex-grow">
                   <h3 className="text-xl md:text-4xl text-[#E74C3C] font-bold text-center py-3">
@@ -70,6 +70,7 @@ const WhyChooseUs = () => {
             ))}
           </div>
         </div>
+
         <div className="w-full h-full bg-[#E74C3C]">
           <section className="flex px-3 md:px-10 py-6 justify-center items-center flex-col md:flex-row">
             <div className="md:w-full text-[1.3rem] my-1 md:text-5xl font-bold  text-white flex flex-col justify-center items-center">

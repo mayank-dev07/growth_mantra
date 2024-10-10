@@ -1,6 +1,12 @@
-import React from "react"; // Ensure React is imported
-import Footer from "@/components/Footer/Footer2"; // Adjust the path as necessary
-import Header from "@/components/Header/Header3"; // Adjust the path as necessary
+import React from "react";
+import Footer from "@/components/Footer/Footer2";
+import Header from "@/components/Header/Header3";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const faqsData = [
   {
@@ -10,45 +16,29 @@ const faqsData = [
         We offer a wide range of services to help businesses grow, including:
         <ul className="list-disc ml-5">
           <li>
-            <strong>Customer Acquisition:</strong> Using targeted PPC
-            (Pay-Per-Click) Advertising tools like Google Ads, Microsoft
-            Advertising, Facebook Ads, Amazon Ads, Twitter Ads, LinkedIn Ads,
-            and Quick Commerce Ads to attract and convert high-quality leads.
+            <strong>Customer Acquisition:</strong> Using targeted PPC (Pay-Per-Click) Advertising tools like Google Ads, Microsoft Advertising, Facebook Ads, Amazon Ads, Twitter Ads, LinkedIn Ads, and Quick Commerce Ads to attract and convert high-quality leads.
           </li>
           <li>
-            <strong>Retention Strategies:</strong> Leveraging advanced CRM
-            systems like Salesforce, HubSpot CRM, CleverTap, Zoho CRM,
-            Pipedrive, Freshsales, Nimble, and Klaviyo to keep customers engaged
-            and loyal.
+            <strong>Retention Strategies:</strong> Leveraging advanced CRM systems like Salesforce, HubSpot CRM, CleverTap, Zoho CRM, Pipedrive, Freshsales, Nimble, and Klaviyo to keep customers engaged and loyal.
           </li>
           <li>
-            <strong>Email Marketing:</strong> Building successful email
-            campaigns with platforms like Mailchimp, Constant Contact,
-            Sendinblue, ConvertKit, ActiveCampaign, AWeber, and Klaviyo.
+            <strong>Email Marketing:</strong> Building successful email campaigns with platforms like Mailchimp, Constant Contact, Sendinblue, ConvertKit, ActiveCampaign, AWeber, and Klaviyo.
           </li>
           <li>
-            <strong>SEO & Content Marketing:</strong> Utilizing top SEO tools
-            like Ahrefs, Moz, SEMrush, Screaming Frog, Yoast SEO, and
-            Ubersuggest to increase organic traffic and search engine rankings.
+            <strong>SEO & Content Marketing:</strong> Utilizing top SEO tools like Ahrefs, Moz, SEMrush, Screaming Frog, Yoast SEO, and Ubersuggest to increase organic traffic and search engine rankings.
           </li>
           <li>
-            <strong>Ecommerce Growth:</strong> Enhancing online store
-            performance on platforms like Shopify, Magento, BigCommerce,
-            WooCommerce, PrestaShop, and Squarespace Commerce, along with
-            managing Amazon Product Listings and A+ Content.
+            <strong>Ecommerce Growth:</strong> Enhancing online store performance on platforms like Shopify, Magento, BigCommerce, WooCommerce, PrestaShop, and Squarespace Commerce, along with managing Amazon Product Listings and A+ Content.
           </li>
           <li>
-            <strong>Analytics:</strong> Analyzing user behavior and optimizing
-            campaigns with Google Analytics, Hotjar, Kissmetrics, Mixpanel,
-            Crazy Egg, Matomo, CleverTap, and MoEngage for actionable insights.
+            <strong>Analytics:</strong> Analyzing user behavior and optimizing campaigns with Google Analytics, Hotjar, Kissmetrics, Mixpanel, Crazy Egg, Matomo, CleverTap, and MoEngage for actionable insights.
           </li>
         </ul>
       </>
     ),
   },
   {
-    question:
-      "2. How does The Growth Mantra differ from other growth consulting firms?",
+    question: "2. How does The Growth Mantra differ from other growth consulting firms?",
     answer: (
       <>
         Our unique PULSE and ELEVATE frameworks allow us to thoroughly analyze
@@ -121,8 +111,7 @@ const faqsData = [
     ),
   },
   {
-    question:
-      "7. What is conversion rate optimization (CRO) and how can it help my business?",
+    question: "7. What is conversion rate optimization (CRO) and how can it help my business?",
     answer: (
       <>
         CRO is the process of increasing the percentage of website visitors who
@@ -160,8 +149,7 @@ const faqsData = [
     ),
   },
   {
-    question:
-      "10. How can I track the progress of the strategies you implement?",
+    question: "10. How can I track the progress of the strategies you implement?",
     answer: (
       <>
         We provide comprehensive reporting using tools like Google Analytics,
@@ -174,8 +162,7 @@ const faqsData = [
     ),
   },
   {
-    question:
-      "11. What is the typical process for working with The Growth Mantra?",
+    question: "11. What is the typical process for working with The Growth Mantra?",
     answer: (
       <>
         Our process starts with an initial consultation, during which we assess
@@ -237,28 +224,39 @@ const faqsData = [
   },
 ];
 
+
 const FAQs: React.FC = () => {
   return (
     <>
       <Header />
-      {/* FAQs Section */}
       <section className="px-3 md:px-10 py-12 mt-40">
-        <h1 className="text-3xl font-bold text-[#16213E]">
+        <h1 className="text-3xl font-bold text-[#16213E] text-center mb-8">
           Frequently Asked Questions (FAQs)
         </h1>
 
-        {faqsData.map((faq, index) => (
-          <div key={index} className="my-4">
-            <h2 className="font-semibold text-lg text-[#16213E]">
-              {faq.question}
-            </h2>
-            <p className="text-[#6B6E8E]">{faq.answer}</p>
-          </div>
-        ))}
+        <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-8 gap-6 bg-white">
+          <Accordion type="single" collapsible>
+            {faqsData.map((faq, index) => (
+              <AccordionItem key={index} value={`item-${index}`}>
+                <AccordionTrigger className="hover:no-underline">
+                  <h2 className="leading-normal text-[#16213e] font-bold text-base md:text-lg text-left">
+                    {faq.question}
+                  </h2>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <div className="text-base lg:text-lg text-gray-700">
+                    {faq.answer}
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
       </section>
       <Footer />
     </>
   );
 };
 
-export default FAQs; // Ensure this is the default export
+
+export default FAQs;
