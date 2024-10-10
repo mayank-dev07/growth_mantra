@@ -550,28 +550,28 @@ export default function Contactus() {
           </div>
         </div>
       </div>
-      <div className="w-full h-full px-4 lg:px-28 py-16">
-        <div className="flex flex-col lg:flex-row w-full h-full">
-          <div className="w-full lg:w-1/2 bg-[#16213E] text-white rounded-[15px] shadow-2xl ">
-            <div className="px-4 md:px-10 pt-5 md:pt-12 ">
-              <div className="text-lg md:text-2xl lg:text-3xl font-bold text-center md:text-start">
+      <div className="w-full h-full px-2 lg:px-20 py-5 md:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2  w-full h-full">
+          <div className="bg-[#16213E] text-white rounded-[15px] shadow-2xl flex flex-col">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
+              <div className="text-lg md:text-2xl lg:text-3xl">
                 Diagnose&nbsp;Your
                 <br />
                 Growth&nbsp;Blockers
               </div>
-              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-                Uncover the hidden obstacles holding your startup back. Our
-                expert consultants will analyze your business, identify critical
-                bottlenecks, and provide a custom action plan to skyrocket your
-                growth. Limited offer: Claim your complimentary strategy session
-                (Valued at $400) now
+              <div className="py-6 text-base md:text-lg  flex justify-center items-start">
+                {`Discover what's secretly holding your startup back. Let our
+                expert consultants dive in, pinpoint key bottlenecks, and craft
+                a tailored action plan to ignite your growth. Ready to elevate
+                your business? Get started today!`}
               </div>
             </div>
 
-            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+            <div className="px-2 md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
               <Link href="/contactus" passHref>
-                <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                  <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
+                <div className="group rounded-full w-fit px-1.5 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Diagnose&nbsp;Your&nbsp;Growth</p>
+
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
                     <ArrowRight />
                   </div>
@@ -579,25 +579,26 @@ export default function Contactus() {
               </Link>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
-            <div className="px-4 md:px-10 pt-5 md:pt-12 ">
-              <div className="text-lg md:text-2xl lg:text-3xl text-[#16213E]  font-bold text-center md:text-start">
+
+          <div className="rounded-[15px] shadow-2xl flex flex-col">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
+              <div className="text-lg md:text-2xl lg:text-3xl text-[#16213E]">
                 Partner&nbsp;with&nbsp;Proven
                 <br />
                 Growth&nbsp;Catalysts
               </div>
-              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
-                Looking for more than just advice? Our team of seasoned
-                consultants doesn&apos;t just strategize - we execute. From
-                refining your go-to-market strategy to optimizing your product
-                for scalability, we&apos;re here to drive tangible results and
-                exponential growth for your startup.
+              <div className="py-6 text-base md:text-lg  flex justify-center items-start">
+                {`Need more than just advice? Our seasoned consultants do more
+                than strategize—we execute. Whether it's refining your
+                go-to-market strategy or scaling your product, we're hands-on to
+                deliver real results and fuel exponential growth. Ready to see
+                the impact firsthand?`}
               </div>
             </div>
 
-            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
               <Link href="/contactus" passHref>
-                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#16213E] text-white bg-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm hover:bg-white hover:text-[#16213E] text-white bg-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Amplify&nbsp;Your&nbsp;Growth</p>
                   <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#16213E]">
                     <ArrowRight />
