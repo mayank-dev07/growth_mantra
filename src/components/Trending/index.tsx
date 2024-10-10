@@ -11,10 +11,7 @@ const Trending = () => {
           <p className="text-4xl lg:text-6xl text-[#E74C3C]">
             Trending Services
           </p>
-          <p className="text-lg text-[#8A8A8A]">
-            Explore our latest articles and case studies to stay ahead in your
-            industry.
-          </p>
+
           <div className="pb-8 md:py-4 w-full flex justify-center md:justify-start items-center">
             <Link href="/contactus" passHref>
               <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">

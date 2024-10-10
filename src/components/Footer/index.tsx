@@ -40,7 +40,8 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 w-full lg:w-10/12" />
         <div className="w-full flex flex-col lg:flex-row gap-6 justify-between items-center">
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024 93Communications. All rights reserved!
+            © 2024 <span className="font-semibold">93Communications.</span>All
+            rights reserved!
           </span>
           <Image
             src="/assets/logo/alt_logo.png"
@@ -50,12 +51,12 @@ const Footer = () => {
           />
           <ul className="flex items-center mb-6 text-sm  text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="/toolsandtech" className="hover:underline me-2 ">
-                Tools&nbsp;and&nbsp;Tech
+              <a href="/faqs" className="hover:underline me-7 ">
+                FAQs
               </a>
             </li>
             <li>
-              <a href="/t&c" className="hover:underline me-2 ">
+              <a href="/t&c" className="hover:underline me-7 ">
                 Terms&nbsp;&&nbsp;conditions
               </a>
             </li>

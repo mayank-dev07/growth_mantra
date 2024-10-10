@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Capture Accurate Retention Analysis",
+    title: "Precision Retention Analysis",
     description:
       "Analyze data to predict churn and improve customer retention.",
     point1: "Unsure why customers churn?",
@@ -13,7 +13,7 @@ const services = [
     point3: "Retention strategies falling short?",
   },
   {
-    title: "Optimize Digest and Customer Educational Content",
+    title: "Dormant User Revival",
     description:
       "Timely, relevant communications driving product adoption and success.",
     point1: "User education not boosting retention?",
@@ -21,7 +21,7 @@ const services = [
     point3: "Customer communications lacking impact?",
   },
   {
-    title: "Build Advanced Techniques for Pulling Users Back",
+    title: "Customer Success Optimization",
     description:
       "Innovative re-engagement strategies to revive dormant user accounts.",
     point1: "Dormant users not reactivating?",

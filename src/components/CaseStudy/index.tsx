@@ -70,7 +70,7 @@ const CaseStudy = () => {
             <div className="px-2 md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
               <Link href="/contactus" passHref>
                 <div className="group rounded-full w-fit px-1.5 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#E84C3D] bg-white text-[#E84C3D] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                  <p>Book&nbsp;Your&nbsp;Free&nbsp;Growth&nbsp;Consultation</p>
+                  <p>Diagnose&nbsp;Your&nbsp;Growth</p>
 
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#E84C3D] group-hover:text-[#E84C3D]">
                     <ArrowRight />
