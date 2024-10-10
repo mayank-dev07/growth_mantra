@@ -1,30 +1,29 @@
 import CaseStudy from "@/components/CaseStudy/CaseStudy";
-import Hero from "@/components/Hero/Hero";
-import Offering from "@/components/Offering/Offering";
-import Pulse from "@/components/Pulse/Pulse";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import Trending from "@/components/Trending/Trending";
+import UpiHero from "@/components/Hero/Upi";
+import UpiOffering from "@/components/Offering/UpiOffering";
+import Upi from "@/components/Pulse/Upi";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Business Consulting Services | Growth Mantra",
+  title: "User Persona Identification | Growth Mantra",
   description:
-    "Unlock sustainable business growth with Growth Mantra's expert consulting services. Tailored strategies for success.",
+    "Identify and understand your target audience with Growth Mantra's user persona identification services.",
 };
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <Offering />
-      <Pulse />
+      <UpiHero />
+      <UpiOffering />
+      <Upi />
       <WhyChooseUs />
       <CaseStudy />
       <Trending />
-
       <Footer />
     </>
   );
