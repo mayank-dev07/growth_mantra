@@ -76,7 +76,7 @@ export default function Contactus() {
               Maximize your reach and conversion potential with cutting-edge
               advertising platforms that deliver results:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -131,16 +131,14 @@ export default function Contactus() {
               Foster meaningful customer relationships and streamline your sales
               processes with advanced CRM systems:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Salesforce, HubSpot CRM, Zoho CRM, Pipedrive, Freshsales,
-                Nimble: Robust customer relationship management platforms for
-                managing your sales pipeline and customer interactions.
+                Salesforce, HubSpot CRM, Zoho CRM, Pipedrive, Freshsales, Nimble
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -148,8 +146,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                LinkedIn Sales Navigator: A powerful tool for B2B lead
-                generation and sales outreach.
+                LinkedIn Sales Navigator
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -157,8 +154,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Keap, SharpSpring: Comprehensive CRM and automation platforms
-                for small to mid-sized businesses.
+                Keap, SharpSpring
               </li>
             </ul>
             <br />
@@ -180,9 +176,9 @@ export default function Contactus() {
           <div className="text-lg">
             <strong>
               Reach your customers with tailored email campaigns that convert,
-              nurture, and retain:
+              nurture, and retain
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -190,8 +186,7 @@ export default function Contactus() {
                   className="w-5 h-5 mr-2"
                 />
                 Mailchimp, ActiveCampaign, Klaviyo, ConvertKit, Constant
-                Contact, Sendinblue, AWeber: Powerful platforms for creating
-                segmented, automated, and data-driven email campaigns.
+                Contact, Sendinblue, AWeber
               </li>
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
@@ -199,8 +194,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                Brevo (formerly Sendinblue): SMS and email automation for
-                effective omnichannel marketing.
+                Brevo (formerly Sendinblue)
               </li>
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
@@ -232,15 +226,14 @@ export default function Contactus() {
               Stay on top of social engagement with intuitive tools that
               simplify management and boost impact:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Hootsuite, Sprout Social, Buffer, CoSchedule, Planoly: Manage,
-                schedule, and analyze social media content across platforms.
+                Hootsuite, Sprout Social, Buffer, CoSchedule, Planoly
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -248,8 +241,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Loomly: A user-friendly tool for managing and collaborating on
-                social content.
+                Loomly
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -257,8 +249,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Onlypult: Instagram-first tool that helps with scheduling,
-                publishing, and analytics on visual content.
+                Onlypult
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -266,8 +257,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Canva: Easy-to-use design platform for creating social graphics
-                that captivate.
+                Canva
               </li>
             </ul>
             <br />
@@ -290,16 +280,14 @@ export default function Contactus() {
               Get found online with expert SEO and content marketing strategies
               that build your brand and drive organic traffic:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                Ahrefs, SEMrush, Moz, Ubersuggest, Screaming Frog: Comprehensive
-                SEO platforms for keyword research, competitor analysis, site
-                audits, and backlink tracking.
+                Ahrefs, SEMrush, Moz, Ubersuggest, Screaming Frog
               </li>
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
@@ -307,8 +295,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                Yoast SEO: Optimizing WordPress sites for search engines with
-                easy-to-use tools.
+                Yoast SEO
               </li>
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
@@ -316,8 +303,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                BuzzSumo: Content research and influencer identification for
-                crafting viral content.
+                BuzzSumo
               </li>
             </ul>
             <br />
@@ -340,16 +326,14 @@ export default function Contactus() {
               Measure your success with actionable insights derived from
               powerful analytics tools:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Google Analytics, Hotjar, Mixpanel, Crazy Egg, Matomo: Track
-                user behavior, heatmaps, and conversion paths to refine your
-                marketing strategies.
+                Google Analytics, Hotjar, Mixpanel, Crazy Egg, Matomo
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -357,9 +341,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Looker Studio (formerly Google Data Studio): Data visualization
-                platform to build custom reports that track KPIs and performance
-                metrics.
+                Looker Studio (formerly Google Data Studio)
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -367,8 +349,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Oribi: AI-powered analytics platform for in-depth website
-                performance monitoring.
+                Oribi
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
@@ -376,8 +357,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Kissmetrics: Advanced behavior analytics for tracking user
-                activity across your website and apps.
+                Kissmetrics
               </li>
             </ul>
             <br />
@@ -399,15 +379,14 @@ export default function Contactus() {
               Drive more conversions and increase your revenue with optimized
               eCommerce and lead generation platforms:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                Shopify, BigCommerce, WooCommerce, Magento, PrestaShop: Leading
-                eCommerce platforms for building and scaling online stores.
+                Shopify, BigCommerce, WooCommerce, Magento, PrestaShop
               </li>
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
@@ -415,8 +394,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                Amazon Product Listings, A+ Content: Specializing in Amazon
-                listing optimization to increase visibility and sales.
+                Amazon Product Listings, A+ Content
               </li>
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
@@ -424,8 +402,7 @@ export default function Contactus() {
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2"
                 />
-                Lead Forensics: B2B lead generation tool that identifies
-                visitors to your site and turns them into leads.
+                Lead Forensics
               </li>
             </ul>
             <br />
@@ -446,15 +423,14 @@ export default function Contactus() {
               Simplify processes and increase efficiency with our mastery of
               integration and automation platforms:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert"
                 />
-                Zapier, Integromat (Make), Tray.io, Workato: Automate workflows
-                and connect various platforms to streamline operations.
+                Zapier, Integromat (Make), Tray.io, Workato
               </li>
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img

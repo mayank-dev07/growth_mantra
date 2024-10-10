@@ -23,7 +23,7 @@ const services = [
     title: "Visual Design and Guidelines",
     description: "Create striking visuals ensuring cross-platform consistency",
     point1: "Brand visuals outdated?",
-    point2: "Desgin inconsistent issue?",
+    point2: "Desgin inconsistency issue?",
     point3: "Guidelines non-existent or ignored?",
   },
   {
@@ -31,7 +31,7 @@ const services = [
     description:
       "Craft memorable expiences building lasting customer relationships",
     point1: "Customer experience inconsistent?",
-    point2: "Brand loyality low?",
+    point2: "Brand loyalty low?",
     point3: "Touchpoints misaligned with brand?",
   },
 ];

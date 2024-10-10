@@ -39,7 +39,7 @@ const GrowthMarketing = () => {
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left ">
-                  Create hypothesis-driven growth experiments
+                  Create hypotheses-driven growth experiments
                 </p>
               </div>
             </div>
@@ -79,7 +79,7 @@ const GrowthMarketing = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  Monitor key metrices and KPIs in real-time
+                  Monitor key metrics and KPIs in real-time
                 </p>
               </div>
             </div>
@@ -93,7 +93,7 @@ const GrowthMarketing = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Conduct A/B testes to validate growth hypothesis`}
+                  {`Conduct A/B tests to validate growth hypotheses`}
                 </p>
               </div>
             </div>

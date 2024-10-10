@@ -39,7 +39,7 @@ const Upi = () => {
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left ">
-                  Drve deep into existing customer data and market research
+                  Drive deep into existing customer data and market research
                 </p>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Upi = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Syntesize quantitative and qualitative data into comprehensive personas`}
+                  {`Synthesize quantitative and qualitative data into comprehensive personas`}
                 </p>
               </div>
             </div>

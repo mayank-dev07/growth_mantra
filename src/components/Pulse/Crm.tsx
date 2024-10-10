@@ -23,20 +23,20 @@ const Crm = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20 ">
-        <div className="absolute inset-52 top-[-60px] left-0 w-full hidden md:block">
-  <Image
-    src="/assets/logo/final_tree.png"
-    alt="tree"
-    width={1000}
-    height={600}
-    className="object-fill lg:object-contain h-[920px] w-fit"
-  />
-</div>
+          <div className="absolute inset-52 top-[-60px] left-0 w-full hidden md:block">
+            <Image
+              src="/assets/logo/final_tree.png"
+              alt="tree"
+              width={1000}
+              height={600}
+              className="object-fill lg:object-contain h-[920px] w-fit"
+            />
+          </div>
 
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">R</span>&nbsp;-&nbsp;Review
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
@@ -52,7 +52,7 @@ const Crm = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">E</span>&nbsp;-&nbsp;Engage
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
@@ -69,7 +69,7 @@ const Crm = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">L</span>
                 &nbsp;-&nbsp;Leverage
               </p>
@@ -87,7 +87,7 @@ const Crm = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">A</span>&nbsp;-&nbsp;Align
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
@@ -104,7 +104,7 @@ const Crm = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[30%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">T</span>
                 &nbsp;-&nbsp;Track&nbsp;
               </p>
@@ -123,7 +123,7 @@ const Crm = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">E</span>
                 &nbsp;-&nbsp;Evolve
               </p>

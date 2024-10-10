@@ -30,7 +30,7 @@ const services = [
     description: "Implement tactics to increase customer lifetime value",
     point1: "Customer churn rate high?",
     point2: "Lifetime value declining?",
-    point3: "Loyality programs ineffective?",
+    point3: "Loyalty programs ineffective?",
   },
 ];
 // const services2 = [
