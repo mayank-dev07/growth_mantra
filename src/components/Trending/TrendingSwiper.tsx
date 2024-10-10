@@ -44,8 +44,8 @@ export default function TrendingSwiper() {
                 height={400}
                 className="object-contain !h-[500px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
+              <div className="p-5 flex flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
+                <div className="w-fit lg:w-1/12 text-[#333333] text-2xl font-bold">
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
@@ -71,8 +71,8 @@ export default function TrendingSwiper() {
                 height={400}
                 className="object-contain !h-[500px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
+              <div className="p-5 flex flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
+                <div className="w-fit lg:w-1/12 text-[#333333] text-2xl font-bold">
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
@@ -98,8 +98,8 @@ export default function TrendingSwiper() {
                 height={400}
                 className="object-contain !h-[500px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
+              <div className="p-5 flex flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
+                <div className="w-fit lg:w-1/12 text-[#333333] text-2xl font-bold">
                   03
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
@@ -128,8 +128,8 @@ export default function TrendingSwiper() {
                 height={400}
                 className="object-contain !h-[500px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
+              <div className="p-5 flex flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
+                <div className="w-fit lg:w-1/12 text-[#333333] text-2xl font-bold">
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
@@ -155,8 +155,8 @@ export default function TrendingSwiper() {
                 height={400}
                 className="object-contain !h-[500px] rounded-lg"
               ></Image>
-              <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
+              <div className="p-5 flex flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
+                <div className="w-fit lg:w-1/12 text-[#333333] text-2xl font-bold">
                   05
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">

@@ -76,36 +76,36 @@ export default function Contactus() {
               advertising platforms that deliver results:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Google Ads, Meta Ads, LinkedIn Ads, Twitter Ads, Microsoft
                 Advertising, Amazon Ads
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Taboola, Outbrain
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 AdRoll
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 SharpSpring, HubSpot, Keap
               </li>
@@ -131,27 +131,27 @@ export default function Contactus() {
               processes with advanced CRM systems:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Salesforce, HubSpot CRM, Zoho CRM, Pipedrive, Freshsales, Nimble
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 LinkedIn Sales Navigator
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Keap, SharpSpring
               </li>
@@ -178,28 +178,28 @@ export default function Contactus() {
               nurture, and retain
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Mailchimp, ActiveCampaign, Klaviyo, ConvertKit, Constant
                 Contact, Sendinblue, AWeber
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Brevo (formerly Sendinblue)
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Litmus: Email testing and optimization to ensure that every
                 email looks perfect across devices and platforms.
@@ -226,35 +226,35 @@ export default function Contactus() {
               simplify management and boost impact:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Hootsuite, Sprout Social, Buffer, CoSchedule, Planoly
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Loomly
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Onlypult
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Canva
               </li>
@@ -280,27 +280,27 @@ export default function Contactus() {
               that build your brand and drive organic traffic:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Ahrefs, SEMrush, Moz, Ubersuggest, Screaming Frog
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Yoast SEO
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 BuzzSumo
               </li>
@@ -326,35 +326,35 @@ export default function Contactus() {
               powerful analytics tools:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Google Analytics, Hotjar, Mixpanel, Crazy Egg, Matomo
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Looker Studio (formerly Google Data Studio)
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Oribi
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Kissmetrics
               </li>
@@ -379,27 +379,27 @@ export default function Contactus() {
               eCommerce and lead generation platforms:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Shopify, BigCommerce, WooCommerce, Magento, PrestaShop
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Amazon Product Listings, A+ Content
               </li>
-              <li className="flex items-center hover:text-[#16213E] transition duration-300">
+              <li className="flex items-start hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 mt-1.5"
                 />
                 Lead Forensics
               </li>
@@ -423,19 +423,19 @@ export default function Contactus() {
               integration and automation platforms:
             </strong>
             <ul className="list-disc mt-2 space-y-2">
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 Zapier, Integromat (Make), Tray.io, Workato
               </li>
-              <li className="flex items-center hover:text-gray-300 transition duration-300">
+              <li className="flex items-start hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2 invert"
+                  className="w-5 h-5 mr-2 invert mt-1.5"
                 />
                 CleverTap, MoEngage: Lifecycle marketing platforms that enable
                 personalized and automated user journeys across channels.
