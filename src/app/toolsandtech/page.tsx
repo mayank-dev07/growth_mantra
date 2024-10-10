@@ -11,10 +11,10 @@ export default function Contactus() {
         <div className="md:pl-10 pl-2 text-3xl my-3 text-black sm:text-5xl lg:text-7xl font-bold flex flex-col gap-4">
           Master the tools that
           <div className="flex items-center gap-2 flex-wrap ">
+            Power Digital
             <div className="border-[#16213E] py-1 px-4  border-4 w-fit rounded-full text-[#16213E] font-bold shadow-2xl">
-              Power
+              Growth
             </div>
-            <div className="text-nowrap">Digital Growth</div>
           </div>
         </div>
 
@@ -98,7 +98,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Salesforce, HubSpot CRM, Zoho CRM, Pipedrive, Freshsales,
                 Nimble: Robust customer relationship management platforms for
@@ -108,7 +108,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 LinkedIn Sales Navigator: A powerful tool for B2B lead
                 generation and sales outreach.
@@ -117,7 +117,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Keap, SharpSpring: Comprehensive CRM and automation platforms
                 for small to mid-sized businesses.
@@ -199,7 +199,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Hootsuite, Sprout Social, Buffer, CoSchedule, Planoly: Manage,
                 schedule, and analyze social media content across platforms.
@@ -208,7 +208,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Loomly: A user-friendly tool for managing and collaborating on
                 social content.
@@ -217,7 +217,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Onlypult: Instagram-first tool that helps with scheduling,
                 publishing, and analytics on visual content.
@@ -226,7 +226,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Canva: Easy-to-use design platform for creating social graphics
                 that captivate.
@@ -307,7 +307,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Google Analytics, Hotjar, Mixpanel, Crazy Egg, Matomo: Track
                 user behavior, heatmaps, and conversion paths to refine your
@@ -317,7 +317,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Looker Studio (formerly Google Data Studio): Data visualization
                 platform to build custom reports that track KPIs and performance
@@ -327,7 +327,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Oribi: AI-powered analytics platform for in-depth website
                 performance monitoring.
@@ -336,7 +336,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Kissmetrics: Advanced behavior analytics for tracking user
                 activity across your website and apps.
@@ -413,7 +413,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 Zapier, Integromat (Make), Tray.io, Workato: Automate workflows
                 and connect various platforms to streamline operations.
@@ -422,7 +422,7 @@ export default function Contactus() {
                 <img
                   src="/SuccessContact.png"
                   alt="SuccessContact"
-                  className="w-5 h-5 mr-2"
+                  className="w-5 h-5 mr-2 invert"
                 />
                 CleverTap, MoEngage: Lifecycle marketing platforms that enable
                 personalized and automated user journeys across channels.
