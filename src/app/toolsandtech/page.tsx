@@ -77,7 +77,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -86,7 +86,7 @@ export default function Contactus() {
                 Advertising, Amazon Ads
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -94,7 +94,7 @@ export default function Contactus() {
                 Taboola, Outbrain
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -102,7 +102,7 @@ export default function Contactus() {
                 AdRoll
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -132,7 +132,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -140,7 +140,7 @@ export default function Contactus() {
                 Salesforce, HubSpot CRM, Zoho CRM, Pipedrive, Freshsales, Nimble
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -148,7 +148,7 @@ export default function Contactus() {
                 LinkedIn Sales Navigator
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -179,7 +179,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -188,7 +188,7 @@ export default function Contactus() {
                 Contact, Sendinblue, AWeber
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -196,7 +196,7 @@ export default function Contactus() {
                 Brevo (formerly Sendinblue)
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -227,7 +227,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -235,7 +235,7 @@ export default function Contactus() {
                 Hootsuite, Sprout Social, Buffer, CoSchedule, Planoly
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -243,7 +243,7 @@ export default function Contactus() {
                 Loomly
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -251,7 +251,7 @@ export default function Contactus() {
                 Onlypult
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -281,7 +281,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -289,7 +289,7 @@ export default function Contactus() {
                 Ahrefs, SEMrush, Moz, Ubersuggest, Screaming Frog
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -297,7 +297,7 @@ export default function Contactus() {
                 Yoast SEO
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -327,7 +327,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -335,7 +335,7 @@ export default function Contactus() {
                 Google Analytics, Hotjar, Mixpanel, Crazy Egg, Matomo
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -343,7 +343,7 @@ export default function Contactus() {
                 Looker Studio (formerly Google Data Studio)
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -351,7 +351,7 @@ export default function Contactus() {
                 Oribi
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -380,7 +380,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -388,7 +388,7 @@ export default function Contactus() {
                 Shopify, BigCommerce, WooCommerce, Magento, PrestaShop
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -396,7 +396,7 @@ export default function Contactus() {
                 Amazon Product Listings, A+ Content
               </li>
               <li className="flex items-start hover:text-[#16213E] transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 mt-1.5"
@@ -424,7 +424,7 @@ export default function Contactus() {
             </strong>
             <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
@@ -432,7 +432,7 @@ export default function Contactus() {
                 Zapier, Integromat (Make), Tray.io, Workato
               </li>
               <li className="flex items-start hover:text-gray-300 transition duration-300">
-                <img
+                <Image
                   src="/SuccessContact.png"
                   alt="SuccessContact"
                   className="w-5 h-5 mr-2 invert mt-1.5"
