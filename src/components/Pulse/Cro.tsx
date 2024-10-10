@@ -23,20 +23,20 @@ const Cro = () => {
           </p>
         </div>
         <div className="relative h-fit pb-20 ">
-        <div className="absolute inset-52 top-[-90px] left-0 w-full hidden md:block">
-  <Image
-    src="/assets/logo/final_tree.png"
-    alt="tree"
-    width={1000}
-    height={600}
-    className="object-fill lg:object-contain h-[1100px] w-fit"
-  />
-</div>
+          <div className="absolute inset-52 top-[-90px] left-0 w-full hidden md:block">
+            <Image
+              src="/assets/logo/final_tree.png"
+              alt="tree"
+              width={1000}
+              height={600}
+              className="object-fill lg:object-contain h-[1100px] w-fit"
+            />
+          </div>
 
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">C</span>&nbsp;-&nbsp;Collect
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
@@ -53,7 +53,7 @@ const Cro = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">O</span>&nbsp;-&nbsp;Observe
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
@@ -71,7 +71,7 @@ const Cro = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">N</span>
                 &nbsp;-&nbsp;Navigate
               </p>
@@ -90,7 +90,7 @@ const Cro = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">V</span>&nbsp;-&nbsp;Validate
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
@@ -107,7 +107,7 @@ const Cro = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[15%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">E</span>
                 &nbsp;-&nbsp;Evaluate&nbsp;
               </p>
@@ -127,7 +127,7 @@ const Cro = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">R</span>
                 &nbsp;-&nbsp;Refine
               </p>
@@ -144,7 +144,7 @@ const Cro = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[30%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">T</span>
                 &nbsp;-&nbsp;Track
               </p>

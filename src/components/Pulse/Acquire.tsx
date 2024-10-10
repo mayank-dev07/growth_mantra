@@ -34,7 +34,7 @@ const Acquire = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">A</span>&nbsp;-&nbsp;Analyze
               </p>
               <div className="text-lg lg:text-xl flex flex-col w-full shadow-2xl rounded-2xl px-6 py-4 gap-3 bg-white">
@@ -51,7 +51,7 @@ const Acquire = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">C</span>&nbsp;-&nbsp;Create
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
@@ -69,7 +69,7 @@ const Acquire = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[5%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">Q</span>
                 &nbsp;-&nbsp;Quantity
               </p>
@@ -88,7 +88,7 @@ const Acquire = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[10%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">U</span>&nbsp;-&nbsp;Unify
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 gap-3 bg-white">
@@ -106,7 +106,7 @@ const Acquire = () => {
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[20%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">I</span>
                 &nbsp;-&nbsp;Implement&nbsp;
               </p>
@@ -123,7 +123,7 @@ const Acquire = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[34%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">R</span>
                 &nbsp;-&nbsp;Review
               </p>
@@ -140,7 +140,7 @@ const Acquire = () => {
           </div>
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end lg:right-[42%] mt-10">
             <div className="h-auto w-10/12 lg:w-[45%] tracking-wide">
-              <p className="text-3xl lg:text-4xl font-bold">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 <span className="text-[#E74C3C]">E</span>
                 &nbsp;-&nbsp;Evolve
               </p>

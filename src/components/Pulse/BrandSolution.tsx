@@ -21,15 +21,15 @@ const BrandSolution = () => {
         </div>
 
         <div className="relative h-fit pb-20">
-        <div className="absolute inset-52 top-[-90px] left-0 w-full hidden md:block">
-  <Image
-    src="/assets/logo/final_tree.png"
-    alt="tree"
-    width={900}
-    height={500}
-    className="object-fill lg:object-contain h-[850px] lg:h-[1250px] w-fit mt-6"
-  />
-</div>
+          <div className="absolute inset-52 top-[-90px] left-0 w-full hidden md:block">
+            <Image
+              src="/assets/logo/final_tree.png"
+              alt="tree"
+              width={900}
+              height={500}
+              className="object-fill lg:object-contain h-[850px] lg:h-[1250px] w-fit mt-6"
+            />
+          </div>
 
 
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[12%] mt-12">
@@ -47,7 +47,7 @@ const BrandSolution = () => {
           <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[8%] mt-5 lg:mt-[68px]">
             <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
               <p className="text-xl md:text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">S</span>&nbsp;-&nbsp;Syntesize
+                <span className="text-[#576D2C]">S</span>&nbsp;-&nbsp;Synthesize
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-6 md:py-4 bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
@@ -92,7 +92,21 @@ const BrandSolution = () => {
               </p>
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Cultivate brand loyality through consistent expreriences`}
+                  {`Cultivate brand loyalty through consistent expreriences`}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[35%] mt-5 lg:mt-[68px]">
+            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
+              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
+                <span className="text-[#576D2C]">C</span>
+                &nbsp;-&nbsp;Communicate&nbsp;
+              </p>
+              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
+                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
+                  {`Implement strategic brand communication plans`}
                 </p>
               </div>
             </div>
@@ -106,19 +120,6 @@ const BrandSolution = () => {
               <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
                 <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
                   {`Continuously assess and refine brand perfomance`}
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="relative z-20 flex flex-col w-full justify-center items-center lg:items-end right-0 lg:right-[35%] mt-5 lg:mt-[68px]">
-            <div className="h-auto w-11/12 lg:w-[50%] tracking-wide">
-              <p className="text-xl md:text-3xl lg:text-4xl font-bold">
-                <span className="text-[#576D2C]">C</span>
-                &nbsp;-&nbsp;Communicate&nbsp;
-              </p>
-              <div className="text-lg flex flex-col w-full shadow-2xl rounded-2xl py-4 px-2 md:px-4  bg-white">
-                <p className="leading-normal text-[#576D2C] font-bold text-sm md:text-lg text-left">
-                  {`Implement strategic brand communication plans`}
                 </p>
               </div>
             </div>
