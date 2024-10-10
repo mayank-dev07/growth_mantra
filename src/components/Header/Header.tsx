@@ -230,7 +230,7 @@ const Header = () => {
               {servicesOpen && (
                 <div className="pl-4 flex flex-col gap-1">
                   <Link
-                    href="/"
+                    href="/services"
                     className="text-[#6F6F6F] hover:text-[#16213E]"
                   >
                     Home

@@ -2,6 +2,44 @@ import Footer from "@/components/Footer/Footer2";
 import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header/Header3";
 import Link from "next/link";
+import Trending from "@/components/Trending/TrendingCaseStudy";
+import Image from "next/image";
+
+const services = [
+  {
+    title: "$300M+",
+    description: "Additional revenue generated for our clients.",
+  },
+  {
+    title: "500M+",
+    description: "New app downloads through our acquisition strategies.",
+  },
+  {
+    title: "300%",
+    description: "Average ROI across all projects",
+  },
+  {
+    title: "5M+",
+    description: "New leads generated through our acquisition strategies.",
+  },
+  {
+    title: "3M+",
+    description: "transactions generated through our retention strategies.",
+  },
+  {
+    title: "65%",
+    description: "Additional revenue generated for our clients.",
+  },
+  {
+    title: "40%",
+    description: "Additional revenue generated for our clients.",
+  },
+  {
+    title: "85%",
+    description: "Additional revenue generated for our clients.",
+  },
+];
+
 
 export default function Contactus() {
   return (
@@ -460,13 +498,142 @@ export default function Contactus() {
         </Link>
       </div>
 
-      <section className="my-16 text-xl md:text-5xl md:px-16 text-center m-auto line w-[93%]">
-        <p className="md:leading-[70px]">
-          <span className="text-[#16213E] ">At The Growth Mantra,</span>
-          <span>{`we don't just predict the future of business growth`}</span>
-          <span className="text-[#16213E]">{`– we help you create it`}</span>
-        </p>
-      </section>
+      <div className="h-full w-full flex flex-col md:flex-row pt-12 ">
+        <div className="w-full px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center ">
+          <div className="w-full flex flex-col gap-4 p-1 px-2 lg:px-0 justify-center  items-center">
+            <div className="text-3xl md:text-5xl font-semibold flex flex-col gap-4 text-center tracking-widest">
+              Our Impact in Numbers
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full p-5 md:p-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-2 lg:gap-y-8 sm:px-6 lg:px-0">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-white  p-4 sm:p-6  flex flex-col h-full shadow-lg" // Make sure to set height to full
+            >
+              <div className="flex-grow">
+                <h3 className="text-xl md:text-4xl text-[#16213E] font-bold text-center py-3">
+                  {service.title}
+                </h3>
+                <p className="text-base md:pt-2 text-[#8A8A8A] text-center">
+                  {service.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="w-full h-full bg-[#16213E]">
+        <section className="flex px-3 md:px-10 py-6 justify-center items-center flex-col md:flex-row">
+          <div className="md:w-full text-[1.3rem] my-1 md:text-5xl font-bold  text-white flex flex-col justify-center items-center text-center">
+            Ready to Be Our Next Success Story?
+            <p className="text-lg md:text-xl py-3 font-normal tracking-wide">
+              {`Let's unlock your business's full potential together`}
+            </p>
+          </div>
+        </section>
+        <button className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#16213E] bg-white hover:text-white hover:bg-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
+          Schedule a call
+          <div className="p-2 bg-[#16213E] rounded-full text-white group-hover:text-[#16213E] group-hover:bg-white transition-all duration-300 ease-in-out">
+            <ArrowRight />
+          </div>
+        </button>
+      </div>
+      <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-16  ">
+        <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
+          <div className="w-full flex justify-center lg:justify-start items-center px-4 lg:pe-12">
+            <Image src="/case.png" alt="casestudy" width={350} height={350} />
+          </div>
+          <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#16213E] pt-5 px-6 ">
+            <p
+              className="tracking-widest text-xl lg:text-2xl xl:text-3xl"
+              style={{ lineHeight: "3rem" }}
+            >
+              Effective Growth Strategies can increase revenue by up to
+              <span className="text-2xl lg:text-4xl xl:text-5xl font-bold">
+                &nbsp;33%&nbsp;
+              </span>
+              in the first{" "}
+              <span className="text-2xl lg:text-4xl xl:text-5xl font-bold">
+                &nbsp;SIX&nbsp;
+              </span>{" "}
+              months.
+            </p>
+            <div className="py-4 w-full flex justify-center items-center">
+              <Link href="/contactus">
+                <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  Schedule&nbsp;a&nbsp;Call
+                  <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full h-full px-4 lg:px-28 py-16">
+        <div className="flex flex-col lg:flex-row w-full h-full">
+          <div className="w-full lg:w-1/2 bg-[#16213E] text-white rounded-[15px] shadow-2xl ">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 ">
+              <div className="text-lg md:text-2xl lg:text-3xl font-bold text-center md:text-start">
+                Diagnose&nbsp;Your
+                <br />
+                Growth&nbsp;Blockers
+              </div>
+              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
+                Uncover the hidden obstacles holding your startup back. Our
+                expert consultants will analyze your business, identify critical
+                bottlenecks, and provide a custom action plan to skyrocket your
+                growth. Limited offer: Claim your complimentary strategy session
+                (Valued at $400) now
+              </div>
+            </div>
+
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+              <Link href="/contactus" passHref>
+                <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
+                  <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 rounded-[15px] shadow-2xl ">
+            <div className="px-4 md:px-10 pt-5 md:pt-12 ">
+              <div className="text-lg md:text-2xl lg:text-3xl text-[#16213E]  font-bold text-center md:text-start">
+                Partner&nbsp;with&nbsp;Proven
+                <br />
+                Growth&nbsp;Catalysts
+              </div>
+              <div className="py-6 text-base md:text-lg lg:text-xl  flex justify-center items-start">
+                Looking for more than just advice? Our team of seasoned
+                consultants doesn&apos;t just strategize - we execute. From
+                refining your go-to-market strategy to optimizing your product
+                for scalability, we&apos;re here to drive tangible results and
+                exponential growth for your startup.
+              </div>
+            </div>
+
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+              <Link href="/contactus" passHref>
+                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#16213E] text-white bg-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Amplify&nbsp;Your&nbsp;Growth</p>
+                  <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#16213E]">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Trending />
 
       <Footer />
     </>
