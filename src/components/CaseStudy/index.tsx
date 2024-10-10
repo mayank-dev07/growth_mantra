@@ -13,13 +13,13 @@ const CaseStudy = () => {
   return (
     <>
       <div className="w-full h-full bg-[#16213E] px-2 md:px-16 py-16  ">
-        <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center py-6">
+        <div className="w-full h-full bg-white flex flex-col lg:flex-row justify-between items-center">
           <div className="w-full flex justify-center lg:justify-start items-center px-4 lg:pe-12">
             <Image
               src="/casestudy.png"
               alt="casestudy"
-              width={350}
-              height={350}
+              width={250}
+              height={250}
             />
           </div>
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#E74C3C] pt-5 px-6 ">
