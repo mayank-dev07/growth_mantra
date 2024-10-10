@@ -23,7 +23,7 @@ const RetentionHero = () => {
 
   return (
     <>
-      <div className="h-full w-full flex flex-col md:flex-row pt-28">
+      <div className="h-full w-full flex flex-col md:flex-row pt-32">
         <div
           className={`w-full md:w-7/12 h-full flex flex-col ${
             scrollPosition > 50 ? "pt-24" : "lg:justify-start"
