@@ -49,10 +49,10 @@ export default function TrendingSwiper() {
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
+                  <div className="text-[#E74C3C] text-xl lg:text-lg font-bold">
                     Acquisition Mastery
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Boost acquisition, leads, and traffic with precise paid ads,
                     social, and affiliate strategies.
                   </div>
@@ -76,10 +76,10 @@ export default function TrendingSwiper() {
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
+                  <div className="text-[#E74C3C] text-xl lg:text-lg font-bold">
                     Retention Revolution
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Turn users into loyal advocates with retention analysis and
                     personalized campaigns
                   </div>
@@ -103,10 +103,10 @@ export default function TrendingSwiper() {
                   03
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
+                  <div className="text-[#E74C3C] text-xl lg:text-lg font-bold">
                     Funnel Optimization
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Create funnels that guide prospects smoothly from awareness
                     to purchase.
                   </div>
@@ -117,7 +117,10 @@ export default function TrendingSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <Link href="/conversionrateoptimization" className="h-fit flex flex-col ">
+            <Link
+              href="/conversionrateoptimization"
+              className="h-fit flex flex-col "
+            >
               <Image
                 src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
@@ -130,10 +133,10 @@ export default function TrendingSwiper() {
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
+                  <div className="text-[#E74C3C] text-xl lg:text-lg font-bold">
                     Conversion Rate Optimization
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Use customer data to personalize journeys, nurturing
                     relationships for lasting value.
                   </div>
@@ -157,10 +160,10 @@ export default function TrendingSwiper() {
                   05
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
+                  <div className="text-[#E74C3C] text-xl lg:text-lg font-bold">
                     Email Marketing Engine
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Create drip sequences to educate, nurture, and convert
                     audiences at scale.
                   </div>

@@ -49,10 +49,10 @@ export default function TrendingSwiper() {
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#576D2C] text-base lg:text-lg font-bold">
+                  <div className="text-[#576D2C] text-xl lg:text-lg font-bold">
                     Strategy & Planning
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Turn vision into action with strategic startup roadmaps.
                   </div>
                 </div>
@@ -78,10 +78,10 @@ export default function TrendingSwiper() {
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#576D2C] text-base lg:text-lg font-bold">
+                  <div className="text-[#576D2C] text-xl lg:text-lg font-bold">
                     User Persona Identification
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Create personas using analytics for deeper customer insight.
                   </div>
                 </div>
@@ -104,10 +104,10 @@ export default function TrendingSwiper() {
                   03
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#576D2C] text-base lg:text-lg font-bold">
+                  <div className="text-[#576D2C] text-xl lg:text-lg font-bold">
                     Brand Solutions
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Craft a standout brand identity, story, and messaging.
                   </div>
                 </div>
@@ -130,10 +130,10 @@ export default function TrendingSwiper() {
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#576D2C] text-base lg:text-lg font-bold">
+                  <div className="text-[#576D2C] text-xl lg:text-lg font-bold">
                     Growth Marketing
                   </div>
-                  <div className="text-sm lg:text-base">
+                  <div className="text-base">
                     Drive growth using data-driven, cross-channel marketing
                     tactics.
                   </div>
