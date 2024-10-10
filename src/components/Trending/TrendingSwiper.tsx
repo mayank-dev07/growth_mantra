@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 import { Autoplay, FreeMode } from "swiper/modules";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TrendingSwiper() {
   return (
@@ -27,7 +28,7 @@ export default function TrendingSwiper() {
         spaceBetween={10}
         freeMode={true}
         autoplay={{
-          delay: 2500,
+          delay: 2400,
           disableOnInteraction: false,
         }}
         modules={[FreeMode, Autoplay]}
@@ -35,138 +36,137 @@ export default function TrendingSwiper() {
       >
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/acquisition" className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Acquisition_Mastery.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
+                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
                   01
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
                     Acquisition Mastery
                   </div>
-                  <div className="text-base lg:text-lg">
-                    Supercharge your new customer acquisition, lead generation,
-                    and traffic with precision-targeted paid ads, social
-                    strategies, and affiliate marketing.
+                  <div className="text-sm lg:text-base">
+                    Boost acquisition, leads, and traffic with precise paid ads,
+                    social, and affiliate strategies.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/retention" className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Retention_Revolution.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
+                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
                   02
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
                     Retention Revolution
                   </div>
-                  <div className="text-base lg:text-lg">
-                    Transform one-time users into loyal advocates with advanced
-                    retention analysis and personalized re-engagement campaigns.
+                  <div className="text-sm lg:text-base">
+                    Turn users into loyal advocates with retention analysis and
+                    personalized campaigns
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/funnel" className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Funnel_Optimization.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
+                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
                   03
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
                     Funnel Optimization
                   </div>
-                  <div className="text-base lg:text-lg">
-                    Craft high-converting funnels that guide prospects
-                    seamlessly from awareness to purchase and beyond.
+                  <div className="text-sm lg:text-base">
+                    Create funnels that guide prospects smoothly from awareness
+                    to purchase.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/conversionrateoptimization" className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Conversion_Rate_Optimization_(CRO).png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
+                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
                   04
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
-                    Conversion Rate Optimization (CRO)
+                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
+                    Conversion Rate Optimization
                   </div>
-                  <div className="text-base lg:text-lg">
-                    Leverage customer data to create personalized journeys that
-                    nurture relationships and drive long-term value.
+                  <div className="text-sm lg:text-base">
+                    Use customer data to personalize journeys, nurturing
+                    relationships for lasting value.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="p-0 lg:p-4 w-full h-full">
-            <div className="h-fit flex flex-col ">
+            <Link href="/emailmarketingengine" className="h-fit flex flex-col ">
               <Image
-                src="/verticalswiper.png"
+                src="/assets/trending_services/Email_Marketing_Engine.png"
                 alt="image"
-                width={900}
-                height={800}
-                className="object-left !h-[280px] lg:!h-[400px] rounded-lg"
+                width={400}
+                height={400}
+                className="object-contain !h-[500px] rounded-lg"
               ></Image>
               <div className="p-5 flex flex-col lg:flex-row justify-between gap-4 w-full  tracking-tight lg:tracking-wide">
-                <div className="w-full lg:w-1/12 text-[#333333] text-3xl font-bold">
+                <div className="w-full lg:w-1/12 text-[#333333] text-2xl font-bold">
                   05
                 </div>
                 <div className="w-full lg:w-11/12 flex flex-col gap-2 ps-4">
-                  <div className="text-[#E74C3C] text-base lg:text-xl font-bold">
+                  <div className="text-[#E74C3C] text-base lg:text-lg font-bold">
                     Email Marketing Engine
                   </div>
-                  <div className="text-base lg:text-lg">
-                    Design engaging drip sequences that educate, nurture, and
-                    convert your audience at scale.
+                  <div className="text-sm lg:text-base">
+                    Create drip sequences to educate, nurture, and convert
+                    audiences at scale.
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
       </Swiper>
