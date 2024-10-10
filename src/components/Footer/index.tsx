@@ -68,7 +68,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-full flex justify-center items-center mt-2">
-          Made with ❤️ in India!!
+          Made with ❤️ in India
         </div>
       </div>
     </footer>
