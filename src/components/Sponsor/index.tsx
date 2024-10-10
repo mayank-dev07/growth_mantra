@@ -4,19 +4,19 @@ import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
 
 const cards = [
-  { imageSrc: "/sponser1.png" },
-  { imageSrc: "/sponser2.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser3.png" },
-  { imageSrc: "/sponser4.png" },
-  { imageSrc: "/sponser5.png" },
-  { imageSrc: "/sponser6.png" },
-  { imageSrc: "/sponser6.png" },
+  { imageSrc: "/assets/Client_Logo/Bank_of_Baroda.png" },
+  { imageSrc: "/assets/Client_Logo/DailyHunt.png" },
+  { imageSrc: "/assets/Client_Logo/EDreams_logo.png" },
+  { imageSrc: "/assets/Client_Logo/GameBerry.png" },
+  { imageSrc: "/assets/Client_Logo/Gyan_dairy.png" },
+  { imageSrc: "/assets/Client_Logo/ICICI.png" },
+  { imageSrc: "/assets/Client_Logo/Jio.png" },
+  { imageSrc: "/assets/Client_Logo/Lybrate.png" },
+  { imageSrc: "/assets/Client_Logo/MayaData.png" },
+  { imageSrc: "/assets/Client_Logo/Paytm.png" },
+  { imageSrc: "/assets/Client_Logo/Pc_Jewellers.png" },
+  { imageSrc: "/assets/Client_Logo/SBI.png" },
+  { imageSrc: "/assets/Client_Logo/Vardhman-Pharma_logo.png" },
 ];
 
 export default function Sponsor() {
