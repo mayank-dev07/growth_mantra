@@ -38,7 +38,7 @@ export default function Contactus() {
               Maximize your reach and conversion potential with cutting-edge
               advertising platforms that deliver results:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -93,7 +93,7 @@ export default function Contactus() {
               Foster meaningful customer relationships and streamline your sales
               processes with advanced CRM systems:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -140,7 +140,7 @@ export default function Contactus() {
               Reach your customers with tailored email campaigns that convert,
               nurture, and retain
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -188,7 +188,7 @@ export default function Contactus() {
               Stay on top of social engagement with intuitive tools that
               simplify management and boost impact:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -242,7 +242,7 @@ export default function Contactus() {
               Get found online with expert SEO and content marketing strategies
               that build your brand and drive organic traffic:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -288,7 +288,7 @@ export default function Contactus() {
               Measure your success with actionable insights derived from
               powerful analytics tools:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -341,7 +341,7 @@ export default function Contactus() {
               Drive more conversions and increase your revenue with optimized
               eCommerce and lead generation platforms:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-[#16213E] transition duration-300">
                 <img
                   src="/SuccessContact.png"
@@ -385,7 +385,7 @@ export default function Contactus() {
               Simplify processes and increase efficiency with our mastery of
               integration and automation platforms:
             </strong>
-            <ul className="list-disc pl-5 mt-2 space-y-2">
+            <ul className="list-disc mt-2 space-y-2">
               <li className="flex items-center hover:text-gray-300 transition duration-300">
                 <img
                   src="/SuccessContact.png"
