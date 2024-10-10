@@ -56,16 +56,45 @@ export default function Contactus() {
         </div>
         <div className="md:w-2/5 space-y-2">
           <div className=" md:text-lg text-gray-700">
-            Founded in 2018 by a team of seasoned entrepreneurs and growth
-            marketers, The Growth Mantra was born out of a simple yet powerful
-            idea: growth should be strategic, data-driven, and tailored to each
-            unique business.
+            Founded in 2024 by an experienced entrepreneur and growth expert,
+            <span className="font-bold">
+              &nbsp;&nbsp;The Growth Mantra was&nbsp;
+            </span>
+            built on one belief: growth should be strategic, data-driven, and
+            personalized to fit your business.
             <br />
             <br />
-            {` We've experienced firsthand the challenges of scaling startups and
-            the pitfalls of unfocused growth strategies. This deep understanding
-            drives our passion for helping businesses like yours achieve
-            sustainable, meaningful growth.`}
+            {`We've walked the challenging path of scaling startups, and now we
+            use that experience to help businesses like yours grow smarter, not
+            harder.`}
+            <br />
+            <br />
+            At
+            <span className="font-bold">&nbsp;The Growth Mantra,&nbsp;</span>
+            we focus on
+            <span className="font-bold">&nbsp;growth with purpose.&nbsp;</span>
+            Using precise,
+            <span className="font-bold">
+              &nbsp;data-backed strategies&nbsp;
+            </span>
+            like
+            <span className="font-bold">&nbsp;hyper-targeted ads&nbsp;</span>
+            and
+            <span className="font-bold">&nbsp;in-depth analysis,&nbsp;</span>
+            we zero in on what really drives your success. Every decision is
+            intentional and geared for long-term impact.
+            <br />
+            <br />
+            {` We don’t just execute strategies—we collaborate with you, ensuring a
+            seamless partnership. Our team’s passion, combined with a focus on
+            measurable results, sets us apart.`}
+            <br />
+            <br />
+            {`From local startups to international brands, we’ve seen how a
+            tailored growth strategy can transform businesses. Let’s`}
+            <span className="font-bold">
+              &nbsp;revolutionize the way you grow.&nbsp;
+            </span>
           </div>
         </div>
       </section>
