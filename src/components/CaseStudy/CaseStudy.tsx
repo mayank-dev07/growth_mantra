@@ -37,7 +37,7 @@ const CaseStudy = () => {
               months.
             </p>
             <div className="py-4 w-full flex justify-center items-center">
-              <Link href="/contactus">
+              <Link href="/ContactUs">
                 <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
@@ -64,7 +64,7 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <Link href="/contactus" passHref>
+              <Link href="/ContactUs" passHref>
                 <div className="group rounded-full w-fit px-2 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#576D2C] bg-white text-[#576D2C] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Diagnose&nbsp;Your&nbsp;Growth&nbsp;Challenges</p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#576D2C] group-hover:text-[#576D2C]">
@@ -91,7 +91,7 @@ const CaseStudy = () => {
             </div>
 
             <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <Link href="/contactus" passHref>
+              <Link href="/ContactUs" passHref>
                 <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm hover:bg-white hover:text-[#576D2C] text-white bg-[#576D2C] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Partner&nbsp;with&nbsp;Growth&nbsp;Catalysts</p>
                   <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#576D2C]">

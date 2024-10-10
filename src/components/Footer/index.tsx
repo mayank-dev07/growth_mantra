@@ -13,13 +13,13 @@ const Footer = () => {
             <Link href="/" className="text-[#E74C3C]">
               Consulting
             </Link>
-            <Link href="/services" className="text-[#E74C3C]">
+            <Link href="/Services" className="text-[#E74C3C]">
               Services
             </Link>
-            <Link href="/aboutus" className="text-[#E74C3C]">
+            <Link href="/Aboutus" className="text-[#E74C3C]">
               About us
             </Link>
-            <Link href="/contactus" className="text-[#E74C3C]">
+            <Link href="/ContactUs" className="text-[#E74C3C]">
               Contact Us
             </Link>
           </div>

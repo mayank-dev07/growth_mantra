@@ -81,7 +81,7 @@ const WhyChooseUs = () => {
             </div>
           </section>
           <Link
-            href="/contactus"
+            href="/ContactUs"
             className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-[#E74C3C] bg-white hover:text-white hover:bg-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
           >
             Schedule a call
