@@ -8,19 +8,26 @@ import Crm from "@/components/Pulse/Crm";
 
 import Trending from "@/components/Trending";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs2";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CRM Growth Solutions | Growth Mantra",
+  description:
+    "Enhance customer relationships and drive sales with our CRM growth engine strategies.",
+};
 
 export default function Home() {
-    return (
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            <CrmHero/>
-            <CrmOffering/>
-            <Crm/>
-            <WhyChooseUs />
-            <CaseStudy />
-            <Trending />
-            <Footer />
-        </>
-    );
+      <CrmHero />
+      <CrmOffering />
+      <Crm />
+      <WhyChooseUs />
+      <CaseStudy />
+      <Trending />
+      <Footer />
+    </>
+  );
 }

@@ -7,19 +7,26 @@ import Seo from "@/components/Pulse/Seo";
 
 import Trending from "@/components/Trending";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs2";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SEO Services for Growth | Growth Mantra",
+  description:
+    "Dominate search engine rankings with our tailored SEO strategies designed for long-term results.",
+};
 
 export default function Home() {
-    return (
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            <SeoHero />
-            <SeoOffering />
-            <Seo />
-            <WhyChooseUs />
-            <CaseStudy />
-            <Trending />
-            <Footer />
-        </>
-    );
+      <SeoHero />
+      <SeoOffering />
+      <Seo />
+      <WhyChooseUs />
+      <CaseStudy />
+      <Trending />
+      <Footer />
+    </>
+  );
 }

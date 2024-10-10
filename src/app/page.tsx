@@ -6,6 +6,13 @@ import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import Trending from "@/components/Trending/Trending";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Business Consulting Services | Growth Mantra",
+  description:
+    "Unlock sustainable business growth with Growth Mantra's expert consulting services. Tailored strategies for success.",
+};
 
 export default function Home() {
   return (

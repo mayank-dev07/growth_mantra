@@ -6,14 +6,21 @@ import Trending from "@/components/Trending/Trending";
 import GrowthMarketing from "@/components/Pulse/GrowthMarketing";
 import GrowthMarketingHero from "@/components/Hero/GrowthMarketing";
 import GrowthMarketingOffering from "@/components/Offering/GrowthMarketingOffering";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Growth Marketing Services | Growth Mantra",
+  description:
+    "Accelerate business growth with our data-driven growth marketing strategies that deliver results",
+};
 
 export default function Home() {
   return (
     <>
       <Header />
-     <GrowthMarketingHero/>
-      <GrowthMarketingOffering/>
-      <GrowthMarketing/>
+      <GrowthMarketingHero />
+      <GrowthMarketingOffering />
+      <GrowthMarketing />
       <WhyChooseUs />
       <CaseStudy />
       <Trending />

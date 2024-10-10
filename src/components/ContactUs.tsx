@@ -1,10 +1,11 @@
 "use client";
-import Footer from "@/components/Footer/Footer2";
-import ContactForm from "@/components/Form/Contact2";
+
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import Header from "@/components/Header/Header3";
 import { useRef } from "react";
+import Header from "./Header/Header3";
+import ContactForm from "./Form/Contact2";
+import Footer from "./Footer/Footer2";
 
 const content1: { [key: string]: string } = {
   "Acquisition Mastery":
@@ -22,7 +23,7 @@ const content1: { [key: string]: string } = {
     "Climb the search rankings and establish thought leadership",
 };
 
-export default function Contactus() {
+export default function ContactUs() {
   const contactFormRef = useRef<HTMLDivElement>(null);
   const scrollToContactForm = () => {
     contactFormRef.current?.scrollIntoView({ behavior: "smooth" });

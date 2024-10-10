@@ -2,6 +2,14 @@ import Footer from "@/components/Footer/Footer2";
 import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header/Header3";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Growth Mantra | Business Consulting and Growth Strategy",
+  description:
+    "Learn more about Growth Mantra, a leading consulting and growth strategy firm for businesses.",
+};
+
 const content1: { [key: string]: string } = {
   "The Growth Mantra Frameworks":
     "Our approaches using different proprietary frameworks for solving complex growth challenges, ensuring a comprehensive and adaptable strategy for your business.",

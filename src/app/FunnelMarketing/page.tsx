@@ -7,14 +7,21 @@ import FunnelOffering from "@/components/Offering/FunnelOffering";
 
 import Trending from "@/components/Trending";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs2";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sales Funnel Optimization | Growth Mantra",
+  description:
+    "Optimize your sales funnel to convert more leads into loyal customers with our expert strategies",
+};
 
 export default function Home() {
   return (
     <>
       <Header />
-      <FunnelHero/>
-      <FunnelOffering/>
-      <Funnel/>
+      <FunnelHero />
+      <FunnelOffering />
+      <Funnel />
       <WhyChooseUs />
       <CaseStudy />
       <Trending />

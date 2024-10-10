@@ -7,6 +7,13 @@ import Trending from "@/components/Trending/Trending";
 import StrategyHero from "@/components/Hero/Strategy";
 import StrategyOffering from "@/components/Offering/StrategyOffering";
 import Strategy from "@/components/Pulse/Strategy";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Strategic Planning Solution | Growth Mantra",
+  description:
+    "Drive strategic excellence with our planning services. Align your business goals with proven strategies.",
+};
 
 export default function Home() {
   return (
