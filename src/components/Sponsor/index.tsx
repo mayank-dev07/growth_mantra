@@ -14,7 +14,7 @@ const cards = [
   { imageSrc: "/assets/Client_Logo/Lybrate.png" },
   { imageSrc: "/assets/Client_Logo/MayaData.png" },
   { imageSrc: "/assets/Client_Logo/Paytm.png" },
-  { imageSrc: "/assets/Client_Logo/Pc_Jewellers.png" },
+  { imageSrc: "/assets/Client_Logo/PC_Jewellers.png" },
   { imageSrc: "/assets/Client_Logo/SBI.png" },
   { imageSrc: "/assets/Client_Logo/Vardhman-Pharma_logo.png" },
 ];
