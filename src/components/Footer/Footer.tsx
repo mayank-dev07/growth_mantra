@@ -7,7 +7,7 @@ import { SiGmail } from "react-icons/si";
 const Footer = () => {
   return (
     <footer className="bg-white rounded-lg py-8">
-      <div className="w-full max-w-screen-xl px-5 p-4 md:py-8">
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex flex-wrap justify-center items-center mb-6 text-sm md:text-base lg:text-lg  text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 md:gap-10 lg:gap-16">
             <Link href="/" className="text-[#576D2C]">
