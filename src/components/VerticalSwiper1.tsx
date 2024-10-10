@@ -26,7 +26,7 @@ export default function VerticalSwiper() {
           <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
-                src="/assets/Brand Solution/slide1.png"
+                src="/assets/Consulting Home/slide1.png"
                 alt="image"
                 width={900}
                 height={800}
@@ -39,7 +39,7 @@ export default function VerticalSwiper() {
           <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
-                src="/assets/Brand Solution/slide2.png"
+                src="/assets/Consulting Home/slide2.png"
                 alt="image"
                 width={900}
                 height={800}
@@ -52,7 +52,7 @@ export default function VerticalSwiper() {
           <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
-                src="/assets/Brand Solution/slide3.png"
+                src="/assets/Consulting Home/slide3.png"
                 alt="image"
                 width={900}
                 height={800}
@@ -65,7 +65,7 @@ export default function VerticalSwiper() {
           <Link href="/contactus" passHref>
             <div className="pe-12 lg:ps-28 w-full h-fit flex justify-center items-center cursor-pointer">
               <Image
-                src="/assets/Brand Solution/slide4.png"
+                src="/assets/Consulting Home/slide4.png"
                 alt="image"
                 width={900}
                 height={800}
