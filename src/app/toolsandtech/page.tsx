@@ -463,7 +463,7 @@ export default function Contactus() {
           </div>
         </section>
         <Link
-          href="/contactus"
+          href="/ContactUs"
           className="m-auto mb-10 group rounded-full w-fit px-2 pl-4 py-[0.4rem] flex text-sm md:text-base text-white bg-[#16213E] hover:bg-white hover:text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out"
         >
           Schedule a Call
@@ -538,7 +538,7 @@ export default function Contactus() {
               months.
             </p>
             <div className="py-4 w-full flex justify-center items-center">
-              <Link href="/contactus">
+              <Link href="/ContactUs">
                 <div className="group rounded-full w-fit px-5 py-2 flex text-sm md:text-base lg:text-lg xl:text-xl hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   Schedule&nbsp;a&nbsp;Call
                   <div className="p-2 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
@@ -567,11 +567,10 @@ export default function Contactus() {
               </div>
             </div>
 
-            <div className="px-2 md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <Link href="/contactus" passHref>
-                <div className="group rounded-full w-fit px-1.5 lg:px-4 py-1.5 flex text-sm hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
-                  <p>Diagnose&nbsp;Your&nbsp;Growth</p>
-
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+              <Link href="/ContactUs" passHref>
+                <div className="group rounded-full w-fit px-2.5 lg:px-4 py-1.5 flex text-sm md:text-base hover:text-white hover:bg-[#16213E] bg-white text-[#16213E] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+                  <p>Reveal&nbsp;Your&nbsp;Growth&nbsp;Potential</p>
                   <div className="p-2 lg:p-3 group-hover:bg-white rounded-full text-white bg-[#16213E] group-hover:text-[#16213E]">
                     <ArrowRight />
                   </div>
@@ -596,9 +595,9 @@ export default function Contactus() {
               </div>
             </div>
 
-            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center mt-auto">
-              <Link href="/contactus" passHref>
-                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm hover:bg-white hover:text-[#16213E] text-white bg-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
+            <div className="md:px-12 py-8 w-full flex justify-center md:justify-start items-center">
+              <Link href="/ContactUs" passHref>
+                <div className="group rounded-full w-fit px-4 lg:px-4 py-1.5 flex text-sm md:text-base hover:bg-white hover:text-[#16213E] text-white bg-[#16213E] border-[1px] shadow-xl tracking-wider justify-between items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
                   <p>Amplify&nbsp;Your&nbsp;Growth</p>
                   <div className="p-2 lg:p-3 group-hover:text-white rounded-full bg-white text-black group-hover:bg-[#16213E]">
                     <ArrowRight />

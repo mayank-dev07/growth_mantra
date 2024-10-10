@@ -5,49 +5,49 @@ import Link from "next/link";
 const services = [
   {
     title: "Acquisition Mastery",
-    href: "/acquisition",
+    href: "/Acquisition",
     description:
       "Precision-targeted strategies skyrocket lead generation and new customer acquisition.",
   },
   {
     title: "Retention Revolution",
-    href: "/retention",
+    href: "/Retention",
     description:
       "Transform users into loyal advocates with personalized re-engagement campaigns.",
   },
   {
     title: "Funnel Optimization",
-    href: "/funnel",
+    href: "/FunnelMarketing",
     description:
       "Craft high-converting funnels guiding prospects from awareness to purchase.",
   },
   {
     title: "Conversion Rate Optimization (CRO)",
-    href: "/conversionrateoptimization",
+    href: "/CRO",
     description:
       "Boost conversions with data-driven A/B testing and flow enhancements.",
   },
   {
     title: "Email Marketing Engine",
-    href: "/emailmarketingengine",
+    href: "/EmailMarketing",
     description:
       "Design engaging sequences that nurture and convert audiences at scale.",
   },
   {
     title: "SEO Domination",
-    href: "/searchengineoptimization",
+    href: "/SEO",
     description:
       "Climb rankings with strategies driving organic growth and thought leadership.",
   },
   {
     title: "CRM Growth Engine",
-    href: "/crm",
+    href: "/CRM",
     description:
       "Leverage data for personalized journeys driving long-term customer value.",
   },
   {
     title: "Sales Growth",
-    href: "/salesgrowth",
+    href: "/SalesGrowth",
     description:
       "Empower sales teams with proven strategies to close more deals.",
   },
@@ -96,7 +96,7 @@ const Offering = () => {
         </div>
       </section>
       <div className="py-8 px-2 w-full flex justify-center items-center">
-        <Link href="/contactus" passHref>
+        <Link href="/ContactUs" passHref>
           <div className="group rounded-full w-fit px-6 py-3 flex text-sm md:text-base lg:text-xl hover:text-white hover:bg-[#E74C3C] bg-white text-[#E74C3C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out font-bold">
             {`Ready to Outpace Your Competition? Let's Talk Growth`}
             <div className="p-3 group-hover:bg-white rounded-full text-white bg-[#E74C3C] group-hover:text-[#E74C3C]">

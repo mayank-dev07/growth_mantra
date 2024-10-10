@@ -4,37 +4,37 @@ import Link from "next/link";
 
 const services = [
   {
-    href: "/strategyPlanning",
+    href: "/StrategyPlanning",
     title: "Strategy & Planning",
     description:
       "Transform your vision into a concrete roadmap for success. Our strategic planning help you navigate the complex startup landscape, identify opportunities, and mitigate risks.",
   },
   {
-    href: "/userpersonaidentification",
+    href: "/UserPersona",
     title: "User Persona Identification",
     description:
       "Understand your customers at a deeper level. We use advanced analytics and market research to create detailed user personas, ensuring your products and marketing resonate with your target audience.",
   },
   {
-    href: "/marketStrategy",
+    href: "/GoToMarket",
     title: "Go-to-Market Strategy",
     description:
       "Launch your product or enter new markets with confidence. Our go-to-market strategies are designed to maximize impact, minimize risk, and accelerate adoption.",
   },
   {
-    href: "/brandSolution",
+    href: "/BrandSolution",
     title: "Brand Solutions",
     description:
       "Build a brand that stands out in a crowded marketplace. We help you craft a compelling brand story, visual identity, and messaging that captures your unique value proposition.",
   },
   {
-    href: "/growthMarketing",
+    href: "/GrowthMarketing",
     title: "Growth Marketing",
     description:
       "Accelerate your growth with data-driven marketing strategies. We integrate cutting-edge tactics across channels to drive acquisition, engagement, and retention.",
   },
   {
-    href: "/productGrowth",
+    href: "/ProductGrowth",
     title: "Product Growth",
     description:
       "Align your product development with market needs and user expectations. Our product growth strategies ensure you're building features that drive adoption and retention.",

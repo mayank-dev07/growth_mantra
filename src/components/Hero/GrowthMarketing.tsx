@@ -25,9 +25,8 @@ const GrowthMarketingHero = () => {
     <>
       <div className="h-full w-full flex flex-col md:flex-row pt-32">
         <div
-          className={`w-full md:w-7/12 h-full flex flex-col ${
-            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-          }`}
+          className={`w-full md:w-7/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+            }`}
         >
           <Link href="/">
             <Image
@@ -35,11 +34,10 @@ const GrowthMarketingHero = () => {
               alt="frame"
               width={300}
               height={300}
-              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
-                scrollPosition > 50
-                  ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
-                  : "relative"
-              }`}
+              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
+                ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
+                : "relative"
+                }`}
             />
           </Link>
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
@@ -51,7 +49,7 @@ const GrowthMarketingHero = () => {
                 Transform Vision into
                 <div className="flex items-center gap-2 justify-center sm:justify-start">
                   Actionable
-                  <div className="border-[#576D2C] py-2 px-4 md:px-8 text-3xl sm:text-4xl md:text-4xl lg:text-5xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
+                  <div className="border-[#576D2C] py-2 px-2 md:px-8 text-3xl sm:text-4xl md:text-4xl lg:text-5xl border-4 w-fit rounded-full text-[#576D2C] font-bold shadow-2xl">
                     Growth
                   </div>
                 </div>
@@ -61,7 +59,7 @@ const GrowthMarketingHero = () => {
                 Turn Marketing into Growth Engine
               </div>
               <div className="w-full flex justify-center md:justify-start">
-                <Link href="/contactus" passHref>
+                <Link href="/ContactUs" passHref>
                   <div className="group rounded-full w-fit px-4 py-2 flex text-sm md:text-base lg:text-xl font-bold text-white bg-[#576D2C] hover:bg-white hover:text-[#576D2C] border-[1px] shadow-xl tracking-wider items-center gap-4 cursor-pointer transition-all duration-500 ease-in-out">
                     Accelerate Your Growth Trajectory
                     <div className="p-3 bg-white rounded-full text-black group-hover:bg-[#576D2C] group-hover:text-white transition-all duration-300 ease-in-out">

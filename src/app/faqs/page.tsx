@@ -111,7 +111,7 @@ const faqsData = [
     ),
   },
   {
-    question: "7. What is conversion rate optimization (CRO) and how can it help my business?",
+    question: "7. What is Conversion Rate Optimization  and how can it help my business?",
     answer: (
       <>
         CRO is the process of increasing the percentage of website visitors who
