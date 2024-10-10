@@ -62,18 +62,20 @@ export default function Home() {
       <Header />
       <div className="h-full w-full flex flex-col md:flex-row pt-32">
         <div
-          className={`w-full  h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-            }`}
+          className={`w-full  h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Image
             src="/assets/logo/main_logo.png"
             alt="frame"
             width={300}
             height={300}
-            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
+            className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+              scrollPosition > 50
                 ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                 : "relative"
-              }`}
+            }`}
           />
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center  items-center sm:items-start">
             <div className="w-fit p-4 text-base lg:text-lg font-bold tracking-wider text-[#16213E] bg-[#FFEDEB] rounded-xl">
@@ -203,19 +205,10 @@ export default function Home() {
             <Image src="/case.png" alt="casestudy" width={350} height={350} />
           </div>
           <div className="w-full lg:w-[120%] flex flex-col justify-start items-center text-[#16213E] pt-5 px-6 ">
-            <p
-              className="tracking-widest text-xl lg:text-2xl xl:text-3xl"
-              style={{ lineHeight: "3rem" }}
-            >
-              Effective Growth Strategies can increase revenue by up to
-              <span className="text-2xl lg:text-4xl xl:text-5xl font-bold">
-                &nbsp;33%&nbsp;
-              </span>
-              in the first{" "}
-              <span className="text-2xl lg:text-4xl xl:text-5xl font-bold">
-                &nbsp;SIX&nbsp;
-              </span>{" "}
-              months.
+            <p className="tracking-widest text-lg lg:text-xl ">
+              Unlock 33% more revenue in 6 months with data-driven growth,
+              increased retention, and optimized customer journeys for D2C, B2B,
+              and B2C
             </p>
             <div className="py-4 w-full flex justify-center items-center">
               <Link href="/ContactUs">
