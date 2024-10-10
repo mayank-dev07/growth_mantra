@@ -28,7 +28,7 @@ const Upi = () => {
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[850px] lg:h-[1230px] w-fit mt-6"
+              className="object-fill lg:object-contain h-[850px] lg:h-[1280px] w-fit mt-6"
             />
           </div>
 

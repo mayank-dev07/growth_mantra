@@ -29,7 +29,7 @@ const Strategy = () => {
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[800px] md:h-[800px] lg:h-[1200px] w-auto mt-6"
+              className="object-fill lg:object-contain h-[800px] md:h-[800px] lg:h-[1220px] w-auto mt-6"
             />
           </div>
 

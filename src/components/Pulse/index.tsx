@@ -68,7 +68,7 @@ const Pulse = () => {
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[1200px] w-fit"
+              className="object-fill lg:object-contain h-[1150px] w-fit"
             />
           </div>
 

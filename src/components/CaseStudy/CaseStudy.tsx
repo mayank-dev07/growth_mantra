@@ -53,7 +53,7 @@ const CaseStudy = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2  w-full h-full">
           <div className="bg-[#576D2C] text-white rounded-[15px] shadow-2xl flex flex-col">
             <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
-              <div className="text-lg md:text-2xl lg:text-3xl">
+              <div className="text-lg md:text-2xl lg:text-3xl font-bold text-center md:text-start">
                 Break&nbsp;Free&nbsp;from
                 <br />
                 Growth&nbsp;Plateaus
@@ -77,7 +77,7 @@ const CaseStudy = () => {
 
           <div className="rounded-[15px] shadow-2xl flex flex-col">
             <div className="px-4 md:px-10 pt-5 md:pt-12 flex-grow">
-              <div className="text-lg md:text-2xl lg:text-3xl text-[#576D2C]">
+              <div className="text-lg md:text-2xl lg:text-3xl text-[#576D2C] font-bold text-center md:text-start">
                 Accelerate&nbsp;Growth&nbsp;
                 <br />
                 With&nbsp;Proven&nbsp;Expertise
