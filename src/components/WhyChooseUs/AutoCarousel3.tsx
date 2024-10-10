@@ -38,12 +38,12 @@ const cards: Card[] = [
   {
     id: 6,
     title: "Optimize Messaging for Maximum Impact",
-    imageSrc: "/assets/Icons/data insights.png",
+    imageSrc: "/assets/Icons/Messaging.png",
   },
   {
     id: 7,
     title: "Gain 24/7 Actionable Data Insights",
-    imageSrc: "/assets/Icons/Messaging.png",
+    imageSrc: "/assets/Icons/data insights.png",
   },
 ];
 
