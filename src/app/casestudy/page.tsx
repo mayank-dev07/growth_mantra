@@ -184,7 +184,7 @@ export default function Home() {
       </div>
       <div className="w-full h-full bg-[#16213E]">
         <section className="flex px-3 md:px-10 py-6 justify-center items-center flex-col md:flex-row">
-          <div className="md:w-full text-[1.3rem] my-1 md:text-5xl font-bold  text-white flex flex-col justify-center items-center">
+          <div className="md:w-full text-[1.3rem] my-1 md:text-5xl font-bold  text-white flex flex-col justify-center items-center text-center">
             Ready to Be Our Next Success Story?
             <p className="text-lg md:text-xl py-3 font-normal tracking-wide">
               {`Let's unlock your business's full potential together`}
