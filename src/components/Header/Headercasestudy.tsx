@@ -41,7 +41,7 @@ const Header = () => {
             <Link href="/">About&nbsp;us</Link>
           </div>
         </div>
-        <div className="flex md:hidden w-full justify-end h-[50px] items-center px-6">
+        <div className="flex md:hidden w-full justify-end h-[60px] sm:h-[77px] items-center px-6">
           <Menu onClick={showDrawer} className="flex md:hidden " />
         </div>
         <Drawer

@@ -31,9 +31,7 @@ const Header = () => {
         <Link href="/StrategyPlanning">Strategy and Planning</Link>
       </Menu.Item>
       <Menu.Item>
-        <Link href="/UserPersona">
-          User persona Identification
-        </Link>
+        <Link href="/UserPersona">User persona Identification</Link>
       </Menu.Item>
       <Menu.Item>
         <Link href="/GoToMarket">Go-to-Market-Strategy</Link>
@@ -65,9 +63,7 @@ const Header = () => {
         <Link href="/FunnelMarketing">Funnel Optimization</Link>
       </Menu.Item>
       <Menu.Item>
-        <Link href="/CRO">
-          Conversion Rate Optimization
-        </Link>
+        <Link href="/CRO">Conversion Rate Optimization</Link>
       </Menu.Item>
       <Menu.Item>
         <Link href="/EmailMarketing">Email Marketing Engine</Link>
@@ -117,33 +113,26 @@ const Header = () => {
             <div className="cursor-pointer flex items-center gap-2 text-[#6F6F6F] hover:text-[#16213E]">
               Services
               <ChevronDown size={15} />
-
             </div>
           </Dropdown>
           <Link href="/ContactUs">
-            <span
-              className="text-[#6F6F6F] hover:text-[#16213E]"
-            >
+            <span className="text-[#6F6F6F] hover:text-[#16213E]">
               Contact&nbsp;us
             </span>
           </Link>
           <Link href="/Aboutus">
-            <span
-              className="text-[#6F6F6F] hover:text-[#16213E]"
-            >
+            <span className="text-[#6F6F6F] hover:text-[#16213E]">
               About&nbsp;us
             </span>
           </Link>
           <Link href="/toolsandtech">
-            <span
-              className="text-[#6F6F6F] hover:text-[#16213E]"
-            >
+            <span className="text-[#6F6F6F] hover:text-[#16213E]">
               Tools&nbsp;&&nbsp;Tech
             </span>
           </Link>
         </div>
 
-        <div className="flex md:hidden w-full justify-end h-[50px] items-center px-6">
+        <div className="flex md:hidden w-full justify-end h-[60px] sm:h-[77px] items-center px-6">
           <MenuIcon onClick={showDrawer} className="flex md:hidden " />
         </div>
 
@@ -164,9 +153,7 @@ const Header = () => {
           <div className="flex flex-col gap-4 font-semibold p-4">
             {/* State variables for dropdown visibility */}
             <div className="flex flex-col">
-              <div
-                className="cursor-pointer flex item-center text-[#6F6F6F] hover:text-[#16213E] "
-              >
+              <div className="cursor-pointer flex item-center text-[#6F6F6F] hover:text-[#16213E] ">
                 <span>Consulting</span>
                 <ChevronDown
                   className="ml-2 mt-1"
@@ -291,26 +278,29 @@ const Header = () => {
             </div>
             <Link href="/ContactUs">
               <span
-                className={`${isActive("/ContactUs") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/ContactUs") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 Contact&nbsp;us
               </span>
             </Link>
             <Link href="/Aboutus">
               <span
-                className={`${isActive("/Aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/Aboutus") ? "text-[#16213E]" : "text-[#6F6F6F]"
+                }`}
               >
                 About&nbsp;us
               </span>
             </Link>{" "}
             <Link href="/toolsandtech">
               <span
-                className={`${isActive("/toolsandtexh")
-                  ? "text-[#16213E]"
-                  : "text-[#6F6F6F]"
-                  }`}
+                className={`${
+                  isActive("/toolsandtexh")
+                    ? "text-[#16213E]"
+                    : "text-[#6F6F6F]"
+                }`}
               >
                 Tools&nbsp;&&nbsp;Tech
               </span>
