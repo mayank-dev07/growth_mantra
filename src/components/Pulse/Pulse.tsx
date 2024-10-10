@@ -22,13 +22,13 @@ const Pulse = () => {
         </div>
 
         <div className="relative h-fit pb-20">
-          <div className="absolute inset-52 top-[-80px] left-0 w-full hidden md:block">
+          <div className="absolute inset-52 top-[-90px] left-0 w-full hidden md:block">
             <Image
               src="/assets/logo/final_tree.png"
               alt="tree"
               width={900}
               height={500}
-              className="object-fill lg:object-contain h-[850px] lg:h-[1250px] w-fit mt-6"
+              className="object-fill lg:object-contain h-[850px] lg:h-[1300px] w-fit mt-6"
             />
           </div>
 
