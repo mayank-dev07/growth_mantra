@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import VerticalSwiper from "../VerticalSwiper7";
 import Link from "next/link";
+import Sponsor from "../Sponsor";
 
 const ProductGrowthHero = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -24,8 +25,9 @@ const ProductGrowthHero = () => {
     <>
       <div className="h-full w-full flex flex-col md:flex-row pt-28">
         <div
-          className={`w-full md:w-7/12 h-full flex flex-col ${scrollPosition > 50 ? "pt-24" : "lg:justify-start"
-            }`}
+          className={`w-full md:w-7/12 h-full flex flex-col ${
+            scrollPosition > 50 ? "pt-24" : "lg:justify-start"
+          }`}
         >
           <Link href="/">
             <Image
@@ -33,10 +35,11 @@ const ProductGrowthHero = () => {
               alt="frame"
               width={300}
               height={300}
-              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${scrollPosition > 50
+              className={`z-50 transition-all duration-500 ease-in-out mix-blend-normal ${
+                scrollPosition > 50
                   ? "fixed top-[80px] lg:top-[52px] lg:left-10 transform -translate-x-15 w-[35%] md:!w-[10%] "
                   : "relative"
-                }`}
+              }`}
             />
           </Link>
           <div className="px-4 lg:px-10 xl:px-16 flex flex-col gap-4 justify-center sm:justify-start items-center sm:items-start">
@@ -77,18 +80,11 @@ const ProductGrowthHero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col pb-12 gap-8">
+      <div className="flex flex-col ">
         <div className="w-full h-full flex flex-col justify-center items-center text-[#B2B7BE]">
           SOME OF OUR TRUSTED CLIENTS
         </div>
-        <div className="w-full flex justify-center items-center gap-7 lg:gap-12 flex-wrap">
-          <Image src="/sponser1.png" alt="sponsor" width={110} height={110} />
-          <Image src="/sponser2.png" alt="sponsor" width={110} height={110} />
-          <Image src="/sponser3.png" alt="sponsor" width={110} height={110} />
-          <Image src="/sponser4.png" alt="sponsor" width={110} height={110} />
-          <Image src="/sponser5.png" alt="sponsor" width={110} height={110} />
-          <Image src="/sponser6.png" alt="sponsor" width={110} height={110} />
-        </div>
+        <Sponsor />
       </div>
     </>
   );
